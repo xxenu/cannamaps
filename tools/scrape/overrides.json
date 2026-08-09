@@ -1,0 +1,270 @@
+{
+  "_comment": "Manual corrections that must survive a pipeline re-run. Applied by 19-apply-overrides.js AFTER the scrape steps rebuild shops.json. Every entry records why, so none of it is folklore.",
+  "version": 1,
+  "updated": "2026-08-09",
+  "retype": [
+    {
+      "id": "high-life-goes",
+      "shop_type": "coffeeshop",
+      "reason": "ACD called it a smartshop; owner confirms coffeeshop"
+    },
+    {
+      "id": "wall-street-maastricht",
+      "shop_type": "coffeeshop",
+      "reason": "same"
+    },
+    {
+      "id": "hi-lo-utrecht",
+      "shop_type": "coffeeshop",
+      "reason": "same"
+    }
+  ],
+  "patch": [
+    {
+      "id": "aarden-vlissingen",
+      "set": {
+        "address": "Nieuwstraat 1, 4381 CN, Vlissingen",
+        "lat": 51.4416048,
+        "lng": 3.5743787
+      },
+      "reason": "Greenmeister had lat/lng swapped — pin landed in the sea"
+    },
+    {
+      "id": "aktama-den-helder",
+      "set": {
+        "address": "Industrieweg 1B, 1785 AG, Den Helder",
+        "lat": 52.9461658,
+        "lng": 4.7688256
+      },
+      "reason": "wrong address in source"
+    },
+    {
+      "id": "kronkel-nijmegen",
+      "set": {
+        "address": "Vlaamsegas 30, 6511 HR, Nijmegen",
+        "lat": 51.8436897,
+        "lng": 5.8628028
+      },
+      "reason": "wrong address in source"
+    },
+    {
+      "id": "abraxas",
+      "set": {
+        "address": "Jonge Roelensteeg 12-14, 1012 PL, Amsterdam",
+        "lat": 52.3720598,
+        "lng": 4.8912055
+      },
+      "reason": "wrong address in source"
+    },
+    {
+      "id": "bamboo-schiedam",
+      "set": {
+        "address": "Parkweg 379, 3119 CK, Schiedam",
+        "lat": 51.9207523,
+        "lng": 4.3963053
+      },
+      "reason": "wrong address in source"
+    },
+    {
+      "id": "terps-army",
+      "set": {
+        "address": "Nieuwe Nieuwstraat 32HS, 1012 NH Amsterdam"
+      },
+      "reason": "full postcode from the shop menu board"
+    },
+    {
+      "id": "coffeeshop-010-rotterdam",
+      "set": {
+        "opening_hours": {
+          "monday": "10:00-22:00",
+          "tuesday": "10:00-22:00",
+          "wednesday": "10:00-22:00",
+          "thursday": "10:00-22:00",
+          "friday": "10:00-22:00",
+          "saturday": "10:00-22:00",
+          "sunday": "10:00-22:00"
+        }
+      },
+      "reason": "owner states 10:00-22:00 daily"
+    },
+    {
+      "id": "johnny",
+      "set": {
+        "address": "Elandsgracht 3, 1016 TM Amsterdam",
+        "lat": 52.369909,
+        "lng": 4.882096
+      },
+      "reason": "source had Elandsgracht 36; actual address is Elandsgracht 3 (PDOK-geocoded)"
+    },
+    {
+      "id": "amnesia",
+      "set": {
+        "address": "Herengracht 133, 1015 BG Amsterdam",
+        "lat": 52.375547,
+        "lng": 4.889081
+      },
+      "reason": "source listed the Bergstraat 11-1 side entrance; the shop is Herengracht 133 (same corner building, PDOK-geocoded)"
+    }
+  ],
+  "rename": [
+    {
+      "id": "t-gierenest",
+      "name": "Best Friends Oud-Zuid",
+      "reason": "'t Gierenest rebranded"
+    },
+    {
+      "id": "coffeeshop-010-rotterdam",
+      "name": "Coffeeshop 010",
+      "reason": "Noordsingel 201 renamed"
+    },
+    {
+      "id": "the-plug-amsterdam",
+      "name": "The Plug",
+      "reason": "Eerste Oosterparkstraat 47 renamed"
+    },
+    {
+      "id": "terminator",
+      "name": "Power Flower Amsterdam",
+      "reason": "Admiraal de Ruijterweg 104 rebranded from Terminator"
+    },
+    {
+      "id": "get-down-to-it",
+      "name": "Get Down",
+      "reason": "source name \"Get Down To It\" is wrong; the shop is called Get Down"
+    }
+  ],
+  "merge": [
+    {
+      "from": "el-guapo",
+      "into": "terps-army",
+      "reason": "same premises (Nieuwe Nieuwstraat 32 / 32HS); El Guapo rebranded to Terps Army"
+    }
+  ],
+  "delete": [
+    {
+      "id": "global-chillage",
+      "was": "Global Chillage, Amsterdam (no address)",
+      "reason": "gone; menu last updated 2007"
+    },
+    {
+      "id": "hill-street-blues",
+      "was": "Hill Street Blues, Warmoesstraat 52a",
+      "reason": "gone"
+    },
+    {
+      "id": "route-66",
+      "was": "Het Oerwoud, Warmoesstraat 70",
+      "reason": "gone"
+    },
+    {
+      "id": "speakeasy",
+      "was": "The Grasshopper, Oudebrugsteeg 16, Amsterdam",
+      "reason": "gone — NOTE: not the Enschede Grasshopper (grasshopper-enschede), which stays"
+    },
+    {
+      "id": "doors-palace",
+      "was": "Doors Palace, Spuistraat 46",
+      "reason": "gone"
+    },
+    {
+      "id": "tatanka",
+      "was": "Tatanka, Korte Leidsedwarsstraat 151a",
+      "reason": "gone"
+    },
+    {
+      "id": "freeworld",
+      "was": "Freeworld, Nieuwendijk 30",
+      "reason": "gone"
+    },
+    {
+      "match": {
+        "name": "Smoke Palace",
+        "address": "Linnaeusstraat 83"
+      },
+      "was": "Smoke Palace, Linnaeusstraat 83, Amsterdam",
+      "reason": "gone"
+    },
+    {
+      "id": "excalibur-amsterdam",
+      "was": "Excalibur, Oudezijds Achterburgwal 48, Amsterdam",
+      "reason": "gone"
+    },
+    {
+      "id": "feels-good",
+      "was": "Feels Good, Oudezijds Voorburgwal 36, Amsterdam",
+      "reason": "gone"
+    },
+    {
+      "id": "betty-boop-amsterdam",
+      "was": "Betty Boop, Humberweg 2, Amsterdam",
+      "reason": "Humberweg 2 is Boerejongens Sloterdijk only"
+    },
+    {
+      "id": "hunters-coffeeshop-amsterdam-noord-amsterdam",
+      "was": "Hunter's Coffeeshop Amsterdam Noord, Waterlandplein 7, Amsterdam",
+      "reason": "duplicate of hunters-north-waterlandplein; NOTE: not hunters-north-papaverweg, which shares the name but is a different branch"
+    },
+    {
+      "id": "yo-yo",
+      "was": "YoYo, Tweede Jan van der Heijdenstraat 79HS, Amsterdam",
+      "reason": "gone"
+    },
+    {
+      "id": "coffeeshopamsterdam",
+      "was": "MissB by La Grotte, Haarlemmerstraat 34, Amsterdam",
+      "reason": "gone"
+    },
+    {
+      "id": "ricks-amsterdam",
+      "was": "Rick's, Nieuwe Hoogstraat 22, Amsterdam",
+      "reason": "gone"
+    },
+    {
+      "id": "mellow-yellow",
+      "was": "Mellow Yellow, Vijzelgracht 33, Amsterdam",
+      "reason": "gone"
+    }
+  ],
+  "brand_logos": [
+    {
+      "name_contains": "the plug",
+      "file": "brand-logos/the-plug.png",
+      "reason": "owner-supplied brand mark for every The Plug branch"
+    },
+    {
+      "name_contains": "best friends",
+      "file": "brand-logos/best-friends.png",
+      "reason": "owner-supplied brand mark for every Best Friends branch"
+    },
+    {
+      "file": "brand-logos/power-flower.png",
+      "reason": "owner-supplied logo for the Amsterdam branch only — NCC Power Flower Apeldoorn keeps its own",
+      "ids": [
+        "terminator"
+      ]
+    }
+  ],
+  "menu_images": [
+    {
+      "id": "terminator",
+      "files": [
+        "owner-assets/power-flower-menu.jpg"
+      ],
+      "reason": "owner-supplied menu board photo"
+    },
+    {
+      "id": "greenhouse-strain-hunters",
+      "files": [
+        "owner-assets/strain-hunters-menu.jpg"
+      ],
+      "reason": "owner-supplied Green House board photo"
+    },
+    {
+      "id": "green-house-tol-amsterdam",
+      "files": [
+        "owner-assets/strain-hunters-menu.jpg"
+      ],
+      "reason": "same Green House board; Tolstraat 91 is named on it"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Scraped third-party assets — menu photos and shop logos from
+# coffeeshopmenus.org. Fine as local working/reference material; deliberately
+# kept out of version control so they can't be redistributed by accident.
+# Regenerate locally with the scripts in tools/.
+coffeeshopmenus/
+public/data/menus/
+public/data/logos/
+
+.DS_Store
+node_modules/
+
+# Timestamped backups the data scripts leave behind. They live under public/,
+# so without this they would be served and cached by the service worker.
+public/data/*.bak-*
+
+# Compiled OCR helper — build it locally with:
+#   swiftc -O tools/ocr/ocr.swift -o tools/ocr/ocr
+tools/ocr/ocr
+
+# Saved copy of the coffeeshopmenus.org index page, the input to step 1.
+# Same reasoning as coffeeshopmenus/ above: local working material, not ours
+# to redistribute. Fetch it with:
+#   curl -A "Mozilla/5.0" https://www.coffeeshopmenus.org/ -o tools/scrape/ams_index.html
+tools/scrape/ams_index.html

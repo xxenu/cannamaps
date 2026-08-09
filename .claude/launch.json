@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cannamap",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/Users/vuk/Documents/coding/apps/CannaMap/tools/serve.js"],
+      "port": 8000
+    }
+  ]
+}

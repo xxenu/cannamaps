@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+  <title>CannaMap — Netherlands</title>
+  <meta name="description" content="Find coffeeshops across the Netherlands: hours, menus and directions.">
+  <meta name="theme-color" content="#0E130F">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map" role="application" aria-label="Map of coffeeshops in the Netherlands"></div>
+
+  <!-- Left navigation rail. Icon buttons open the flyout panel beside it. -->
+  <nav id="rail" class="rail" aria-label="Main">
+    <button id="rail-all" class="rail-btn" type="button" data-panel="" aria-pressed="true">
+      <span class="rail-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+             stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 7l6-3 6 3 6-3v13l-6 3-6-3-6 3z"/><path d="M9 4v13M15 7v13"/>
+        </svg>
+      </span>
+      <span class="rail-label">Map</span>
+    </button>
+
+    <button id="rail-saved" class="rail-btn" type="button" data-panel="saved" aria-pressed="false">
+      <span class="rail-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+             stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.6 9.7l5.8-.8z"/>
+        </svg>
+      </span>
+      <span class="rail-label">Saved</span>
+      <span id="rail-saved-count" class="rail-badge" hidden>0</span>
+    </button>
+
+    <button id="rail-recent" class="rail-btn" type="button" data-panel="recent" aria-pressed="false">
+      <span class="rail-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+             stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 1.8"/>
+        </svg>
+      </span>
+      <span class="rail-label">Recent</span>
+    </button>
+
+    <div class="rail-sep" role="presentation"></div>
+
+    <!-- City shortcuts, built from the data -->
+    <div id="rail-cities" class="rail-cities" role="group" aria-label="Cities"></div>
+  </nav>
+
+  <aside id="rail-panel" class="rail-panel" aria-label="Panel" hidden>
+    <header class="panel-head">
+      <h2 id="panel-title"></h2>
+      <button id="panel-close" class="panel-close" type="button" aria-label="Close panel">✕</button>
+    </header>
+    <div id="panel-body" class="panel-body"></div>
+  </aside>
+
+  <header id="topbar">
+    <div class="search">
+      <input id="search-input" type="text" autocomplete="off" spellcheck="false"
+             placeholder="Search CannaMap"
+             aria-label="Search shops, cities, streets and menu products"
+             role="combobox" aria-expanded="false"
+             aria-controls="search-results" aria-autocomplete="list">
+      <button id="search-clear" class="search-clear" type="button" aria-label="Clear search" hidden>✕</button>
+      <span class="search-div" aria-hidden="true"></span>
+      <button id="search-go" class="search-go" type="button" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/>
+        </svg>
+      </button>
+      <ul id="search-results" class="search-results" role="listbox" aria-label="Search results" hidden></ul>
+    </div>
+  </header>
+
+  <button id="locate" class="locate" type="button" aria-pressed="false"
+          title="Show my location" aria-label="Show my location">
+    <span class="locate-ring" aria-hidden="true"></span>
+  </button>
+
+  <p id="toast" class="toast" role="status" hidden></p>
+
+  <p id="empty-state" class="empty-state" hidden></p>
+
+  <!-- Bottom sheet -->
+  <div id="sheet-scrim" class="sheet-scrim" hidden></div>
+  <section id="sheet" class="sheet" role="dialog" aria-modal="false"
+           aria-labelledby="sheet-name" hidden>
+    <div class="sheet-grip" aria-hidden="true"></div>
+    <button id="sheet-close" class="sheet-close" type="button" aria-label="Close">✕</button>
+
+    <header class="sheet-head">
+      <img id="sheet-logo" class="sheet-logo" alt="" hidden>
+      <div class="sheet-head-main">
+        <h2 id="sheet-name"></h2>
+        <p id="sheet-address" class="sheet-address"></p>
+        <div class="sheet-meta">
+          <span id="sheet-type" class="badge"></span>
+          <span id="sheet-rating" class="rating"></span>
+          <span id="sheet-status" class="status"></span>
+        </div>
+      </div>
+      <button id="sheet-fav" class="fav-btn" type="button" aria-pressed="false"
+              aria-label="Toggle favorite">★</button>
+    </header>
+
+    <div class="sheet-actions">
+      <a id="sheet-directions" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">
+        Get Directions
+      </a>
+      <div id="sheet-contact" class="contact-row"></div>
+    </div>
+
+    <div class="sheet-body">
+      <h3 id="amenities-title" class="section-title">Good to know</h3>
+      <ul id="sheet-amenities" class="amenities"></ul>
+
+      <h3 class="section-title">Opening hours</h3>
+      <ul id="sheet-hours" class="hours"></ul>
+
+      <h3 id="menu-title" class="section-title">Menu</h3>
+      <div id="sheet-gallery" class="gallery"></div>
+      <ul id="sheet-menu" class="menu"></ul>
+    </div>
+  </section>
+
+  <!-- Fullscreen menu viewer -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true"
+       aria-label="Menu image viewer" hidden>
+    <div class="lightbox-bar">
+      <span id="lightbox-label" class="lightbox-label"></span>
+      <button id="lightbox-zoom" class="lightbox-btn" type="button" aria-pressed="false">
+        Zoom in
+      </button>
+      <button id="lightbox-close" class="lightbox-btn" type="button" aria-label="Close viewer">✕</button>
+    </div>
+    <div id="lightbox-stage" class="lightbox-stage">
+      <img id="lightbox-img" alt="">
+    </div>
+    <button id="lightbox-prev" class="lightbox-nav prev" type="button" aria-label="Previous menu">‹</button>
+    <button id="lightbox-next" class="lightbox-nav next" type="button" aria-label="Next menu">›</button>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

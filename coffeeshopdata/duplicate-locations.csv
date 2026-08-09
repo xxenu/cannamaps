@@ -1,0 +1,303 @@
+group,name,city,address,metres_from_first,on_greenmeister,status,has_hours,menus,latest_menu,menu_archive,note,id
+1,Green Place 2,Amsterdam,"Haarlemmerstraat 6, Amsterdam 1013 ER",0,no,open,yes,1,29 June 2026,30,Previously Amsterdamned. See also Original Green Place near Nieuwmarkt.,green-place-2
+1,Green Place Haarlemmerstraat,Amsterdam,"Haarlemmerstraat 6, Amsterdam",1,yes,open,yes,1,21 May 2018,,Previously Picasso and later Green Place 2,amsterdamned
+1,Picasso,Amsterdam,"Haarlemmerstraat 6, Amsterdam",1,yes,open,yes,2,26 September 2013,8,Later Amsterdamned,picasso
+1,The Bulldog Rockshop,Amsterdam,"Singel 12, Amsterdam",39,yes,open,yes,1,30 April 2026,6,,bulldog-rockshop
+1,The Doors,Amsterdam,"Singel 14, 1013 GA Amsterdam",44,no,open,yes,1,23 September 2013,,Later The Store,the-doors
+1,The Plug Store,Amsterdam,"Singel 14, Amsterdam 1013 GA",44,no,open,yes,1,21 April 2026,5,Previously The Store,the-plug-store
+1,The Store,Amsterdam,"Singel 14, Amsterdam",57,yes,open,yes,1,5 September 2023,2,Previously The Doors and later The Plug Store,the-store
+2,Andalucia,Amsterdam,"Halvemaansteeg 1, 1017 CR Amsterdam",0,no,open,yes,1,28 August 2022,6,Later Balboa Family,andalucia
+2,Balboa Family,Amsterdam,"Halvemaansteeg 1, 1017 CR Amsterdam",2,no,open,yes,1,30 July 2026,12,Previously Andalucia,balboa-family
+2,Balou,Amsterdam,"Halvemaansteeg 5, Amsterdam",8,yes,open,yes,1,6 February 2026,38,,balou
+2,Family First,Amsterdam,"Amstel 36, Amsterdam",33,yes,open,yes,1,18 July 2026,60,,family-first
+2,The Saint,Amsterdam,"Regulierssteeg 2, Amsterdam",60,yes,open,yes,1,7 April 2026,11,,saint
+3,Coffeeshop Amsterdam,Amsterdam,"Haarlemmerstraat 44, Amsterdam",0,yes,open,yes,1,14 June 2026,2,Previously CoffeeshopAmsterdam,amsterdam-genetics
+3,Dampkring 2,Amsterdam,"Haarlemmerstraat 44, Amsterdam",5,yes,open,yes,4,4 October 2016,17,Previously Pink Floyd and later CoffeeshopAmsterdam,dampkring-2
+3,MissB by La Grotte,Amsterdam,"Haarlemmerstraat 34, Amsterdam",28,yes,open,yes,1,1 February 2026,27,Previously Dampkring 2 and later Amsterdam Genetics,coffeeshopamsterdam
+3,Pink Floyd,Amsterdam,"Haarlemmerstraat 44, Amsterdam 1013 ES",4,no,open,yes,1,17 April 2007,2,Later Dampkring 2,pink-floyd
+3,Popeye,Amsterdam,"Haarlemmerstraat 63, Amsterdam",16,yes,open,yes,1,24 June 2026,21,,popeye
+4,De Jolly Joker,Amsterdam,"Nieuwmarkt 4, Amsterdam",0,yes,open,yes,1,4 April 2026,5,,jolly-joker
+4,Greenhouse Effect,Amsterdam,"Nieuwmarkt 14, Amsterdam",32,yes,open,yes,1,4 September 2025,10,Previously Hill Street Blues OTM and later Tyson 2.0 Nieuwmarkt,greenhouse-effect
+4,Hill Street Blues OTM,Amsterdam,"Nieuwmarkt 14, 1012 CR Amsterdam",33,no,open,no,2,23 April 2014,8,Later Greenhouse Effect,hill-street-blues-otm
+4,Rock It,Amsterdam,"Nieuwmarkt 12, Amsterdam",33,yes,open,yes,1,25 February 2025,8,,rock-it
+4,Tyson 2.0 Nieuwmarkt,Amsterdam,"Nieuwmarkt 14, Amsterdam 1012 CR",32,no,open,yes,1,20 April 2026,,Previously Greenhouse Effect,tyson-2-0-nieuwmarkt
+5,Greenhouse Effect (original),Amsterdam,"Warmoesstraat 53-55, 1012 HW Amsterdam",0,no,closed,no,1,6 February 2013,4,Historic coffeeshop. See also Greenhouse Effect on Nieuwmarkt.,greenhouse-effect-original
+5,Hill Street Blues,Amsterdam,"Warmoesstraat 52a, 1012 JG Amsterdam",16,no,open,yes,1,1 June 2010,,Now just a bar.,hill-street-blues
+5,Stones Corner,Amsterdam,"Warmoesstraat 59, Amsterdam 1012 HW",7,no,closed,no,1,24 April 2015,9,Historic coffeeshop,stones-corner
+5,Twilight Zone,Amsterdam,"Lange Niezel 7, 1012 GS Amsterdam",23,no,closed,no,1,29 September 2007,,Historic coffeeshop,twilight-zone
+5,Highway,Amsterdam,"Lange Niezel 25, 1012 GS Amsterdam",61,no,closed,no,1,1 May 2012,3,Historic coffeeshop,highway
+6,420 Coffeeshop,Amsterdam,"Singel 387, 1012 WN Amsterdam",0,no,open,yes,1,10 October 2018,,Previously Dutch Flowers and later Greenhouse Strain Hunters. See also 420 Cafe,420-coffeeshop
+6,Dutch Flowers,Amsterdam,"Singel 387, Amsterdam",2,yes,open,yes,1,23 August 2013,7,Later 420 Coffeeshop,dutch-flowers
+6,Strain Hunters,Amsterdam,"Singel 387, Amsterdam",2,yes,open,yes,1,5 February 2025,13,"Previously 420 Coffeeshop. See also Cookies, Greenhouse Centrum and Greenhouse Namaste",greenhouse-strain-hunters
+6,Tweede Kamer,Amsterdam,"Heisteeg 6, Amsterdam",15,yes,open,yes,1,6 February 2026,19,,tweede-kamer
+7,Arabica Lounge,Amsterdam,"Amstelstraat 45, 1017 DA Amsterdam",0,no,closed,no,1,8 December 2010,2,Historic coffeeshop,arabica-lounge
+7,Kooi,Amsterdam,"Amstelstraat 35, Amsterdam",27,yes,open,yes,2,2 April 2022,,Previously Old Amsterdam and later New Times 2,kooi
+7,New Times 2,Amsterdam,"Amstelstraat 35, Amsterdam 1017 DA",27,no,open,yes,1,31 March 2026,2,Previously Kooi,new-times-2
+7,Old Amsterdam,Amsterdam,"Amstelstraat 35, Amsterdam",27,yes,open,no,1,19 April 2016,5,Later Kooi,old-amsterdam
+8,420 Cafe,Amsterdam,"Oudebrugsteeg 27, Amsterdam",0,yes,open,yes,1,13 May 2026,28,,420-cafe-de-kuil
+8,De Kroon,Amsterdam,"Oudebrugsteeg 26, Amsterdam",4,yes,open,yes,1,12 September 2025,17,Later Tha Dogg House 2,de-kroon
+8,Tha Dogg House 2,Amsterdam,"Oudebrugsteeg 26, 1012 JP Amsterdam",6,no,open,yes,1,28 February 2026,,Previously de Kroon,tha-dogg-house-2
+9,Atlantis,Amsterdam,"Daniel Stalpertstraat 78, 1072 XK Amsterdam",0,no,open,no,1,13 September 2016,5,Later Superskunk 1,atlantis
+9,Program Coffeeshop | De Pijp Amsterdam,Amsterdam,"Daniël Stalpertstraat 78, Amsterdam",5,yes,open,yes,1,30 July 2026,4,Previously Superskunk 1,program
+9,Superskunk 1,Amsterdam,"Daniel Stalpertstraat 78, Amsterdam 1072 XK",0,no,open,no,1,24 February 2024,,Previously Atlantis and later ProGram,superskunk-1
+10,Baba,Amsterdam,"Barentszstraat 130, Amsterdam",0,yes,open,yes,1,26 December 2023,15,Previously de Barentsz and later The Plug Westerdok,baba
+10,de Barentsz,Amsterdam,"Barentszstraat 130, 1013 NS Amsterdam",4,no,open,no,1,24 September 2010,,Later Baba,de-barentsz
+10,The Plug Westerdok,Amsterdam,"Barentszstraat 130, Amsterdam",0,yes,open,yes,1,25 June 2026,2,Previously Baba,the-plug-westerdok
+11,Betty Too,Amsterdam,"Reguliersdwarsstraat 29, Amsterdam",0,yes,open,yes,1,9 August 2020,14,Later Easy Times 2,betty-two
+11,Easy Times Reguliersdwarsstraat,Amsterdam,"Reguliersdwarsstraat 29, Amsterdam",0,yes,open,yes,1,20 June 2026,3,Previously Betty Two. See also Easy Times,easy-times-2
+11,The Otherside,Amsterdam,"Reguliersdwarsstraat 6, Amsterdam",24,yes,open,yes,1,30 July 2025,8,,the-otherside
+12,Bluebird,Amsterdam,"Sint Antoniesbreestraat 71, Amsterdam",0,yes,open,yes,1,21 April 2026,39,,bluebird
+12,Nice Dreams,Amsterdam,"Sint Antoniesbreestraat 77, Amsterdam 1011 HB",22,no,open,yes,1,,,Later Reefer,nice-dreams
+12,Reefer,Amsterdam,"Sint Antoniesbreestraat 77, Amsterdam",5,yes,open,yes,1,13 July 2026,23,Previously Nice Dreams,reefer
+13,City Hall,Amsterdam,"Oudezijds Voorburgwal 189, Amsterdam",0,yes,open,yes,1,7 April 2026,6,,city-hall
+13,Green House Centrum,Amsterdam,"Oudezijds Voorburgwal 191, Amsterdam",8,yes,open,yes,1,24 July 2026,87,,greenhouse-centrum
+13,Ricks Coffeeshop,Amsterdam,"Oudezijds Voorburgwal 250, Amsterdam 1012 GK",39,no,open,yes,1,2 April 2022,,,ricks-coffeeshop
+14,Coffeeshop The Hit,Amsterdam,"Rusland 16, Amsterdam",0,yes,open,yes,2,5 August 2026,12,Previously The Plug XXX,the-hit
+14,Rusland,Amsterdam,"Rusland 16, Amsterdam",0,yes,open,yes,2,3 April 2019,23,Later The Plug XXX,rusland
+14,The Plug 3,Amsterdam,"Rusland 16, Amsterdam",0,yes,open,yes,1,20 August 2024,18,Previously Rusland and later The Hit. See also Plug Utopia and Plug West,the-plug-xxx
+15,Easy Times Prinsengracht,Amsterdam,"Prinsengracht 476, Amsterdam",0,yes,open,yes,1,18 July 2026,57,,easy-times
+15,Superskunk,Amsterdam,"Prinsengracht 480, Amsterdam",16,yes,open,yes,1,20 September 2025,11,Previously Tops,superskunk
+15,Tops,Amsterdam,"Prinsengracht 480, Amsterdam",16,yes,open,no,2,30 September 2013,,Later Superskunk,tops
+16,Funky Munkey,Amsterdam,"Marnixstraat 333, Amsterdam",0,yes,open,yes,1,14 September 2023,14,Later SWED a Snoop Dogg Store,funky-munkey
+16,SWED a Snoop Dogg Store,Amsterdam,"Marnixstraat 333, Amsterdam 1016 TC",2,no,open,no,1,2 February 2025,8,Previously Funky Munkey and later Tha Dogg House,swed-a-snoop-dogg-store
+16,Tha Dogg House a Snoop Dogg Store,Amsterdam,"Marnixstraat 333, Amsterdam",0,yes,open,yes,1,3 July 2026,6,Previously SWED a Snoop Dogg Store,tha-dogg-house
+17,Hunter's Coffeeshop Amsterdam Centrum,Amsterdam,"Utrechtsestraat 14, Amsterdam",0,yes,open,yes,1,24 November 2025,4,Previously Hunter's Rembrandtsquare,hunters-downtown
+17,Hunter's Rembrandtsquare,Amsterdam,"Utrechtsestraat 14, 1017 VN Amsterdam",6,no,open,no,1,19 May 2025,20,Previously Sevilla and later Hunter's Downtown,hunters-rembrandtsquare
+17,Sevilla,Amsterdam,"Utrechtsestraat 14, 1017 VN Amsterdam",6,no,open,no,1,5 November 2009,2,Later Hunter's Rembrandtsquare,sevilla
+18,Jollygood,Amsterdam,"2e Laurierdwarsstraat 44, Amsterdam 1016 RB",0,no,open,yes,2,18 July 2026,9,Previously Mr. K's,jollygood
+18,Mr. K,Amsterdam,"Tweede Laurierdwarsstraat 44, Amsterdam",13,yes,open,yes,1,21 August 2025,37,Previously Sanementereng and later Jollygood,mr-ks
+18,Sanementereng,Amsterdam,"2e Laurierdwarsstraat 44, 1016 RB Amsterdam",22,no,open,no,1,17 April 2009,,Later Mr. K's,sanementereng
+19,De Pinguin,Arnhem,"Hommelseweg 5, Arnhem",0,yes,open,yes,0,,,,de-pinguin-arnhem
+19,Lucky Luke,Arnhem,"Sonsbeeksingel 91, Arnhem",15,yes,open,yes,4,,,,lucky-luke-arnhem
+19,Zero Zero,Arnhem,"Hommelseweg 19, Arnhem",16,yes,open,yes,2,,,,zero-zero-arnhem
+20,De Hut,Den Haag,"Herenstraat 7, Den Haag",0,yes,open,no,0,,,,de-hut-den-haag
+20,Demo,Den Haag,"Herenstraat 8C, Den Haag",30,yes,open,yes,1,,,,demo-den-haag
+20,Doctor Green,Den Haag,"Herenstraat 7, Den Haag",0,yes,open,yes,2,,,,doctor-green-den-haag
+21,Dizzy Duck Downtown,Den Haag,"Fluwelen Burgwal 1c, Den Haag",0,yes,open,yes,6,,,,dizzy-duck-downtown-den-haag
+21,Sky High,Den Haag,"Fluwelen Burgwal 1-c, Den Haag",0,yes,open,yes,0,,,,sky-high-den-haag
+21,Sky High 1,Den Haag,"Fluwelen Burgwal 1-C, 2511 CH, Den Haag",4,no,open,no,1,,,,sky-high-1-den-haag
+22,Aktama,Den Helder,"Koningstraat 73, Den Helder",0,yes,open,yes,1,,,,aktama-den-helder
+22,Tops,Den Helder,"Koningstraat 34, Den Helder",32,yes,open,yes,1,,,,tops-den-helder
+22,Tsjakka,Den Helder,"Koningstraat 44, Den Helder",17,yes,open,yes,1,,,,tsjakka-den-helder
+23,De Leeuw,Hilversum,"Leeuwenstraat 25, Hilversum",0,yes,open,yes,1,,,,de-leeuw-hilversum
+23,Dutch Flowers,Hilversum,"Leeuwenstraat 25, Hilversum",0,yes,open,yes,1,,,,dutch-flowers-hilversum
+23,Rif,Hilversum,"Leeuwenstraat 34, Hilversum",14,yes,open,yes,0,,,,rif-hilversum
+24,'t Kunsje,Nijmegen,"Tweede Walstraat 108, Nijmegen",0,yes,open,yes,4,,,,t-kunsje-nijmegen
+24,Jamaica,Nijmegen,"Van Welderenstraat 96, Nijmegen",40,yes,open,yes,2,,,,jamaica-nijmegen
+24,Lucky Luke,Nijmegen,"Tweede Walstraat 161, Nijmegen",38,yes,open,yes,4,,,,lucky-luke-nijmegen
+25,Dreadlock,Nijmegen,"Vlaamsegas 40, 6511 HR, Nijmegen",0,no,open,no,4,,,,dreadlock-nijmegen
+25,Dreadlock & Jetset,Nijmegen,"Vlaamsegas 40, Nijmegen",2,yes,open,yes,0,,,,dreadlock-jetset-nijmegen
+25,Kronkel,Nijmegen,"Vlaamsegas 26-36, Nijmegen",20,yes,open,yes,3,,,,kronkel-nijmegen
+26,De Ambassade,Zwijndrecht,"IJsselmeer 27, 3332 EX, Zwijndrecht",0,no,open,no,1,,,,de-ambassade-zwijndrecht
+26,De Ambassade Zwijndrecht,Zwijndrecht,"IJsselmeer 27, Zwijndrecht",33,yes,open,yes,0,,,,de-ambassade-zwijndrecht-zwijndrecht
+26,Xpresso,Zwijndrecht,"IJsselmeer 27, Zwijndrecht",6,yes,open,yes,0,,,,xpresso-zwijndrecht
+27,The Grass Company,'s-Hertogenbosch,"Emmaplein 24-A, 5211 VW, 's-Hertogenbosch",0,no,open,no,1,,,,the-grass-company-s-hertogenbosch
+27,The Grass Company Emmaplein,'s-Hertogenbosch,"Emmaplein 24-A, 's-Hertogenbosch",9,yes,open,yes,0,,,,the-grass-company-emmaplein-s-hertogenbosch
+28,Boerejongens Almere,Almere,"Grote Markt 23, Almere",0,yes,open,yes,3,,,,boerejongens-almere-almere
+28,Lounge Shop Domino,Almere,"Grote Markt 23, Almere",11,yes,open,yes,0,,,,lounge-shop-domino-almere
+29,Dutch Gold,Alphen aan den Rijn,"Hooftstraat 96, Alphen aan den Rijn",0,yes,open,yes,1,,,,dutch-gold-alphen-aan-den-rijn
+29,Pitstop,Alphen aan den Rijn,"Hooftstraat 102, Alphen aan den Rijn",8,yes,open,yes,1,,,,pitstop-alphen-aan-den-rijn
+30,137,Amsterdam,"Brouwersgracht 137, 1015 GE Amsterdam",0,no,open,no,1,17 January 2025,34,Later 7th Heaven,137
+30,7th Heaven (Coffeeshop 137),Amsterdam,"Brouwersgracht 137, Amsterdam",3,yes,open,yes,1,15 July 2026,17,Previously 137,7th-heaven
+31,156,Amsterdam,"Hudsonstraat 156, 1057 ST Amsterdam",0,no,open,no,1,15 January 2024,6,Later Aktama 2,156
+31,Aktama 2,Amsterdam,"Hudsonstraat 156, Amsterdam",1,yes,open,yes,1,28 April 2026,5,Previously 156. See also Aktama Den Helder.,aktama-2
+32,Abraxas Too,Amsterdam,"Spuistraat 51, 1012 ST Amsterdam",0,no,closed,no,2,12 October 2012,7,"Previously Chocolata and now closed. See also Abraxas, which is still open.",abraxas-too
+32,Chocolata,Amsterdam,"Spuistraat 51,",0,no,closed,no,2,,,Later Abraxas Too and now closed,chocolata
+33,Bagheera,Amsterdam,"Kloveniersburgwal 60, Amsterdam",0,yes,open,yes,1,27 June 2026,58,,bagheera
+33,Basjoe,Amsterdam,"Kloveniersburgwal 62, Amsterdam",9,yes,open,yes,1,14 February 2026,22,,basjoe
+34,Barney’s,Amsterdam,"Haarlemmerstraat 102, Amsterdam",0,yes,open,yes,2,3 January 2019,,Historic coffeeshop,barneys-farm
+34,Barneys Farm,Amsterdam,"Haarlemmerstraat 98, Amsterdam",3,yes,open,yes,3,6 June 2026,80,,barneys
+35,Barney's Lounge,Amsterdam,"Reguliersgracht 27, Amsterdam 1017 LK",0,no,open,no,2,30 October 2019,3,Later Hashtag,barneys-lounge
+35,Coffeeshop Hashtag,Amsterdam,"Reguliersgracht 27, Amsterdam",4,yes,open,yes,1,12 July 2026,34,Previously Barney's Lounge,hashtag
+36,Ben,Amsterdam,"Kolksteeg 10, 1012 PT Amsterdam",0,no,closed,no,1,8 February 2012,3,Historic coffeeshop,ben
+36,Betty Boop,Amsterdam,"Nieuwezijds Kolk 12, 1012 PV Amsterdam",35,no,closed,no,1,6 April 2014,18,Historic coffeeshop,betty-boop
+37,Best Friends Oud-Zuid,Amsterdam,"Amstelveenseweg 61, Amsterdam",0,yes,open,yes,1,10 October 2018,5,"Previously Extreme and now closed. See also Best Friends Oost, which is still open.",best-friends-centrum
+37,Extreme,Amsterdam,"Huidenstraat 13a, 1016 ER Amsterdam",16,no,closed,no,4,20 November 2009,7,Later Best Friends Centrum and now closed,extreme
+38,Blues Brothers,Amsterdam,"Nieuwendijk 89, 1012 MC Amsterdam",0,no,closed,no,1,8 January 2014,5,Historic coffeeshop,blues-brothers
+38,Prix d’Ami,Amsterdam,"Haringpakkerssteeg 3, Amsterdam",39,yes,open,yes,1,12 May 2026,106,,prix-dami
+39,Boerejongens Center,Amsterdam,"Utrechtsestraat 21, Amsterdam",0,yes,open,yes,4,19 November 2008,5,Later Boerejongens Centrum,stix
+39,Boerejongens Centrum,Amsterdam,"Utrechtsestraat 21, 1017 VH Amsterdam",3,no,open,yes,1,2 June 2026,54,Previously Stix,boerejongens-centrum
+40,Coffeeshop Central,Amsterdam,"Prins Hendrikkade 89, Amsterdam",0,yes,open,yes,1,19 January 2026,24,,central
+40,Voyagers,Amsterdam,"Geldersekade 2, Amsterdam",36,yes,open,yes,1,14 February 2026,95,,voyagers
+41,Coffeeshop Noord,Amsterdam,"Ooievaarsweg 10, Amsterdam",0,yes,open,yes,1,17 June 2024,4,Previously 't Ooievaartje,noord
+41,Het Ooievaartje,Amsterdam,"Ooievaarsweg 10, Amsterdam",0,yes,open,yes,1,5 April 2019,7,Later Noord,t-ooievaartje
+42,Coffeeshop Oost,Amsterdam,"Derde Oosterparkstraat 73, Amsterdam",0,yes,open,yes,1,30 July 2026,22,Previously The Point,coffeeshop-oost
+42,The Point,Amsterdam,"Derde Oosterparkstraat 73, Amsterdam",0,yes,open,yes,1,25 May 2015,,Later Coffeeshop Oost,the-point
+43,De Bommel,Amsterdam,"Balboastraat 19, Amsterdam",0,yes,open,yes,1,21 April 2023,3,,de-bommel
+43,West (Ban Tam),Amsterdam,"Balboastraat 19, Amsterdam 1057 VT",6,no,open,yes,1,17 July 2026,5,Previously de Bommel,west-ban-tam
+44,De Keeper,Amsterdam,"Van Woustraat 193, Amsterdam",0,yes,open,yes,1,5 November 2009,,Later SuperFly,de-keeper
+44,Superfly,Amsterdam,"Van Woustraat 193, Amsterdam",0,yes,open,yes,2,28 July 2026,,Previously de Keeper,superfly
+45,Double Reggae,Amsterdam,"Nieuwendijk 32, 1012 MK Amsterdam",0,no,closed,no,1,26 July 2008,,Historic coffeeshop,double-reggae
+45,Rasta Baby,Amsterdam,"Prins Hendrikkade 6-7, 1012 TK Amsterdam",39,no,closed,no,1,30 July 2010,4,Historic coffeeshop,rasta-baby
+46,Goa,Amsterdam,"Kloveniersburgwal 42, Amsterdam",0,yes,open,yes,2,29 May 2026,19,,goa
+46,Goa Honey Cream,Amsterdam,"Kloveniersburgwal 42, Amsterdam",0,yes,open,yes,0,,,,goa-honey-cream-amsterdam
+47,Hugo de Groot,Amsterdam,"Frederik Hendrikstraat 123, 1052 HP Amsterdam",0,no,open,no,1,23 October 2015,6,Later The Plug West,hugo-de-groot
+47,The Plug West,Amsterdam,"Frederik Hendrikstraat 123HS, Amsterdam",2,yes,open,yes,1,9 September 2024,7,Previously Hugo de Groot. See also Plug XXX and Plug Utopia,the-plug-west
+48,Hunter's Bar,Amsterdam,"Warmoesstraat 24, Amsterdam 1012 JD",0,no,open,no,1,21 February 2015,26,,hunters-bar
+48,The Coin,Amsterdam,"Warmoesstraat 37, Amsterdam 1012 HV",28,no,closed,no,1,1 June 2008,3,Historic coffeeshop,the-coin
+49,Hunter's Coffeeshop Amsterdam West,Amsterdam,"Orteliusstraat 193, Amsterdam",0,yes,open,yes,1,15 June 2010,,Later Hunter's West,happiness
+49,Hunter's West,Amsterdam,"Orteliusstraat 193, Amsterdam 1056 NP",2,no,open,yes,1,25 July 2026,11,Previously Happiness. and Hunter's Mercatorsquare,hunters-west
+50,Kabouter,Amsterdam,"Ruysdaelkade 145, 1072 AR Amsterdam",0,no,open,no,1,26 November 2013,2,Later Stones,kabouter
+50,Stone's,Amsterdam,"Ruysdaelkade 145, Amsterdam",5,yes,open,yes,1,11 October 2024,5,Previously Kabouter,stones
+51,Kashmir,Amsterdam,"Jan Pieter Heijestraat 82, Amsterdam",0,yes,open,yes,1,19 March 2023,7,,kashmir-coffeeshop
+51,Kashmir Lounge (bar),Amsterdam,"Jan Pieter Heijestraat 85-87, 1053 GM Amsterdam",23,no,open,yes,1,30 October 2011,4,,kashmir-lounge-bar
+52,Noon,Amsterdam,"Zieseniskade 22, Amsterdam",0,yes,open,yes,1,26 August 2021,14,Later Terps Army 2,noon
+52,Terps Army 2,Amsterdam,"Zieseniskade 22, Amsterdam",0,yes,open,yes,1,6 December 2025,15,Previously Noon. See also Terps Army,terps-army-2
+53,Old Church (original),Amsterdam,"Oudekerksplein 54, Amsterdam 1012 HA",0,no,open,yes,4,1 October 2009,10,"Formerly a coffeeshop, now a bar. See also Old Church 2.",old-church-original
+53,The Bulldog The First,Amsterdam,"Oudezijds Voorburgwal 90, Amsterdam",35,yes,open,yes,1,30 April 2026,9,,bulldog-no-90
+54,Softland 1,Amsterdam,"Spuistraat 222, Amsterdam",0,yes,open,yes,1,27 September 2019,14,Later Tyson 2.0,softland
+54,Tyson 2.0,Amsterdam,"Spuistraat 222, Amsterdam",0,yes,open,yes,1,21 July 2026,29,Previously Softland,tyson-2-0
+55,Speak Easy,Amsterdam,"Eerste Oosterparkstraat 47, Amsterdam",0,yes,open,yes,1,18 August 2022,2,,speakeasy-2
+55,The Plug East,Amsterdam,"Eerste Oosterparkstraat 47, Amsterdam",0,yes,open,yes,0,,,,the-plug-east-amsterdam
+56,Tatanka,Amsterdam,"Korte Leidsedwarsstraat 151a, Amsterdam 1017 PZ",0,no,open,yes,2,15 July 2014,3,,tatanka
+56,The Rookies,Amsterdam,"Korte Leidsedwarsstraat 145, Amsterdam",5,yes,open,yes,1,17 June 2026,40,,rookies
+57,The Bulldog Energy,Amsterdam,"Oudezijds Voorburgwal 218, Amsterdam",0,yes,open,yes,1,8 October 2024,2,,bulldog-energy
+57,Two Twenty Two,Amsterdam,"Oudezijds Voorburgwal 222, Amsterdam 1012 GJ",12,no,closed,no,2,1 September 2004,,Historic coffeeshop,two-twenty-two
+58,Tuintje,Amsterdam,"Overtoom 451, 1054 KH Amsterdam",0,no,open,yes,1,7 May 2010,,Later Vondel,tuintje
+58,Vondel,Amsterdam,"Overtoom 451, Amsterdam",9,yes,open,yes,1,14 July 2026,5,Previously Tuintje,vondel
+59,De Waterpijp,Apeldoorn,"Nieuwstraat 64, 7311 BT, Apeldoorn",0,no,open,no,1,,,,de-waterpijp-apeldoorn
+59,The Future,Apeldoorn,"Nieuwstraat 64-A+B, Apeldoorn",9,yes,open,yes,1,,,,the-future-apeldoorn
+60,NCC Power Flower,Apeldoorn,"Arnhemseweg 181, Apeldoorn",0,yes,open,yes,0,,,,ncc-power-flower-apeldoorn
+60,Power Flower,Apeldoorn,"Arnhemseweg 181, 7331 BH, Apeldoorn",7,no,open,no,2,,,,power-flower-apeldoorn
+61,PAX,Breda,"Nijverheidssingel 8, Breda",0,yes,open,yes,0,,,,pax-breda
+61,Pax de Boot,Breda,"Nijverheidssingel 8, 4811 VS, Breda",5,no,open,no,2,,,,pax-de-boot-breda
+62,Catweazle,Culemborg,"Kattenstraat 7, Culemborg",0,yes,open,yes,1,,,,catweazle-culemborg
+62,Jupiter,Culemborg,"Kattenstraat 4, Culemborg",32,yes,open,yes,0,,,,jupiter-culemborg
+63,Basra,Den Haag,"Weimarstraat 244, Den Haag",0,yes,open,yes,0,,,,basra-den-haag
+63,Marbella Special Farmers,Den Haag,"Weimarstraat 244, Den Haag",0,yes,open,yes,1,,,,marbella-special-farmers-den-haag
+64,Blue White,Den Haag,"Bosschestraat 63, Den Haag",0,yes,open,yes,0,,,,blue-white-den-haag
+64,Blue and White,Scheveningen,"Bosschestraat 63, 2587 HC, Scheveningen",3,no,open,no,1,,,,blue-and-white-scheveningen
+65,Boere Schuurtje,Den Haag,"Boerenstraat 89A, Den Haag",0,yes,open,yes,3,,,,boere-schuurtje-den-haag
+65,Nebula,Den Haag,"Boerenstraat 89-a, 2572 HV, Den Haag",2,no,open,no,1,,,,nebula-den-haag
+66,Café Cremers,Den Haag,"Prinsestraat 84, Den Haag",0,yes,open,yes,0,,,,cafe-cremers-den-haag
+66,Cremers,Den Haag,"Prinsestraat 84, 2513 CG, Den Haag",5,no,open,no,1,,,,cremers-den-haag
+67,Ganja,Den Haag,"Westduinweg 59, Den Haag",0,yes,open,yes,0,,,,ganja-den-haag
+67,Koffiehuis Falkie,Den Haag,"Westduinweg 59, Den Haag",0,yes,open,yes,0,,,,koffiehuis-falkie-den-haag
+68,Magic,Den Haag,"Gortstraat 6, Den Haag",0,yes,open,yes,1,,,,magic-den-haag
+68,Sky 2,Den Haag,"Gortstraat 6, 2511 GK, Den Haag",1,no,open,no,1,,,,sky-2-den-haag
+69,Moonlight,Den Haag,"Bilderdijkstraat 8-a, Den Haag",0,yes,open,yes,1,,,,moonlight-den-haag
+69,Mr. J,Den Haag,"Bilderdijkstraat 8a, 2513 CP, Den Haag",1,no,open,no,1,,,,mr-j-den-haag
+70,No Limit,Den Haag,"Witte de Withstraat 4-a, Den Haag",0,yes,open,yes,4,,,,no-limit-den-haag
+70,Sympathy,Den Haag,"Witte de Withstraat 14, Den Haag",31,yes,open,yes,0,,,,sympathy-den-haag
+71,Simpel Minds,Den Haag,"De la Reyweg 101, Den Haag",0,yes,open,yes,1,,,,simpel-minds-den-haag
+71,Sticky Fingers,Den Haag,"De la Reyweg 101, Den Haag",0,yes,open,no,0,,,,sticky-fingers-den-haag
+72,Smokey,Den Haag,"Spui 241, Den Haag",0,yes,open,yes,1,,,,smokey-den-haag
+72,The Goat,Den Haag,"Spui 241, 2511 BP, Den Haag",3,no,open,no,5,,,,the-goat-den-haag
+73,The Freak Brothers,Den Haag,"Westeinde 86, 2512 HE, Den Haag",0,no,open,no,1,,,,the-freak-brothers-den-haag
+73,The Freak Brothers (Koffie en Dromen),Den Haag,"Westeinde 86, Den Haag",13,yes,open,yes,0,,,,the-freak-brothers-koffie-en-dromen-den-haag
+74,Bulls,Deventer,"Op de Keizer 28, 7411 TA, Deventer",0,no,open,no,1,,,,bulls-deventer
+74,Cybershop Bulls,Deventer,"Op de Keizer 28, Deventer",2,yes,open,yes,0,,,,cybershop-bulls-deventer
+75,De Kikker,Deventer,"Mr. H.F. de Boerlaan 21167, Deventer",0,yes,open,yes,0,,,,de-kikker-deventer
+75,Het Ankertje,Deventer,"Mr. H.F. de Boerlaan 21165, Deventer",6,yes,open,yes,0,,,,het-ankertje-deventer
+76,Dr Pleasure,Deventer,"Brinkgreverweg 70, Deventer",0,yes,open,yes,0,,,,dr-pleasure-deventer
+76,International,Deventer,"Brinkgreverweg 70, Deventer",0,yes,open,yes,0,,,,international-deventer
+77,Bazar Zilyon,Doetinchem,"Dr. Huber Noodtstraat 80, Doetinchem",0,yes,open,no,0,,,,bazar-zilyon-doetinchem
+77,Magic,Doetinchem,"Veemarkt 10, Doetinchem",38,yes,open,yes,1,,,,magic-doetinchem
+78,Genius,Dordrecht,"Voorstraat 475, Dordrecht",0,yes,open,yes,0,,,,genius-dordrecht
+78,Marrakech,Dordrecht,"Voorstraat 475, Dordrecht",0,yes,open,yes,0,,,,marrakech-dordrecht
+79,De Kink,Ede,"De Halte 81, Ede",0,yes,open,yes,2,,,,de-kink-ede
+79,Green Valley,Ede,"De Halte 21A, Ede",25,yes,open,yes,1,,,,green-valley-ede
+80,Cafe Mix,Enschede,"Haverstraatpassage 44-46, Enschede",0,yes,open,yes,0,,,,cafe-mix-enschede
+80,Mix,Enschede,"Haverstraatpassage 44-46, 7511 EX, Enschede",7,no,open,no,1,,,,mix-enschede
+81,Aarden Plan B,Goes,"Grote Markt 7, 4461 AH, Goes",0,no,open,no,1,,,,aarden-plan-b-goes
+81,Plan B / Coffeeshop Aarden,Goes,"Grote Markt 7, Goes",2,yes,open,yes,0,,,,plan-b-coffeeshop-aarden-goes
+82,Animo,Gouda,"Vest 18, 2801 VE, Gouda",0,no,open,no,2,,,,animo-gouda
+82,Club Animo,Gouda,"Vest 18, Gouda",1,yes,open,yes,0,,,,club-animo-gouda
+83,Cafe Dees,Groningen,"Papengang 3, Groningen",0,yes,open,yes,0,,,,cafe-dees-groningen
+83,Dees Cafe,Groningen,"Papengang 3, 9711 PA, Groningen",1,no,open,no,1,,,,dees-cafe-groningen
+84,Rag-a-Muffin,Groningen,"Noorderstationsstraat 15, 9716 AN, Groningen",0,no,open,no,1,,,,rag-a-muffin-groningen
+84,Raggamuffin,Groningen,"Noorderstationsstraat 15, Groningen",1,yes,open,yes,0,,,,raggamuffin-groningen
+85,Boerejongens Haarlem,Haarlem,"Lange Veerstraat 47, Haarlem",0,yes,open,yes,1,,,,boerejongens-haarlem-haarlem
+85,The Greengrocers,Haarlem,"Lange Veerstraat 47, 2011 DA, Haarlem",1,no,open,no,1,,,,the-greengrocers-haarlem
+86,Cannabis Takeaway De Kruidenier,Haarlem,"Nassaulaan 54, Haarlem",0,yes,open,yes,0,,,,cannabis-takeaway-de-kruidenier-haarlem
+86,De Kruidenier Cannabis Takeaway,Haarlem,"Nassaulaan 54, 2011 PE, Haarlem",1,no,open,no,2,,,,de-kruidenier-cannabis-takeaway-haarlem
+87,Coffeeshop Haarlem,Haarlem,"Doelstraat 29, Haarlem",0,yes,open,yes,1,,,,coffeeshop-haarlem-haarlem
+87,The Lounge,Haarlem,"Doelstraat 29, Haarlem",0,yes,open,yes,1,,,,the-lounge-haarlem
+88,Easy Going,Haarlem,"Barrevoetestraat 23, Haarlem",0,yes,open,yes,1,,,,easy-going-haarlem
+88,Easy Max,Haarlem,"Barrevoetestraat 23, 2011 WN, Haarlem",1,no,open,no,1,,,,easy-max-haarlem
+89,Hunter's Coffeeshop Haarlem,Haarlem,"Schoterweg 66, Haarlem",0,yes,open,yes,1,,,,hunters-coffeeshop-haarlem-haarlem
+89,Key West,Haarlem,"Schoterweg 66, Haarlem",1,yes,open,yes,1,,,,key-west-haarlem
+90,Join Us 2,Haarlem,"Schalkwijkerstraat 23, 2033 JB, Haarlem",0,no,open,no,1,,,,join-us-2-haarlem
+90,Theehuis Join Us,Haarlem,"Schalkwijkerstraat 23, Haarlem",14,yes,open,yes,0,,,,theehuis-join-us-haarlem
+91,Willie Wortel Indica,Haarlem,"Koudenhorn 58, 2011 JD, Haarlem",0,no,open,no,1,,,,willie-wortel-indica-haarlem
+91,Willie Wortel's Indica,Haarlem,"Koudenhorn 58, Haarlem",1,yes,open,yes,0,,,,willie-wortels-indica-haarlem
+92,Willie Wortel Sativa,Haarlem,"Kruisweg 46, 2011 LD, Haarlem",0,no,open,no,1,,,,willie-wortel-sativa-haarlem
+92,Willie Wortel's Sativa,Haarlem,"Kruisweg 46, Haarlem",4,yes,open,yes,0,,,,willie-wortels-sativa-haarlem
+93,Columbus,Harderwijk,"Vijhestraat 3, 3841 CW, Harderwijk",0,no,open,no,1,,,,columbus-harderwijk
+93,Columbus Cannabis Store,Harderwijk,"Vijhestraat 3, Harderwijk",7,yes,open,yes,0,,,,columbus-cannabis-store-harderwijk
+94,Coffeeshop Twins,Heerlen,"Honigmannstraat 49, Heerlen",0,yes,open,yes,3,,,,coffeeshop-twins-heerlen
+94,The New Capricorn,Heerlen,"Honigmannstraat 49, Heerlen",2,yes,open,yes,0,,,,the-new-capricorn-heerlen
+95,John & Co.,Hellevoetsluis,"Stephensonweg 1, Hellevoetsluis",0,yes,open,yes,0,,,,john-co-hellevoetsluis
+95,John and Co.,Hellevoetsluis,"Stephensonweg 1, 3225 LW, Hellevoetsluis",35,no,open,no,1,,,,john-and-co-hellevoetsluis
+96,Bonne Ville,Helmond,"Wolfstraat 124, Helmond",0,yes,open,yes,0,,,,bonne-ville-helmond
+96,Willy's Place,Helmond,"Wolfstraat 124, Helmond",2,yes,open,yes,0,,,,willys-place-helmond
+97,Happy days,Hengelo (O),"Emmaweg 8, Hengelo (O)",0,yes,open,yes,0,,,,happy-days-hengelo-o
+97,Moby Dick,Hengelo,"Emmaweg 4, Hengelo",23,yes,open,yes,1,,,,moby-dick-hengelo
+98,Cats,Leerdam,"Hoogstraat 15, Leerdam",0,yes,open,no,1,,,,cats-leerdam
+98,Notos,Leerdam,"Hoogstraat 44, Leerdam",24,yes,open,yes,0,,,,notos-leerdam
+99,058,Leeuwarden,"Uniabuurt 2, Leeuwarden",0,yes,open,yes,0,,,,058-leeuwarden
+99,Africa,Leeuwarden,"Uniabuurt 2, Leeuwarden",0,yes,open,yes,0,,,,africa-leeuwarden
+100,7th Heaven,Leeuwarden,"Tuinen 38, 8911 KE, Leeuwarden",0,no,open,no,1,,,,7th-heaven-leeuwarden
+100,7th Heaven Leeuwarden,Leeuwarden,"Tuinen 38, Leeuwarden",5,yes,open,yes,0,,,,7th-heaven-leeuwarden-leeuwarden
+101,American,Leeuwarden,"Nieuwesteeg 4, Leeuwarden",0,yes,open,yes,0,,,,american-leeuwarden
+101,De Eenhoorn,Leeuwarden,"Nieuwesteeg 3, Leeuwarden",22,yes,open,yes,1,,,,de-eenhoorn-leeuwarden
+102,Coffeeshop Oké,Leeuwarden,"Zuidvliet 44, Leeuwarden",0,yes,open,yes,0,,,,coffeeshop-oke-leeuwarden
+102,De Vriendschap,Leeuwarden,"Zuidvliet 44, Leeuwarden",0,yes,open,yes,0,,,,de-vriendschap-leeuwarden
+103,De Os,Leeuwarden,"Korfmakersstraat 2, Leeuwarden",0,yes,open,yes,1,,,,de-os-leeuwarden
+103,Miami,Leeuwarden,"Korfmakersstraat 5, Leeuwarden",17,yes,open,yes,3,,,,miami-leeuwarden
+104,de Zone,Leeuwarden,"Poststraat 37, 8911 GX, Leeuwarden",0,no,open,no,1,,,,de-zone-leeuwarden
+104,Koffiehuis De Zone,Leeuwarden,"Poststraat 37, Leeuwarden",2,yes,open,yes,0,,,,koffiehuis-de-zone-leeuwarden
+105,Liberty,Leeuwarden,"Herenwaltje 12, Leeuwarden",0,yes,open,yes,1,,,,liberty-leeuwarden
+105,Sacramento,Leeuwarden,"Herenwaltje 12, Leeuwarden",1,yes,open,yes,1,,,,sacramento-leeuwarden
+106,Coffee & Dreams,Leiden,"Nieuwe Beestenmarkt 34, Leiden",0,yes,open,yes,0,,,,coffee-dreams-leiden
+106,Coffee and Dreams,Leiden,"Nieuwe Beestenmarkt 34, 2312 CH, Leiden",3,no,open,no,3,,,,coffee-and-dreams-leiden
+107,Double AA,Leiden,"Nieuwe Beestenmarkt 5, Leiden",0,yes,open,yes,1,,,,double-aa-leiden
+107,Paradise,Leiden,"Nieuwe Beestenmarkt 6, Leiden",38,yes,open,yes,0,,,,paradise-leiden
+108,Easy Going,Maastricht,"Hoenderstraat 8, Maastricht",0,yes,open,yes,0,,,,easy-going-maastricht
+108,Easy Going,Maastricht,"Hoenderstraat 8, Maastricht",0,yes,open,yes,1,,,,easy-going-maastricht-2
+109,Lucky Time,Maastricht,"Hoogbrugstraat 4, Maastricht",0,yes,open,yes,0,,,,lucky-time-maastricht
+109,Mary Jane,Maastricht,"Hoogbrugstraat 4, Maastricht",2,yes,open,yes,1,,,,mary-jane-maastricht
+110,Missouri,Maastricht,"Hoogbrugstraat 31, 6221 CN, Maastricht",0,no,open,no,1,,,,missouri-maastricht
+110,Missouri (De Smurf),Maastricht,"Hoogbrugstraat 31, Maastricht",1,yes,open,yes,0,,,,missouri-de-smurf-maastricht
+111,Smoky,Maastricht,"Maaspromenade 13, 6211 HS, Maastricht",0,no,open,no,1,,,,smoky-maastricht
+111,Smoky Boot,Maastricht,"Maaspromenade 13, Maastricht",14,yes,open,yes,0,,,,smoky-boot-maastricht
+112,Buggy,Nijmegen,"Platenmakersstraat 8, 6511 TZ, Nijmegen",0,no,open,no,1,,,,buggy-nijmegen
+112,Smoke v/h Buggy,Nijmegen,"Platenmakersstraat 8, Nijmegen",2,yes,open,yes,0,,,,smoke-v-h-buggy-nijmegen
+113,Splif II,Purmerend,"Achterdijk 76, 1441 DJ, Purmerend",0,no,open,no,1,,,,splif-ii-purmerend
+113,Splif2,Purmerend,"Achterdijk 76, Purmerend",1,yes,open,yes,0,,,,splif2-purmerend
+114,Christiana,Roosendaal,"Hoogstraat 13, Roosendaal",0,yes,open,no,0,,,,christiana-roosendaal
+114,Liberty II,Roosendaal,"Hoogstraat 15, Roosendaal",5,yes,open,no,0,,,,liberty-ii-roosendaal
+115,'t Centrum,Rotterdam,"Van Oldenbarneveltstraat 154b, 3012 GX, Rotterdam",0,no,open,no,1,,,,t-centrum-rotterdam
+115,Centrum,Rotterdam,"Van Oldenbarneveltstraat 154-b, Rotterdam",0,yes,open,yes,0,,,,centrum-rotterdam
+116,Afrikaanderplein,Rotterdam,"Paul Krugerstraat 42, Rotterdam",0,yes,open,no,0,,,,afrikaanderplein-rotterdam
+116,New York,Rotterdam,"Paul Krugerstraat 42, Rotterdam",0,yes,open,yes,3,,,,new-york-rotterdam
+117,Alpha Blondy,Rotterdam,"Nieuwe Binnenweg 144B, Rotterdam",0,yes,open,no,1,,,,alpha-blondy-rotterdam
+117,Desire,Rotterdam,"Nieuwe Binnenweg 148, Rotterdam",15,yes,open,no,0,,,,desire-rotterdam
+118,Bambu High Tea,Rotterdam,"Noordsingel 201, 3035 ER, Rotterdam",0,no,open,no,1,,,,bambu-high-tea-rotterdam
+118,High Tea,Rotterdam,"Noordsingel 201, Rotterdam",1,yes,open,yes,0,,,,high-tea-rotterdam
+119,De Grasspriet,Rotterdam,"Slaghekstraat 58-a, Rotterdam",0,yes,open,yes,0,,,,de-grasspriet-rotterdam
+119,Dreams ,Rotterdam,"Slaghekstraat 58-a, Rotterdam",0,yes,open,yes,3,,,,dreams-rotterdam
+120,Happy Days,Rotterdam,"Boergoensestraat 35, Rotterdam",0,yes,open,yes,0,,,,happy-days-rotterdam
+120,Space,Rotterdam,"Boergoensestraat 35A, Rotterdam",4,yes,open,yes,0,,,,space-rotterdam
+121,Hunter's Rotterdam,Rotterdam,"Henegouwerlaan 73, Rotterdam",0,yes,open,yes,1,,,,hunters-rotterdam-rotterdam
+121,Sensi Smile,Rotterdam,"Henegouwerlaan 73, Rotterdam",0,yes,open,yes,3,,,,sensi-smile-rotterdam
+122,Seven,Rotterdam,"Joost van Geelstraat 69A, 3021 VL, Rotterdam",0,no,open,no,1,,,,seven-rotterdam
+122,Seven Up,Rotterdam,"Joost van Geelstraat 69A, Rotterdam",3,yes,open,yes,0,,,,seven-up-rotterdam
+123,Bamboo,Schiedam,"Parkweg 373, Schiedam",0,yes,open,yes,0,,,,bamboo-schiedam
+123,Spoenk,Schiedam,"Parkweg 373, Schiedam",0,yes,open,yes,0,,,,spoenk-schiedam
+124,The Grass Company,Tilburg,"Spoorlaan 360, 5038 CD, Tilburg",0,no,open,no,2,,,,the-grass-company-tilburg
+124,The Grass Company Spoorlaan,Tilburg,"Spoorlaan 360, Tilburg",2,yes,open,yes,0,,,,the-grass-company-spoorlaan-tilburg
+125,The Grass Company 2,Tilburg,"Piusstraat 124, 5021 JC, Tilburg",0,no,open,no,1,,,,the-grass-company-2-tilburg
+125,The Grass Company Piusstraat,Tilburg,"Piusstraat 124, Tilburg",3,yes,open,yes,0,,,,the-grass-company-piusstraat-tilburg
+126,208,Utrecht,"Oudegracht 208, Utrecht",0,yes,open,yes,2,,,,208-utrecht
+126,Coffeeshop 030,Utrecht,"Oudegracht 208, 3511 NR, Utrecht",3,no,open,no,1,,,,coffeeshop-030-utrecht
+127,Black & White,Utrecht,"Vismarkt 14, Utrecht",0,yes,open,no,0,,,,black-white-utrecht
+127,Black and White,Utrecht,"Vismarkt 14, Utrecht",0,yes,open,yes,0,,,,black-and-white-utrecht
+128,Culture Boat,Utrecht,"Wittevrouwensingel 206, 3572 CE, Utrecht",0,no,open,no,1,,,,culture-boat-utrecht
+128,De Boot (Culture Boat),Utrecht,"Wittevrouwensingel 206, Utrecht",11,yes,open,yes,0,,,,de-boot-culture-boat-utrecht
+129,De Hobbit,Weert,"Beekstraat 50, Weert",0,yes,open,yes,0,,,,de-hobbit-weert
+129,Twins,Weert,"Beekstraat 50, Weert",0,yes,open,yes,1,,,,twins-weert
+130,Hunter's Coffeeshop Zandvoort,Zandvoort,"Stationsstraat 9-11, Zandvoort",0,yes,open,yes,1,,,,hunters-coffeeshop-zandvoort-zandvoort
+130,La Paz,Zandvoort,"Stationsstraat 11, Zandvoort",4,yes,open,no,5,,,,la-paz-zandvoort
+131,Green Guys,Zeist,"Steynlaan 90, Zeist",0,yes,open,yes,0,,,,green-guys-zeist
+131,Rivia,Zeist,"Steynlaan 90, Zeist",0,yes,open,yes,0,,,,rivia-zeist

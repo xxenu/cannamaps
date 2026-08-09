@@ -1,0 +1,1111 @@
+{
+  "generated_at": "2026-08-06T03:46:35.671Z",
+  "source": "OpenStreetMap via Overpass API (ODbL)",
+  "matched": 69,
+  "hours": {
+    "cs-keteltje.html": {
+      "shop": "'t Keteltje",
+      "osm_name": "Coffeeshop 't Keteltje",
+      "distance_m": 2,
+      "name_match": true,
+      "raw": "09:00-01:00",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      }
+    },
+    "cs-oovievaartje.html": {
+      "shop": "'t Ooievaartje",
+      "osm_name": "Coffeeshop Noord",
+      "distance_m": 0,
+      "name_match": false,
+      "raw": "Mo-Su 07:00-00:45",
+      "opening_hours": {
+        "monday": "07:00-00:45",
+        "tuesday": "07:00-00:45",
+        "wednesday": "07:00-00:45",
+        "thursday": "07:00-00:45",
+        "friday": "07:00-00:45",
+        "saturday": "07:00-00:45",
+        "sunday": "07:00-00:45"
+      }
+    },
+    "cs-420-coffeeshop.html": {
+      "shop": "420 Coffeeshop",
+      "osm_name": "Tweede Kamer",
+      "distance_m": 13,
+      "name_match": false,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-abraxas.html": {
+      "shop": "Abraxas",
+      "osm_name": "Abraxas",
+      "distance_m": 3,
+      "name_match": true,
+      "raw": "Mo-Su 08:00-01:00",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      }
+    },
+    "cs-amsterdamgenetics.html": {
+      "shop": "Amsterdam Genetics",
+      "osm_name": "Dampkring",
+      "distance_m": 0,
+      "name_match": false,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-amsterdamned.html": {
+      "shop": "Amsterdamned",
+      "osm_name": "The Bulldog Rock Shop",
+      "distance_m": 41,
+      "name_match": false,
+      "raw": "07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-andalucia.html": {
+      "shop": "Andalucia",
+      "osm_name": "Coffeeshop Family First",
+      "distance_m": 35,
+      "name_match": false,
+      "raw": "Mo-Fr 09:00-00:45",
+      "opening_hours": {
+        "monday": "09:00-00:45",
+        "tuesday": "09:00-00:45",
+        "wednesday": "09:00-00:45",
+        "thursday": "09:00-00:45",
+        "friday": "09:00-00:45",
+        "saturday": null,
+        "sunday": null
+      }
+    },
+    "cs-balboa-family.html": {
+      "shop": "Balboa Family",
+      "osm_name": "Coffeeshop Family First",
+      "distance_m": 35,
+      "name_match": false,
+      "raw": "Mo-Fr 09:00-00:45",
+      "opening_hours": {
+        "monday": "09:00-00:45",
+        "tuesday": "09:00-00:45",
+        "wednesday": "09:00-00:45",
+        "thursday": "09:00-00:45",
+        "friday": "09:00-00:45",
+        "saturday": null,
+        "sunday": null
+      }
+    },
+    "cs-balou.html": {
+      "shop": "Balou",
+      "osm_name": "Coffeeshop Family First",
+      "distance_m": 39,
+      "name_match": false,
+      "raw": "Mo-Fr 09:00-00:45",
+      "opening_hours": {
+        "monday": "09:00-00:45",
+        "tuesday": "09:00-00:45",
+        "wednesday": "09:00-00:45",
+        "thursday": "09:00-00:45",
+        "friday": "09:00-00:45",
+        "saturday": null,
+        "sunday": null
+      }
+    },
+    "cs-blue-lagoon.html": {
+      "shop": "Blue Lagoon",
+      "osm_name": "Blue Lagoon",
+      "distance_m": 2,
+      "name_match": true,
+      "raw": "Mo-Su 09:00-01:00",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      }
+    },
+    "cs-bluebird.html": {
+      "shop": "Bluebird",
+      "osm_name": "Bluebird Coffeeshop",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "Mo-Su 09:30-01:00",
+      "opening_hours": {
+        "monday": "09:30-01:00",
+        "tuesday": "09:30-01:00",
+        "wednesday": "09:30-01:00",
+        "thursday": "09:30-01:00",
+        "friday": "09:30-01:00",
+        "saturday": "09:30-01:00",
+        "sunday": "09:30-01:00"
+      }
+    },
+    "cs-boerejongens-cent.html": {
+      "shop": "Boerejongens Centrum",
+      "osm_name": "Boerejongens",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "Mo-We 07:00-00:45; Th-Fr 07:00-01:00; Sa 09:00-01:00; Su 09:00-00:45",
+      "opening_hours": {
+        "monday": "07:00-00:45",
+        "tuesday": "07:00-00:45",
+        "wednesday": "07:00-00:45",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-00:45"
+      }
+    },
+    "cs-boerejongens-slot.html": {
+      "shop": "Boerejongens Sloterdijk",
+      "osm_name": "Coffeeshop Sloterdijk",
+      "distance_m": 10,
+      "name_match": true,
+      "raw": "Mo-Su 07:00-00:45",
+      "opening_hours": {
+        "monday": "07:00-00:45",
+        "tuesday": "07:00-00:45",
+        "wednesday": "07:00-00:45",
+        "thursday": "07:00-00:45",
+        "friday": "07:00-00:45",
+        "saturday": "07:00-00:45",
+        "sunday": "07:00-00:45"
+      }
+    },
+    "cs-bronx.html": {
+      "shop": "Bronx",
+      "osm_name": "Coffeeshop Bronx",
+      "distance_m": 50,
+      "name_match": true,
+      "raw": "10:00-24:00",
+      "opening_hours": {
+        "monday": "10:00-24:00",
+        "tuesday": "10:00-24:00",
+        "wednesday": "10:00-24:00",
+        "thursday": "10:00-24:00",
+        "friday": "10:00-24:00",
+        "saturday": "10:00-24:00",
+        "sunday": "10:00-24:00"
+      }
+    },
+    "cs-bulldog-no-90.html": {
+      "shop": "Bulldog No. 90",
+      "osm_name": "The Bulldog The First",
+      "distance_m": 3,
+      "name_match": false,
+      "raw": "Mo-Su 08:00-01:00",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      }
+    },
+    "cs-bulldog-rockshop.html": {
+      "shop": "Bulldog Rockshop",
+      "osm_name": "The Bulldog Rock Shop",
+      "distance_m": 2,
+      "name_match": true,
+      "raw": "07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-carmona.html": {
+      "shop": "Carmona",
+      "osm_name": "Coffeeshop Carmona",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Su 09:00-01:00",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      }
+    },
+    "cs-central.html": {
+      "shop": "Central",
+      "osm_name": "Voyagers Coffeeshop",
+      "distance_m": 38,
+      "name_match": false,
+      "raw": "Mo-Su 10:00-23:00",
+      "opening_hours": {
+        "monday": "10:00-23:00",
+        "tuesday": "10:00-23:00",
+        "wednesday": "10:00-23:00",
+        "thursday": "10:00-23:00",
+        "friday": "10:00-23:00",
+        "saturday": "10:00-23:00",
+        "sunday": "10:00-23:00"
+      }
+    },
+    "cs-city-hall.html": {
+      "shop": "City Hall",
+      "osm_name": "Green House",
+      "distance_m": 7,
+      "name_match": false,
+      "raw": "Mo-Su 09:00-01:00",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      }
+    },
+    "cs-media.html": {
+      "shop": "Club Media",
+      "osm_name": "Coffeeshop Club Media",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Su 08:30-01:00",
+      "opening_hours": {
+        "monday": "08:30-01:00",
+        "tuesday": "08:30-01:00",
+        "wednesday": "08:30-01:00",
+        "thursday": "08:30-01:00",
+        "friday": "08:30-01:00",
+        "saturday": "08:30-01:00",
+        "sunday": "08:30-01:00"
+      }
+    },
+    "cs-oost.html": {
+      "shop": "Coffeeshop Oost",
+      "osm_name": "Coffeeshop Oost",
+      "distance_m": 6,
+      "name_match": true,
+      "raw": "Mo-Su 09:00-24:00",
+      "opening_hours": {
+        "monday": "09:00-24:00",
+        "tuesday": "09:00-24:00",
+        "wednesday": "09:00-24:00",
+        "thursday": "09:00-24:00",
+        "friday": "09:00-24:00",
+        "saturday": "09:00-24:00",
+        "sunday": "09:00-24:00"
+      }
+    },
+    "cs-coffeeshop-amsterdam.html": {
+      "shop": "CoffeeshopAmsterdam",
+      "osm_name": "Dampkring",
+      "distance_m": 0,
+      "name_match": false,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-dampkring.html": {
+      "shop": "Dampkring",
+      "osm_name": "Dampkring",
+      "distance_m": 3,
+      "name_match": true,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-dampkring-2.html": {
+      "shop": "Dampkring 2",
+      "osm_name": "Dampkring",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-keeper.html": {
+      "shop": "de Keeper",
+      "osm_name": "SuperFly",
+      "distance_m": 1,
+      "name_match": false,
+      "raw": "Mo-Su 07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-overkant-hortus.html": {
+      "shop": "de Overkant Hortus",
+      "osm_name": "Coffeeshop De Overkant",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Su 10:00-24:00",
+      "opening_hours": {
+        "monday": "10:00-24:00",
+        "tuesday": "10:00-24:00",
+        "wednesday": "10:00-24:00",
+        "thursday": "10:00-24:00",
+        "friday": "10:00-24:00",
+        "saturday": "10:00-24:00",
+        "sunday": "10:00-24:00"
+      }
+    },
+    "cs-dna.html": {
+      "shop": "DNA",
+      "osm_name": "Coffeeshop DNA",
+      "distance_m": 7,
+      "name_match": true,
+      "raw": "Mo-Su 09:00-00:55",
+      "opening_hours": {
+        "monday": "09:00-00:55",
+        "tuesday": "09:00-00:55",
+        "wednesday": "09:00-00:55",
+        "thursday": "09:00-00:55",
+        "friday": "09:00-00:55",
+        "saturday": "09:00-00:55",
+        "sunday": "09:00-00:55"
+      }
+    },
+    "cs-dolphins.html": {
+      "shop": "Dolphins",
+      "osm_name": "Dolphins Coffeeshop",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "08:00-01:00",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      }
+    },
+    "cs-dutch-flowers.html": {
+      "shop": "Dutch Flowers",
+      "osm_name": "Tweede Kamer",
+      "distance_m": 13,
+      "name_match": false,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-eastwood.html": {
+      "shop": "Eastwood",
+      "osm_name": "Eastwood Coffeeshop",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Su 07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-family-first.html": {
+      "shop": "Family First",
+      "osm_name": "Coffeeshop Family First",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Fr 09:00-00:45",
+      "opening_hours": {
+        "monday": "09:00-00:45",
+        "tuesday": "09:00-00:45",
+        "wednesday": "09:00-00:45",
+        "thursday": "09:00-00:45",
+        "friday": "09:00-00:45",
+        "saturday": null,
+        "sunday": null
+      }
+    },
+    "cs-green-place-2.html": {
+      "shop": "Green Place 2",
+      "osm_name": "The Bulldog Rock Shop",
+      "distance_m": 41,
+      "name_match": false,
+      "raw": "07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-greenhouse-centrum.html": {
+      "shop": "Greenhouse Centrum",
+      "osm_name": "Green House",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Su 09:00-01:00",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      }
+    },
+    "cs-greenhouse-strain-hunters.html": {
+      "shop": "Greenhouse Strain Hunters",
+      "osm_name": "Tweede Kamer",
+      "distance_m": 13,
+      "name_match": false,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-happy-feelings.html": {
+      "shop": "Happy Feelings",
+      "osm_name": "Happy Feelings",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Su 09:00-01:00",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      }
+    },
+    "cs-happy-people.html": {
+      "shop": "Happy People",
+      "osm_name": "Happy People",
+      "distance_m": 2,
+      "name_match": true,
+      "raw": "Mo-Su 07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-ballonnetje.html": {
+      "shop": "Het Ballonnetje",
+      "osm_name": "Coffeeshop Het Ballonnetje",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "Mo-Su 09:00-24:00",
+      "opening_hours": {
+        "monday": "09:00-24:00",
+        "tuesday": "09:00-24:00",
+        "wednesday": "09:00-24:00",
+        "thursday": "09:00-24:00",
+        "friday": "09:00-24:00",
+        "saturday": "09:00-24:00",
+        "sunday": "09:00-24:00"
+      }
+    },
+    "cs-huntersnorthpapaverweg.html": {
+      "shop": "Hunter's North - Papaverweg",
+      "osm_name": "Hunter's Coffeeshop",
+      "distance_m": 10,
+      "name_match": true,
+      "raw": "Mo-Su 07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-ibiza.html": {
+      "shop": "Ibiza",
+      "osm_name": "Coffeeshop IBIZA",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-katsu.html": {
+      "shop": "Katsu",
+      "osm_name": "Katsu",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 11:00-24:00",
+      "opening_hours": {
+        "monday": "10:00-24:00",
+        "tuesday": "10:00-24:00",
+        "wednesday": "10:00-24:00",
+        "thursday": "10:00-24:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "11:00-24:00"
+      }
+    },
+    "cs-tertulia.html": {
+      "shop": "La Tertulia",
+      "osm_name": "La Tertulia Coffeeshop",
+      "distance_m": 3,
+      "name_match": true,
+      "raw": "Tu-Sa 11:00-19:00",
+      "opening_hours": {
+        "monday": null,
+        "tuesday": "11:00-19:00",
+        "wednesday": "11:00-19:00",
+        "thursday": "11:00-19:00",
+        "friday": "11:00-19:00",
+        "saturday": "11:00-19:00",
+        "sunday": null
+      }
+    },
+    "cs-loft.html": {
+      "shop": "Loft",
+      "osm_name": "Loft",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "Mo-Su 10:00-23:00",
+      "opening_hours": {
+        "monday": "10:00-23:00",
+        "tuesday": "10:00-23:00",
+        "wednesday": "10:00-23:00",
+        "thursday": "10:00-23:00",
+        "friday": "10:00-23:00",
+        "saturday": "10:00-23:00",
+        "sunday": "10:00-23:00"
+      }
+    },
+    "cs-nice-dreams.html": {
+      "shop": "Nice Dreams",
+      "osm_name": "Bluebird Coffeeshop",
+      "distance_m": 22,
+      "name_match": false,
+      "raw": "Mo-Su 09:30-01:00",
+      "opening_hours": {
+        "monday": "09:30-01:00",
+        "tuesday": "09:30-01:00",
+        "wednesday": "09:30-01:00",
+        "thursday": "09:30-01:00",
+        "friday": "09:30-01:00",
+        "saturday": "09:30-01:00",
+        "sunday": "09:30-01:00"
+      }
+    },
+    "cs-noord.html": {
+      "shop": "Noord",
+      "osm_name": "Coffeeshop Noord",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "Mo-Su 07:00-00:45",
+      "opening_hours": {
+        "monday": "07:00-00:45",
+        "tuesday": "07:00-00:45",
+        "wednesday": "07:00-00:45",
+        "thursday": "07:00-00:45",
+        "friday": "07:00-00:45",
+        "saturday": "07:00-00:45",
+        "sunday": "07:00-00:45"
+      }
+    },
+    "cs-old-church-1.html": {
+      "shop": "Old Church (original)",
+      "osm_name": "The Bulldog The First",
+      "distance_m": 38,
+      "name_match": false,
+      "raw": "Mo-Su 08:00-01:00",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      }
+    },
+    "cs-paradox.html": {
+      "shop": "Paradox",
+      "osm_name": "Coffeeshop Paradox",
+      "distance_m": 3,
+      "name_match": true,
+      "raw": "Mo-Su 11:00-20:00",
+      "opening_hours": {
+        "monday": "11:00-20:00",
+        "tuesday": "11:00-20:00",
+        "wednesday": "11:00-20:00",
+        "thursday": "11:00-20:00",
+        "friday": "11:00-20:00",
+        "saturday": "11:00-20:00",
+        "sunday": "11:00-20:00"
+      }
+    },
+    "cs-picasso.html": {
+      "shop": "Picasso",
+      "osm_name": "The Bulldog Rock Shop",
+      "distance_m": 41,
+      "name_match": false,
+      "raw": "07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-pink-floyd.html": {
+      "shop": "Pink Floyd",
+      "osm_name": "Dampkring",
+      "distance_m": 0,
+      "name_match": false,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-popeye.html": {
+      "shop": "Popeye",
+      "osm_name": "Dampkring",
+      "distance_m": 17,
+      "name_match": false,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-reefer.html": {
+      "shop": "Reefer",
+      "osm_name": "Bluebird Coffeeshop",
+      "distance_m": 22,
+      "name_match": false,
+      "raw": "Mo-Su 09:30-01:00",
+      "opening_hours": {
+        "monday": "09:30-01:00",
+        "tuesday": "09:30-01:00",
+        "wednesday": "09:30-01:00",
+        "thursday": "09:30-01:00",
+        "friday": "09:30-01:00",
+        "saturday": "09:30-01:00",
+        "sunday": "09:30-01:00"
+      }
+    },
+    "cs-relax-ams.html": {
+      "shop": "Relax",
+      "osm_name": "Coffeeshop Relax",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "Mo-Su 08:00-01:00",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      }
+    },
+    "cs-relaxzuid.html": {
+      "shop": "Relax Zuid",
+      "osm_name": "Coffeeshop Relax",
+      "distance_m": 5,
+      "name_match": true,
+      "raw": "Mo-Fr 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": null,
+        "sunday": null
+      }
+    },
+    "cs-ricks-cafe.html": {
+      "shop": "Ricks Coffeeshop",
+      "osm_name": "Green House",
+      "distance_m": 43,
+      "name_match": false,
+      "raw": "Mo-Su 09:00-01:00",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      }
+    },
+    "cs-risky-business.html": {
+      "shop": "Risky Business",
+      "osm_name": "Risky Business",
+      "distance_m": 4,
+      "name_match": true,
+      "raw": "Mo-Sa 09:00-23:00; Su 10:00-23:00",
+      "opening_hours": {
+        "monday": "09:00-23:00",
+        "tuesday": "09:00-23:00",
+        "wednesday": "09:00-23:00",
+        "thursday": "09:00-23:00",
+        "friday": "09:00-23:00",
+        "saturday": "09:00-23:00",
+        "sunday": "10:00-23:00"
+      }
+    },
+    "cs-roots.html": {
+      "shop": "Roots",
+      "osm_name": "Roots",
+      "distance_m": 9,
+      "name_match": true,
+      "raw": "Mo-Su 09:00-24:00",
+      "opening_hours": {
+        "monday": "09:00-24:00",
+        "tuesday": "09:00-24:00",
+        "wednesday": "09:00-24:00",
+        "thursday": "09:00-24:00",
+        "friday": "09:00-24:00",
+        "saturday": "09:00-24:00",
+        "sunday": "09:00-24:00"
+      }
+    },
+    "cs-roxy.html": {
+      "shop": "Roxy",
+      "osm_name": "Coffeeshop Roxy",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Su 07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-saint.html": {
+      "shop": "Saint",
+      "osm_name": "Coffeeshop Family First",
+      "distance_m": 35,
+      "name_match": false,
+      "raw": "Mo-Fr 09:00-00:45",
+      "opening_hours": {
+        "monday": "09:00-00:45",
+        "tuesday": "09:00-00:45",
+        "wednesday": "09:00-00:45",
+        "thursday": "09:00-00:45",
+        "friday": "09:00-00:45",
+        "saturday": null,
+        "sunday": null
+      }
+    },
+    "cs-siberie.html": {
+      "shop": "Siberie",
+      "osm_name": "Siberië Coffeeshop",
+      "distance_m": 5,
+      "name_match": true,
+      "raw": "Su-Th 11:00-23:00; Fr-Sa 11:00-00:00",
+      "opening_hours": {
+        "monday": "11:00-23:00",
+        "tuesday": "11:00-23:00",
+        "wednesday": "11:00-23:00",
+        "thursday": "11:00-23:00",
+        "friday": "11:00-00:00",
+        "saturday": "11:00-00:00",
+        "sunday": "11:00-23:00"
+      }
+    },
+    "cs-solo.html": {
+      "shop": "Solo",
+      "osm_name": "Solo",
+      "distance_m": 0,
+      "name_match": true,
+      "raw": "Mo 09:00-12:00",
+      "opening_hours": {
+        "monday": "09:00-12:00",
+        "tuesday": null,
+        "wednesday": null,
+        "thursday": null,
+        "friday": null,
+        "saturday": null,
+        "sunday": null
+      }
+    },
+    "cs-stix.html": {
+      "shop": "Stix",
+      "osm_name": "Boerejongens",
+      "distance_m": 0,
+      "name_match": false,
+      "raw": "Mo-We 07:00-00:45; Th-Fr 07:00-01:00; Sa 09:00-01:00; Su 09:00-00:45",
+      "opening_hours": {
+        "monday": "07:00-00:45",
+        "tuesday": "07:00-00:45",
+        "wednesday": "07:00-00:45",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-00:45"
+      }
+    },
+    "cs-superflyams.html": {
+      "shop": "SuperFly",
+      "osm_name": "SuperFly",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Su 07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-doors.html": {
+      "shop": "The Doors",
+      "osm_name": "The Bulldog Rock Shop",
+      "distance_m": 4,
+      "name_match": false,
+      "raw": "07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-plugstore.html": {
+      "shop": "The Plug Store",
+      "osm_name": "The Bulldog Rock Shop",
+      "distance_m": 4,
+      "name_match": false,
+      "raw": "07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-point-ams.html": {
+      "shop": "The Point",
+      "osm_name": "Coffeeshop Oost",
+      "distance_m": 6,
+      "name_match": false,
+      "raw": "Mo-Su 09:00-24:00",
+      "opening_hours": {
+        "monday": "09:00-24:00",
+        "tuesday": "09:00-24:00",
+        "wednesday": "09:00-24:00",
+        "thursday": "09:00-24:00",
+        "friday": "09:00-24:00",
+        "saturday": "09:00-24:00",
+        "sunday": "09:00-24:00"
+      }
+    },
+    "cs-store.html": {
+      "shop": "The Store",
+      "osm_name": "The Bulldog Rock Shop",
+      "distance_m": 4,
+      "name_match": false,
+      "raw": "07:00-01:00",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      }
+    },
+    "cs-tuintje.html": {
+      "shop": "Tuintje",
+      "osm_name": "Coffeeshop Vondel",
+      "distance_m": 2,
+      "name_match": false,
+      "raw": "Mo-Sa 09:00-01:00; Su 09:00-00:00",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-00:00"
+      }
+    },
+    "cs-tweede-kamer.html": {
+      "shop": "Tweede Kamer",
+      "osm_name": "Tweede Kamer",
+      "distance_m": 1,
+      "name_match": true,
+      "raw": "Mo-Su 10:00-01:00",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      }
+    },
+    "cs-vondel.html": {
+      "shop": "Vondel",
+      "osm_name": "Coffeeshop Vondel",
+      "distance_m": 2,
+      "name_match": true,
+      "raw": "Mo-Sa 09:00-01:00; Su 09:00-00:00",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-00:00"
+      }
+    },
+    "cs-voyagers.html": {
+      "shop": "Voyagers",
+      "osm_name": "Voyagers Coffeeshop",
+      "distance_m": 6,
+      "name_match": true,
+      "raw": "Mo-Su 10:00-23:00",
+      "opening_hours": {
+        "monday": "10:00-23:00",
+        "tuesday": "10:00-23:00",
+        "wednesday": "10:00-23:00",
+        "thursday": "10:00-23:00",
+        "friday": "10:00-23:00",
+        "saturday": "10:00-23:00",
+        "sunday": "10:00-23:00"
+      }
+    }
+  }
+}

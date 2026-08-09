@@ -1,0 +1,1241 @@
+/* CannaMap — Phase 1 UI. Vanilla CSS, no build step. */
+
+/* Palette
+ *   #0E130F near-black   #1B211D dark gray
+ *   #2B5A3E dark green   #63A47E base green
+ * The two surface greys are derived from #1B211D by lifting it toward the
+ * text, so hovers and borders read as elevation rather than as new hues.
+ * The palette has no light tone, so the near-white below is the one addition —
+ * body text on #1B211D needs it. */
+:root {
+  --bg: #0E130F;
+  --surface: #1B211D;
+  --surface-2: #272D29;     /* derived: #1B211D lifted ~5% toward --text */
+  --line: #333834;          /* derived: the same lift again, for hairlines */
+  --text: #F8F8F8;
+  --text-dim: #A0A2A0;      /* derived: --text at ~60% over --surface */
+  --accent: #63A47E;
+  --accent-deep: #2B5A3E;   /* pressed/secondary green */
+  --accent-ink: #0E130F;    /* text on an accent fill */
+
+  /* Favourites use the near-white rather than a sixth hue: on a green pin a
+   * white star reads instantly, a second green would not. */
+  --star: #F8F8F8;
+
+  /* Functional colours outside the palette, kept for meaning, not decoration:
+   * a red that reads as "shut/blocked" and the blue every map uses for "you". */
+  --danger: #f87171;
+  --me: #4a90ff;
+
+  --type-coffeeshop: #63A47E;
+  --type-smartshop: #a78bfa;
+  --type-alcohol: #fb923c;
+  --type-default: #60a5fa;
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+/* Several elements below set an explicit `display`, which would otherwise
+ * beat the UA rule for the `hidden` attribute. */
+[hidden] { display: none !important; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#map {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: var(--bg);
+}
+
+/* Leaflet tiles are bright; take the edge off so the dark chrome reads. */
+.leaflet-tile-pane { filter: brightness(0.86) saturate(0.85) contrast(1.03); }
+.leaflet-control-attribution {
+  background: rgba(14, 19, 15, 0.82) !important;   /* --bg, translucent */
+  color: var(--text-dim) !important;
+}
+.leaflet-bottom.leaflet-left { left: 72px; }
+@media (max-width: 560px) { .leaflet-bottom.leaflet-left { left: 56px; } }
+.leaflet-control-attribution a { color: var(--accent) !important; }
+
+/* Zoom control: a single narrow card of two square buttons split by a hairline,
+ * sitting directly under the locate button. */
+.leaflet-bottom.leaflet-right { right: 12px; bottom: calc(var(--safe-bottom) + 20px); }
+.leaflet-bottom.leaflet-right .leaflet-control-zoom {
+  margin: 0;
+  border: none !important;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+.leaflet-control-zoom a {
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border: none !important;
+  border-radius: 0 !important;
+  font-size: 20px !important;
+  font-weight: 400;
+  text-indent: 0;
+}
+/* Inset hairline between the two, rather than a full-width border. */
+.leaflet-control-zoom a.leaflet-control-zoom-in {
+  position: relative;
+}
+.leaflet-control-zoom a.leaflet-control-zoom-in::after {
+  content: '';
+  position: absolute;
+  left: 8px; right: 8px; bottom: 0;
+  height: 1px;
+  background: var(--line);
+}
+.leaflet-control-zoom a:hover { background: var(--surface-2) !important; }
+.leaflet-control-zoom a.leaflet-disabled {
+  color: var(--text-dim) !important;
+  opacity: 0.45;
+}
+
+/* ---------- Left navigation rail ---------- */
+
+.rail {
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  z-index: 700;                 /* above the topbar, which starts to its right */
+  width: 72px;
+  padding: calc(var(--safe-top) + 8px) 0 calc(var(--safe-bottom) + 8px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+}
+.rail::-webkit-scrollbar { display: none; }
+
+.rail-btn {
+  position: relative;
+  width: 64px;
+  padding: 8px 2px 6px;
+  border: none;
+  border-radius: 10px;
+  background: none;
+  color: var(--text-dim);
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  transition: color 0.15s;
+}
+.rail-btn:hover { color: var(--text); }
+.rail-btn:hover .rail-icon { background: var(--surface-2); }
+
+/* The pill behind the icon is what carries the selected state, the way a
+ * navigation rail usually signals it — the label alone is too quiet. */
+.rail-icon {
+  width: 46px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  transition: background 0.15s, color 0.15s;
+}
+.rail-icon svg { width: 22px; height: 22px; display: block; }
+.rail-label {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+.rail-btn[aria-pressed="true"] { color: var(--text); }
+.rail-btn[aria-pressed="true"] .rail-icon {
+  background: var(--accent-deep);
+  color: var(--text);
+}
+
+.rail-badge {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  min-width: 17px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+}
+
+.rail-sep {
+  width: 40px;
+  height: 1px;
+  margin: 8px 0;
+  background: var(--line);
+  flex: none;
+}
+
+.rail-cities { width: 100%; }
+.rail-city {
+  position: relative;
+  width: 64px;
+  margin: 0 auto 2px;
+  padding: 7px 2px 6px;
+  border: none;
+  border-radius: 10px;
+  background: none;
+  color: var(--text-dim);
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.rail-city:hover { color: var(--text); }
+.rail-city .city-mark {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+  transition: border-color 0.15s;
+}
+.rail-city:hover .city-mark { border-color: var(--accent); }
+.rail-city .city-name {
+  font-size: 10.5px;
+  font-weight: 600;
+  max-width: 62px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------- Rail flyout panel ---------- */
+
+.rail-panel {
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 72px;
+  z-index: 690;
+  width: min(320px, calc(100vw - 72px));
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+  box-shadow: 8px 0 28px rgba(0, 0, 0, 0.5);
+}
+.panel-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: calc(var(--safe-top) + 14px) 14px 10px;
+  border-bottom: 1px solid var(--line);
+}
+.panel-head h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  flex: 1;
+}
+.panel-close {
+  width: 28px; height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 12px;
+  cursor: pointer;
+}
+.panel-body {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 8px;
+}
+.panel-empty {
+  padding: 24px 16px;
+  color: var(--text-dim);
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5;
+}
+.panel-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border: none;
+  border-radius: 9px;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.panel-row:hover { background: var(--surface-2); }
+.panel-row .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.panel-row-text { min-width: 0; flex: 1; }
+.panel-row-name {
+  font-size: 13.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.panel-row-sub {
+  font-size: 11.5px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.panel-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 4px 10px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  width: calc(100% - 8px);
+}
+.panel-toggle[aria-pressed="true"] {
+  border-color: var(--accent);
+  color: var(--text);
+}
+.panel-toggle .tick {
+  width: 15px; height: 15px;
+  border: 1.5px solid var(--line);
+  border-radius: 4px;
+  flex: none;
+}
+.panel-toggle[aria-pressed="true"] .tick {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* The map's own overlays start to the right of the rail. */
+.empty-state { margin-left: 36px; }
+
+@media (max-width: 560px) {
+  .rail { width: 56px; }
+  .rail-btn, .rail-city { width: 52px; }
+  .rail-icon { width: 40px; height: 28px; }
+  .rail-label { font-size: 9.5px; }
+  /* Names must not spill past the narrower rail. */
+  .rail-city .city-name { font-size: 9.5px; max-width: 50px; }
+  .rail-city .city-mark { width: 30px; height: 30px; font-size: 12px; }
+  .rail-panel { left: 56px; width: calc(100vw - 56px); }
+}
+
+/* ---------- Top bar ---------- */
+
+/* No bar across the top any more: the search is a card floating over the map,
+ * so the map stays visible edge to edge behind it. */
+#topbar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 500;
+  padding: calc(var(--safe-top) + 12px) 12px 0 84px;   /* clears the rail */
+  display: flex;
+  align-items: flex-start;
+  pointer-events: none;
+}
+#topbar > * { pointer-events: auto; }
+
+
+/* ---------- Search ---------- */
+
+.search {
+  position: relative;
+  flex: 0 1 400px;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  height: 46px;
+  padding-left: 14px;
+  border-radius: 10px;
+  background: var(--surface);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--line);
+}
+.search:focus-within { border-color: var(--accent); }
+#search-input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 14.5px;
+}
+#search-input:focus { outline: none; }
+#search-input::placeholder { color: var(--text-dim); }
+
+.search-clear {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin-right: 6px;
+  border: none;
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 10px;
+  line-height: 1;
+  cursor: pointer;
+}
+/* Divider then the search button, the way a maps omnibox splits its actions. */
+.search-div {
+  flex: none;
+  width: 1px;
+  height: 24px;
+  background: var(--line);
+}
+.search-go {
+  flex: none;
+  width: 46px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: 0 9px 9px 0;
+  background: none;
+  color: var(--accent);
+  cursor: pointer;
+}
+.search-go svg { width: 20px; height: 20px; }
+.search-go:hover { background: var(--surface-2); }
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 600;
+  max-height: min(60vh, 420px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
+}
+.search-result {
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.search-result:hover,
+.search-result.active { background: var(--surface-2); }
+.search-result .dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex: none;
+}
+.search-result-text { min-width: 0; }
+.search-result-name {
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.search-result-sub {
+  font-size: 12px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Why this shop matched, when it was the menu rather than the place. */
+.search-result-why {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+  font-size: 12px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.why-tag {
+  flex: none;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.why-dist {
+  flex: none;
+  margin-left: auto;
+  padding-left: 8px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+.search-foot {
+  padding: 8px 10px 4px;
+  border-top: 1px solid var(--line);
+  margin-top: 4px;
+  color: var(--text-dim);
+  font-size: 11.5px;
+  text-align: center;
+}
+
+.search-result mark {
+  background: none;
+  color: var(--accent);
+  font-weight: 700;
+}
+.search-empty {
+  padding: 12px 10px;
+  color: var(--text-dim);
+  font-size: 13px;
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 2px;
+  margin-left: auto;
+}
+.filters::-webkit-scrollbar { display: none; }
+
+.chip {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.chip:hover { background: var(--surface-2); }
+.chip .dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  flex: none;
+}
+.chip[aria-pressed="true"] {
+  background: var(--surface-2);
+  color: var(--text);
+  border-color: var(--chip-color, var(--accent));
+}
+.chip[aria-pressed="true"] .dot { background: var(--chip-color, var(--accent)); }
+.chip[data-locked="true"] { cursor: default; opacity: 0.95; }
+.chip .count { color: var(--text-dim); font-weight: 500; }
+
+/* Narrow screens: brand on its own line, filters scroll full-width below it. */
+@media (max-width: 560px) {
+  #topbar { flex-wrap: wrap; row-gap: 8px; }
+  .search { flex: 1 1 auto; }
+  .filters {
+    flex-basis: 100%;
+    margin-left: 0;
+    scroll-padding: 2px;
+  }
+}
+
+/* ---------- Favorites FAB ---------- */
+
+.fab {
+  position: absolute;
+  z-index: 500;
+  right: 12px;
+  bottom: calc(var(--safe-bottom) + 20px);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 11px 15px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  transition: transform 0.15s, background 0.15s, color 0.15s;
+}
+.fab:active { transform: scale(0.96); }
+.fab[aria-pressed="true"] {
+  background: var(--star);
+  border-color: var(--star);
+  color: #241a00;
+}
+.fab-icon { font-size: 15px; }
+.fab-count {
+  min-width: 20px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 12px;
+  text-align: center;
+}
+.fab[aria-pressed="true"] .fab-count { background: rgba(0,0,0,0.18); color: #241a00; }
+
+/* ---------- Rule zones ---------- */
+
+/* Clicking the polygon focuses its SVG path, and the browser draws the focus
+ * ring around the path's whole bounding box — a blue rectangle over half the
+ * centre. Drop it for pointer clicks; keyboard focus still gets a ring. */
+.leaflet-pane path.leaflet-interactive:focus:not(:focus-visible) { outline: none; }
+
+.zone-popup-wrap .leaflet-popup-content-wrapper {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+}
+.zone-popup-wrap .leaflet-popup-tip { background: var(--surface); border: 1px solid var(--line); }
+.zone-popup-wrap .leaflet-popup-content { margin: 12px 14px; font-size: 13px; }
+.zone-popup-wrap .leaflet-popup-close-button { color: var(--text-dim); }
+.zone-popup strong { display: block; margin-bottom: 5px; font-size: 14px; }
+.zone-popup p { margin: 0 0 6px; color: var(--text-dim); line-height: 1.4; }
+.zone-popup .zone-source { margin: 0; font-size: 12px; }
+.zone-popup a { color: var(--accent); }
+
+.leaflet-tooltip {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+.leaflet-tooltip::before { display: none; }
+
+/* ---------- Locate button + own-position marker ---------- */
+
+/* Bottom-right stack: locate on top, zoom directly beneath it — same card
+ * shape and size for both, so they read as one control group. */
+.locate {
+  position: absolute;
+  z-index: 500;
+  right: 12px;
+  bottom: calc(var(--safe-bottom) + 108px);
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  background: var(--surface);
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  transition: background 0.15s;
+}
+.locate:hover { background: var(--surface-2); }
+
+/* Crosshair, drawn rather than an emoji so it can recolour with state. */
+.locate-ring {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--text-dim);
+  border-radius: 50%;
+  transition: border-color 0.15s;
+}
+.locate-ring::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  background: var(--text-dim);
+  transition: background 0.15s;
+}
+/* The four crosshair ticks. */
+.locate-ring::after {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  background:
+    linear-gradient(var(--text-dim), var(--text-dim)) 50% 0 / 2px 4px no-repeat,
+    linear-gradient(var(--text-dim), var(--text-dim)) 50% 100% / 2px 4px no-repeat,
+    linear-gradient(var(--text-dim), var(--text-dim)) 0 50% / 4px 2px no-repeat,
+    linear-gradient(var(--text-dim), var(--text-dim)) 100% 50% / 4px 2px no-repeat;
+  transition: background 0.15s;
+}
+/* Located but not following: dot is live, button stays neutral. */
+.locate[data-state="on"] .locate-ring,
+.locate[aria-pressed="true"] .locate-ring { border-color: var(--me); }
+.locate[data-state="on"] .locate-ring::before,
+.locate[aria-pressed="true"] .locate-ring::before { background: var(--me); }
+.locate[data-state="on"] .locate-ring::after,
+.locate[aria-pressed="true"] .locate-ring::after {
+  background:
+    linear-gradient(var(--me), var(--me)) 50% 0 / 2px 4px no-repeat,
+    linear-gradient(var(--me), var(--me)) 50% 100% / 2px 4px no-repeat,
+    linear-gradient(var(--me), var(--me)) 0 50% / 4px 2px no-repeat,
+    linear-gradient(var(--me), var(--me)) 100% 50% / 4px 2px no-repeat;
+}
+/* Following: only the crosshair turns blue — the card itself stays neutral so
+ * it keeps matching the zoom control beneath it. */
+.locate[data-state="locating"] .locate-ring {
+  border-color: var(--me);
+  border-right-color: transparent;
+  animation: locate-spin 0.8s linear infinite;
+}
+.locate[data-state="locating"] .locate-ring::before,
+.locate[data-state="locating"] .locate-ring::after { opacity: 0; }
+.locate[data-state="denied"] .locate-ring { border-color: var(--danger); }
+.locate[data-state="denied"] .locate-ring::before { background: var(--danger); }
+
+@keyframes locate-spin { to { transform: rotate(360deg); } }
+
+.me-dot {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--me);
+  border: 2.5px solid #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25), 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+/* Soft pulse so the dot reads as live, like the Maps blue dot. */
+.me-dot::after {
+  content: '';
+  position: absolute;
+  inset: -7px;
+  border-radius: 50%;
+  background: var(--me);
+  opacity: 0.25;
+  animation: me-pulse 2.4s ease-out infinite;
+}
+@keyframes me-pulse {
+  0%   { transform: scale(0.6); opacity: 0.35; }
+  70%  { transform: scale(1.6); opacity: 0; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+.toast {
+  position: absolute;
+  z-index: 550;
+  left: 50%;
+  bottom: calc(var(--safe-bottom) + 78px);
+  transform: translateX(-50%);
+  margin: 0;
+  max-width: 84vw;
+  padding: 10px 15px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(27, 33, 29, 0.96);
+  color: var(--text);
+  font-size: 13px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.empty-state {
+  position: absolute;
+  z-index: 400;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  max-width: 78vw;
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(27, 33, 29, 0.94);
+  color: var(--text-dim);
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* ---------- Markers ---------- */
+
+.pin {
+  width: 26px;
+  height: 26px;
+  border-radius: 50% 50% 50% 4px;
+  transform: rotate(-45deg);
+  background: var(--pin-color, var(--type-default));
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+}
+.pin span {
+  transform: rotate(45deg);
+  font-size: 13px;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+}
+/* The leaf artwork is already white, so it just needs sizing. */
+.pin-glyph {
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+.pin.is-fav::after {
+  content: "★";
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  transform: rotate(45deg);
+  font-size: 13px;
+  color: var(--star);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+/* The selected pin is already accent-green, so a green outline would vanish
+ * into it — the near-white is what actually reads. */
+.pin.is-active {
+  outline: 3px solid var(--text);
+  outline-offset: 2px;
+}
+
+/* ---------- Bottom sheet ---------- */
+
+.sheet-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 900;
+  background: rgba(0, 0, 0, 0.45);
+  animation: fade 0.2s ease;
+}
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
+.sheet {
+  position: absolute;
+  z-index: 1000;
+  left: 0; right: 0; bottom: 0;
+  max-height: 76vh;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 18px calc(var(--safe-bottom) + 18px);
+  border-radius: 20px 20px 0 0;
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.55);
+  animation: slide-up 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+}
+@keyframes slide-up { from { transform: translateY(100%); } to { transform: none; } }
+
+@media (min-width: 720px) {
+  .sheet {
+    left: auto;
+    right: 16px;
+    bottom: 16px;
+    width: 400px;
+    max-height: min(70vh, 720px);
+    border-radius: 18px;
+    border: 1px solid var(--line);
+  }
+  .sheet-scrim { background: rgba(0, 0, 0, 0.25); }
+  @keyframes slide-up { from { transform: translateY(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+}
+
+.sheet-grip {
+  width: 40px; height: 4px;
+  margin: 4px auto 10px;
+  border-radius: 2px;
+  background: var(--line);
+}
+.sheet-close {
+  position: absolute;
+  top: 12px; right: 12px;
+  width: 30px; height: 30px;
+  border: none;
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-size: 13px;
+  cursor: pointer;
+}
+.sheet-close:hover { color: var(--text); }
+
+.sheet-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding-right: 34px;
+}
+.sheet-head-main { min-width: 0; flex: 1; }
+.sheet-head h2 {
+  margin: 0 0 2px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.sheet-address {
+  margin: 0 0 8px;
+  color: var(--text-dim);
+  font-size: 13px;
+}
+.sheet-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+.badge {
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--badge-color, var(--type-default));
+  color: var(--accent-ink);
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.rating { color: var(--star); font-weight: 600; }
+.status { font-weight: 600; }
+.status.open { color: var(--accent); }
+.status.closed { color: var(--danger); }
+.status.unknown { color: var(--text-dim); font-weight: 500; }
+
+.sheet-logo {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 10px;
+  padding: 5px;
+  background: #fff;
+  align-self: flex-start;
+}
+
+.hours-unknown {
+  display: block !important;
+  color: var(--text-dim);
+  font-size: 13px;
+  font-style: italic;
+  padding: 6px 8px !important;
+}
+
+.fav-btn {
+  flex: none;
+  width: 42px; height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.15s, color 0.15s, background 0.15s;
+}
+.fav-btn:active { transform: scale(0.9); }
+.fav-btn[aria-pressed="true"] {
+  color: var(--star);
+  border-color: var(--star);
+  background: rgba(248, 248, 248, 0.12);
+}
+
+.sheet-actions { margin: 14px 0 4px; }
+.btn {
+  display: block;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-primary { background: var(--accent); color: var(--accent-ink); }
+/* Pressed state uses the palette's dark green rather than a brightness hack. */
+.btn-primary:active { background: var(--accent-deep); color: var(--text); }
+
+.contact-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.contact-link {
+  flex: 1;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+.contact-link:hover { border-color: var(--accent); color: var(--accent); }
+
+.hours-source {
+  margin: 6px 0 0;
+  color: var(--text-dim);
+  font-size: 11px;
+}
+
+.sheet-body {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 8px;
+}
+
+.section-title {
+  margin: 16px 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+}
+
+.amenities {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.amenity {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.amenity.yes { color: var(--text); border-color: rgba(74, 222, 128, 0.4); }
+.amenity.no { color: var(--text-dim); }
+.amenity.no span:last-child { text-decoration: line-through; }
+.amenity-mark { font-size: 11px; }
+.amenity.yes .amenity-mark { color: var(--accent); }
+.amenity.no .amenity-mark { color: var(--danger); }
+
+.hours, .menu { list-style: none; margin: 0; padding: 0; }
+
+.hours li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 5px 8px;
+  border-radius: 7px;
+  font-size: 14px;
+  color: var(--text-dim);
+}
+.hours li.today {
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 700;
+}
+.hours .day { text-transform: capitalize; }
+
+/* ---------- Menu photos ---------- */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 4px;
+}
+
+.menu-shot { margin: 0; }
+
+.menu-shot-btn {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-2);
+  overflow: hidden;
+  cursor: zoom-in;
+  transition: border-color 0.15s;
+}
+.menu-shot-btn:hover { border-color: var(--accent); }
+.menu-shot-btn img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.menu-shot figcaption {
+  margin-top: 5px;
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+.menu-note {
+  padding: 0 0 4px !important;
+  border-bottom: none !important;
+  color: var(--text-dim);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ---------- Fullscreen menu viewer ---------- */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  background: #050806;
+}
+
+.lightbox-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: calc(var(--safe-top) + 10px) 12px 10px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+.lightbox-label {
+  flex: 1;
+  min-width: 0;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lightbox-btn {
+  flex: none;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lightbox-btn:hover { border-color: var(--accent); }
+
+.lightbox-stage {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  padding: 12px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.lightbox-stage img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: zoom-in;
+  border-radius: 6px;
+}
+
+/* Zoomed: natural width, stage scrolls in both directions. */
+.lightbox.is-zoomed .lightbox-stage { place-items: start; }
+.lightbox.is-zoomed .lightbox-stage img {
+  max-width: none;
+  max-height: none;
+  width: auto;
+  min-width: 100%;
+  cursor: zoom-out;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 64px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(27, 33, 29, 0.85);
+  color: var(--text);
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+.lightbox-nav:hover { border-color: var(--accent); }
+.lightbox-nav.prev { left: 8px; }
+.lightbox-nav.next { right: 8px; }
+
+.menu li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+.menu li:last-child { border-bottom: none; }
+.menu-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-weight: 600;
+}
+.menu-price { color: var(--accent); white-space: nowrap; }
+.menu-desc {
+  margin: 3px 0 0;
+  color: var(--text-dim);
+  font-size: 13px;
+}
+.menu-empty { color: var(--text-dim); font-size: 14px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

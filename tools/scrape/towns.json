@@ -1,0 +1,4317 @@
+{
+  "source": "https://www.coffeeshopmenus.org/town_index.html",
+  "generated_at": "2026-08-06T15:40:13.860Z",
+  "count": 298,
+  "shops": [
+    {
+      "page": "cs-anytime.html",
+      "town": "Alkmaar",
+      "name": "Any Time",
+      "status": "open",
+      "address": "Laat 16, Alkmaar 1811 EJ",
+      "street": "Laat 16",
+      "postcode": "1811 EJ",
+      "city": "Alkmaar",
+      "menu_files": [
+        "0-Alkmaar/AnyTime/Menus/Anytime20201012TDMK.jpg"
+      ],
+      "logo_file": "0-Alkmaar/AnyTime/logo.png"
+    },
+    {
+      "page": "cs-brug.html",
+      "town": "Alkmaar",
+      "name": "De Brug",
+      "status": "open",
+      "address": "Herenstraat 1, 1811 MH, Alkmaar",
+      "street": "Herenstraat 1",
+      "postcode": "1811 MH",
+      "city": "Alkmaar",
+      "menu_files": [
+        "0-Alkmaar/DeBrug/140924.jpg"
+      ],
+      "logo_file": "0-Alkmaar/DeBrug/logo.png"
+    },
+    {
+      "page": "cs-hightime-alk.html",
+      "town": "Alkmaar",
+      "name": "High-Time",
+      "status": "open",
+      "address": "Spoorstraat 99, Alkmaar 1815 CA",
+      "street": "Spoorstraat 99",
+      "postcode": "1815 CA",
+      "city": "Alkmaar",
+      "menu_files": [
+        "0-Alkmaar/HighTime/221024w.jpg",
+        "0-Alkmaar/HighTime/221024o.jpg",
+        "0-Alkmaar/HighTime/221024a.jpg"
+      ],
+      "logo_file": "0-Alkmaar/HighTime/logo.png"
+    },
+    {
+      "page": "cs-steppingout.html",
+      "town": "Alkmaar",
+      "name": "Stepping Out",
+      "status": "open",
+      "address": "Ritsevoort 30, Alkmaar 1811 DP",
+      "street": "Ritsevoort 30",
+      "postcode": "1811 DP",
+      "city": "Alkmaar",
+      "menu_files": [
+        "0-Alkmaar/SteppingOut/2026-07-28.jpg"
+      ],
+      "logo_file": "0-Alkmaar/SteppingOut/logo.png"
+    },
+    {
+      "page": "cs-zero-zero-alk.html",
+      "town": "Alkmaar",
+      "name": "Zero Zero",
+      "status": "open",
+      "address": "Laat 32, 1811 EJ Alkmaarn",
+      "street": "Laat 32",
+      "postcode": "1811 EJ",
+      "city": "Alkmaarn",
+      "menu_files": [
+        "0-Alkmaar/ZeroZero/ZeroZero20180509Calebovski.jpg",
+        "0-Alkmaar/ZeroZero/ZeroZero20180509SpecCalebovski.jpg"
+      ],
+      "logo_file": "0-Alkmaar/ZeroZero/logo.png"
+    },
+    {
+      "page": "cs-blowbootalmere.html",
+      "town": "Almere",
+      "name": "Koffie en Dromen (Blowboot)",
+      "status": "open",
+      "address": "Festivalplein 19, Almere 1315 KL",
+      "street": "Festivalplein 19",
+      "postcode": "1315 KL",
+      "city": "Almere",
+      "menu_files": [
+        "0-Almere/blowboot/200726a.jpg",
+        "0-Almere/blowboot/200726b.jpg",
+        "0-Almere/blowboot/200726c.jpg"
+      ],
+      "logo_file": "0-Almere/blowboot/logo.png"
+    },
+    {
+      "page": "cs-boerejongensalmere.html",
+      "town": "Almere",
+      "name": "Boerejongens Almere",
+      "status": "open",
+      "address": "Grote Markt 23, Almere 1315 JA",
+      "street": "Grote Markt 23",
+      "postcode": "1315 JA",
+      "city": "Almere",
+      "menu_files": [
+        "0-Almere/boerejongens/290426i.jpg",
+        "0-Almere/boerejongens/290426s.jpg",
+        "0-Almere/boerejongens/290426j.jpg"
+      ],
+      "logo_file": "0-Almere/boerejongens/logo.png"
+    },
+    {
+      "page": "cs-chilliekiki.html",
+      "town": "Almere-Haven",
+      "name": "Chillie Kiki",
+      "status": "open",
+      "address": "Schoolstraat 260, Almere-Haven 1354 HX",
+      "street": "Schoolstraat 260",
+      "postcode": "1354 HX",
+      "city": "Almere-Haven",
+      "menu_files": [
+        "0-Almere-Haven/chilliekiki/2025-07-12.jpg"
+      ],
+      "logo_file": "0-Almere-Haven/chilliekiki/logo.png"
+    },
+    {
+      "page": "cs-dutchgold.html",
+      "town": "Alphen aan den Rijn",
+      "name": "Dutch Gold",
+      "status": "open",
+      "address": "Hooftstraat 96, Alphen aan den Rijn 2406 GM",
+      "street": "Hooftstraat 96",
+      "postcode": "2406 GM",
+      "city": "Alphen aan den Rijn",
+      "menu_files": [
+        "0-AlphenRijn/dutchgold/110125.jpg"
+      ],
+      "logo_file": "0-AlphenRijn/dutchgold/logo.png"
+    },
+    {
+      "page": "cs-pitstop.html",
+      "town": "Alphen aan den Rijn",
+      "name": "Pit Stop",
+      "status": "open",
+      "address": "Hooftstraat 102, Alphen aan den Rijn 2406 GM",
+      "street": "Hooftstraat 102",
+      "postcode": "2406 GM",
+      "city": "Alphen aan den Rijn",
+      "menu_files": [
+        "0-AlphenRijn/pitstop/060325.jpg"
+      ],
+      "logo_file": "0-AlphenRijn/pitstop/logo.png"
+    },
+    {
+      "page": "cs-horizon.html",
+      "town": "Amersfoort",
+      "name": "Horizon",
+      "status": "open",
+      "address": "Achter de Arnhemse Poortwal 55, 3811 LX, Amersfoort",
+      "street": "Achter de Arnhemse Poortwal 55",
+      "postcode": "3811 LX",
+      "city": "Amersfoort",
+      "menu_files": [
+        "0-Amersfoort/Horizon/IMG_2910.jpg"
+      ],
+      "logo_file": "0-Amersfoort/Horizon/logo.png"
+    },
+    {
+      "page": "cs-loods.html",
+      "town": "Amersfoort",
+      "name": "De Loods",
+      "status": "open",
+      "address": "Textielweg 11, Amersfoort 3812 RV",
+      "street": "Textielweg 11",
+      "postcode": "3812 RV",
+      "city": "Amersfoort",
+      "menu_files": [
+        "0-Amersfoort/DeLoods/Menus/170925.jpg"
+      ],
+      "logo_file": "0-Amersfoort/DeLoods/logo.png"
+    },
+    {
+      "page": "cs-plugamersfoort.html",
+      "town": "Amersfoort",
+      "name": "The Plug Amersfoort",
+      "status": "open",
+      "address": "Amersfoortsestraat 12, Amersfoort 3821 CB",
+      "street": "Amersfoortsestraat 12",
+      "postcode": "3821 CB",
+      "city": "Amersfoort",
+      "menu_files": [
+        "0-Amersfoort/plug/011025.jpg"
+      ],
+      "logo_file": "0-Amersfoort/plug/logo.png"
+    },
+    {
+      "page": "cs-rootsamer.html",
+      "town": "Amersfoort",
+      "name": "Roots",
+      "status": "open",
+      "address": "Snouckaertlaan 30, Amersfoort 3811 MB",
+      "street": "Snouckaertlaan 30",
+      "postcode": "3811 MB",
+      "city": "Amersfoort",
+      "menu_files": [
+        "0-Amersfoort/roots/2025-10-05.jpg"
+      ],
+      "logo_file": "0-Amersfoort/roots/logo.png"
+    },
+    {
+      "page": "cs-takeabreak.html",
+      "town": "Amersfoort",
+      "name": "Take a Break",
+      "status": "open",
+      "address": "Terminalweg 11, Amersfoort 3821 AJ",
+      "street": "Terminalweg 11",
+      "postcode": "3821 AJ",
+      "city": "Amersfoort",
+      "menu_files": [
+        "0-Amersfoort/TakeaBreak/050425.jpg"
+      ],
+      "logo_file": "0-Amersfoort/TakeaBreak/logo.png"
+    },
+    {
+      "page": "cs-bazar.html",
+      "town": "Apeldoorn",
+      "name": "Bazar",
+      "status": "open",
+      "address": "Marktstraat 8, 7511 LH Apeldoorn",
+      "street": "Marktstraat 8",
+      "postcode": "7511 LH",
+      "city": "Apeldoorn",
+      "menu_files": [
+        "0-Apeldoorn-/Bazar/2025-09-13.jpg"
+      ],
+      "logo_file": "0-Apeldoorn-/Bazar/logo.png"
+    },
+    {
+      "page": "cs-bunkertje.html",
+      "town": "Apeldoorn",
+      "name": "'t Bunkertje",
+      "status": "closed",
+      "address": "Laan van de Mensenrechten 101, 7331 VTApeldoorn",
+      "street": "Laan van de Mensenrechten 101",
+      "postcode": "",
+      "city": "7331 VTApeldoorn",
+      "menu_files": [
+        "0-Apeldoorn-/Bunkertje/Bunkertje20190702Mike.jpg"
+      ],
+      "logo_file": "0-Apeldoorn-/Bunkertje/logo.png"
+    },
+    {
+      "page": "cs-future-ap.html",
+      "town": "Apeldoorn",
+      "name": "The Future",
+      "status": "open",
+      "address": "Nieuwstraat 64, Apeldoorn 7311 BT",
+      "street": "Nieuwstraat 64",
+      "postcode": "7311 BT",
+      "city": "Apeldoorn",
+      "menu_files": [
+        "0-Apeldoorn-/deWaterpijp/2025-09-13.jpg"
+      ],
+      "logo_file": "0-Apeldoorn-/deWaterpijp/logo.png"
+    },
+    {
+      "page": "cs-palm.html",
+      "town": "Apeldoorn",
+      "name": "De Palm",
+      "status": "open",
+      "address": "Asselsestraat 116-118, 7311 ES Apeldoorn",
+      "street": "Asselsestraat 116-118",
+      "postcode": "7311 ES",
+      "city": "Apeldoorn",
+      "menu_files": [
+        "0-Apeldoorn-/ThePalm/2025-09-13b.jpg"
+      ],
+      "logo_file": "0-Apeldoorn-/ThePalm/logo.png"
+    },
+    {
+      "page": "cs-waterpijp.html",
+      "town": "Apeldoorn",
+      "name": "De Waterpijp",
+      "status": "open",
+      "address": "Nieuwstraat 64, Apeldoorn 7311 BT",
+      "street": "Nieuwstraat 64",
+      "postcode": "7311 BT",
+      "city": "Apeldoorn",
+      "menu_files": [
+        "0-Apeldoorn-/deWaterpijp/deWaterpijpApeldoorn_07092014UncleChuck.jpg"
+      ],
+      "logo_file": "0-Apeldoorn-/deWaterpijp/logo.png"
+    },
+    {
+      "page": "cs-power-flower.html",
+      "town": "Apeldoorn",
+      "name": "Power Flower",
+      "status": "open",
+      "address": "Arnhemseweg 181, Apeldoorn 7331 BH",
+      "street": "Arnhemseweg 181",
+      "postcode": "7331 BH",
+      "city": "Apeldoorn",
+      "menu_files": [
+        "0-Apeldoorn-/NCCPowerFlower/NCCPowerFlower20190702Mike.jpg",
+        "0-Apeldoorn-/NCCPowerFlower/NCCPowerFlowerA20190702Mike.jpg"
+      ],
+      "logo_file": "0-Apeldoorn-/NCCPowerFlower/logo.png"
+    },
+    {
+      "page": "cs-happydays-arn.html",
+      "town": "Arnhem",
+      "name": "Happy Days",
+      "status": "open",
+      "address": "Oude Oeverstraat 6, Arnhem 6811 JX",
+      "street": "Oude Oeverstraat 6",
+      "postcode": "6811 JX",
+      "city": "Arnhem",
+      "menu_files": [
+        "0-Arnhem-/happydays/2026-02-28b.jpg",
+        "0-Arnhem-/happydays/2026-02-28a.jpg"
+      ],
+      "logo_file": "0-Arnhem-/happydays/logo.png"
+    },
+    {
+      "page": "cs-jointventure.html",
+      "town": "Arnhem",
+      "name": "Joint Venture",
+      "status": "open",
+      "address": "Munterstraat 4, Arnhem 6811 GP",
+      "street": "Munterstraat 4",
+      "postcode": "6811 GP",
+      "city": "Arnhem",
+      "menu_files": [
+        "0-Arnhem-/jointventure/101124.jpg"
+      ],
+      "logo_file": "0-Arnhem-/jointventure/logo.png"
+    },
+    {
+      "page": "cs-omigo.html",
+      "town": "Arnhem",
+      "name": "Omigo",
+      "status": "open",
+      "address": "Beekstraat 83, Arnhem 6811 DX",
+      "street": "Beekstraat 83",
+      "postcode": "6811 DX",
+      "city": "Arnhem",
+      "menu_files": [
+        "0-Arnhem-/Omigo/20250206.jpg"
+      ],
+      "logo_file": "0-Arnhem-/Omigo/logo.png"
+    },
+    {
+      "page": "cs-speakeasy.html",
+      "town": "Arnhem",
+      "name": "Speak Easy",
+      "status": "open",
+      "address": "Varkensstraat 3, Arnhem 6811 GM",
+      "street": "Varkensstraat 3",
+      "postcode": "6811 GM",
+      "city": "Arnhem",
+      "menu_files": [
+        "0-Arnhem-/SpeakEasy/12852.jpg"
+      ],
+      "logo_file": "0-Arnhem-/SpeakEasy/logo.png"
+    },
+    {
+      "page": "cs-lucky-luke.html",
+      "town": "Arnhem",
+      "name": "Lucky Luke",
+      "status": "open",
+      "address": "Sonsbeeksingel 91, Arnhem 6821 AC",
+      "street": "Sonsbeeksingel 91",
+      "postcode": "6821 AC",
+      "city": "Arnhem",
+      "menu_files": [
+        "0-Arnhem-/LuckyLuke/1000043647.jpg",
+        "0-Arnhem-/LuckyLuke/1000043646.jpg",
+        "0-Arnhem-/LuckyLuke/1000043648a.jpg",
+        "0-Arnhem-/LuckyLuke/1000043648.jpg"
+      ],
+      "logo_file": "0-Arnhem-/LuckyLuke/logo.png"
+    },
+    {
+      "page": "cs-upstairsarn.html",
+      "town": "Arnhem",
+      "name": "Upstairs",
+      "status": "open",
+      "address": "Beekstraat 109, Arnhem 6811 DZ",
+      "street": "Beekstraat 109",
+      "postcode": "6811 DZ",
+      "city": "Arnhem",
+      "menu_files": [
+        "0-Arnhem-/upstairs/130626.jpg"
+      ],
+      "logo_file": "0-Arnhem-/upstairs/logo.png"
+    },
+    {
+      "page": "cs-uncle-sam.html",
+      "town": "Arnhem",
+      "name": "Uncle Sam",
+      "status": "open",
+      "address": "Driekoningenstraat 21a, Arnhem 6828 EL",
+      "street": "Driekoningenstraat 21a",
+      "postcode": "6828 EL",
+      "city": "Arnhem",
+      "menu_files": [
+        "0-Arnhem-/UncleSam/20260520_214004.jpg",
+        "0-Arnhem-/UncleSam/20260520_213953.jpg",
+        "0-Arnhem-/UncleSam/20260520_213948.jpg"
+      ],
+      "logo_file": "0-Arnhem-/UncleSam/logo.png"
+    },
+    {
+      "page": "cs-walm.html",
+      "town": "Arnhem",
+      "name": "de Walm",
+      "status": "open",
+      "address": "Sonsbeeksingel 115, 6822 BJ Arnhem",
+      "street": "Sonsbeeksingel 115",
+      "postcode": "6822 BJ",
+      "city": "Arnhem",
+      "menu_files": [
+        "0-Arnhem-/deWalm/20260415_210333.jpg",
+        "0-Arnhem-/deWalm/20260415_210347.jpg"
+      ],
+      "logo_file": "0-Arnhem-/deWalm/logo.png"
+    },
+    {
+      "page": "cs-zero-zero-arn.html",
+      "town": "Arnhem",
+      "name": "Zero Zero",
+      "status": "open",
+      "address": "Hommelseweg 19, 6821 LA, Arnhem",
+      "street": "Hommelseweg 19",
+      "postcode": "6821 LA",
+      "city": "Arnhem",
+      "menu_files": [
+        "0-Arnhem-/ZeroZero/050326.jpg",
+        "0-Arnhem-/ZeroZero/050326b.jpg"
+      ],
+      "logo_file": "0-Arnhem-/ZeroZero/logo.png"
+    },
+    {
+      "page": "cs-happycorner.html",
+      "town": "Assen",
+      "name": "The Happy Corner",
+      "status": "open",
+      "address": "Oude Molenstraat 115-117, Assen 9401 AS",
+      "street": "Oude Molenstraat 115-117",
+      "postcode": "9401 AS",
+      "city": "Assen",
+      "menu_files": [
+        "0-Assen/happycorner/20260330_105939.jpg"
+      ],
+      "logo_file": "0-Assen/happycorner/logo.png"
+    },
+    {
+      "page": "cs-life.html",
+      "town": "Beverwijk",
+      "name": "Life",
+      "status": "closed",
+      "address": "Zeestraat 21, 1941 AJ Beverwijk",
+      "street": "Zeestraat 21",
+      "postcode": "1941 AJ",
+      "city": "Beverwijk",
+      "menu_files": [
+        "0-Beverwijk-/Life/Lifea092004.jpg",
+        "0-Beverwijk-/Life/Lifeb092004.jpg"
+      ],
+      "logo_file": "0-Beverwijk-/Life/logo.png"
+    },
+    {
+      "page": "cs-superfly.html",
+      "town": "Beverwijk",
+      "name": "SuperFly",
+      "status": "open",
+      "address": "Koningstraat 8, Beverwijk 1941 BD",
+      "street": "Koningstraat 8",
+      "postcode": "1941 BD",
+      "city": "Beverwijk",
+      "menu_files": [
+        "0-Beverwijk-/Superfly/2025-06-29.jpg"
+      ],
+      "logo_file": "0-Beverwijk-/Superfly/logo.png"
+    },
+    {
+      "page": "cs-spliff.html",
+      "town": "Beverwijk",
+      "name": "Splif",
+      "status": "open",
+      "address": "Koningstraat 8, 1941 BD, Beverwijk",
+      "street": "Koningstraat 8",
+      "postcode": "1941 BD",
+      "city": "Beverwijk",
+      "menu_files": [
+        "0-Beverwijk-/Spliff/Spliff20171225HashQ.jpg",
+        "0-Beverwijk-/Spliff/Spliff20171225WeedQ.jpg"
+      ],
+      "logo_file": "0-Beverwijk-/Spliff/logo.png"
+    },
+    {
+      "page": "cs-taffne.html",
+      "town": "Beverwijk",
+      "name": "Taffne",
+      "status": "open",
+      "address": "Markt 59, 1941 BM, Beverwijk",
+      "street": "Markt 59",
+      "postcode": "1941 BM",
+      "city": "Beverwijk",
+      "menu_files": [
+        "0-Beverwijk-/Taffne/150825.jpg"
+      ],
+      "logo_file": "0-Beverwijk-/Taffne/logo.png"
+    },
+    {
+      "page": "cs-baron.html",
+      "town": "Breda",
+      "name": "de Baron",
+      "status": "open",
+      "address": "Boschstraat 127, 4811 GG Breda",
+      "street": "Boschstraat 127",
+      "postcode": "4811 GG",
+      "city": "Breda",
+      "menu_files": [
+        "0-Breda/de Baron/090526.jpg"
+      ],
+      "logo_file": "0-Breda/de Baron/logo.png"
+    },
+    {
+      "page": "cs-majestic.html",
+      "town": "Breda",
+      "name": "Majestic",
+      "status": "open",
+      "address": "Boschstraat 154, Breda 4811 GL",
+      "street": "Boschstraat 154",
+      "postcode": "4811 GL",
+      "city": "Breda",
+      "menu_files": [
+        "0-Breda/majestic/250526.jpg"
+      ],
+      "logo_file": "0-Breda/majestic/logo.png"
+    },
+    {
+      "page": "cs-flynhy.html",
+      "town": "Breda",
+      "name": "Fly'n'Hy",
+      "status": "open",
+      "address": "Houtmarkt 23, Breda 4811 JC",
+      "street": "Houtmarkt 23",
+      "postcode": "4811 JC",
+      "city": "Breda",
+      "menu_files": [
+        "0-Breda/flynhy/2025-07-15a.jpg",
+        "0-Breda/flynhy/2025-07-15b.jpg",
+        "0-Breda/flynhy/2025-07-15c.jpg",
+        "0-Breda/flynhy/2025-07-15d.jpg"
+      ],
+      "logo_file": "0-Breda/flynhy/logo.png"
+    },
+    {
+      "page": "cs-cat.html",
+      "town": "Breda",
+      "name": "The Cat",
+      "status": "open",
+      "address": "Marterring 1, Breda 4817 GV",
+      "street": "Marterring 1",
+      "postcode": "4817 GV",
+      "city": "Breda",
+      "menu_files": [
+        "0-Breda/cat/20260426_121304.jpg",
+        "0-Breda/cat/20260426_121255.jpg",
+        "0-Breda/cat/20260426_121317a.jpg",
+        "0-Breda/cat/20260426_121317b.jpg",
+        "0-Breda/cat/20260426_121317c.jpg"
+      ],
+      "logo_file": "0-Breda/cat/logo.png"
+    },
+    {
+      "page": "cs-paradijs.html",
+      "town": "Breda",
+      "name": "Paradijs",
+      "status": "open",
+      "address": "Sint Annastraat 3, Breda 4811 XK",
+      "street": "Sint Annastraat 3",
+      "postcode": "4811 XK",
+      "city": "Breda",
+      "menu_files": [
+        "0-Breda/paradijs/1000010820.jpg"
+      ],
+      "logo_file": "0-Breda/paradijs/logo.png"
+    },
+    {
+      "page": "cs-purplerain.html",
+      "town": "Breda",
+      "name": "Purple Rain",
+      "status": "open",
+      "address": "Willemstraat 12, Breda 4811 AK",
+      "street": "Willemstraat 12",
+      "postcode": "4811 AK",
+      "city": "Breda",
+      "menu_files": [
+        "0-Breda/purplerain/140825.jpg"
+      ],
+      "logo_file": "0-Breda/purplerain/logo.png"
+    },
+    {
+      "page": "cs-paxdeboot.html",
+      "town": "Breda",
+      "name": "Pax de Boot",
+      "status": "open",
+      "address": "Nijverheidssingel 8, Breda 4811 VS",
+      "street": "Nijverheidssingel 8",
+      "postcode": "4811 VS",
+      "city": "Breda",
+      "menu_files": [
+        "0-Breda/paxdeboot/230125b.jpg",
+        "0-Breda/paxdeboot/230125a.jpg"
+      ],
+      "logo_file": "0-Breda/paxdeboot/logo.png"
+    },
+    {
+      "page": "cs-sky.html",
+      "town": "Breda",
+      "name": "Sky",
+      "status": "open",
+      "address": "Haagweg 56, Breda 4814 GE",
+      "street": "Haagweg 56",
+      "postcode": "4814 GE",
+      "city": "Breda",
+      "menu_files": [
+        "0-Breda/sky/180726a.jpg",
+        "0-Breda/sky/180726b.jpg",
+        "0-Breda/sky/180726c.jpg"
+      ],
+      "logo_file": "0-Breda/sky/logo.png"
+    },
+    {
+      "page": "cs-piramide.html",
+      "town": "Bussum",
+      "name": "Piramide",
+      "status": "open",
+      "address": "Kapelstraat 43a, Bussum 1404 HW",
+      "street": "Kapelstraat 43a",
+      "postcode": "1404 HW",
+      "city": "Bussum",
+      "menu_files": [
+        "0-Bussum-/Piramide/201225.jpg"
+      ],
+      "logo_file": "0-Bussum-/Piramide/logo.png"
+    },
+    {
+      "page": "cs-catweazle.html",
+      "town": "Culemborg",
+      "name": "Catweazle",
+      "status": "open",
+      "address": "Kattenstraat 7, Culemborg 4101 BL",
+      "street": "Kattenstraat 7",
+      "postcode": "4101 BL",
+      "city": "Culemborg",
+      "menu_files": [
+        "0-Culemborg/catweazle/190225.jpg"
+      ],
+      "logo_file": "0-Culemborg/catweazle/logo.png"
+    },
+    {
+      "page": "cs-boeddha.html",
+      "town": "Delft",
+      "name": "de Boeddha",
+      "status": "open",
+      "address": "Achterom 19a, 2611 CL Delft",
+      "street": "Achterom 19a",
+      "postcode": "2611 CL",
+      "city": "Delft",
+      "menu_files": [
+        "0-Delft-/de Boeddha/040526.jpg"
+      ],
+      "logo_file": "0-Delft-/de Boeddha/logo.png"
+    },
+    {
+      "page": "cs-future-del.html",
+      "town": "Delft",
+      "name": "The Future",
+      "status": "open",
+      "address": "Peperstraat 8, Delft 2611 CH",
+      "street": "Peperstraat 8",
+      "postcode": "2611 CH",
+      "city": "Delft",
+      "menu_files": [
+        "0-Delft-/Future/110824.jpg"
+      ],
+      "logo_file": "0-Delft-/Future/logo.png"
+    },
+    {
+      "page": "cs-game.html",
+      "town": "Delft",
+      "name": "The Game",
+      "status": "open",
+      "address": "Breestraat 30, 2611 RG Delft",
+      "street": "Breestraat 30",
+      "postcode": "2611 RG",
+      "city": "Delft",
+      "menu_files": [
+        "0-Delft-/The Game/300526.jpg"
+      ],
+      "logo_file": "0-Delft-/The Game/logo.png"
+    },
+    {
+      "page": "cs-vlouw.html",
+      "town": "Delft",
+      "name": "De Vlouw",
+      "status": "open",
+      "address": "Vlouw 48, 2611 EZ Delft",
+      "street": "Vlouw 48",
+      "postcode": "2611 EZ",
+      "city": "Delft",
+      "menu_files": [
+        "0-Delft-/DeVlouw/250426.jpg"
+      ],
+      "logo_file": "0-Delft-/DeVlouw/logo.png"
+    },
+    {
+      "page": "cs-keldertje.html",
+      "town": "Delft",
+      "name": "Keldertje",
+      "status": "closed",
+      "address": "Kromstraat 22a, 2811 ER Delft",
+      "street": "Kromstraat 22a",
+      "postcode": "2811 ER",
+      "city": "Delft",
+      "menu_files": [
+        "0-Delft-/Keldertje/KeldertjeDelft07152009Epsilon.JPG"
+      ],
+      "logo_file": "0-Delft-/Keldertje/logo.png"
+    },
+    {
+      "page": "cs-grass-company.html",
+      "town": "den Bosch",
+      "name": "The Grass Company",
+      "status": "open",
+      "address": "Emmaplein 24-A, 5211 VW, 's-Hertogenbosch (Den Bosch)",
+      "street": "Emmaplein 24-A",
+      "postcode": "5211 VW",
+      "city": "'s-Hertogenbosch (Den Bosch)",
+      "menu_files": [
+        "0-denBosch-/TheGrassCompany/TheGrassCompany20170408Youri.JPG"
+      ],
+      "logo_file": "0-denBosch-/TheGrassCompany/logo.png"
+    },
+    {
+      "page": "cs-chip-n-dale.html",
+      "town": "den Bosch",
+      "name": "Chip N Dale",
+      "status": "open",
+      "address": "Hinthamerstraat 104, 5211 MS 's-Hertogenbosch",
+      "street": "Hinthamerstraat 104",
+      "postcode": "5211 MS",
+      "city": "'s-Hertogenbosch",
+      "menu_files": [
+        "0-denBosch-/ChipnDale/June26a.jpg",
+        "0-denBosch-/ChipnDale/June26b.jpg",
+        "0-denBosch-/ChipnDale/June26c.jpg",
+        "0-denBosch-/ChipnDale/June26d.jpg"
+      ],
+      "logo_file": "0-denBosch-/ChipnDale/logo.png"
+    },
+    {
+      "page": "cs-speak-easy-bos.html",
+      "town": "den Bosch",
+      "name": "Speakeasy",
+      "status": "closed",
+      "address": "Snellestraat 47, 5211 EM den Bosch",
+      "street": "Snellestraat 47",
+      "postcode": "5211 EM",
+      "city": "den Bosch",
+      "menu_files": [
+        "0-denBosch-/SpeakEasy/SpeakeasydenBosch06152010Epsilon.JPG"
+      ],
+      "logo_file": "0-denBosch-/SpeakEasy/logo.gif"
+    },
+    {
+      "page": "cs-meetpoint.html",
+      "town": "den Bosch",
+      "name": "Meetpoint",
+      "status": "open",
+      "address": "Hinthamerstraat 104, 5211 MS 's-Hertogenbosch",
+      "street": "Hinthamerstraat 104",
+      "postcode": "5211 MS",
+      "city": "'s-Hertogenbosch",
+      "menu_files": [
+        "0-denBosch-/Meetpoint/20260623_140633.jpg"
+      ],
+      "logo_file": "0-denBosch-/Meetpoint/logo.png"
+    },
+    {
+      "page": "cs-cremers.html",
+      "town": "den Haag",
+      "name": "Cremers",
+      "status": "open",
+      "address": "Prinsestraat 84, 2513 CG 's-Gravenhage ( Den Haag )",
+      "street": "Prinsestraat 84",
+      "postcode": "2513 CG",
+      "city": "'s-Gravenhage ( Den Haag )",
+      "menu_files": [
+        "0-denHaag-/Cremers/200626.jpg"
+      ],
+      "logo_file": "0-denHaag-/Cremers/logo.png"
+    },
+    {
+      "page": "cs-boere-schuurtje.html",
+      "town": "den Haag",
+      "name": "Boere Schuurtje",
+      "status": "open",
+      "address": "Boerenstraat 89-a, 2572HV",
+      "street": "Boerenstraat 89-a",
+      "postcode": "2572HV",
+      "city": "den Haag",
+      "menu_files": [
+        "0-denHaag-/BoereSchuurtje/IMG_1015.jpg",
+        "0-denHaag-/BoereSchuurtje/IMG_1014.jpg",
+        "0-denHaag-/BoereSchuurtje/IMG_1013.jpg"
+      ],
+      "logo_file": "0-denHaag-/BoereSchuurtje/logo.png"
+    },
+    {
+      "page": "cs-canna-club.html",
+      "town": "den Haag",
+      "name": "The Canna Club",
+      "status": "open",
+      "address": "Nieuwstraat 4, The Hague 2511 AV",
+      "street": "Nieuwstraat 4",
+      "postcode": "2511 AV",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/CannaClub/050726w.jpg",
+        "0-denHaag-/CannaClub/050726h.jpg",
+        "0-denHaag-/CannaClub/050726j.jpg"
+      ],
+      "logo_file": "0-denHaag-/CannaClub/logo.png"
+    },
+    {
+      "page": "cs-crow.html",
+      "town": "den Haag",
+      "name": "The Crow",
+      "status": "open",
+      "address": "Hooikade 7, The Hague 2514 BH",
+      "street": "Hooikade 7",
+      "postcode": "2514 BH",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/Crow/July26.jpg"
+      ],
+      "logo_file": "0-denHaag-/Crow/logo.png"
+    },
+    {
+      "page": "cs-demo.html",
+      "town": "den Haag",
+      "name": "Demo",
+      "status": "open",
+      "address": "Herenstraat 8c, The Hague 2511 EA",
+      "street": "Herenstraat 8c",
+      "postcode": "2511 EA",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/Demo/280225.jpg"
+      ],
+      "logo_file": "0-denHaag-/Demo/logo.png"
+    },
+    {
+      "page": "cs-dizzy-duck.html",
+      "town": "den Haag",
+      "name": "Dizzy Duck",
+      "status": "open",
+      "address": "Trompstraat 210, 2518 BR Den Haag",
+      "street": "Trompstraat 210",
+      "postcode": "2518 BR",
+      "city": "Den Haag",
+      "menu_files": [
+        "0-denHaag-/DizzyDuck/45873.jpg",
+        "0-denHaag-/DizzyDuck/45872.jpg",
+        "0-denHaag-/DizzyDuck/45874.jpg"
+      ],
+      "logo_file": "0-denHaag-/DizzyDuck/logo.png"
+    },
+    {
+      "page": "cs-doctor-green.html",
+      "town": "den Haag",
+      "name": "Doctor Green",
+      "status": "open",
+      "address": "Herenstraat 7, The Hague 2511 CZ",
+      "street": "Herenstraat 7",
+      "postcode": "2511 CZ",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/DoctorGreen/2026-06-30b.jpg",
+        "0-denHaag-/DoctorGreen/2026-06-30a.jpg"
+      ],
+      "logo_file": "0-denHaag-/DoctorGreen/logo.png"
+    },
+    {
+      "page": "cs-fly.html",
+      "town": "den Haag",
+      "name": "Fly",
+      "status": "open",
+      "address": "Veenkade 46, The Hague 2513 EH",
+      "street": "Veenkade 46",
+      "postcode": "2513 EH",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/Fly/200426.jpg"
+      ],
+      "logo_file": "0-denHaag-/Fly/logo.png"
+    },
+    {
+      "page": "cs-dizzy-duck-downtown.html",
+      "town": "den Haag",
+      "name": "Dizzy Duck Downtown",
+      "status": "open",
+      "address": "Fluwelen Burgwal 1-C, The Hague 2511 CH",
+      "street": "Fluwelen Burgwal 1-C",
+      "postcode": "2511 CH",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/DizzyDuckDowntown/140226a.jpg",
+        "0-denHaag-/DizzyDuckDowntown/140226b.jpg",
+        "0-denHaag-/DizzyDuckDowntown/140226c.jpg",
+        "0-denHaag-/DizzyDuckDowntown/140226d.jpg",
+        "0-denHaag-/DizzyDuckDowntown/140226e.jpg",
+        "0-denHaag-/DizzyDuckDowntown/140226f.jpg"
+      ],
+      "logo_file": "0-denHaag-/DizzyDuckDowntown/logo.png"
+    },
+    {
+      "page": "cs-freakbrothers.html",
+      "town": "den Haag",
+      "name": "The Freak Brothers",
+      "status": "open",
+      "address": "Westeinde 86, The Hague 2512 HE",
+      "street": "Westeinde 86",
+      "postcode": "2512 HE",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/FreakBrothers/2026-06-30.jpg"
+      ],
+      "logo_file": "0-denHaag-/FreakBrothers/logo.png"
+    },
+    {
+      "page": "cs-galaxy.html",
+      "town": "den Haag",
+      "name": "Galaxy",
+      "status": "open",
+      "address": "Weimarstraat 245, 2562 HH Den Haag",
+      "street": "Weimarstraat 245",
+      "postcode": "2562 HH",
+      "city": "Den Haag",
+      "menu_files": [
+        "0-denHaag-/Galaxy/141024.jpg"
+      ],
+      "logo_file": "0-denHaag-/Galaxy/logo.png"
+    },
+    {
+      "page": "cs-greenhouse-sf.html",
+      "town": "den Haag",
+      "name": "Green House Secret Farmers",
+      "status": "open",
+      "address": "Elandstraat 18, The Hague 2513 GR",
+      "street": "Elandstraat 18",
+      "postcode": "2513 GR",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/Greenhouse/170426a.jpg",
+        "0-denHaag-/Greenhouse/170426b.jpg"
+      ],
+      "logo_file": "0-denHaag-/Greenhouse/logo.png"
+    },
+    {
+      "page": "cs-happy-smile.html",
+      "town": "den Haag",
+      "name": "Happy Smile",
+      "status": "open",
+      "address": "Verheeskade 30, 2521 BN Den Haag",
+      "street": "Verheeskade 30",
+      "postcode": "2521 BN",
+      "city": "Den Haag",
+      "menu_files": [
+        "0-denHaag-/HappySmile/2025-07-14.jpg",
+        "0-denHaag-/HappySmile/2025-07-14b.jpg"
+      ],
+      "logo_file": "0-denHaag-/HappySmile/logo.png"
+    },
+    {
+      "page": "cs-goat.html",
+      "town": "den Haag",
+      "name": "The Goat",
+      "status": "open",
+      "address": "Spui 241, The Hague 2511 BP",
+      "street": "Spui 241",
+      "postcode": "2511 BP",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/goat/1000086007.jpg",
+        "0-denHaag-/goat/1000086009.jpg",
+        "0-denHaag-/goat/1000086008.jpg",
+        "0-denHaag-/goat/1000086010.jpg",
+        "0-denHaag-/goat/1000086006.jpg"
+      ],
+      "logo_file": "0-denHaag-/goat/logo.png"
+    },
+    {
+      "page": "cs-london.html",
+      "town": "den Haag",
+      "name": "London",
+      "status": "open",
+      "address": "Torenstraat 81, The Hague 2513 BP",
+      "street": "Torenstraat 81",
+      "postcode": "2513 BP",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/London/20251118_153208.jpg",
+        "0-denHaag-/London/20251118_153201.jpg"
+      ],
+      "logo_file": "0-denHaag-/London/logo.png"
+    },
+    {
+      "page": "cs-janssen.html",
+      "town": "den Haag",
+      "name": "Mr. J",
+      "status": "open",
+      "address": "Bilderdijkstraat 8a, 2513 CP, The Hague",
+      "street": "Bilderdijkstraat 8a",
+      "postcode": "2513 CP",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/MrJ/MrJ20170921Jeremy.jpg"
+      ],
+      "logo_file": "0-denHaag-/MrJ/logo.png"
+    },
+    {
+      "page": "cs-magic-haag.html",
+      "town": "den Haag",
+      "name": "Magic",
+      "status": "open",
+      "address": "Gortstraat 6, 2511 GK den Haag",
+      "street": "Gortstraat 6",
+      "postcode": "2511 GK",
+      "city": "den Haag",
+      "menu_files": [
+        "0-denHaag-/Magic/1000039836.jpg"
+      ],
+      "logo_file": "0-denHaag-/Magic/logo.png"
+    },
+    {
+      "page": "cs-marbellaspecialfarmers.html",
+      "town": "den Haag",
+      "name": "Marbella Special Farmers",
+      "status": "open",
+      "address": "Weimarstraat 244, The Hague 2562 HR",
+      "street": "Weimarstraat 244",
+      "postcode": "2562 HR",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/Marbella/240626.jpg"
+      ],
+      "logo_file": "0-denHaag-/Marbella/logo.png"
+    },
+    {
+      "page": "cs-hit.html",
+      "town": "den Haag",
+      "name": "The Hit",
+      "status": "open",
+      "address": "Valkenboslaan 45a, The Hague 2563 CE",
+      "street": "Valkenboslaan 45a",
+      "postcode": "2563 CE",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/TheHit/090426a.jpg",
+        "0-denHaag-/TheHit/090426b.jpg",
+        "0-denHaag-/TheHit/090426c.jpg",
+        "0-denHaag-/TheHit/090426d.jpg",
+        "0-denHaag-/TheHit/090426e.jpg",
+        "0-denHaag-/TheHit/090426f.jpg",
+        "0-denHaag-/TheHit/090426g.jpg",
+        "0-denHaag-/TheHit/090426h.jpg",
+        "0-denHaag-/TheHit/090426i.jpg"
+      ],
+      "logo_file": "0-denHaag-/TheHit/logo.png"
+    },
+    {
+      "page": "cs-mazzelaar.html",
+      "town": "den Haag",
+      "name": "de Mazzelaar",
+      "status": "open",
+      "address": "Zoutmanstraat 29, 2518 GL, The Hague ('s-Gravenhage, Den Haag)",
+      "street": "Zoutmanstraat 29, The Hague ('s-Gravenhage",
+      "postcode": "2518 GL",
+      "city": "Den Haag)",
+      "menu_files": [
+        "0-denHaag-/deMazzelaar/1000012447.jpg",
+        "0-denHaag-/deMazzelaar/1000012448.jpg"
+      ],
+      "logo_file": "0-denHaag-/deMazzelaar/logo.png"
+    },
+    {
+      "page": "cs-moonlight.html",
+      "town": "den Haag",
+      "name": "Moonlight",
+      "status": "open",
+      "address": "Bilderdijkstraat 8a, The Hague 2513 CP",
+      "street": "Bilderdijkstraat 8a",
+      "postcode": "2513 CP",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/Moonlight/1000012450.jpg"
+      ],
+      "logo_file": "0-denHaag-/Moonlight/logo.png"
+    },
+    {
+      "page": "cs-mistral.html",
+      "town": "den Haag",
+      "name": "Le Mistral",
+      "status": "open",
+      "address": "Weimarstraat 378, 2562 HW The Hague",
+      "street": "Weimarstraat 378",
+      "postcode": "2562 HW",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/LeMistral/2026-06-30b.jpg",
+        "0-denHaag-/LeMistral/2026-06-30.jpg",
+        "0-denHaag-/LeMistral/2026-06-30c.jpg",
+        "0-denHaag-/LeMistral/2026-06-30a.jpg"
+      ],
+      "logo_file": "0-denHaag-/LeMistral/logo.png"
+    },
+    {
+      "page": "cs-nebula.html",
+      "town": "den Haag",
+      "name": "Nebula",
+      "status": "open",
+      "address": "Boerenstraat 89-a, The Hague 2572 HV",
+      "street": "Boerenstraat 89-a",
+      "postcode": "2572 HV",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/nebula/190526.jpg"
+      ],
+      "logo_file": "0-denHaag-/nebula/logo.png"
+    },
+    {
+      "page": "cs-simpel-minds.html",
+      "town": "den Haag",
+      "name": "Simpel Minds",
+      "status": "open",
+      "address": "De La Reyweg 101, The Hague 2571 EC",
+      "street": "De La Reyweg 101",
+      "postcode": "2571 EC",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/SimpelMinds/20240329_190202.jpg"
+      ],
+      "logo_file": "0-denHaag-/SimpelMinds/logo.png"
+    },
+    {
+      "page": "cs-no-limit.html",
+      "town": "den Haag",
+      "name": "No Limit",
+      "status": "open",
+      "address": "Witte de Withstraat 4a, The Hague 2518 CT",
+      "street": "Witte de Withstraat 4a",
+      "postcode": "2518 CT",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/NoLimit/090426a.jpg",
+        "0-denHaag-/NoLimit/090426b.jpg",
+        "0-denHaag-/NoLimit/090426c.jpg",
+        "0-denHaag-/NoLimit/090426d.jpg"
+      ],
+      "logo_file": "0-denHaag-/NoLimit/logo.png"
+    },
+    {
+      "page": "cs-sky-2.html",
+      "town": "den Haag",
+      "name": "Sky 2",
+      "status": "open",
+      "address": "Gortstraat 6, 2511 GK den Haag",
+      "street": "Gortstraat 6",
+      "postcode": "2511 GK",
+      "city": "den Haag",
+      "menu_files": [
+        "0-denHaag-/Sky2/Sky2DenHague09222012Epsilon.jpg"
+      ],
+      "logo_file": "0-denHaag-/Sky2/logo.png"
+    },
+    {
+      "page": "cs-sky-high-1.html",
+      "town": "den Haag",
+      "name": "Sky High 1",
+      "status": "open",
+      "address": "Fluwelen Burgwal 1-C, The Hague 2511 CH",
+      "street": "Fluwelen Burgwal 1-C",
+      "postcode": "2511 CH",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/SkyHigh1/SkyHigh120190502Michael.JPG"
+      ],
+      "logo_file": "0-denHaag-/SkyHigh1/logo.png"
+    },
+    {
+      "page": "cs-point-haag.html",
+      "town": "den Haag",
+      "name": "The Point",
+      "status": "open",
+      "address": "Marnixstraat 59, The Hague 2518 PW",
+      "street": "Marnixstraat 59",
+      "postcode": "2518 PW",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/Point/061023_b.jpg",
+        "0-denHaag-/Point/061023.jpg"
+      ],
+      "logo_file": "0-denHaag-/Point/logo.png"
+    },
+    {
+      "page": "cs-space-ball.html",
+      "town": "den Haag",
+      "name": "Space Ball",
+      "status": "open",
+      "address": "Wagenstraat 115a, The Hague 2512 AS",
+      "street": "Wagenstraat 115a",
+      "postcode": "2512 AS",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/SpaceBall/160525.jpg"
+      ],
+      "logo_file": "0-denHaag-/SpaceBall/logo.png"
+    },
+    {
+      "page": "cs-smokey-haag.html",
+      "town": "den Haag",
+      "name": "Smokey",
+      "status": "open",
+      "address": "Spui 241, The Hague 2511 BP",
+      "street": "Spui 241",
+      "postcode": "2511 BP",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/Smokey/311023.jpg"
+      ],
+      "logo_file": "0-denHaag-/Smokey/logo.png"
+    },
+    {
+      "page": "cs-strainfellows.html",
+      "town": "den Haag",
+      "name": "Strain Fellows",
+      "status": "open",
+      "address": "Marnixstraat 59, The Hague 2518 PW",
+      "street": "Marnixstraat 59",
+      "postcode": "2518 PW",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/StrainFellows/11271.jpg",
+        "0-denHaag-/StrainFellows/11270.jpg",
+        "0-denHaag-/StrainFellows/11272.jpg"
+      ],
+      "logo_file": "0-denHaag-/StrainFellows/logo.png"
+    },
+    {
+      "page": "cs-tulp.html",
+      "town": "den Haag",
+      "name": "De Tulp",
+      "status": "open",
+      "address": "Wenckebachstraat 78, The Hague 2522 CN",
+      "street": "Wenckebachstraat 78",
+      "postcode": "2522 CN",
+      "city": "The Hague",
+      "menu_files": [
+        "0-denHaag-/tulp/060626.jpg"
+      ],
+      "logo_file": "0-denHaag-/tulp/logo.png"
+    },
+    {
+      "page": "cs-waterworld.html",
+      "town": "den Haag",
+      "name": "Waterworld",
+      "status": "open",
+      "address": "Gedempte Burgwal 55, 2512 BS den Haag",
+      "street": "Gedempte Burgwal 55",
+      "postcode": "2512 BS",
+      "city": "den Haag",
+      "menu_files": [
+        "0-denHaag-/Waterworld/190526.jpg"
+      ],
+      "logo_file": "0-denHaag-/Waterworld/logo.png"
+    },
+    {
+      "page": "cs-aktama.html",
+      "town": "Den Helder",
+      "name": "Aktama",
+      "status": "open",
+      "address": "Industrieweg 1B, 1785 AG Den Helder",
+      "street": "Industrieweg 1B",
+      "postcode": "1785 AG",
+      "city": "Den Helder",
+      "menu_files": [
+        "0-DenHelder/Aktama/2026-07-28.jpg"
+      ],
+      "logo_file": "0-DenHelder/Aktama/logo.png"
+    },
+    {
+      "page": "cs-tops-dh.html",
+      "town": "Den Helder",
+      "name": "Tops",
+      "status": "open",
+      "address": "Koningstraat 34, Den Helder 1781 KH",
+      "street": "Koningstraat 34",
+      "postcode": "1781 KH",
+      "city": "Den Helder",
+      "menu_files": [
+        "0-DenHelder/tops/310725.jpg"
+      ],
+      "logo_file": "0-DenHelder/tops/logo.png"
+    },
+    {
+      "page": "cs-tsjakka.html",
+      "town": "Den Helder",
+      "name": "Tsjakka",
+      "status": "open",
+      "address": "Koningstraat 44, Den Helder 1781 KH",
+      "street": "Koningstraat 44",
+      "postcode": "1781 KH",
+      "city": "Den Helder",
+      "menu_files": [
+        "0-DenHelder/tsjakka/2026-07-28.jpg"
+      ],
+      "logo_file": "0-DenHelder/tsjakka/logo.png"
+    },
+    {
+      "page": "cs-blikkendeur.html",
+      "town": "Deventer",
+      "name": "De Blikken Deur",
+      "status": "open",
+      "address": "Nieuwstraat 70, Deventer 7411 LN",
+      "street": "Nieuwstraat 70",
+      "postcode": "7411 LN",
+      "city": "Deventer",
+      "menu_files": [
+        "0-Deventer-/BlikkerDeur/010425.jpg"
+      ],
+      "logo_file": "0-Deventer-/BlikkerDeur/logo.png"
+    },
+    {
+      "page": "cs-maya.html",
+      "town": "Deventer",
+      "name": "Maya",
+      "status": "closed",
+      "address": "Brink 10, 7411 BR Deventer",
+      "street": "Brink 10",
+      "postcode": "7411 BR",
+      "city": "Deventer",
+      "menu_files": [
+        "0-Deventer-/Maya/MayaDeventer02122013Mathieu.jpg"
+      ],
+      "logo_file": "0-Deventer-/Maya/logo.png"
+    },
+    {
+      "page": "cs-magicdo.html",
+      "town": "Doetinchem",
+      "name": "Magic",
+      "status": "open",
+      "address": "Veemarkt 10, Doetinchem 7001 EE",
+      "street": "Veemarkt 10",
+      "postcode": "7001 EE",
+      "city": "Doetinchem",
+      "menu_files": [
+        "0-Doetinchem/Magic/20260610_135616.jpg"
+      ],
+      "logo_file": "0-Doetinchem/Magic/logo.png"
+    },
+    {
+      "page": "cs-bulls.html",
+      "town": "Deventer",
+      "name": "Bulls",
+      "status": "open",
+      "address": "Op de Keizer 28, 7411 TA Deventer",
+      "street": "Op de Keizer 28",
+      "postcode": "7411 TA",
+      "city": "Deventer",
+      "menu_files": [
+        "0-Deventer-/Bulls/BullsDeventer02022013Mathieu.jpg"
+      ],
+      "logo_file": "0-Deventer-/Bulls/logo.png"
+    },
+    {
+      "page": "cs-greenvalley.html",
+      "town": "Ede",
+      "name": "Green Valley",
+      "status": "open",
+      "address": "De Halte 21A, Ede 6711 NZ",
+      "street": "De Halte 21A",
+      "postcode": "6711 NZ",
+      "city": "Ede",
+      "menu_files": [
+        "0-Ede/greenvalley/050726.jpg"
+      ],
+      "logo_file": "0-Ede/greenvalley/logo.png"
+    },
+    {
+      "page": "cs-kink.html",
+      "town": "Ede",
+      "name": "De Kink",
+      "status": "open",
+      "address": "De Halte 81, Ede 6711 NZ",
+      "street": "De Halte 81",
+      "postcode": "6711 NZ",
+      "city": "Ede",
+      "menu_files": [
+        "0-Ede/kink/120726.jpg",
+        "0-Ede/kink/120726b.jpg"
+      ],
+      "logo_file": "0-Ede/kink/logo.png"
+    },
+    {
+      "page": "cs-grasshopper.html",
+      "town": "Eindhoven",
+      "name": "Grasshopper",
+      "status": "closed",
+      "address": "Grote Berg 22a, Eindhoven 5611 KK",
+      "street": "Grote Berg 22a",
+      "postcode": "5611 KK",
+      "city": "Eindhoven",
+      "menu_files": [
+        "0-Eindhoven-/Grasshopper/GrasshopperEind10222009Ash333.jpg"
+      ],
+      "logo_file": "0-Eindhoven-/Grasshopper/logo.png"
+    },
+    {
+      "page": "cs-pink.html",
+      "town": "Eindhoven",
+      "name": "Pink",
+      "status": "open",
+      "address": "Willemstraat 35a, 5611 HB Eindhoven",
+      "street": "Willemstraat 35a",
+      "postcode": "5611 HB",
+      "city": "Eindhoven",
+      "menu_files": [
+        "0-Eindhoven-/Pink/170626.jpg"
+      ],
+      "logo_file": "0-Eindhoven-/Pink/logo.png"
+    },
+    {
+      "page": "cs-new-wave.html",
+      "town": "Eindhoven",
+      "name": "New Wave",
+      "status": "open",
+      "address": "Stratumsedijk 35, 5611 NB Eindhoven",
+      "street": "Stratumsedijk 35",
+      "postcode": "5611 NB",
+      "city": "Eindhoven",
+      "menu_files": [
+        "0-Eindhoven-/New Wave/NewWaveEindhoven0222009Ash333.jpg"
+      ],
+      "logo_file": "0-Eindhoven-/New Wave/logo.png"
+    },
+    {
+      "page": "cs-upstairs.html",
+      "town": "Eindhoven",
+      "name": "Upstairs",
+      "status": "open",
+      "address": "Stratumseind 25, 5611 EN Eindhoven",
+      "street": "Stratumseind 25",
+      "postcode": "5611 EN",
+      "city": "Eindhoven",
+      "menu_files": [
+        "0-Eindhoven-/Upstairs/060425.jpg"
+      ],
+      "logo_file": "0-Eindhoven-/Upstairs/logo.png"
+    },
+    {
+      "page": "cs-wall.html",
+      "town": "Eindhoven",
+      "name": "The Wall",
+      "status": "open",
+      "address": "Marconilaan 23c, Eindhoven 5612 HM",
+      "street": "Marconilaan 23c",
+      "postcode": "5612 HM",
+      "city": "Eindhoven",
+      "menu_files": [
+        "0-Eindhoven-/TheWall/2025-06-07a.jpg",
+        "0-Eindhoven-/TheWall/2025-06-07b.jpg"
+      ],
+      "logo_file": "0-Eindhoven-/TheWall/logo.png"
+    },
+    {
+      "page": "cs-eurogarden.html",
+      "town": "Eindhoven",
+      "name": "Eurogarden",
+      "status": "open",
+      "address": "Stuiverstraat 146, 5611 TC, Eindhoven",
+      "street": "Stuiverstraat 146",
+      "postcode": "5611 TC",
+      "city": "Eindhoven",
+      "menu_files": [
+        "0-Eindhoven-/Eurogarden/Eurogarden20180103Timmy.jpg"
+      ],
+      "logo_file": "0-Eindhoven-/Eurogarden/logo.png"
+    },
+    {
+      "page": "cs-ankara.html",
+      "town": "Emmen",
+      "name": "Ankara",
+      "status": "open",
+      "address": "Minister Kanstraat 3, Emmen 7811 GN",
+      "street": "Minister Kanstraat 3",
+      "postcode": "7811 GN",
+      "city": "Emmen",
+      "menu_files": [
+        "0-Emmen/ankara/Sept2025.jpg"
+      ],
+      "logo_file": "0-Emmen/ankara/logo.png"
+    },
+    {
+      "page": "cs-poort.html",
+      "town": "Enkhuizen",
+      "name": "De Poort",
+      "status": "open",
+      "address": "Verlaat 5, Enkhuizen 1601 JW",
+      "street": "Verlaat 5",
+      "postcode": "1601 JW",
+      "city": "Enkhuizen",
+      "menu_files": [
+        "0-Enkhuizen/Poort/140524.jpg"
+      ],
+      "logo_file": "0-Enkhuizen/Poort/logo.png"
+    },
+    {
+      "page": "cs-black-sea.html",
+      "town": "Enschede",
+      "name": "Black Sea",
+      "status": "open",
+      "address": "Stadsgravenstraat 8, Enschede 7511 ES",
+      "street": "Stadsgravenstraat 8",
+      "postcode": "7511 ES",
+      "city": "Enschede",
+      "menu_files": [
+        "0-Enschede/BlackSea/1000037904.jpg"
+      ],
+      "logo_file": "0-Enschede/BlackSea/logo.png"
+    },
+    {
+      "page": "cs-edge.html",
+      "town": "Enschede",
+      "name": "Edge",
+      "status": "open",
+      "address": "Noorderhagen 56, 7511 EM Enschede",
+      "street": "Noorderhagen 56",
+      "postcode": "7511 EM",
+      "city": "Enschede",
+      "menu_files": [
+        "0-Enschede/Edge/021124.jpg"
+      ],
+      "logo_file": "0-Enschede/Edge/logo.png"
+    },
+    {
+      "page": "cs-mix.html",
+      "town": "Enschede",
+      "name": "Mix",
+      "status": "open",
+      "address": "Haverstraatpassage 44-46, Enschede 7511 EX",
+      "street": "Haverstraatpassage 44-46",
+      "postcode": "7511 EX",
+      "city": "Enschede",
+      "menu_files": [
+        "0-Enschede/Mix/040226.jpg"
+      ],
+      "logo_file": "0-Enschede/Mix/logo.png"
+    },
+    {
+      "page": "cs-sahara.html",
+      "town": "Enschede",
+      "name": "Sahara",
+      "status": "open",
+      "address": "Stadsgravenstraat 18, Enschede 7511 ES",
+      "street": "Stadsgravenstraat 18",
+      "postcode": "7511 ES",
+      "city": "Enschede",
+      "menu_files": [
+        "0-Enschede/sahara/021124.jpg"
+      ],
+      "logo_file": "0-Enschede/sahara/logo.png"
+    },
+    {
+      "page": "cs-miami.html",
+      "town": "Enschede",
+      "name": "Miami",
+      "status": "open",
+      "address": "Korfmakersstraat 5, Leeuwarden 8911 LA",
+      "street": "Korfmakersstraat 5",
+      "postcode": "8911 LA",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/miami/Apr26a.jpg",
+        "0-Leeuwarden-/miami/Apr26b.jpg",
+        "0-Leeuwarden-/miami/Apr26c.jpg"
+      ],
+      "logo_file": "0-Leeuwarden-/miami/logo.png"
+    },
+    {
+      "page": "cs-thundebird.html",
+      "town": "Enschede",
+      "name": "Thunderbird",
+      "status": "open",
+      "address": "Wilhelminastraat 3, Enschede 7511 DM",
+      "street": "Wilhelminastraat 3",
+      "postcode": "7511 DM",
+      "city": "Enschede",
+      "menu_files": [
+        "0-Enschede/Thunderbird/1000116581.jpg"
+      ],
+      "logo_file": "0-Enschede/Thunderbird/logo.png"
+    },
+    {
+      "page": "cs-aardenplanb.html",
+      "town": "Goes",
+      "name": "Aarden Plan B",
+      "status": "open",
+      "address": "Grote Markt 7, Goes 4461 AH",
+      "street": "Grote Markt 7",
+      "postcode": "4461 AH",
+      "city": "Goes",
+      "menu_files": [
+        "0-Goes/aardenplanb/2026-07-22.jpg"
+      ],
+      "logo_file": "0-Goes/aardenplanb/logo.png"
+    },
+    {
+      "page": "cs-bovenstad.html",
+      "town": "Gorinchem",
+      "name": "De Bovenstad",
+      "status": "open",
+      "address": "Burgstraat 47, Gorinchem 4201 AB",
+      "street": "Burgstraat 47",
+      "postcode": "4201 AB",
+      "city": "Gorinchem",
+      "menu_files": [
+        "0-Gorinchem-/Bovenstad/20230811-162137.jpg",
+        "0-Gorinchem-/Bovenstad/20230811-162158.jpg",
+        "0-Gorinchem-/Bovenstad/20230811-162211.jpg",
+        "0-Gorinchem-/Bovenstad/20230811-162258.jpg"
+      ],
+      "logo_file": "0-Gorinchem-/Bovenstad/logo.png"
+    },
+    {
+      "page": "cs-animo.html",
+      "town": "Gouda",
+      "name": "Animo",
+      "status": "open",
+      "address": "Vest 18, Gouda 2801 VE",
+      "street": "Vest 18",
+      "postcode": "2801 VE",
+      "city": "Gouda",
+      "menu_files": [
+        "0-Gouda/Animo/2026-07-21a.jpg",
+        "0-Gouda/Animo/2026-07-21b.jpg"
+      ],
+      "logo_file": "0-Gouda/Animo/logo.png"
+    },
+    {
+      "page": "cs-vrolijke-gaper.html",
+      "town": "Gorinchem",
+      "name": "de Vrolijke Gaper",
+      "status": "open",
+      "address": "Molenstraat 23, 4201 CV Gorichem",
+      "street": "Molenstraat 23",
+      "postcode": "4201 CV",
+      "city": "Gorichem",
+      "menu_files": [
+        "0-Gorinchem-/DeVrolijkeGaper/DeVrilijkeB10242014RastaPierro.jpg",
+        "0-Gorinchem-/DeVrolijkeGaper/DeVrilijkeA10242014RastaPierro.jpg"
+      ],
+      "logo_file": "0-Gorinchem-/DeVrolijkeGaper/logo.png"
+    },
+    {
+      "page": "cs-oya.html",
+      "town": "Gouda",
+      "name": "Oya",
+      "status": "open",
+      "address": "Lange Groenendaal 104, 2801 LV Gouda",
+      "street": "Lange Groenendaal 104",
+      "postcode": "2801 LV",
+      "city": "Gouda",
+      "menu_files": [
+        "0-Gouda/Oya/130726.jpg"
+      ],
+      "logo_file": "0-Gouda/Oya/logo.png"
+    },
+    {
+      "page": "cs-atlas-g.html",
+      "town": "Gouda",
+      "name": "Atlas",
+      "status": "closed",
+      "address": "Blekerssingel 11, 2806 AA Gouda",
+      "street": "Blekerssingel 11",
+      "postcode": "2806 AA",
+      "city": "Gouda",
+      "menu_files": [
+        "0-Gouda/Atlas/AtlasGouda06222011Epsilon.JPG"
+      ],
+      "logo_file": "0-Gouda/Atlas/logo.png"
+    },
+    {
+      "page": "cs-buy-bye.html",
+      "town": "Gouda",
+      "name": "Buybye",
+      "status": "open",
+      "address": "Speldenmakerssteeg 8, 2801 XN Gouda",
+      "street": "Speldenmakerssteeg 8",
+      "postcode": "2801 XN",
+      "city": "Gouda",
+      "menu_files": [
+        "0-Gouda/Buybye/BuybyeGouda06222011Epsilon.JPG"
+      ],
+      "logo_file": "0-Gouda/Buybye/logo.png"
+    },
+    {
+      "page": "cs-vriendschap.html",
+      "town": "Gouda",
+      "name": "De Vriendschap",
+      "status": "open",
+      "address": "Cappenersteeg 30, Gouda 2801 XP",
+      "street": "Cappenersteeg 30",
+      "postcode": "2801 XP",
+      "city": "Gouda",
+      "menu_files": [
+        "0-Gouda/Vriendschap/041125.jpg"
+      ],
+      "logo_file": "0-Gouda/Vriendschap/logo.png"
+    },
+    {
+      "page": "cs-deescafe.html",
+      "town": "Groningen",
+      "name": "Dees Cafe",
+      "status": "open",
+      "address": "Papengang 3, Groningen 9711 PA",
+      "street": "Papengang 3",
+      "postcode": "9711 PA",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/deescafe/2025-07-23.jpg"
+      ],
+      "logo_file": "0-Groningen/deescafe/logo.png"
+    },
+    {
+      "page": "cs-driemaster.html",
+      "town": "Groningen",
+      "name": "De Driemaster",
+      "status": "open",
+      "address": "Nieuweweg 18, Groningen 9711 TD",
+      "street": "Nieuweweg 18",
+      "postcode": "9711 TD",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/driemaster/2025-07-23.jpg"
+      ],
+      "logo_file": "0-Groningen/driemaster/logo.png"
+    },
+    {
+      "page": "cs-clown.html",
+      "town": "Groningen",
+      "name": "Clown",
+      "status": "closed",
+      "address": "Folkingestraat 24, 9711 JW Groningen",
+      "street": "Folkingestraat 24",
+      "postcode": "9711 JW",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/Clown/ClownGroningen07042011Epsilon.JPG"
+      ],
+      "logo_file": "0-Groningen/Clown/logo.png"
+    },
+    {
+      "page": "cs-medley.html",
+      "town": "Groningen",
+      "name": "De Medley",
+      "status": "open",
+      "address": "Gedempte Zuiderdiep 64, Groningen 9711 HK",
+      "street": "Gedempte Zuiderdiep 64",
+      "postcode": "9711 HK",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/DeMedley/2026-07-22.jpg"
+      ],
+      "logo_file": "0-Groningen/DeMedley/logo.png"
+    },
+    {
+      "page": "cs-metamorphose.html",
+      "town": "Groningen",
+      "name": "Metamorphose",
+      "status": "open",
+      "address": "Oude Boteringestraat 53, Groningen 9712 GE",
+      "street": "Oude Boteringestraat 53",
+      "postcode": "9712 GE",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/Metamorphose/2025-07-23.jpg"
+      ],
+      "logo_file": "0-Groningen/Metamorphose/logo.png"
+    },
+    {
+      "page": "cs-ragamuffin.html",
+      "town": "Groningen",
+      "name": "Rag-a-Muffin",
+      "status": "open",
+      "address": "Noorderstationsstraat 15, Groningen 9716 AN",
+      "street": "Noorderstationsstraat 15",
+      "postcode": "9716 AN",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/rag-a-muffin/2025-07-23.jpg"
+      ],
+      "logo_file": "0-Groningen/rag-a-muffin/logo.png"
+    },
+    {
+      "page": "cs-retro.html",
+      "town": "Groningen",
+      "name": "Retro",
+      "status": "open",
+      "address": "Boterdiep 42, Groningen 9712 LR",
+      "street": "Boterdiep 42",
+      "postcode": "9712 LR",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/retro/080526.jpg"
+      ],
+      "logo_file": "0-Groningen/retro/logo.png"
+    },
+    {
+      "page": "cs-reykjavik.html",
+      "town": "Groningen",
+      "name": "Reykjavik",
+      "status": "open",
+      "address": "Spilsluizen 6, Groningen 9712 NS",
+      "street": "Spilsluizen 6",
+      "postcode": "9712 NS",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/Reykjavik/2025-07-23.jpg"
+      ],
+      "logo_file": "0-Groningen/Reykjavik/logo.png"
+    },
+    {
+      "page": "cs-schavuit.html",
+      "town": "Groningen",
+      "name": "De Schavuit",
+      "status": "open",
+      "address": "Schuitendiep 62, Groningen 9711 RE",
+      "street": "Schuitendiep 62",
+      "postcode": "9711 RE",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/schavuit/20260613_120314.jpg"
+      ],
+      "logo_file": "0-Groningen/schavuit/logo.png"
+    },
+    {
+      "page": "cs-vliegende-hollander.html",
+      "town": "Groningen",
+      "name": "Vliegende Hollander",
+      "status": "open",
+      "address": "Gedempte Zuiderdiep 63, 9711 HC Groningen",
+      "street": "Gedempte Zuiderdiep 63",
+      "postcode": "9711 HC",
+      "city": "Groningen",
+      "menu_files": [
+        "0-Groningen/VlegendeHollander/20260613_121252.jpg"
+      ],
+      "logo_file": "0-Groningen/VlegendeHollander/logo.png"
+    },
+    {
+      "page": "cs-boerejongenshaarlem.html",
+      "town": "Haarlem",
+      "name": "Boerejongens Haarlem",
+      "status": "open",
+      "address": "Lange Veerstraat 47, Haarlem 2011 DA",
+      "street": "Lange Veerstraat 47",
+      "postcode": "2011 DA",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/BoerejongensHaa/190726.jpg"
+      ],
+      "logo_file": "0-Haarlem-/BoerejongensHaa/logo.png"
+    },
+    {
+      "page": "cs-dreamland.html",
+      "town": "Haarlem",
+      "name": "Dreamland",
+      "status": "open",
+      "address": "Brouwersplein 44, Haarlem 2013 PH",
+      "street": "Brouwersplein 44",
+      "postcode": "2013 PH",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/dreamland/2025-04-27.jpg"
+      ],
+      "logo_file": "0-Haarlem-/dreamland/logo.png"
+    },
+    {
+      "page": "cs-birdy.html",
+      "town": "Haarlem",
+      "name": "Birdy",
+      "status": "open",
+      "address": "Schoterweg 19, 2021 HZ Haarlem",
+      "street": "Schoterweg 19",
+      "postcode": "2021 HZ",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Birdy/1574.jpg",
+        "0-Haarlem-/Birdy/1574b.jpg",
+        "0-Haarlem-/Birdy/1574c.jpg",
+        "0-Haarlem-/Birdy/1574d.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Birdy/logo.png"
+    },
+    {
+      "page": "cs-easy-going.html",
+      "town": "Haarlem",
+      "name": "Easy Going",
+      "status": "open",
+      "address": "Barrevoetestraat 23, 2011 WN Haarlem",
+      "street": "Barrevoetestraat 23",
+      "postcode": "2011 WN",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/EasyGoing/EasyGoing12022006Lafe.jpg"
+      ],
+      "logo_file": "0-Haarlem-/EasyGoing/logo.png"
+    },
+    {
+      "page": "cs-easy-max.html",
+      "town": "Haarlem",
+      "name": "Easy Max",
+      "status": "open",
+      "address": "Barrevoetestraat 23, Haarlem 2011 WN",
+      "street": "Barrevoetestraat 23",
+      "postcode": "2011 WN",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Maximillian/Haarlem-01-Easy_Max.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Maximillian/logo.png"
+    },
+    {
+      "page": "cs-empire.html",
+      "town": "Haarlem",
+      "name": "Empire",
+      "status": "open",
+      "address": "Krocht 8, 2011 PT Haarlem",
+      "street": "Krocht 8",
+      "postcode": "2011 PT",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Empire/150726.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Empire/logo.png"
+    },
+    {
+      "page": "cs-haarlem.html",
+      "town": "Haarlem",
+      "name": "Coffeeshop Haarlem",
+      "status": "open",
+      "address": "Doelstraat 29, Haarlem 2011 XB",
+      "street": "Doelstraat 29",
+      "postcode": "2011 XB",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/AmsGenHaarlem/1480.jpg"
+      ],
+      "logo_file": "0-Haarlem-/AmsGenHaarlem/logo.png"
+    },
+    {
+      "page": "cs-greengrocers.html",
+      "town": "Haarlem",
+      "name": "The Greengrocers",
+      "status": "open",
+      "address": "Lange Veerstraat 47, Haarlem 2011 DA",
+      "street": "Lange Veerstraat 47",
+      "postcode": "2011 DA",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Greengrocers/260226.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Greengrocers/logo.png"
+    },
+    {
+      "page": "cs-high-times-h.html",
+      "town": "Haarlem",
+      "name": "High Times",
+      "status": "open",
+      "address": "Lange Veerstraat 47, 2011 DA Haarlem",
+      "street": "Lange Veerstraat 47",
+      "postcode": "2011 DA",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/HighTimes/Menus/280524.jpg"
+      ],
+      "logo_file": "0-Haarlem-/HighTimes/logo.png"
+    },
+    {
+      "page": "cs-hunters-ha.html",
+      "town": "Haarlem",
+      "name": "Hunters Haarlem",
+      "status": "open",
+      "address": "Schoterweg 66, 2021 HP Haarlem",
+      "street": "Schoterweg 66",
+      "postcode": "2021 HP",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/HuntersHaarlem/2026-02-06.jpg"
+      ],
+      "logo_file": "0-Haarlem-/HuntersHaarlem/logo.png"
+    },
+    {
+      "page": "cs-joinus2.html",
+      "town": "Haarlem",
+      "name": "Join Us 2",
+      "status": "open",
+      "address": "Schalkwijkerstraat 23, Haarlem 2033 JB",
+      "street": "Schalkwijkerstraat 23",
+      "postcode": "2033 JB",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/JoinUs2/2025-04-30.jpg"
+      ],
+      "logo_file": "0-Haarlem-/JoinUs2/logo.png"
+    },
+    {
+      "page": "cs-key-west.html",
+      "town": "Haarlem",
+      "name": "Key West",
+      "status": "open",
+      "address": "Schoterweg 66, 2021 HP Haarlem",
+      "street": "Schoterweg 66",
+      "postcode": "2021 HP",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/KeyWest/KeyWestHaarlem11132007FBN.jpg"
+      ],
+      "logo_file": "0-Haarlem-/KeyWest/logo.png"
+    },
+    {
+      "page": "cs-maximillian.html",
+      "town": "Haarlem",
+      "name": "Maximillian",
+      "status": "open",
+      "address": "Gedempte Oudegracht 123, 2011GP Haarlem",
+      "street": "Gedempte Oudegracht 123",
+      "postcode": "2011GP",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Maximillian/Haarlem-04-Maximillian.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Maximillian/logo.png"
+    },
+    {
+      "page": "cs-kruidenier.html",
+      "town": "Haarlem",
+      "name": "De Kruidenier Cannabis Takeaway",
+      "status": "open",
+      "address": "Nassaulaan 54, 2011 PE Haarlem",
+      "street": "Nassaulaan 54",
+      "postcode": "2011 PE",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Takeaway/2026-07-15b.jpg",
+        "0-Haarlem-/Takeaway/2026-07-15a.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Takeaway/logo.png"
+    },
+    {
+      "page": "cs-lounge-haar.html",
+      "town": "Haarlem",
+      "name": "The Lounge",
+      "status": "open",
+      "address": "Doelstraat 29, Haarlem 2011 XB",
+      "street": "Doelstraat 29",
+      "postcode": "2011 XB",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/TheLounge/Menus/091223.jpg"
+      ],
+      "logo_file": "0-Haarlem-/TheLounge/logo.png"
+    },
+    {
+      "page": "cs-regine.html",
+      "town": "Haarlem",
+      "name": "Regine",
+      "status": "open",
+      "address": "Gedempte Oudegracht 28, 2011 GP Haarlem",
+      "street": "Gedempte Oudegracht 28",
+      "postcode": "2011 GP",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Regine/140726.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Regine/logo.png"
+    },
+    {
+      "page": "cs-sandman.html",
+      "town": "Haarlem",
+      "name": "Sandman",
+      "status": "open",
+      "address": "Zomervaart 154, Haarlem 2033 DC",
+      "street": "Zomervaart 154",
+      "postcode": "2033 DC",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Sandman/090125.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Sandman/logo.png"
+    },
+    {
+      "page": "cs-snoop.html",
+      "town": "Haarlem",
+      "name": "The Snoop",
+      "status": "open",
+      "address": "Rijksstraatweg 198, Haarlem 2022 DH",
+      "street": "Rijksstraatweg 198",
+      "postcode": "2022 DH",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Snoop/080626.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Snoop/logo.png"
+    },
+    {
+      "page": "cs-theehuis.html",
+      "town": "Haarlem",
+      "name": "Theehuis",
+      "status": "closed",
+      "address": "Smedestraat 25, 2011 RE Haarlem",
+      "street": "Smedestraat 25",
+      "postcode": "2011 RE",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/Theehuis/JoinUs-Theehuis-Haarlem04182015Papi_3city.jpg"
+      ],
+      "logo_file": "0-Haarlem-/Theehuis/logo.png"
+    },
+    {
+      "page": "cs-ww-indica.html",
+      "town": "Haarlem",
+      "name": "Willie Wortel Indica",
+      "status": "open",
+      "address": "Koudenhorn 58, 2011 JD Haarlem",
+      "street": "Koudenhorn 58",
+      "postcode": "2011 JD",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/WWIndica/willi.jpg"
+      ],
+      "logo_file": "0-Haarlem-/WWIndica/logo.png"
+    },
+    {
+      "page": "cs-ww-sativa.html",
+      "town": "Haarlem",
+      "name": "Willie Wortel Sativa",
+      "status": "open",
+      "address": "Kruisweg 46, 2011 LD Haarlem",
+      "street": "Kruisweg 46",
+      "postcode": "2011 LD",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/WWSativa/Haarlem-02-Willy_Wortel_Sativa.jpg"
+      ],
+      "logo_file": "0-Haarlem-/WWSativa/logo.png"
+    },
+    {
+      "page": "cs-columbus.html",
+      "town": "Harderwijk",
+      "name": "Columbus",
+      "status": "open",
+      "address": "Vijhestraat 3, Harderwijk 3841 CW",
+      "street": "Vijhestraat 3",
+      "postcode": "3841 CW",
+      "city": "Harderwijk",
+      "menu_files": [
+        "0-Harderwijk/Columbus/2025-10-06.jpg"
+      ],
+      "logo_file": "0-Harderwijk/Columbus/logo.png"
+    },
+    {
+      "page": "cs-ww-sinsemilla.html",
+      "town": "Haarlem",
+      "name": "Willie Wortel's Sinsemilla",
+      "status": "open",
+      "address": "Houtplein16a, Haarlem 2012 DH",
+      "street": "Houtplein16a",
+      "postcode": "2012 DH",
+      "city": "Haarlem",
+      "menu_files": [
+        "0-Haarlem-/WWSinsemilla/1000008527.jpg",
+        "0-Haarlem-/WWSinsemilla/1000008526.jpg",
+        "0-Haarlem-/WWSinsemilla/1000008528.jpg"
+      ],
+      "logo_file": "0-Haarlem-/WWSinsemilla/logo.png"
+    },
+    {
+      "page": "cs-steppinginn.html",
+      "town": "Heerhugowaard",
+      "name": "Stepping Inn",
+      "status": "open",
+      "address": "Raadhuisstraat 12, Heerhugowaard 1701 EK",
+      "street": "Raadhuisstraat 12",
+      "postcode": "1701 EK",
+      "city": "Heerhugowaard",
+      "menu_files": [
+        "0-Heerhugowaard/steppinginn/160125.jpg"
+      ],
+      "logo_file": "0-Heerhugowaard/steppinginn/logo.png"
+    },
+    {
+      "page": "cs-barbershop.html",
+      "town": "Hellevoetsluis",
+      "name": "BarberShop",
+      "status": "open",
+      "address": "Kerkstraat 24, Hellevoetsluis 3221 AG",
+      "street": "Kerkstraat 24",
+      "postcode": "3221 AG",
+      "city": "Hellevoetsluis",
+      "menu_files": [
+        "0-Hellevoetsluis/barbershop/080626.jpg"
+      ],
+      "logo_file": "0-Hellevoetsluis/barbershop/logo.png"
+    },
+    {
+      "page": "cs-twinshee.html",
+      "town": "Heerlen",
+      "name": "Twins",
+      "status": "open",
+      "address": "Honigmannstraat 49, Heerlen 6411 LJ",
+      "street": "Honigmannstraat 49",
+      "postcode": "6411 LJ",
+      "city": "Heerlen",
+      "menu_files": [
+        "0-Heerlen/twins/2025-07-02c.jpg",
+        "0-Heerlen/twins/2025-07-02b.jpg",
+        "0-Heerlen/twins/2025-07-02a.jpg"
+      ],
+      "logo_file": "0-Heerlen/twins/logo.png"
+    },
+    {
+      "page": "cs-johnandco.html",
+      "town": "Hellevoetsluis",
+      "name": "John and Co.",
+      "status": "open",
+      "address": "Stephensonweg 1, Hellevoetsluis 3225 LW",
+      "street": "Stephensonweg 1",
+      "postcode": "3225 LW",
+      "city": "Hellevoetsluis",
+      "menu_files": [
+        "0-Hellevoetsluis/johnandco/050526.jpg"
+      ],
+      "logo_file": "0-Hellevoetsluis/johnandco/logo.png"
+    },
+    {
+      "page": "cs-moby-dick.html",
+      "town": "Hengelo",
+      "name": "Moby Dick",
+      "status": "open",
+      "address": "Emmaweg 4, Hengelo 7551 BH",
+      "street": "Emmaweg 4",
+      "postcode": "7551 BH",
+      "city": "Hengelo",
+      "menu_files": [
+        "0-Hengelo/MobyDick/Moby080523.jpg"
+      ],
+      "logo_file": "0-Hengelo/MobyDick/logo.png"
+    },
+    {
+      "page": "cs-hofnar.html",
+      "town": "Harlingen",
+      "name": "Hofnar",
+      "status": "open",
+      "address": "Franekereind 17, Harlingen 8861 AA",
+      "street": "Franekereind 17",
+      "postcode": "8861 AA",
+      "city": "Harlingen",
+      "menu_files": [
+        "0-Harlingen-/Hofnar/HofnarHashHarlingen06292011Epsilon.JPG",
+        "0-Harlingen-/Hofnar/HofnarWeedHarlingen06292011Epsilon.JPG"
+      ],
+      "logo_file": "0-Harlingen-/Hofnar/logo.png"
+    },
+    {
+      "page": "cs-rokade.html",
+      "town": "Hengelo",
+      "name": "Rokade",
+      "status": "open",
+      "address": "Deldenerstraat 14, Hengelo 7551 AE",
+      "street": "Deldenerstraat 14",
+      "postcode": "7551 AE",
+      "city": "Hengelo",
+      "menu_files": [
+        "0-Hengelo/Rokade/040626.jpg"
+      ],
+      "logo_file": "0-Hengelo/Rokade/logo.png"
+    },
+    {
+      "page": "cs-dutchflowers.html",
+      "town": "Hilversum",
+      "name": "Dutch Flowers",
+      "status": "open",
+      "address": "Leeuwenstraat 25, Hilversum 1211 ES",
+      "street": "Leeuwenstraat 25",
+      "postcode": "1211 ES",
+      "city": "Hilversum",
+      "menu_files": [
+        "0-Hilversum-/dutchflowers/IMG_4447.jpg"
+      ],
+      "logo_file": "0-Hilversum-/dutchflowers/logo.png"
+    },
+    {
+      "page": "cs-leeuw.html",
+      "town": "Hilversum",
+      "name": "De Leeuw",
+      "status": "open",
+      "address": "Leeuwenstraat 25, Hilversum 1211 ES",
+      "street": "Leeuwenstraat 25",
+      "postcode": "1211 ES",
+      "city": "Hilversum",
+      "menu_files": [
+        "0-Hilversum-/Leeuw/IMG_1367.jpg"
+      ],
+      "logo_file": "0-Hilversum-/Leeuw/logo.png"
+    },
+    {
+      "page": "cs-oke.html",
+      "town": "Hilversum",
+      "name": "Oke",
+      "status": "open",
+      "address": "Naarderstraat 47, 1211 AJ Hilversum",
+      "street": "Naarderstraat 47",
+      "postcode": "1211 AJ",
+      "city": "Hilversum",
+      "menu_files": [
+        "0-Hilversum-/Oke/OkeHilversum11202009alpha.jpg"
+      ],
+      "logo_file": "0-Hilversum-/Oke/logo.png"
+    },
+    {
+      "page": "cs-professor.html",
+      "town": "Hilversum",
+      "name": "de Professor",
+      "status": "open",
+      "address": "Kleine Drift 74, 1221 KB Hilversum",
+      "street": "Kleine Drift 74",
+      "postcode": "1221 KB",
+      "city": "Hilversum",
+      "menu_files": [
+        "0-Hilversum-/deProfessor/deProfessor04242016Arjen.jpg"
+      ],
+      "logo_file": "0-Hilversum-/deProfessor/logo.png"
+    },
+    {
+      "page": "cs-promenade.html",
+      "town": "Hilversum",
+      "name": "Promenade",
+      "status": "open",
+      "address": "Naarderstraat 11, Hilversum 1211 AH",
+      "street": "Naarderstraat 11",
+      "postcode": "1211 AH",
+      "city": "Hilversum",
+      "menu_files": [
+        "0-Hilversum-/Promenade/030925.jpg"
+      ],
+      "logo_file": "0-Hilversum-/Promenade/logo.png"
+    },
+    {
+      "page": "cs-papillon-hil.html",
+      "town": "Hilversum",
+      "name": "Papillon",
+      "status": "closed",
+      "address": "Kleine Drift 9, 1221 JW Hilversum",
+      "street": "Kleine Drift 9",
+      "postcode": "1221 JW",
+      "city": "Hilversum",
+      "menu_files": [
+        "0-Hilversum-/Papillon/PapillonHilversum02052012Papillon.jpg"
+      ],
+      "logo_file": "0-Hilversum-/Papillon/logo.png"
+    },
+    {
+      "page": "cs-happydayshoe.html",
+      "town": "Hoensbroek",
+      "name": "Happy Days",
+      "status": "open",
+      "address": "Akerstraat Noord 220, Hoensbroek 6431 HT",
+      "street": "Akerstraat Noord 220",
+      "postcode": "6431 HT",
+      "city": "Hoensbroek",
+      "menu_files": [
+        "0-Hoensbroek/happydays/2025-07-02c.jpg",
+        "0-Hoensbroek/happydays/2025-07-02b.jpg",
+        "0-Hoensbroek/happydays/2025-07-02a.jpg"
+      ],
+      "logo_file": "0-Hoensbroek/happydays/logo.png"
+    },
+    {
+      "page": "cs-groene-gaper.html",
+      "town": "Hoofddorp",
+      "name": "De Groene Gaper",
+      "status": "open",
+      "address": "Graftermeerstraat 10, Hoofddorp 2131 AC",
+      "street": "Graftermeerstraat 10",
+      "postcode": "2131 AC",
+      "city": "Hoofddorp",
+      "menu_files": [
+        "0-Hoofdorp/DeGroeneGaper/2025-09-26.jpg"
+      ],
+      "logo_file": "0-Hoofdorp/DeGroeneGaper/logo.png"
+    },
+    {
+      "page": "cs-super-fly.html",
+      "town": "Hoofddorp",
+      "name": "Superfly",
+      "status": "open",
+      "address": "Kruisweg 1043, 2131 CS Hoofddorp",
+      "street": "Kruisweg 1043",
+      "postcode": "2131 CS",
+      "city": "Hoofddorp",
+      "menu_files": [
+        "0-Hoofdorp/Superfly/140226.jpg"
+      ],
+      "logo_file": "0-Hoofdorp/Superfly/logo.png"
+    },
+    {
+      "page": "cs-blue-tomato.html",
+      "town": "Hoorn",
+      "name": "Blue Tomato",
+      "status": "open",
+      "address": "Neutronweg 11, 1627 LG, Hoorn",
+      "street": "Neutronweg 11",
+      "postcode": "1627 LG",
+      "city": "Hoorn",
+      "menu_files": [
+        "0-Hoorn-/BlueTomato/Menus/BlueTomato20221114Thomas.jpg"
+      ],
+      "logo_file": "0-Hoorn-/BlueTomato/logo.png"
+    },
+    {
+      "page": "cs-zuiderzee.html",
+      "town": "Hoorn",
+      "name": "Zuiderzee",
+      "status": "open",
+      "address": "Dubbele Buurt 24, 1621 JW Hoorn",
+      "street": "Dubbele Buurt 24",
+      "postcode": "1621 JW",
+      "city": "Hoorn",
+      "menu_files": [
+        "0-Hoorn-/Zuiderzee/260426.jpg"
+      ],
+      "logo_file": "0-Hoorn-/Zuiderzee/logo.png"
+    },
+    {
+      "page": "cs-joecool.html",
+      "town": "IJmuiden",
+      "name": "Joe Cool",
+      "status": "open",
+      "address": "Kanaalstraat 25, IJmuiden 1975 BA",
+      "street": "Kanaalstraat 25",
+      "postcode": "1975 BA",
+      "city": "IJmuiden",
+      "menu_files": [
+        "0-IJmuiden/JoeCool/20251120.jpg"
+      ],
+      "logo_file": "0-IJmuiden/JoeCool/logo.png"
+    },
+    {
+      "page": "cs-scolo.html",
+      "town": "IJmuiden",
+      "name": "Scolo",
+      "status": "open",
+      "address": "Snelliusstraat 21, IJmuiden 1973 PA",
+      "street": "Snelliusstraat 21",
+      "postcode": "1973 PA",
+      "city": "IJmuiden",
+      "menu_files": [
+        "0-IJmuiden/Scolo/150825.jpg"
+      ],
+      "logo_file": "0-IJmuiden/Scolo/logo.png"
+    },
+    {
+      "page": "cs-7thheavenl.html",
+      "town": "Leeuwarden",
+      "name": "7th Heaven",
+      "status": "open",
+      "address": "Tuinen 38, Leeuwarden 8911 KE",
+      "street": "Tuinen 38",
+      "postcode": "8911 KE",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/7thheavenL/5187.jpg"
+      ],
+      "logo_file": "0-Leeuwarden-/7thheavenL/logo.png"
+    },
+    {
+      "page": "cs-eenhoorn.html",
+      "town": "Leeuwarden",
+      "name": "De Eenhoorn",
+      "status": "open",
+      "address": "Nieuwesteeg 3, Leeuwarden 8911 DT",
+      "street": "Nieuwesteeg 3",
+      "postcode": "8911 DT",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/eenhoorn/2026-06-16.jpg"
+      ],
+      "logo_file": "0-Leeuwarden-/eenhoorn/logo.png"
+    },
+    {
+      "page": "cs-cats.html",
+      "town": "Leerdam",
+      "name": "Cats",
+      "status": "closed",
+      "address": "Hoogstraat 15, 4141 BA Leerdam",
+      "street": "Hoogstraat 15",
+      "postcode": "4141 BA",
+      "city": "Leerdam",
+      "menu_files": [
+        "0-Leerdam-/Cats/CatsLeerdam11172007Anon.JPG"
+      ],
+      "logo_file": "0-Leerdam-/Cats/logo.png"
+    },
+    {
+      "page": "cs-os.html",
+      "town": "Leeuwarden",
+      "name": "de Os",
+      "status": "open",
+      "address": "Korfmakersstraat 2, 8911 LA Leeuwarden",
+      "street": "Korfmakersstraat 2",
+      "postcode": "8911 LA",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/de OS/1000059867.jpg"
+      ],
+      "logo_file": "0-Leeuwarden-/de OS/logo.png"
+    },
+    {
+      "page": "cs-relax-lee.html",
+      "town": "Leeuwarden",
+      "name": "Relax",
+      "status": "open",
+      "address": "Tuinen 33, 8911 KC Leeuwarden",
+      "street": "Tuinen 33",
+      "postcode": "8911 KC",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/Relax/RelaxLeeuwarden20190425Dreaminjection.JPG"
+      ],
+      "logo_file": "0-Leeuwarden-/Relax/logo.png"
+    },
+    {
+      "page": "cs-liberty-l.html",
+      "town": "Leeuwarden",
+      "name": "Liberty",
+      "status": "open",
+      "address": "Herenwaltje 12, 8911 HN Leeuwarden",
+      "street": "Herenwaltje 12",
+      "postcode": "8911 HN",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/Liberty/Liberty10032012Epsilon.JPG"
+      ],
+      "logo_file": "0-Leeuwarden-/Liberty/logo.png"
+    },
+    {
+      "page": "cs-sacramento.html",
+      "town": "Leeuwarden",
+      "name": "Sacramento",
+      "status": "open",
+      "address": "Herenwaltje 12, 8911 HN Leeuwarden",
+      "street": "Herenwaltje 12",
+      "postcode": "8911 HN",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/Sacramento/SacramentoLeeuwarden07102009Epsilon.jpg"
+      ],
+      "logo_file": "0-Leeuwarden-/Sacramento/logo.png"
+    },
+    {
+      "page": "cs-repelsteeltje.html",
+      "town": "Leeuwarden",
+      "name": "Repelsteeltje",
+      "status": "open",
+      "address": "Grote Hoogstraat 44, Leeuwarden 8911 HB",
+      "street": "Grote Hoogstraat 44",
+      "postcode": "8911 HB",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/Repelsteeltje/RepelsteeltjeLeeuwarden09292012Epsilon.JPG"
+      ],
+      "logo_file": "0-Leeuwarden-/Repelsteeltje/logo.png"
+    },
+    {
+      "page": "cs-downtown.html",
+      "town": "Leeuwarden",
+      "name": "Downtown",
+      "status": "open",
+      "address": "Wortelhaven 85, 8911 GL Leeuwarden",
+      "street": "Wortelhaven 85",
+      "postcode": "8911 GL",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/Downtown/DowntownLeeuwardenHash09292012Epsilon.JPG",
+        "0-Leeuwarden-/Downtown/DowntownLeeuwardenWeed09292012Epsilon.JPG"
+      ],
+      "logo_file": "0-Leeuwarden-/Downtown/logo.png"
+    },
+    {
+      "page": "cs-utoop.html",
+      "town": "Leeuwarden",
+      "name": "Utoop",
+      "status": "open",
+      "address": "Grote Hoogstraat 34, 8911 HB Leeuwarden",
+      "street": "Grote Hoogstraat 34",
+      "postcode": "8911 HB",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/Utoop/UtoopLeeuwarden20190425Dreaminjection.JPG"
+      ],
+      "logo_file": "0-Leeuwarden-/Utoop/logo.png"
+    },
+    {
+      "page": "cs-zone.html",
+      "town": "Leeuwarden",
+      "name": "de Zone",
+      "status": "open",
+      "address": "Poststraat 37, 8911 GX Leeuwarden",
+      "street": "Poststraat 37",
+      "postcode": "8911 GX",
+      "city": "Leeuwarden",
+      "menu_files": [
+        "0-Leeuwarden-/de Zone/ZoneLeeuwarden20190425Dreaminjection.JPG"
+      ],
+      "logo_file": "0-Leeuwarden-/de Zone/logo.png"
+    },
+    {
+      "page": "cs-double-aa.html",
+      "town": "Leiden",
+      "name": "Double AA",
+      "status": "open",
+      "address": "Nieuwe Beestenmarkt 5, 2312 CG Leiden",
+      "street": "Nieuwe Beestenmarkt 5",
+      "postcode": "2312 CG",
+      "city": "Leiden",
+      "menu_files": [
+        "0-Leiden-/Double A/010825.jpg"
+      ],
+      "logo_file": "0-Leiden-/Double A/logo.png"
+    },
+    {
+      "page": "cs-eerste-kamer.html",
+      "town": "Leiden",
+      "name": "Eerste Kamer",
+      "status": "open",
+      "address": "Steenstraat 15, 2312 BS Leiden",
+      "street": "Steenstraat 15",
+      "postcode": "2312 BS",
+      "city": "Leiden",
+      "menu_files": [
+        "0-Leiden-/EersteKamer/121024.jpg"
+      ],
+      "logo_file": "0-Leiden-/EersteKamer/logo.png"
+    },
+    {
+      "page": "cs-high-society.html",
+      "town": "Leiden",
+      "name": "High Society",
+      "status": "open",
+      "address": "Lange Scheistraat 5, 2312 CG, Leiden",
+      "street": "Lange Scheistraat 5",
+      "postcode": "2312 CG",
+      "city": "Leiden",
+      "menu_files": [
+        "0-Leiden-/HighSociety/IMG_1682.jpg"
+      ],
+      "logo_file": "0-Leiden-/HighSociety/logo.png"
+    },
+    {
+      "page": "cs-palais.html",
+      "town": "Leiden",
+      "name": "Le Palais",
+      "status": "open",
+      "address": "Morsstraat 14, Leiden 2312 BM",
+      "street": "Morsstraat 14",
+      "postcode": "2312 BM",
+      "city": "Leiden",
+      "menu_files": [
+        "0-Leiden-/Palais/121024.jpg"
+      ],
+      "logo_file": "0-Leiden-/Palais/logo.png"
+    },
+    {
+      "page": "cs-coffee-and-dreams.html",
+      "town": "Leiden",
+      "name": "Coffee and Dreams",
+      "status": "open",
+      "address": "Nieuwe Beestenmarkt 34, 2312 CH Leiden",
+      "street": "Nieuwe Beestenmarkt 34",
+      "postcode": "2312 CH",
+      "city": "Leiden",
+      "menu_files": [
+        "0-Leiden-/CoffeeAndDreams/CoffeeAndDreamsHash20170415sNc.jpg",
+        "0-Leiden-/CoffeeAndDreams/CoffeeAndDreamsWeed20170415sNc.jpg",
+        "0-Leiden-/CoffeeAndDreams/CoffeeAndDreamsPartyPack20170415sNc.jpg"
+      ],
+      "logo_file": "0-Leiden-/CoffeeAndDreams/logo.png"
+    },
+    {
+      "page": "cs-relaxed.html",
+      "town": "Leiden",
+      "name": "Relaxed",
+      "status": "open",
+      "address": "Janvossensteeg 6- 8, 2312 WE Leiden",
+      "street": "Janvossensteeg 6- 8",
+      "postcode": "2312 WE",
+      "city": "Leiden",
+      "menu_files": [
+        "0-Leiden-/Relaxed/IMG_3131.jpg",
+        "0-Leiden-/Relaxed/IMG_3130.jpg",
+        "0-Leiden-/Relaxed/IMG_3132.jpg"
+      ],
+      "logo_file": "0-Leiden-/Relaxed/logo.png"
+    },
+    {
+      "page": "cs-koffieendromen.html",
+      "town": "Lelystad",
+      "name": "Koffie en Dromen",
+      "status": "open",
+      "address": "Noord Stationsweg 21, Lelystad 8232 JT",
+      "street": "Noord Stationsweg 21",
+      "postcode": "8232 JT",
+      "city": "Lelystad",
+      "menu_files": [
+        "0-Lelystad/koffieendromen/250125.jpg"
+      ],
+      "logo_file": "0-Lelystad/koffieendromen/logo.png"
+    },
+    {
+      "page": "cs-leidseplein.html",
+      "town": "Leiden",
+      "name": "Leidseplein",
+      "status": "open",
+      "address": "Pieterskerkgracht 28, 2311 SZ, Leiden",
+      "street": "Pieterskerkgracht 28",
+      "postcode": "2311 SZ",
+      "city": "Leiden",
+      "menu_files": [
+        "0-Leiden-/Leidseplein/Leidseplein20170403RichieRick-page-001.jpg",
+        "0-Leiden-/Leidseplein/Leidseplein20170403RichieRick-page-002.jpg",
+        "0-Leiden-/Leidseplein/Leidseplein20170403RichieRick-page-003.jpg",
+        "0-Leiden-/Leidseplein/Leidseplein20170403RichieRick-page-004.jpg",
+        "0-Leiden-/Leidseplein/Leidseplein20170403RichieRick-page-005.jpg"
+      ],
+      "logo_file": "0-Leiden-/Leidseplein/logo.png"
+    },
+    {
+      "page": "cs-happy-days-lis.html",
+      "town": "Lisse",
+      "name": "Happy Days",
+      "status": "open",
+      "address": "Heereweg 153, Lisse 2161 BC",
+      "street": "Heereweg 153",
+      "postcode": "2161 BC",
+      "city": "Lisse",
+      "menu_files": [
+        "0-Lisse/HappyDays/2026-01-29.jpg"
+      ],
+      "logo_file": "0-Lisse/HappyDays/logo.png"
+    },
+    {
+      "page": "cs-blackwidow.html",
+      "town": "Maastricht",
+      "name": "Black Widow",
+      "status": "open",
+      "address": "Bosscherweg 165, Maastricht 6219 AA",
+      "street": "Bosscherweg 165",
+      "postcode": "6219 AA",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/BlackWidow/4223.jpg"
+      ],
+      "logo_file": "0-Maastricht-/BlackWidow/logo.png"
+    },
+    {
+      "page": "cs-club69.html",
+      "town": "Maastricht",
+      "name": "Club 69",
+      "status": "open",
+      "address": "Grote Gracht 97, Maastricht 6211 SV",
+      "street": "Grote Gracht 97",
+      "postcode": "6211 SV",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/Club69/200626.jpg"
+      ],
+      "logo_file": "0-Maastricht-/Club69/logo.png"
+    },
+    {
+      "page": "cs-coolrunning.html",
+      "town": "Maastricht",
+      "name": "Cool Running",
+      "status": "open",
+      "address": "Brusselsestraat 35, Maastricht 6211 PB",
+      "street": "Brusselsestraat 35",
+      "postcode": "6211 PB",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/coolrunning/151225.jpg"
+      ],
+      "logo_file": "0-Maastricht-/coolrunning/logo.png"
+    },
+    {
+      "page": "cs-easygoing.html",
+      "town": "Maastricht",
+      "name": "Easy Going",
+      "status": "open",
+      "address": "Hoenderstraat 8, Maastricht 6211 EM",
+      "street": "Hoenderstraat 8",
+      "postcode": "6211 EM",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/EasyGoing/190126.jpg"
+      ],
+      "logo_file": "0-Maastricht-/EasyGoing/logo.png"
+    },
+    {
+      "page": "cs-fantasia.html",
+      "town": "Maastricht",
+      "name": "Fantasia",
+      "status": "open",
+      "address": "Sint Annalaan 3a, Maastricht 6214 AA",
+      "street": "Sint Annalaan 3a",
+      "postcode": "6214 AA",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/fantasia/050325.jpg"
+      ],
+      "logo_file": "0-Maastricht-/fantasia/logo.png"
+    },
+    {
+      "page": "cs-maryjane.html",
+      "town": "Maastricht",
+      "name": "Mary Jane",
+      "status": "open",
+      "address": "Hoogbrugstraat 4, Maastricht 6221 CR",
+      "street": "Hoogbrugstraat 4",
+      "postcode": "6221 CR",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/maryjane/2026-02-14.jpg"
+      ],
+      "logo_file": "0-Maastricht-/maryjane/logo.png"
+    },
+    {
+      "page": "cs-kosbor.html",
+      "town": "Maastricht",
+      "name": "Kosbor",
+      "status": "open",
+      "address": "Kleine Gracht 3, 6211 CA Maastricht",
+      "street": "Kleine Gracht 3",
+      "postcode": "6211 CA",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/Kosbor/2026-03-16.jpg",
+        "0-Maastricht-/Kosbor/2026-03-16b.jpg"
+      ],
+      "logo_file": "0-Maastricht-/Kosbor/logo.png"
+    },
+    {
+      "page": "cs-maxcys.html",
+      "town": "Maastricht",
+      "name": "Maxcys",
+      "status": "open",
+      "address": "Rechtstraat 60a, 6221 EK, Maastricht",
+      "street": "Rechtstraat 60a",
+      "postcode": "6221 EK",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/Maxcys/2026-03-16.jpg"
+      ],
+      "logo_file": "0-Maastricht-/Maxcys/logo.png"
+    },
+    {
+      "page": "cs-missouri.html",
+      "town": "Maastricht",
+      "name": "Missouri",
+      "status": "open",
+      "address": "Hoogbrugstraat 31, Maastricht 6221 CN",
+      "street": "Hoogbrugstraat 31",
+      "postcode": "6221 CN",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/missouri/2026-02-14.jpg"
+      ],
+      "logo_file": "0-Maastricht-/missouri/logo.png"
+    },
+    {
+      "page": "cs-mississippi.html",
+      "town": "Maastricht",
+      "name": "Mississippi",
+      "status": "open",
+      "address": "Maaspromenade 11, Maastricht 6211 AE",
+      "street": "Maaspromenade 11",
+      "postcode": "6211 AE",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/mississippi/050826a.jpg",
+        "0-Maastricht-/mississippi/050826b.jpg",
+        "0-Maastricht-/mississippi/050826c.jpg",
+        "0-Maastricht-/mississippi/050826d.jpg"
+      ],
+      "logo_file": "0-Maastricht-/mississippi/logo.png"
+    },
+    {
+      "page": "cs-rastafarihouseboni.html",
+      "town": "Maastricht",
+      "name": "Rastafarihouse Boni",
+      "status": "open",
+      "address": "Stenenbrug 7, Maastricht 6211 HP",
+      "street": "Stenenbrug 7",
+      "postcode": "6211 HP",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/rastafarihouseboni/2026-02-14a.jpg",
+        "0-Maastricht-/rastafarihouseboni/2026-02-14b.jpg"
+      ],
+      "logo_file": "0-Maastricht-/rastafarihouseboni/logo.png"
+    },
+    {
+      "page": "cs-roundabout69.html",
+      "town": "Maastricht",
+      "name": "The Roundabout 69",
+      "status": "open",
+      "address": "Brusselsestraat 146, Maastricht 6211 PJ",
+      "street": "Brusselsestraat 146",
+      "postcode": "6211 PJ",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/roundabout69/190126w.jpg",
+        "0-Maastricht-/roundabout69/190126h.jpg"
+      ],
+      "logo_file": "0-Maastricht-/roundabout69/logo.png"
+    },
+    {
+      "page": "cs-slowmotion.html",
+      "town": "Maastricht",
+      "name": "Slow Motion",
+      "status": "open",
+      "address": "Bourgognestraat 10a, Maastricht 6221 BX",
+      "street": "Bourgognestraat 10a",
+      "postcode": "6221 BX",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/slowmotion/2026-02-14.jpg"
+      ],
+      "logo_file": "0-Maastricht-/slowmotion/logo.png"
+    },
+    {
+      "page": "cs-smoky.html",
+      "town": "Maastricht",
+      "name": "Smoky",
+      "status": "open",
+      "address": "Maaspromenade 13, Maastricht 6211 HS",
+      "street": "Maaspromenade 13",
+      "postcode": "6211 HS",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/smoky/2026-02-14.jpg"
+      ],
+      "logo_file": "0-Maastricht-/smoky/logo.png"
+    },
+    {
+      "page": "cs-wall-street.html",
+      "town": "Maastricht",
+      "name": "Wall Street",
+      "status": "closed",
+      "address": "Grote Gracht 58, 6211 SX Maastricht",
+      "street": "Grote Gracht 58",
+      "postcode": "6211 SX",
+      "city": "Maastricht",
+      "menu_files": [
+        "0-Maastricht-/Wall Street/WallStreetMaastricht01012002.JPG"
+      ],
+      "logo_file": "0-Maastricht-/Wall Street/logo.png"
+    },
+    {
+      "page": "cs-relax-mep.html",
+      "town": "Meppel",
+      "name": "Relax",
+      "status": "open",
+      "address": "Prinsengracht 15, Meppel 7941 KD",
+      "street": "Prinsengracht 15",
+      "postcode": "7941 KD",
+      "city": "Meppel",
+      "menu_files": [
+        "0-Meppel/relax/2025-07-07.jpg"
+      ],
+      "logo_file": "0-Meppel/relax/logo.png"
+    },
+    {
+      "page": "cs-espresso.html",
+      "town": "Mijdrecht",
+      "name": "Espresso",
+      "status": "open",
+      "address": "Rondweg 1B, 3641 SC Mijdrecht",
+      "street": "Rondweg 1B",
+      "postcode": "3641 SC",
+      "city": "Mijdrecht",
+      "menu_files": [
+        "0-Mijdrecht/Espresso/18319.jpg"
+      ],
+      "logo_file": "0-Mijdrecht/Espresso/logo.png"
+    },
+    {
+      "page": "cs-buggy.html",
+      "town": "Nijmegen",
+      "name": "Buggy",
+      "status": "open",
+      "address": "Platenmakersstraat 8, Nijmegen 6511 TZ",
+      "street": "Platenmakersstraat 8",
+      "postcode": "6511 TZ",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/buggy/091125.jpg"
+      ],
+      "logo_file": "0-Nijmegen/buggy/logo.png"
+    },
+    {
+      "page": "cs-dakota.html",
+      "town": "Nijmegen",
+      "name": "Dakota",
+      "status": "open",
+      "address": "Lange Hezelstraat 113a, Nijmegen 6511 CG",
+      "street": "Lange Hezelstraat 113a",
+      "postcode": "6511 CG",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/dakota/1000046273.jpg"
+      ],
+      "logo_file": "0-Nijmegen/dakota/logo.png"
+    },
+    {
+      "page": "cs-headshop.html",
+      "town": "Nijmegen",
+      "name": "Headshop",
+      "status": "open",
+      "address": "Kelfkensbos 46, Nijmegen 6511 TB",
+      "street": "Kelfkensbos 46",
+      "postcode": "6511 TB",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/Headshop/120524.jpg"
+      ],
+      "logo_file": "0-Nijmegen/Headshop/logo.png"
+    },
+    {
+      "page": "cs-jamaica.html",
+      "town": "Nijmegen",
+      "name": "Jamaica",
+      "status": "open",
+      "address": "van Welderenstraat 96, 6522 MS, Nijmegen",
+      "street": "van Welderenstraat 96",
+      "postcode": "6522 MS",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/Jamaica/2026-06-11b.jpg",
+        "0-Nijmegen/Jamaica/2026-06-11c.jpg"
+      ],
+      "logo_file": "0-Nijmegen/Jamaica/logo.png"
+    },
+    {
+      "page": "cs-dreadlock.html",
+      "town": "Nijmegen",
+      "name": "Dreadlock",
+      "status": "open",
+      "address": "Vlaamsegas 40, Nijmegen 6511 HR",
+      "street": "Vlaamsegas 40",
+      "postcode": "6511 HR",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/Dreadlock/150626.jpg",
+        "0-Nijmegen/Dreadlock/150626b.jpg",
+        "0-Nijmegen/Dreadlock/150626c.jpg",
+        "0-Nijmegen/Dreadlock/150626d.jpg"
+      ],
+      "logo_file": "0-Nijmegen/Dreadlock/logo.png"
+    },
+    {
+      "page": "cs-ketama.html",
+      "town": "Nijmegen",
+      "name": "Ketama",
+      "status": "open",
+      "address": "De Ruyterstraat 19, 6512 GA, Nijmegen",
+      "street": "De Ruyterstraat 19",
+      "postcode": "6512 GA",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/Ketama/121124.jpg"
+      ],
+      "logo_file": "0-Nijmegen/Ketama/logo.png"
+    },
+    {
+      "page": "cs-kruidentuin.html",
+      "town": "Nijmegen",
+      "name": "Kruidentuin",
+      "status": "open",
+      "address": "Kannenmarkt 9, Nijmegen 6511 KC",
+      "street": "Kannenmarkt 9",
+      "postcode": "6511 KC",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/Kruidentuin/190726a.jpg",
+        "0-Nijmegen/Kruidentuin/190726b.jpg",
+        "0-Nijmegen/Kruidentuin/190726c.jpg"
+      ],
+      "logo_file": "0-Nijmegen/Kruidentuin/logo.png"
+    },
+    {
+      "page": "cs-kronkel.html",
+      "town": "Nijmegen",
+      "name": "Kronkel",
+      "status": "open",
+      "address": "Vlaamsegas 26-36, Nijmegen 6511 HR",
+      "street": "Vlaamsegas 26-36",
+      "postcode": "6511 HR",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/Kronkel/2026-01-11c.jpg",
+        "0-Nijmegen/Kronkel/2026-01-11a.jpg",
+        "0-Nijmegen/Kronkel/2026-01-11b.jpg"
+      ],
+      "logo_file": "0-Nijmegen/Kronkel/logo.png"
+    },
+    {
+      "page": "cs-kunsje.html",
+      "town": "Nijmegen",
+      "name": "'t Kunsje",
+      "status": "open",
+      "address": "2e Walstraat 108, 6511 LW Nijmegan",
+      "street": "2e Walstraat 108",
+      "postcode": "6511 LW",
+      "city": "Nijmegan",
+      "menu_files": [
+        "0-Nijmegen/tKunsje/2026-06-11a.jpg",
+        "0-Nijmegen/tKunsje/2026-06-11b.jpg",
+        "0-Nijmegen/tKunsje/2026-06-11c.jpg",
+        "0-Nijmegen/tKunsje/2026-06-11d.jpg"
+      ],
+      "logo_file": "0-Nijmegen/tKunsje/logo.png"
+    },
+    {
+      "page": "cs-luckylukenij.html",
+      "town": "Nijmegen",
+      "name": "Lucky Luke",
+      "status": "open",
+      "address": "2e Walstraat 161, Nijmegen 6511 LT",
+      "street": "2e Walstraat 161",
+      "postcode": "6511 LT",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/LuckyLukeNij/150626.jpg",
+        "0-Nijmegen/LuckyLukeNij/150626b.jpg",
+        "0-Nijmegen/LuckyLukeNij/150626c.jpg",
+        "0-Nijmegen/LuckyLukeNij/150626d.jpg"
+      ],
+      "logo_file": "0-Nijmegen/LuckyLukeNij/logo.jpg"
+    },
+    {
+      "page": "cs-wedren.html",
+      "town": "Nijmegen",
+      "name": "De Wedren",
+      "status": "open",
+      "address": "Prins Bernhardstraat 71, Nijmegen 6521 AD",
+      "street": "Prins Bernhardstraat 71",
+      "postcode": "6521 AD",
+      "city": "Nijmegen",
+      "menu_files": [
+        "0-Nijmegen/wedren/080226d.jpg",
+        "0-Nijmegen/wedren/080226c.jpg",
+        "0-Nijmegen/wedren/080226a.jpg",
+        "0-Nijmegen/wedren/080226b.jpg"
+      ],
+      "logo_file": "0-Nijmegen/wedren/logo.png"
+    },
+    {
+      "page": "cs-labda-labda.html",
+      "town": "Nijmegen",
+      "name": "Labda Labda",
+      "status": "closed",
+      "address": "Jan de Wittstraat 47, 6512 EH, Nikmegen",
+      "street": "Jan de Wittstraat 47",
+      "postcode": "6512 EH",
+      "city": "Nikmegen",
+      "menu_files": [
+        "0-Nijmegen/LabdaLabda/LabdaLabda08282016dreaminjection.JPG"
+      ],
+      "logo_file": "0-Nijmegen/LabdaLabda/logo.png"
+    },
+    {
+      "page": "cs-anna.html",
+      "town": "Purmerend",
+      "name": "Anna",
+      "status": "open",
+      "address": "Gedempte Singelgracht 19, Purmerend 1441 AN",
+      "street": "Gedempte Singelgracht 19",
+      "postcode": "1441 AN",
+      "city": "Purmerend",
+      "menu_files": [
+        "0-Purmerend/anna/140125.jpg"
+      ],
+      "logo_file": "0-Purmerend/anna/logo.png"
+    },
+    {
+      "page": "cs-splifii.html",
+      "town": "Purmerend",
+      "name": "Splif II",
+      "status": "open",
+      "address": "Achterdijk 76, Purmerend 1441 DJ",
+      "street": "Achterdijk 76",
+      "postcode": "1441 DJ",
+      "city": "Purmerend",
+      "menu_files": [
+        "0-Purmerend/splifii/IMG_4874.jpg"
+      ],
+      "logo_file": "0-Purmerend/splifii/logo.png"
+    },
+    {
+      "page": "cs-skunk.html",
+      "town": "Roermond",
+      "name": "Skunk",
+      "status": "closed",
+      "address": "Zwartbroekstraat 29, 6041 JL Roermond",
+      "street": "Zwartbroekstraat 29",
+      "postcode": "6041 JL",
+      "city": "Roermond",
+      "menu_files": [
+        "0-Roermond/Skunk/Skunk01242016dejanbango.jpg"
+      ],
+      "logo_file": "0-Roermond/Skunk/logo.png"
+    },
+    {
+      "page": "cs-skunkstation.html",
+      "town": "Roermond",
+      "name": "Skunk Station",
+      "status": "open",
+      "address": "Randweg 3, Roermond 6045 JK",
+      "street": "Randweg 3",
+      "postcode": "6045 JK",
+      "city": "Roermond",
+      "menu_files": [
+        "0-Roermond/skunkstation/070626.jpg"
+      ],
+      "logo_file": "0-Roermond/skunkstation/logo.png"
+    },
+    {
+      "page": "cs-4-floors.html",
+      "town": "Rotterdam",
+      "name": "The 4 Floors",
+      "status": "open",
+      "address": "Eendrachtsweg 29, Rotterdam 3012 LB",
+      "street": "Eendrachtsweg 29",
+      "postcode": "3012 LB",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/4Floors/IMG_1137.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/4Floors/logo.png"
+    },
+    {
+      "page": "cs-alpha-blondy.html",
+      "town": "Rotterdam",
+      "name": "Alpha Blondy",
+      "status": "closed",
+      "address": "Nieuwe Binnenweg 144b, 3015 BG Rotterdam",
+      "street": "Nieuwe Binnenweg 144b",
+      "postcode": "3015 BG",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/AlphaBlondy/Alpha Blondy07142008smokestaxlitenin.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/AlphaBlondy/logo.png"
+    },
+    {
+      "page": "cs-amigo-rot.html",
+      "town": "Rotterdam",
+      "name": "Amigo",
+      "status": "open",
+      "address": "'s Gravendijkwal 138b, Rotterdam 3015 CC",
+      "street": "'s Gravendijkwal 138b",
+      "postcode": "3015 CC",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/amigo/290825.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/amigo/logo.png"
+    },
+    {
+      "page": "cs-bambu-high-tea.html",
+      "town": "Rotterdam",
+      "name": "Bambu High Tea",
+      "status": "open",
+      "address": "Noordsingel 201, 3035 ER, Rotterdam",
+      "street": "Noordsingel 201",
+      "postcode": "3035 ER",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/BambuHighTea/BambuHighTea20170904Anon.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/BambuHighTea/logo.png"
+    },
+    {
+      "page": "cs-bobmarley.html",
+      "town": "Rotterdam",
+      "name": "Bob Marley",
+      "status": "open",
+      "address": "Nieuwe Binnenweg 403a, Rotterdam 3023 EM",
+      "street": "Nieuwe Binnenweg 403a",
+      "postcode": "3023 EM",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/bobmarley/310725.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/bobmarley/logo.png"
+    },
+    {
+      "page": "cs-centrum.html",
+      "town": "Rotterdam",
+      "name": "'t Centrum",
+      "status": "open",
+      "address": "Van Oldenbarneveltstraat 154b, Rotterdam 3012 GX",
+      "street": "Van Oldenbarneveltstraat 154b",
+      "postcode": "3012 GX",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/centrum/959.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/centrum/logo.png"
+    },
+    {
+      "page": "cs-charlois.html",
+      "town": "Rotterdam",
+      "name": "Charlois",
+      "status": "open",
+      "address": "Bas Jungeriusstraat 161b, Rotterdam 3081 VB",
+      "street": "Bas Jungeriusstraat 161b",
+      "postcode": "3081 VB",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/charlois/pro-Zl0WkfU4.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/charlois/logo.png"
+    },
+    {
+      "page": "cs-geeltje.html",
+      "town": "Rotterdam",
+      "name": "'t Geeltje",
+      "status": "open",
+      "address": "Claes de Vrieselaan 92a, 3021 JT Rotterdam",
+      "street": "Claes de Vrieselaan 92a",
+      "postcode": "3021 JT",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/Geeltje/20240907_152657.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/Geeltje/logo.png"
+    },
+    {
+      "page": "cs-huntersrotterdam.html",
+      "town": "Rotterdam",
+      "name": "Hunter's Rotterdam",
+      "status": "open",
+      "address": "Henegouwerlaan 73, Rotterdam 3021 CT",
+      "street": "Henegouwerlaan 73",
+      "postcode": "3021 CT",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/huntersrotterdam/909.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/huntersrotterdam/logo.png"
+    },
+    {
+      "page": "cs-dreams.html",
+      "town": "Rotterdam",
+      "name": "Dreams",
+      "status": "open",
+      "address": "Slaghekstraat 58a, Rotterdam 3074 LN",
+      "street": "Slaghekstraat 58a",
+      "postcode": "3074 LN",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/dreams/170225a.jpg",
+        "0-Rotterdam-/dreams/170225b.jpg",
+        "0-Rotterdam-/dreams/170225c.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/dreams/logo.png"
+    },
+    {
+      "page": "cs-mon-camarade.html",
+      "town": "Rotterdam",
+      "name": "Mon Camarade",
+      "status": "open",
+      "address": "1e Middellandstraat 10a, 3014 BD, Rotterdam",
+      "street": "1e Middellandstraat 10a",
+      "postcode": "3014 BD",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/MonCamarade/907.jpg",
+        "0-Rotterdam-/MonCamarade/906.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/MonCamarade/logo.png"
+    },
+    {
+      "page": "cs-outoftime.html",
+      "town": "Rotterdam",
+      "name": "Out Of Time",
+      "status": "open",
+      "address": "Nieuwe Binnenweg 363B, Rotterdam 3023 EK",
+      "street": "Nieuwe Binnenweg 363B",
+      "postcode": "3023 EK",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/OutOfTime/201225.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/OutOfTime/logo.png"
+    },
+    {
+      "page": "cs-newyork-rot.html",
+      "town": "Rotterdam",
+      "name": "New York",
+      "status": "open",
+      "address": "Paul Krugerstraat 42, Rotterdam 3072 GM",
+      "street": "Paul Krugerstraat 42",
+      "postcode": "3072 GM",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/NewYork/918.jpg",
+        "0-Rotterdam-/NewYork/919.jpg",
+        "0-Rotterdam-/NewYork/920.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/NewYork/logo.png"
+    },
+    {
+      "page": "cs-pluto.html",
+      "town": "Rotterdam",
+      "name": "Pluto",
+      "status": "open",
+      "address": "Nieuwe Binnenweg 54, 3015 BB Rotterdam",
+      "street": "Nieuwe Binnenweg 54",
+      "postcode": "3015 BB",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/Pluto/040426.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/Pluto/logo.png"
+    },
+    {
+      "page": "cs-reef.html",
+      "town": "Rotterdam",
+      "name": "The Reef",
+      "status": "open",
+      "address": "Oppert 1, Rotterdam 3011 HS",
+      "street": "Oppert 1",
+      "postcode": "3011 HS",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/Reef/IMG_9769.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/Reef/logo.png"
+    },
+    {
+      "page": "cs-seven.html",
+      "town": "Rotterdam",
+      "name": "Seven",
+      "status": "open",
+      "address": "Joost van Geelstraat 69A, Rotterdam 3021 VL",
+      "street": "Joost van Geelstraat 69A",
+      "postcode": "3021 VL",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/Seven/Menus/280524.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/Seven/logo.png"
+    },
+    {
+      "page": "cs-sky-high-rot.html",
+      "town": "Rotterdam",
+      "name": "Sky High",
+      "status": "open",
+      "address": "Nieuwe Binnenweg 59, Rotterdam 3014 GD",
+      "street": "Nieuwe Binnenweg 59",
+      "postcode": "3014 GD",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/SkyHigh/960.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/SkyHigh/logo.png"
+    },
+    {
+      "page": "cs-sultan.html",
+      "town": "Rotterdam",
+      "name": "Sultan",
+      "status": "open",
+      "address": "Eksterstraat 16 , Rotterdam 3083 XB",
+      "street": "Eksterstraat 16",
+      "postcode": "3083 XB",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/sultan/apr26.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/sultan/logo.png"
+    },
+    {
+      "page": "cs-sensi-smile.html",
+      "town": "Rotterdam",
+      "name": "Sensi Smile",
+      "status": "open",
+      "address": "Henegouwerlaan 73, 3021 CT Rotterdam",
+      "street": "Henegouwerlaan 73",
+      "postcode": "3021 CT",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/Sencismiles/IMG20240106180225.jpg",
+        "0-Rotterdam-/Sencismiles/IMG20240106180228.jpg",
+        "0-Rotterdam-/Sencismiles/IMG20240106180230.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/Sencismiles/logo.png"
+    },
+    {
+      "page": "cs-trefpunt-rot.html",
+      "town": "Rotterdam",
+      "name": "Trefpunt",
+      "status": "open",
+      "address": "Botersloot 7, 3011 HE Rotterdam",
+      "street": "Botersloot 7",
+      "postcode": "3011 HE",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/Trefpunt/1000000942.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/Trefpunt/logo.png"
+    },
+    {
+      "page": "cs-blue-and-white.html",
+      "town": "Scheveningen",
+      "name": "Blue and White",
+      "status": "open",
+      "address": "Bosschestraat 63, Scheveningen 2587 HC",
+      "street": "Bosschestraat 63",
+      "postcode": "2587 HC",
+      "city": "Scheveningen",
+      "menu_files": [
+        "0-Scheveningen/Blue and White/060426.jpg"
+      ],
+      "logo_file": "0-Scheveningen/Blue and White/logo.png"
+    },
+    {
+      "page": "cs-witte-de-with.html",
+      "town": "Rotterdam",
+      "name": "Witte De With",
+      "status": "open",
+      "address": "Witte de Withstraat 92, 3012 BT Rotterdam",
+      "street": "Witte de Withstraat 92",
+      "postcode": "3012 BT",
+      "city": "Rotterdam",
+      "menu_files": [
+        "0-Rotterdam-/WitteDeWith/Menus/IMG-20230811-135436.jpg"
+      ],
+      "logo_file": "0-Rotterdam-/WitteDeWith/logo.png"
+    },
+    {
+      "page": "cs-roxanne.html",
+      "town": "Schagen",
+      "name": "Roxanne",
+      "status": "open",
+      "address": "Laan 5, 1741 EA Schagen",
+      "street": "Laan 5",
+      "postcode": "1741 EA",
+      "city": "Schagen",
+      "menu_files": [
+        "0-Schagen/Roxanne/Roxanne0821016Ecki.jpg"
+      ],
+      "logo_file": "0-Schagen/Roxanne/logo.png"
+    },
+    {
+      "page": "cs-pasop.html",
+      "town": "Schiedam",
+      "name": "Pas Op",
+      "status": "open",
+      "address": "Hoofdstraat 311, Schiedam 3114 GE",
+      "street": "Hoofdstraat 311",
+      "postcode": "3114 GE",
+      "city": "Schiedam",
+      "menu_files": [
+        "0-Schiedam/pasop/271025.jpg"
+      ],
+      "logo_file": "0-Schiedam/pasop/logo.png"
+    },
+    {
+      "page": "cs-box.html",
+      "town": "Scheveningen",
+      "name": "The Box",
+      "status": "open",
+      "address": "Havenkade 16, Scheveningen 2586 TS",
+      "street": "Havenkade 16",
+      "postcode": "2586 TS",
+      "city": "Scheveningen",
+      "menu_files": [
+        "0-Scheveningen/box/5c05fdea727b.jpg",
+        "0-Scheveningen/box/b832f6aed98a.jpg"
+      ],
+      "logo_file": "0-Scheveningen/box/logo.png"
+    },
+    {
+      "page": "cs-hacas.html",
+      "town": "Soest",
+      "name": "Hacas",
+      "status": "open",
+      "address": "Koninginnelaan 25, Soest 3762 DA",
+      "street": "Koninginnelaan 25",
+      "postcode": "3762 DA",
+      "city": "Soest",
+      "menu_files": [
+        "0-Soest/Hacas/20260416_181810.jpg"
+      ],
+      "logo_file": "0-Soest/Hacas/logo.png"
+    },
+    {
+      "page": "cs-africa.html",
+      "town": "Tilburg",
+      "name": "Africa",
+      "status": "open",
+      "address": "Koopvaardijstraat 46, Tilburg 5017 BG",
+      "street": "Koopvaardijstraat 46",
+      "postcode": "5017 BG",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/africa/050626tiny.jpg"
+      ],
+      "logo_file": "0-Tilburg/africa/logo.png"
+    },
+    {
+      "page": "cs-relax-sit.html",
+      "town": "Sittard",
+      "name": "Relax",
+      "status": "closed",
+      "address": "Steenweg 3, 6131 BB Sittard",
+      "street": "Steenweg 3",
+      "postcode": "6131 BB",
+      "city": "Sittard",
+      "menu_files": [
+        "0-Sittard-/Relax/RelaxSittard03072015Dejanbango.JPG"
+      ],
+      "logo_file": "0-Sittard-/Relax/logo.png"
+    },
+    {
+      "page": "cs-crackers.html",
+      "town": "Tilburg",
+      "name": "Crackers",
+      "status": "open",
+      "address": "Bredaseweg 165, Tilburg 5038 ND",
+      "street": "Bredaseweg 165",
+      "postcode": "5038 ND",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/Crackers/080425.jpg"
+      ],
+      "logo_file": "0-Tilburg/Crackers/logo.png"
+    },
+    {
+      "page": "cs-grasscompany.html",
+      "town": "Tilburg",
+      "name": "The Grass Company",
+      "status": "open",
+      "address": "Spoorlaan 360, Tilburg 5038 CD",
+      "street": "Spoorlaan 360",
+      "postcode": "5038 CD",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/grasscompany2/1000040298.jpg",
+        "0-Tilburg/grasscompany2/1000040299.jpg"
+      ],
+      "logo_file": "0-Tilburg/grasscompany2/logo.png"
+    },
+    {
+      "page": "cs-grasscompany2.html",
+      "town": "Tilburg",
+      "name": "The Grass Company 2",
+      "status": "open",
+      "address": "Piusstraat 124, Tilburg 5021 JC",
+      "street": "Piusstraat 124",
+      "postcode": "5021 JC",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/grasscompany2/030326.jpg"
+      ],
+      "logo_file": "0-Tilburg/grasscompany2/logo.png"
+    },
+    {
+      "page": "cs-level013.html",
+      "town": "Tilburg",
+      "name": "Level013",
+      "status": "open",
+      "address": "St. Annaplein 13, Tilburg 5038 TV",
+      "street": "St. Annaplein 13",
+      "postcode": "5038 TV",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/Level/270326.jpg"
+      ],
+      "logo_file": "0-Tilburg/Level/logo.png"
+    },
+    {
+      "page": "cs-maximillian-til.html",
+      "town": "Tilburg",
+      "name": "Maximillian",
+      "status": "open",
+      "address": "Korvelseweg 192, Tilburg 5025 JM",
+      "street": "Korvelseweg 192",
+      "postcode": "5025 JM",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/MaximillianT/20251228.jpg"
+      ],
+      "logo_file": "0-Tilburg/MaximillianT/logo.png"
+    },
+    {
+      "page": "cs-muze.html",
+      "town": "Tilburg",
+      "name": "de Muze",
+      "status": "open",
+      "address": "Tuinstraat 43, 5038 DA Tilburg",
+      "street": "Tuinstraat 43",
+      "postcode": "5038 DA",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/deMuze/210526.jpg"
+      ],
+      "logo_file": "0-Tilburg/deMuze/logo.png"
+    },
+    {
+      "page": "cs-shiva.html",
+      "town": "Tilburg",
+      "name": "Shiva",
+      "status": "open",
+      "address": "Koestraat 12, Tilburg 5014 ED",
+      "street": "Koestraat 12",
+      "postcode": "5014 ED",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/Shiva/120726.jpg"
+      ],
+      "logo_file": "0-Tilburg/Shiva/logo.png"
+    },
+    {
+      "page": "cs-pasja.html",
+      "town": "Tilburg",
+      "name": "Pasja",
+      "status": "open",
+      "address": "Bredaseweg 123, 5038 NC Tilburg",
+      "street": "Bredaseweg 123",
+      "postcode": "5038 NC",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/Pasja/110726.jpg"
+      ],
+      "logo_file": "0-Tilburg/Pasja/logo.png"
+    },
+    {
+      "page": "cs-toermalijn.html",
+      "town": "Tilburg",
+      "name": "Toermalijn",
+      "status": "open",
+      "address": "Besterdring 187, 5014 HK Tilburg",
+      "street": "Besterdring 187",
+      "postcode": "5014 HK",
+      "city": "Tilburg",
+      "menu_files": [
+        "0-Tilburg/Toermalijn/270526.jpg"
+      ],
+      "logo_file": "0-Tilburg/Toermalijn/logo.png"
+    },
+    {
+      "page": "cs-030.html",
+      "town": "Utrecht",
+      "name": "Coffeeshop 030",
+      "status": "open",
+      "address": "Oudegracht 208, Utrecht 3511 NR",
+      "street": "Oudegracht 208",
+      "postcode": "3511 NR",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/030/230626.jpg"
+      ],
+      "logo_file": "0-Utrecht-/030/logo.png"
+    },
+    {
+      "page": "cs-208.html",
+      "town": "Utrecht",
+      "name": "208",
+      "status": "open",
+      "address": "Oudegracht 208, 3511 NR Utrecht",
+      "street": "Oudegracht 208",
+      "postcode": "3511 NR",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/208/208Hash01282016MBjpg.jpg",
+        "0-Utrecht-/208/208Weed01282016MBjpg.jpg"
+      ],
+      "logo_file": "0-Utrecht-/208/logo.png"
+    },
+    {
+      "page": "cs-andersom.html",
+      "town": "Utrecht",
+      "name": "Andersom",
+      "status": "open",
+      "address": "Vismarkt 23, 3511 KS Utrecht",
+      "street": "Vismarkt 23",
+      "postcode": "3511 KS",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/Andersom/230124.jpg"
+      ],
+      "logo_file": "0-Utrecht-/Andersom/logo.png"
+    },
+    {
+      "page": "cs-colorado.html",
+      "town": "Utrecht",
+      "name": "Gallery Colorado",
+      "status": "open",
+      "address": "Vlampijpstraat 52, 3534bAR Utrecht",
+      "street": "Vlampijpstraat 52",
+      "postcode": "",
+      "city": "3534bAR Utrecht",
+      "menu_files": [
+        "0-Utrecht-/GalleryColorado/120126.jpg"
+      ],
+      "logo_file": "0-Utrecht-/GalleryColorado/logo.png"
+    },
+    {
+      "page": "cs-culture-boat.html",
+      "town": "Utrecht",
+      "name": "Culture Boat",
+      "status": "open",
+      "address": "Wittevrouwensingel 206, Utrecht 3572 CE",
+      "street": "Wittevrouwensingel 206",
+      "postcode": "3572 CE",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/CultureBoat/060626.jpg"
+      ],
+      "logo_file": "0-Utrecht-/CultureBoat/logo.png"
+    },
+    {
+      "page": "cs-freak.html",
+      "town": "Utrecht",
+      "name": "Freak",
+      "status": "open",
+      "address": "Breedstraat 55, 3512 TV Utrecht",
+      "street": "Breedstraat 55",
+      "postcode": "3512 TV",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/Freak/181124.jpg"
+      ],
+      "logo_file": "0-Utrecht-/Freak/logo.png"
+    },
+    {
+      "page": "cs-grasje.html",
+      "town": "Utrecht",
+      "name": "'t Grasje",
+      "status": "open",
+      "address": "Obrechtstraat 1, 3572 EA Utrecht",
+      "street": "Obrechtstraat 1",
+      "postcode": "3572 EA",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/TGrasje/140625.jpg"
+      ],
+      "logo_file": "0-Utrecht-/TGrasje/logo.jpg"
+    },
+    {
+      "page": "cs-griffioen.html",
+      "town": "Utrecht",
+      "name": "Griffioen",
+      "status": "open",
+      "address": "Griffioenlaan, Utrecht 3526 LA",
+      "street": "Griffioenlaan",
+      "postcode": "3526 LA",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/griffioen/070726.jpg"
+      ],
+      "logo_file": "0-Utrecht-/griffioen/logo.png"
+    },
+    {
+      "page": "cs-pleasure.html",
+      "town": "Utrecht",
+      "name": "Pleasure",
+      "status": "open",
+      "address": "Voorstraat 81, 3512 AL Utrecht",
+      "street": "Voorstraat 81",
+      "postcode": "3512 AL",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/Pleasure/291024.jpg"
+      ],
+      "logo_file": "0-Utrecht-/Pleasure/logo.png"
+    },
+    {
+      "page": "cs-vip.html",
+      "town": "Utrecht",
+      "name": "V.I.P. Shop",
+      "status": "open",
+      "address": "1e Daalsedijk 294, 3513 TL, Utrecht",
+      "street": "1e Daalsedijk 294",
+      "postcode": "3513 TL",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/VIPShop/1000059476.jpg"
+      ],
+      "logo_file": "0-Utrecht-/VIPShop/logo.png"
+    },
+    {
+      "page": "cs-hilo.html",
+      "town": "Utrecht",
+      "name": "HiLo",
+      "status": "open",
+      "address": "Croeslaan 213, 3521 BN Utrecht",
+      "street": "Croeslaan 213",
+      "postcode": "3521 BN",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/HiLo/HiLo01282016MB.jpg"
+      ],
+      "logo_file": "0-Utrecht-/HiLo/logo.png"
+    },
+    {
+      "page": "cs-wietstock.html",
+      "town": "Utrecht",
+      "name": "Wietstok",
+      "status": "open",
+      "address": "Wittevrouwenstraat 21, 3512 CS Utrecht",
+      "street": "Wittevrouwenstraat 21",
+      "postcode": "3512 CS",
+      "city": "Utrecht",
+      "menu_files": [
+        "0-Utrecht-/Wietstock/Wietstok01282016MB.jpg"
+      ],
+      "logo_file": "0-Utrecht-/Wietstock/logo.png"
+    },
+    {
+      "page": "cs-halicarnas.html",
+      "town": "Venray",
+      "name": "Halicarnas",
+      "status": "open",
+      "address": "Henseniusstraat 47, Venray 5801 AW",
+      "street": "Henseniusstraat 47",
+      "postcode": "5801 AW",
+      "city": "Venray",
+      "menu_files": [
+        "0-Venray/halicarnas/IMG_20250815_202112006.jpg"
+      ],
+      "logo_file": "0-Venray/halicarnas/logo.png"
+    },
+    {
+      "page": "cs-aarden.html",
+      "town": "Vlissingen",
+      "name": "Aarden",
+      "status": "open",
+      "address": "Nieuwstraat 1, Vlissingen 4381CN",
+      "street": "Nieuwstraat 1",
+      "postcode": "4381CN",
+      "city": "Vlissingen",
+      "menu_files": [
+        "0-Vlissingen/Aarden/2026-07-22.jpg"
+      ],
+      "logo_file": "0-Vlissingen/Aarden/logo.png"
+    },
+    {
+      "page": "cs-purple.html",
+      "town": "Vlissingen",
+      "name": "Purple",
+      "status": "open",
+      "address": "Aagje Dekenstraat 7a, Vlissingen 4381 RM",
+      "street": "Aagje Dekenstraat 7a",
+      "postcode": "4381 RM",
+      "city": "Vlissingen",
+      "menu_files": [
+        "0-Vlissingen/Purple/june26.jpg"
+      ],
+      "logo_file": "0-Vlissingen/Purple/logo.png"
+    },
+    {
+      "page": "cs-manhattan.html",
+      "town": "Waalwijk",
+      "name": "Manhattan",
+      "status": "open",
+      "address": "Bloemenoordplein 40a, 5143 TC Wallwijk",
+      "street": "Bloemenoordplein 40a",
+      "postcode": "5143 TC",
+      "city": "Wallwijk",
+      "menu_files": [
+        "0-Waalwijk/Manhattan/Menus/Manhattan20210410Bart.jpg"
+      ],
+      "logo_file": "0-Waalwijk/Manhattan/logo.png"
+    },
+    {
+      "page": "cs-bengel.html",
+      "town": "Wageningen",
+      "name": "De Bengel",
+      "status": "open",
+      "address": "Gerdesstraat 2A, Wageningen 6701 AK",
+      "street": "Gerdesstraat 2A",
+      "postcode": "6701 AK",
+      "city": "Wageningen",
+      "menu_files": [
+        "0-Wageningen/bengel/050726.jpg"
+      ],
+      "logo_file": "0-Wageningen/bengel/logo.png"
+    },
+    {
+      "page": "cs-sjop86.html",
+      "town": "Wageningen",
+      "name": "De Sjop '86",
+      "status": "open",
+      "address": "Rouwenhofstraat 1-A, Wageningen 6701 BA",
+      "street": "Rouwenhofstraat 1-A",
+      "postcode": "6701 BA",
+      "city": "Wageningen",
+      "menu_files": [
+        "0-Wageningen/sjop86/310726.jpg"
+      ],
+      "logo_file": "0-Wageningen/sjop86/logo.png"
+    },
+    {
+      "page": "cs-twins.html",
+      "town": "Weert",
+      "name": "Twins",
+      "status": "open",
+      "address": "Beekstraat 50, Weert 6001 GJ",
+      "street": "Beekstraat 50",
+      "postcode": "6001 GJ",
+      "city": "Weert",
+      "menu_files": [
+        "0-Weert/twins/050325.jpg"
+      ],
+      "logo_file": "0-Weert/twins/logo.png"
+    },
+    {
+      "page": "cs-sensishop.html",
+      "town": "Winterswijk",
+      "name": "Sensi Shop",
+      "status": "open",
+      "address": "Jonenstraat 8, Winterswijk 7101 GA",
+      "street": "Jonenstraat 8",
+      "postcode": "7101 GA",
+      "city": "Winterswijk",
+      "menu_files": [
+        "0-Winterswijk/SensiShop/230825.jpg"
+      ],
+      "logo_file": "0-Winterswijk/SensiShop/logo.png"
+    },
+    {
+      "page": "cs-steeg.html",
+      "town": "Woerden",
+      "name": "de Steeg",
+      "status": "open",
+      "address": "Rietveld 1, Woerden 3443 XA",
+      "street": "Rietveld 1",
+      "postcode": "3443 XA",
+      "city": "Woerden",
+      "menu_files": [
+        "0-Woerden/steeg/june26.jpg"
+      ],
+      "logo_file": "0-Woerden/steeg/logo.png"
+    },
+    {
+      "page": "cs-dikrayaat.html",
+      "town": "Wolvega",
+      "name": "Dikrayaat",
+      "status": "open",
+      "address": "Heerenveensweg 12, 8471 BE Wolvega",
+      "street": "Heerenveensweg 12",
+      "postcode": "8471 BE",
+      "city": "Wolvega",
+      "menu_files": [
+        "0-Wolvega/Dikrayaat/Menus/Dikrayaat20220803Mod1.jpg"
+      ],
+      "logo_file": "0-Wolvega/Dikrayaat/logo.png"
+    },
+    {
+      "page": "cs-smokery.html",
+      "town": "Wormerveer",
+      "name": "Smokery",
+      "status": "open",
+      "address": "Marktstraat 33, Wormerveer 1521 DW",
+      "street": "Marktstraat 33",
+      "postcode": "1521 DW",
+      "city": "Wormerveer",
+      "menu_files": [
+        "0-Wormerveer/Smokery/250526a.jpg",
+        "0-Wormerveer/Smokery/250526b.jpg"
+      ],
+      "logo_file": "0-Wormerveer/Smokery/logo.png"
+    },
+    {
+      "page": "cs-squad.html",
+      "town": "Zaandam",
+      "name": "The Squad",
+      "status": "open",
+      "address": "Parkstraat 8, Zaandam 1503 WD",
+      "street": "Parkstraat 8",
+      "postcode": "1503 WD",
+      "city": "Zaandam",
+      "menu_files": [
+        "0-Zaandam/Squad/290726.jpg"
+      ],
+      "logo_file": "0-Zaandam/Squad/logo.png"
+    },
+    {
+      "page": "cs-headlines.html",
+      "town": "Zaandam",
+      "name": "Headlines",
+      "status": "open",
+      "address": "Rozengracht 90, Zaandam 1506 SE",
+      "street": "Rozengracht 90",
+      "postcode": "1506 SE",
+      "city": "Zaandam",
+      "menu_files": [
+        "0-Zaandam/headlines/45469.jpg",
+        "0-Zaandam/headlines/45468.jpg"
+      ],
+      "logo_file": "0-Zaandam/headlines/logo.png"
+    },
+    {
+      "page": "cs-hunters-z.html",
+      "town": "Zandvoort",
+      "name": "Hunter's Zandvoort",
+      "status": "open",
+      "address": "Stationsstraat 9 - 11, 2042 LD, Zandvoort",
+      "street": "Stationsstraat 9 - 11",
+      "postcode": "2042 LD",
+      "city": "Zandvoort",
+      "menu_files": [
+        "0-Zandvoort/Hunters/1000324653.jpg"
+      ],
+      "logo_file": "0-Zandvoort/Hunters/logo.png"
+    },
+    {
+      "page": "cs-casa.html",
+      "town": "Zoetermeer",
+      "name": "Casa",
+      "status": "open",
+      "address": "Amerikaweg 145, 2717AV Zoetermeer",
+      "street": "Amerikaweg 145",
+      "postcode": "2717AV",
+      "city": "Zoetermeer",
+      "menu_files": [
+        "0-Zoetermeer/Klein Cafe/1000074601.jpg"
+      ],
+      "logo_file": "0-Zoetermeer/Klein Cafe/logo.png"
+    },
+    {
+      "page": "cs-yanks.html",
+      "town": "Zandvoort",
+      "name": "Yanks",
+      "status": "open",
+      "address": "Dorpsplein 2, 2042 JK Zandvoort",
+      "street": "Dorpsplein 2",
+      "postcode": "2042 JK",
+      "city": "Zandvoort",
+      "menu_files": [
+        "0-Zandvoort/Yanks/2026-08-01a.jpg",
+        "0-Zandvoort/Yanks/2026-08-01c.jpg",
+        "0-Zandvoort/Yanks/2026-08-01b.jpg"
+      ],
+      "logo_file": "0-Zandvoort/Yanks/logo.png"
+    },
+    {
+      "page": "cs-liberty-z.html",
+      "town": "Zutphen",
+      "name": "Liberty",
+      "status": "open",
+      "address": "Nieuwstad 49, 7201 NL Zutphen",
+      "street": "Nieuwstad 49",
+      "postcode": "7201 NL",
+      "city": "Zutphen",
+      "menu_files": [
+        "0-Zutphen-/Liberty/LibertyZutphen04102014DH.jpg"
+      ],
+      "logo_file": "0-Zutphen-/Liberty/logo.png"
+    },
+    {
+      "page": "cs-plein-48.html",
+      "town": "Zutphen",
+      "name": "Plein 48",
+      "status": "open",
+      "address": "Vaaltstraat 23, 7201 DA Zutphen",
+      "street": "Vaaltstraat 23",
+      "postcode": "7201 DA",
+      "city": "Zutphen",
+      "menu_files": [
+        "0-Zutphen-/Plein 48/Plein48Zutphen07132009Epsilon.jpg"
+      ],
+      "logo_file": "0-Zutphen-/Plein 48/logo.png"
+    },
+    {
+      "page": "cs-ambassade.html",
+      "town": "Zwijndrecht",
+      "name": "De Ambassade",
+      "status": "open",
+      "address": "IJsselmeer 27, Zwijndrecht 3332 EX",
+      "street": "IJsselmeer 27",
+      "postcode": "3332 EX",
+      "city": "Zwijndrecht",
+      "menu_files": [
+        "0-Zwinjdrecht/DeAmbassade/Menus/IMG_20250308.jpg"
+      ],
+      "logo_file": "0-Zwinjdrecht/DeAmbassade/logo.png"
+    },
+    {
+      "page": "cs-zoo-zut.html",
+      "town": "Zutphen",
+      "name": "Zoo",
+      "status": "open",
+      "address": "Laarstraat 87, Zutphen",
+      "street": "Laarstraat 87",
+      "postcode": "",
+      "city": "Zutphen",
+      "menu_files": [
+        "0-Zutphen-/Zoo/ZooZutphen07022011Epsilon.JPG"
+      ],
+      "logo_file": "0-Zutphen-/Zoo/logo.png"
+    },
+    {
+      "page": "cs-binnenhof.html",
+      "town": "Zwolle",
+      "name": "Het Binnenhof",
+      "status": "closed",
+      "address": "Steenstraat 6, 8011 TV Zwolle",
+      "street": "Steenstraat 6",
+      "postcode": "8011 TV",
+      "city": "Zwolle",
+      "menu_files": [
+        "0-Zwolle/Binnenhof/BinnenhofZwolle08232011quiky.jpg"
+      ],
+      "logo_file": "0-Zwolle/Binnenhof/logo.png"
+    },
+    {
+      "page": "cs-pijp.html",
+      "town": "Zwolle",
+      "name": "De Pijp",
+      "status": "open",
+      "address": "Vechtstraat 98, Zwolle, NL",
+      "street": "Vechtstraat 98, Zwolle",
+      "postcode": "",
+      "city": "NL",
+      "menu_files": [
+        "0-Zwolle/DePijp/2026-04-16.jpg"
+      ],
+      "logo_file": "0-Zwolle/DePijp/logo.png"
+    },
+    {
+      "page": "cs-sky-high-z.html",
+      "town": "Zwolle",
+      "name": "Sky High",
+      "status": "open",
+      "address": "van Karnebeekstraat 41, 8011 JB, Zwoole",
+      "street": "van Karnebeekstraat 41",
+      "postcode": "8011 JB",
+      "city": "Zwoole",
+      "menu_files": [
+        "0-Zwolle/SkyHigh/181024.jpg"
+      ],
+      "logo_file": "0-Zwolle/SkyHigh/logo.png"
+    },
+    {
+      "page": "cs-new-balance.html",
+      "town": "Zwolle",
+      "name": "New Balance",
+      "status": "closed",
+      "address": "Derde Bredehoek 1, 8011 XG, Zwolle",
+      "street": "Derde Bredehoek 1",
+      "postcode": "8011 XG",
+      "city": "Zwolle",
+      "menu_files": [
+        "0-Zwolle/NewBalance/NewBalance20180514Dreaminjection.JPG"
+      ],
+      "logo_file": "0-Zwolle/NewBalance/logo.png"
+    },
+    {
+      "page": "cs-paz.html",
+      "town": "Zandvoort",
+      "name": "La Paz",
+      "status": "open",
+      "address": "Stationsstraat 9 - 11, 2042 LD Zandvoort",
+      "street": "Stationsstraat 9 - 11",
+      "postcode": "2042 LD",
+      "city": "Zandvoort",
+      "menu_files": [
+        "0-Zandvoort/LaPaz/LaPazHashA11262014Colina.JPG",
+        "0-Zandvoort/LaPaz/LaPazHashB11262014Colina.JPG",
+        "0-Zandvoort/LaPaz/LaPazWeedA11262014Colina.JPG",
+        "0-Zandvoort/LaPaz/LaPazWeedB11262014Colina.JPG",
+        "0-Zandvoort/LaPaz/LaPazJointCake11262014Colina.JPG"
+      ],
+      "logo_file": "0-Zandvoort/LaPaz/logo.png"
+    }
+  ]
+}

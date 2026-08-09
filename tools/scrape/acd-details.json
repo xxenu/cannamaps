@@ -1,0 +1,5330 @@
+{
+  "generated_at": "2026-08-06T03:49:23.443Z",
+  "source": "coffeeshopdirect.com",
+  "count": 250,
+  "details": {
+    "cs-geirenest.html": {
+      "shop": "'t Gierenest",
+      "acd_url": "https://www.coffeeshopdirect.com/gierenest.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-oovievaartje.html": {
+      "shop": "'t Ooievaartje",
+      "acd_url": "https://www.coffeeshopdirect.com/ooievaartje.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-keteltje.html": {
+      "shop": "'t Keteltje",
+      "acd_url": "https://www.coffeeshopdirect.com/keteltje.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6226998",
+      "lat": 52.3796140012,
+      "lng": 4.8796033859,
+      "acd_rating": {
+        "value": 2.33,
+        "count": 6,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/CoffeeshoptKeteltje/",
+      "instagram": "https://www.instagram.com/coffeeshopketeltje/"
+    },
+    "cs-156.html": {
+      "shop": "156",
+      "acd_url": "https://www.coffeeshopdirect.com/156.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-137.html": {
+      "shop": "137",
+      "acd_url": "https://www.coffeeshopdirect.com/137.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-1e-hulp.html": {
+      "shop": "1e Hulp",
+      "acd_url": "https://www.coffeeshopdirect.com/1ehulp.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 4270712",
+      "lat": 52.3715471412,
+      "lng": 4.8758603632,
+      "acd_rating": {
+        "value": 2.67,
+        "count": 9,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/1ehulp/",
+      "facebook": "https://www.facebook.com/1ehulp/",
+      "instagram": "https://www.instagram.com/1ehulp_official/"
+    },
+    "cs-420-coffeeshop.html": {
+      "shop": "420 Coffeeshop",
+      "acd_url": "https://www.coffeeshopdirect.com/420coffeeshop.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-cheech-chongs-2.html": {
+      "shop": "2e Cheech and Chong's",
+      "acd_url": "https://www.coffeeshopdirect.com/2echeechandchongs.html",
+      "opening_hours": {
+        "monday": "09:30-01:00",
+        "tuesday": "09:30-01:00",
+        "wednesday": "09:30-01:00",
+        "thursday": "09:30-01:00",
+        "friday": "09:30-01:00",
+        "saturday": "09:30-01:00",
+        "sunday": "09:30-01:00"
+      },
+      "telephone": "+31 (0)20 6854810",
+      "lat": 52.3713186965,
+      "lng": 4.8714655637,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Cheech-&-Chong's/268608269822013/",
+      "instagram": "https://www.instagram.com/explore/locations/251209977/cheech-chongs/"
+    },
+    "cs-420-cafe.html": {
+      "shop": "420 Cafe (de Kuil)",
+      "acd_url": "https://www.coffeeshopdirect.com/420cafe.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6234848",
+      "lat": 52.3759225702,
+      "lng": 4.8958817124,
+      "acd_rating": {
+        "value": 2.9,
+        "count": 40,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/pages/420-Cafe/170585802976632/",
+      "facebook": "https://www.facebook.com/pages/420-Cafe/170585802976632/",
+      "instagram": "https://www.instagram.com/explore/locations/2274301/420-cafe/"
+    },
+    "cs-7thheaven.html": {
+      "shop": "7th Heaven",
+      "acd_url": "https://www.coffeeshopdirect.com/7thheaven-2.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "12:00-00:00"
+      },
+      "telephone": "+31 (0)20 6270764",
+      "lat": 52.3814231728,
+      "lng": 4.8862606287,
+      "acd_rating": {
+        "value": 2.71,
+        "count": 7,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/coffeeshop137",
+      "facebook": "https://www.facebook.com/coffeeshop137",
+      "instagram": "https://www.instagram.com/coffeeshop137"
+    },
+    "cs-96.html": {
+      "shop": "96",
+      "acd_url": "https://www.coffeeshopdirect.com/ninetysix.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 6186084",
+      "lat": 52.363555,
+      "lng": 4.863266,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/coffeeshop96/"
+    },
+    "cs-abraxas.html": {
+      "shop": "Abraxas",
+      "acd_url": "https://www.coffeeshopdirect.com/abraxas.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6255763",
+      "lat": 52.3720416912,
+      "lng": 4.891140908,
+      "acd_rating": {
+        "value": 2.76,
+        "count": 75,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.abraxas.amsterdam/",
+      "facebook": "https://www.facebook.com/Abraxasamsterdam/",
+      "instagram": "https://www.instagram.com/abraxas.amsterdam/"
+    },
+    "cs-abraxas-too.html": {
+      "shop": "Abraxas Too",
+      "acd_url": "https://www.coffeeshopdirect.com/abraxastoo.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-aktama2.html": {
+      "shop": "Aktama 2",
+      "acd_url": "https://www.coffeeshopdirect.com/aktama2.html",
+      "opening_hours": {
+        "monday": "10:00-23:00",
+        "tuesday": "10:00-23:00",
+        "wednesday": "10:00-23:00",
+        "thursday": "10:00-23:00",
+        "friday": "10:00-23:00",
+        "saturday": "10:00-23:00",
+        "sunday": "10:00-23:00"
+      },
+      "telephone": "+31 (0)20 6855308",
+      "lat": 52.3696372794,
+      "lng": 4.8524343383,
+      "acd_rating": {
+        "value": 3,
+        "count": 1,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-156/309528759443871",
+      "instagram": ""
+    },
+    "cs-amnesia.html": {
+      "shop": "Amnesia",
+      "acd_url": "https://www.coffeeshopdirect.com/amnesia.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 4277874",
+      "lat": 52.3755590593,
+      "lng": 4.8890796303,
+      "acd_rating": {
+        "value": 2.82,
+        "count": 51,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.barneysamsterdam.com/amnesia",
+      "facebook": "https://www.facebook.com/CoffeeshopAmnesia/",
+      "instagram": "https://www.instagram.com/coffeeshop_amnesia/"
+    },
+    "cs-amsterdamned.html": {
+      "shop": "Amsterdamned",
+      "acd_url": "https://www.coffeeshopdirect.com/amsterdamned.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-amsterdamgenetics.html": {
+      "shop": "Amsterdam Genetics",
+      "acd_url": "https://www.coffeeshopdirect.com/amsterdamgenetics-cs.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 3205427",
+      "lat": 52.3800716222,
+      "lng": 4.8929031193,
+      "acd_rating": {
+        "value": 2.85,
+        "count": 66,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshopamsterdam.com/",
+      "facebook": "https://www.facebook.com/pages/Dampkring-II/335613296534870",
+      "instagram": ""
+    },
+    "cs-andalucia.html": {
+      "shop": "Andalucia",
+      "acd_url": "https://www.coffeeshopdirect.com/andalucia.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-anyday.html": {
+      "shop": "Anyday",
+      "acd_url": "https://www.coffeeshopdirect.com/anyday.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-arabica-lounge.html": {
+      "shop": "Arabica Lounge",
+      "acd_url": "https://www.coffeeshopdirect.com/arabicalounge.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-atlantis.html": {
+      "shop": "Atlantis",
+      "acd_url": "https://www.coffeeshopdirect.com/atlantis.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-atlas-ams.html": {
+      "shop": "Atlas",
+      "acd_url": "https://www.coffeeshopdirect.com/atlas.html",
+      "opening_hours": {
+        "monday": "10:00-22:00",
+        "tuesday": "10:00-22:00",
+        "wednesday": "10:00-22:00",
+        "thursday": "10:00-22:00",
+        "friday": "10:00-22:00",
+        "saturday": "10:00-22:00",
+        "sunday": "10:00-22:00"
+      },
+      "telephone": "",
+      "lat": 52.3980851767,
+      "lng": 4.9414231412,
+      "acd_rating": {
+        "value": 2.67,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.instagram.com/coffeeshop_atlas/",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/coffeeshop_atlas/"
+    },
+    "cs-baba.html": {
+      "shop": "Baba",
+      "acd_url": "https://www.coffeeshopdirect.com/baba-2.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-babylon.html": {
+      "shop": "Babylon",
+      "acd_url": "https://www.coffeeshopdirect.com/babylon-ams.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 4270609",
+      "lat": 52.3747829044,
+      "lng": 4.8966166377,
+      "acd_rating": {
+        "value": 3,
+        "count": 4,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/pages/Coffeeshop-Babylon/372526216811771",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-Babylon/372526216811771",
+      "instagram": "https://www.instagram.com/explore/locations/372526216811771/coffeeshop-babylon/"
+    },
+    "cs-balboa-family.html": {
+      "shop": "Balboa Family",
+      "acd_url": "https://www.coffeeshopdirect.com/balboafamily.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6253668",
+      "lat": 52.3668158846,
+      "lng": 4.8958669602,
+      "acd_rating": {
+        "value": 2.43,
+        "count": 7,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/tonybalboaamsterdam",
+      "instagram": "https://www.instagram.com/coffeeshopthebalboafamily/"
+    },
+    "cs-bagheera.html": {
+      "shop": "Bagheera",
+      "acd_url": "https://www.coffeeshopdirect.com/bagheera.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6270384",
+      "lat": 52.3700440923,
+      "lng": 4.8974124894,
+      "acd_rating": {
+        "value": 2.6,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/CoffeeshopBagheera/",
+      "instagram": "https://www.instagram.com/coffeeshopbagheera60/"
+    },
+    "cs-balou.html": {
+      "shop": "Balou",
+      "acd_url": "https://www.coffeeshopdirect.com/balou.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6275653",
+      "lat": 52.3667446417,
+      "lng": 4.8958750069,
+      "acd_rating": {
+        "value": 2.89,
+        "count": 9,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopbalou.nl/",
+      "facebook": "https://www.facebook.com/pages/Balou-coffee-shop-Amsterdam/188837261147563/",
+      "instagram": "https://www.instagram.com/coffeeshop.balou.amsterdam/"
+    },
+    "cs-barneys-farm.html": {
+      "shop": "Barney's Farm",
+      "acd_url": "https://www.coffeeshopdirect.com/barneysfarm.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "https://www.barneysamsterdam.com/farm",
+      "facebook": "https://www.facebook.com/BarneysFarm",
+      "instagram": "https://www.instagram.com/barneysfarm__amsterdam/"
+    },
+    "cs-barneys-lounge.html": {
+      "shop": "Barney's Lounge",
+      "acd_url": "https://www.coffeeshopdirect.com/barneyslounge.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-barneys.html": {
+      "shop": "Barneys",
+      "acd_url": "https://www.coffeeshopdirect.com/barneyscoffeeshop.html",
+      "opening_hours": {
+        "monday": "07:00-22:00",
+        "tuesday": "07:00-22:00",
+        "wednesday": "07:00-22:00",
+        "thursday": "07:00-22:00",
+        "friday": "07:00-22:00",
+        "saturday": "07:00-22:00",
+        "sunday": "07:00-22:00"
+      },
+      "telephone": "+31 (0)20 6259761",
+      "lat": 52.3807117924,
+      "lng": 4.8908713459,
+      "acd_rating": {
+        "value": 2.72,
+        "count": 108,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://www.barneysamsterdam.com/",
+      "facebook": "https://www.facebook.com/barneyscoffeeshopamsterdam/",
+      "instagram": "https://www.instagram.com/explore/locations/354248849/barneys-coffeeshop-amsterdam/"
+    },
+    "cs-barraka.html": {
+      "shop": "Barraka",
+      "acd_url": "https://www.coffeeshopdirect.com/barraka.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6269766",
+      "lat": 52.3742335291,
+      "lng": 4.8926067352,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 12,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Barraka-Coffee-Shop/165785303487262",
+      "instagram": "https://www.instagram.com/explore/locations/234844377/barraka-coffee-shop/"
+    },
+    "cs-basjoe.html": {
+      "shop": "Basjoe",
+      "acd_url": "https://www.coffeeshopdirect.com/basjoe.html",
+      "opening_hours": {
+        "monday": "13:00-01:00",
+        "tuesday": "13:00-01:00",
+        "wednesday": "13:00-01:00",
+        "thursday": "13:00-01:00",
+        "friday": "13:00-01:00",
+        "saturday": "13:00-01:00",
+        "sunday": "13:00-01:00"
+      },
+      "telephone": "+31 (0)20 6273858",
+      "lat": 52.3700172461,
+      "lng": 4.8973707967,
+      "acd_rating": {
+        "value": 2.9,
+        "count": 21,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/basjoeshop/",
+      "facebook": "https://www.facebook.com/basjoeshop/",
+      "instagram": "https://www.instagram.com/basjoeshop/"
+    },
+    "cs-bassment.html": {
+      "shop": "Bassment",
+      "acd_url": "https://www.coffeeshopdirect.com/bassment.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-ben.html": {
+      "shop": "Ben",
+      "acd_url": "https://www.coffeeshopdirect.com/ben.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-best-friends-centrum.html": {
+      "shop": "Best Friends Centrum",
+      "acd_url": "https://www.coffeeshopdirect.com/bestfriendscentrum.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "https://bestfriendsamsterdam.com/locations/centrum/",
+      "facebook": "https://www.facebook.com/coffeeshopbestfriends",
+      "instagram": "https://www.instagram.com/bestfriendsamsterdam/"
+    },
+    "cs-best-friends-oost.html": {
+      "shop": "Best Friends Oost",
+      "acd_url": "https://www.coffeeshopdirect.com/bestfriendsoost.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6928989",
+      "lat": 52.3651084791,
+      "lng": 4.939726442,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://bestfriendsamsterdam.com/",
+      "facebook": "https://www.facebook.com/coffeeshopbestfriends",
+      "instagram": "https://www.instagram.com/bestfriendsamsterdam/"
+    },
+    "cs-betty-two.html": {
+      "shop": "Betty Two",
+      "acd_url": "https://www.coffeeshopdirect.com/bettybooptoo.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-betty-boop.html": {
+      "shop": "Betty Boop",
+      "acd_url": "https://www.coffeeshopdirect.com/bettyboop.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-biba.html": {
+      "shop": "Biba",
+      "acd_url": "https://www.coffeeshopdirect.com/biba.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-bij.html": {
+      "shop": "Bij",
+      "acd_url": "https://www.coffeeshopdirect.com/bij.html",
+      "opening_hours": {
+        "monday": "10:00-23:00",
+        "tuesday": "10:00-23:00",
+        "wednesday": "10:00-23:00",
+        "thursday": "10:00-23:00",
+        "friday": "10:00-23:00",
+        "saturday": "10:00-23:00",
+        "sunday": "10:00-23:00"
+      },
+      "telephone": "+31 (0)20 6832735",
+      "lat": 52.3620759316,
+      "lng": 4.8553964495,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.boerejongens.com/boerejongens-bij/",
+      "facebook": "https://www.facebook.com/boerejongens",
+      "instagram": "https://www.instagram.com/explore/locations/230951014029368/boerejongens-coffeeshops"
+    },
+    "cs-black-star.html": {
+      "shop": "Blackstar",
+      "acd_url": "https://www.coffeeshopdirect.com/blackstar.html",
+      "opening_hours": {
+        "monday": "11:00-01:00",
+        "tuesday": "11:00-01:00",
+        "wednesday": "11:00-01:00",
+        "thursday": "11:00-01:00",
+        "friday": "11:00-01:00",
+        "saturday": "11:00-01:00",
+        "sunday": "11:00-01:00"
+      },
+      "telephone": "+31 (0)20 6269469",
+      "lat": 52.3737037971,
+      "lng": 4.8825672268,
+      "acd_rating": {
+        "value": 2.42,
+        "count": 12,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/AfricanBlackstarCoffeeshop",
+      "facebook": "https://www.facebook.com/AfricanBlackstarCoffeeshop",
+      "instagram": "https://www.instagram.com/coffeeshopblackstar/"
+    },
+    "cs-blue-lagoon.html": {
+      "shop": "Blue Lagoon",
+      "acd_url": "https://www.coffeeshopdirect.com/bluelagoon.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 2213399",
+      "lat": 52.3606140432,
+      "lng": 4.866207093,
+      "acd_rating": {
+        "value": 2.56,
+        "count": 9,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/Coffeeshop-Blue-Lagoon-275927226149992/",
+      "instagram": "https://www.instagram.com/coffeeshopbluelagoon/"
+    },
+    "cs-blue-sea.html": {
+      "shop": "Blue Sea",
+      "acd_url": "https://www.coffeeshopdirect.com/bluesea.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6761991",
+      "lat": 52.3546070988,
+      "lng": 4.9016310274,
+      "acd_rating": {
+        "value": 2.6,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Coffee-Shop-Blue-Sea/126659040823142",
+      "instagram": "https://www.instagram.com/blueseaamsterdam/"
+    },
+    "cs-bluebird.html": {
+      "shop": "Bluebird",
+      "acd_url": "https://www.coffeeshopdirect.com/bluebird.html",
+      "opening_hours": {
+        "monday": "09:30-01:00",
+        "tuesday": "09:30-01:00",
+        "wednesday": "09:30-01:00",
+        "thursday": "09:30-01:00",
+        "friday": "09:30-01:00",
+        "saturday": "09:30-01:00",
+        "sunday": "09:30-01:00"
+      },
+      "telephone": "+31 (0)20 6225232",
+      "lat": 52.3700102658,
+      "lng": 4.9008959294,
+      "acd_rating": {
+        "value": 2.71,
+        "count": 49,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/Bluebird-coffee-shop-Amsterdam-206453062701872/",
+      "facebook": "https://www.facebook.com/Bluebird-coffee-shop-Amsterdam-206453062701872/",
+      "instagram": "https://www.instagram.com/bluebirdcoffeeshopams/"
+    },
+    "cs-blues-brothers.html": {
+      "shop": "Blues Brothers",
+      "acd_url": "https://www.coffeeshopdirect.com/bluesbrothers.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "https://www.facebook.com/groups/43886364972",
+      "facebook": "https://www.facebook.com/groups/43886364972",
+      "instagram": ""
+    },
+    "cs-boerejongens-cent.html": {
+      "shop": "Boerejongens Centrum",
+      "acd_url": "https://www.coffeeshopdirect.com/boerejongenscentre.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 4473557",
+      "lat": 52.3648533863,
+      "lng": 4.8979946225,
+      "acd_rating": {
+        "value": 2.81,
+        "count": 21,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.boerejongens.com/boerejongens-coffeeshop-center-amsterdam/",
+      "facebook": "https://www.facebook.com/boerejongens/",
+      "instagram": "https://www.instagram.com/boerejongens/"
+    },
+    "cs-boerejongens-west.html": {
+      "shop": "Boerejongens West",
+      "acd_url": "https://www.coffeeshopdirect.com/boerejongenswest.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6182128",
+      "lat": 52.3623126137,
+      "lng": 4.8575355112,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 8,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.boerejongens.com/boerejongens-west/",
+      "facebook": "https://www.facebook.com/boerejongens/",
+      "instagram": "https://www.instagram.com/explore/locations/230951014029368/boerejongens-coffeeshops"
+    },
+    "cs-boerejongens-slot.html": {
+      "shop": "Boerejongens Sloterdijk",
+      "acd_url": "https://www.coffeeshopdirect.com/boerejongenssloterdijk.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 4473557",
+      "lat": 52.391279,
+      "lng": 4.829912,
+      "acd_rating": {
+        "value": 2,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopsloterdijk.com/",
+      "facebook": "https://www.facebook.com/coffeeshopsloterdijk",
+      "instagram": "https://www.instagram.com/explore/locations/341463893057711/boerejongens-coffeeshops/"
+    },
+    "cs-bronx.html": {
+      "shop": "Bronx",
+      "acd_url": "https://www.coffeeshopdirect.com/bronx.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 5287292",
+      "lat": 52.379145733,
+      "lng": 4.8793137073,
+      "acd_rating": {
+        "value": 2.71,
+        "count": 7,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/pages/Coffeeshop-Bronx/527897234017565",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-Bronx/527897234017565",
+      "instagram": ""
+    },
+    "cs-bulldog-no-90.html": {
+      "shop": "Bulldog No. 90",
+      "acd_url": "https://www.coffeeshopdirect.com/bulldogno90.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 6259864",
+      "lat": 52.3736677719,
+      "lng": 4.8976922035,
+      "acd_rating": {
+        "value": 2.37,
+        "count": 27,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.thebulldog.com/the-bulldog-the-first",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-bulldog-energy.html": {
+      "shop": "Bulldog Energy",
+      "acd_url": "https://www.coffeeshopdirect.com/bulldogenergy.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 6382593",
+      "lat": 52.372494478,
+      "lng": 4.8962411284,
+      "acd_rating": {
+        "value": 2.56,
+        "count": 9,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.thebulldog.com/the-bulldog-energy/",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-bulldog-palace.html": {
+      "shop": "Bulldog Palace",
+      "acd_url": "https://www.coffeeshopdirect.com/bulldogpalace.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 6271908",
+      "lat": 52.3639734479,
+      "lng": 4.883326292,
+      "acd_rating": {
+        "value": 2.16,
+        "count": 32,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.thebulldog.com/the-bulldog-ex-policestation/",
+      "facebook": "https://www.facebook.com/TheBulldogAms",
+      "instagram": "https://www.instagram.com/thebulldogamsterdam/"
+    },
+    "cs-bulldog-rockshop.html": {
+      "shop": "Bulldog Rockshop",
+      "acd_url": "https://www.coffeeshopdirect.com/bulldogrockshop.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6278900",
+      "lat": 52.3790908831,
+      "lng": 4.8938338458,
+      "acd_rating": {
+        "value": 2.56,
+        "count": 9,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.thebulldog.com/the-bulldog-rockshop/",
+      "facebook": "https://www.facebook.com/pages/The-Bulldog-The-Rockshop/169657026439770",
+      "instagram": "https://www.instagram.com/thebulldogamsterdam/"
+    },
+    "cs-bulldogport26.html": {
+      "shop": "Bulldog Port 26",
+      "acd_url": "https://www.coffeeshopdirect.com/bulldogport26.html",
+      "opening_hours": {
+        "monday": "09:00-22:00",
+        "tuesday": "09:00-22:00",
+        "wednesday": "09:00-22:00",
+        "thursday": "09:00-22:00",
+        "friday": "09:00-22:00",
+        "saturday": "11:00-20:00",
+        "sunday": "11:00-20:00"
+      },
+      "telephone": "+31 (0)20 4751827",
+      "lat": 52.405409,
+      "lng": 4.857948,
+      "acd_rating": null,
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.thebulldog.com/the-bulldog-port-26",
+      "facebook": "https://www.facebook.com/TheBulldogAms/",
+      "instagram": "https://www.instagram.com/thebulldogamsterdam/"
+    },
+    "cs-bullwackie.html": {
+      "shop": "Bullwackie",
+      "acd_url": "https://www.coffeeshopdirect.com/bullwackie.html",
+      "opening_hours": {
+        "monday": "07:00-00:00",
+        "tuesday": "07:00-00:00",
+        "wednesday": "07:00-00:00",
+        "thursday": "07:00-00:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 6179395",
+      "lat": 52.3520612317,
+      "lng": 4.8474356532,
+      "acd_rating": {
+        "value": 2.25,
+        "count": 8,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Bullwackie-Amsterdam/186378311429581",
+      "instagram": "https://www.instagram.com/coffeeshop.bullwackie/"
+    },
+    "cs-carmona.html": {
+      "shop": "Carmona",
+      "acd_url": "https://www.coffeeshopdirect.com/carmona.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 4004026",
+      "lat": 52.3556760244,
+      "lng": 4.9010697752,
+      "acd_rating": {
+        "value": 3,
+        "count": 8,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshopcarmona.nl/",
+      "facebook": "https://www.facebook.com/coffeeshopcarmona/",
+      "instagram": "https://www.instagram.com/coffeeshop_carmona/"
+    },
+    "cs-bushdocter.html": {
+      "shop": "Bushdocter",
+      "acd_url": "https://www.coffeeshopdirect.com/bushdocter.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 3307475",
+      "lat": 52.3651052035,
+      "lng": 4.8955792933,
+      "acd_rating": {
+        "value": 2.78,
+        "count": 36,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/pages/The-Bushdoctor/192559907423555",
+      "facebook": "https://www.facebook.com/pages/The-Bushdoctor/192559907423555",
+      "instagram": "https://www.instagram.com/coffeeshopthebushdocter/"
+    },
+    "cs-catch-33.html": {
+      "shop": "Catch 33",
+      "acd_url": "https://www.coffeeshopdirect.com/catch33.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 4862444",
+      "lat": 52.3826674468,
+      "lng": 4.8798179626,
+      "acd_rating": {
+        "value": 3,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://coffeeshopcatch33.nl/",
+      "facebook": "https://www.facebook.com/coffeeshopcatch33/",
+      "instagram": "https://www.instagram.com/coffeeshop_catch_33/"
+    },
+    "cs-central.html": {
+      "shop": "Central",
+      "acd_url": "https://www.coffeeshopdirect.com/central.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6263985",
+      "lat": 52.3767371839,
+      "lng": 4.9019676446,
+      "acd_rating": {
+        "value": 2.74,
+        "count": 38,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshop-central.com/",
+      "facebook": "https://www.facebook.com/pages/Central-Coffeshop/168567496620472/",
+      "instagram": "https://www.instagram.com/coffeeshop_central1987"
+    },
+    "cs-chapiteau.html": {
+      "shop": "Chapiteau",
+      "acd_url": "https://www.coffeeshopdirect.com/chapiteau.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6822548",
+      "lat": 52.3823743907,
+      "lng": 4.8730547726,
+      "acd_rating": {
+        "value": 3,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/Chapiteau-270569029758248/",
+      "instagram": "https://www.instagram.com/explore/locations/876819879/chapiteau/"
+    },
+    "cs-chocolata.html": {
+      "shop": "Chocolata",
+      "acd_url": "https://www.coffeeshopdirect.com/chocolata.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-city-hall.html": {
+      "shop": "City Hall",
+      "acd_url": "https://www.coffeeshopdirect.com/cityhall.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6263985",
+      "lat": 52.371487369,
+      "lng": 4.8957905173,
+      "acd_rating": {
+        "value": 2.67,
+        "count": 12,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/coffeeshopcityhall/",
+      "facebook": "https://www.facebook.com/coffeeshopcityhall/",
+      "instagram": "https://www.instagram.com/coffeeshopcityhall/"
+    },
+    "cs-media.html": {
+      "shop": "Club Media",
+      "acd_url": "https://www.coffeeshopdirect.com/clubmedia.html",
+      "opening_hours": {
+        "monday": "08:00-00:00",
+        "tuesday": "08:00-00:00",
+        "wednesday": "08:00-00:00",
+        "thursday": "08:00-00:00",
+        "friday": "08:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 6645889",
+      "lat": 52.3558013451,
+      "lng": 4.8918530344,
+      "acd_rating": {
+        "value": 2.92,
+        "count": 13,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://coffeeshopclubmedia.nl/",
+      "facebook": "https://www.facebook.com/coffeeshopclubmedia/",
+      "instagram": "https://www.instagram.com/coffeeshopclubmedia/"
+    },
+    "cs-oost.html": {
+      "shop": "Coffeeshop Oost",
+      "acd_url": "https://www.coffeeshopdirect.com/oost.html",
+      "opening_hours": {
+        "monday": "09:00-00:00",
+        "tuesday": "09:00-00:00",
+        "wednesday": "09:00-00:00",
+        "thursday": "09:00-00:00",
+        "friday": "09:00-00:00",
+        "saturday": "09:00-00:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 6935555",
+      "lat": 52.3564041896,
+      "lng": 4.9162785708,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 4,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshopoost.nl/",
+      "facebook": "https://www.facebook.com/profile.php?id=100095432046943",
+      "instagram": "https://www.instagram.com/coffeeshopoost/"
+    },
+    "cs-coffeeshop-amsterdam.html": {
+      "shop": "CoffeeshopAmsterdam",
+      "acd_url": "https://www.coffeeshopdirect.com/coffeeshopamsterdam.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-crash-light.html": {
+      "shop": "CrashLight",
+      "acd_url": "https://www.coffeeshopdirect.com/crashlight.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6659757",
+      "lat": 52.3547905791,
+      "lng": 4.9222263693,
+      "acd_rating": {
+        "value": 1.5,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-crush.html": {
+      "shop": "Crush",
+      "acd_url": "https://www.coffeeshopdirect.com/crush.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 4204435",
+      "lat": 52.3657292126,
+      "lng": 4.8801478743,
+      "acd_rating": {
+        "value": 2.69,
+        "count": 13,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Crush-Coffeeshop/280511191962948",
+      "instagram": "https://www.instagram.com/coffeeshop.crush/"
+    },
+    "cs-d-l.html": {
+      "shop": "D&L",
+      "acd_url": "https://www.coffeeshopdirect.com/dandl.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 54302787",
+      "lat": 52.3572322684,
+      "lng": 4.901317209,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 4,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/DL-Coffeeshop-2035387266674752/",
+      "facebook": "https://www.facebook.com/DL-Coffeeshop-2035387266674752/",
+      "instagram": "https://www.instagram.com/denlcoffeeshop/"
+    },
+    "cs-dampkring.html": {
+      "shop": "Dampkring",
+      "acd_url": "https://www.coffeeshopdirect.com/dampkring.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6380705",
+      "lat": 52.3677551342,
+      "lng": 4.890460968,
+      "acd_rating": {
+        "value": 2.77,
+        "count": 97,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://dampkring-coffeeshop-amsterdam.nl/",
+      "facebook": "https://www.facebook.com/originaldampkring",
+      "instagram": "https://www.instagram.com/originaldampkring/"
+    },
+    "cs-dampkring-2.html": {
+      "shop": "Dampkring 2",
+      "acd_url": "https://www.coffeeshopdirect.com/dampkring2.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-barentsz.html": {
+      "shop": "de Barentsz",
+      "acd_url": "https://www.coffeeshopdirect.com/barentsz.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-bommel.html": {
+      "shop": "de Bommel",
+      "acd_url": "https://www.coffeeshopdirect.com/bommel.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-graal.html": {
+      "shop": "de Graal",
+      "acd_url": "https://www.coffeeshopdirect.com/graal.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "https://www.facebook.com/degraalamsterdam/",
+      "facebook": "https://www.facebook.com/degraalamsterdam/",
+      "instagram": "https://www.instagram.com/explore/locations/20775225/de-graal/"
+    },
+    "cs-kade.html": {
+      "shop": "De Kade",
+      "acd_url": "https://www.coffeeshopdirect.com/kade.html",
+      "opening_hours": {
+        "monday": "08:00-23:00",
+        "tuesday": "08:00-23:00",
+        "wednesday": "08:00-23:00",
+        "thursday": "08:00-23:00",
+        "friday": "08:00-23:00",
+        "saturday": "08:00-23:00",
+        "sunday": "08:00-23:00"
+      },
+      "telephone": "+31 (0)20 6738102",
+      "lat": 52.3435034877,
+      "lng": 4.8643261939,
+      "acd_rating": {
+        "value": 2.6,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshopdekade.nl",
+      "facebook": "https://www.facebook.com/dekadeamsterdam/",
+      "instagram": "https://www.instagram.com/dekade.amsterdam/"
+    },
+    "cs-keeper.html": {
+      "shop": "de Keeper",
+      "acd_url": "https://www.coffeeshopdirect.com/keeper.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-kroon.html": {
+      "shop": "de Kroon",
+      "acd_url": "https://www.coffeeshopdirect.com/kroon.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-overkant-hortus.html": {
+      "shop": "de Overkant Hortus",
+      "acd_url": "https://www.coffeeshopdirect.com/overkanthortus.html",
+      "opening_hours": {
+        "monday": "10:00-20:00",
+        "tuesday": "10:00-20:00",
+        "wednesday": "10:00-20:00",
+        "thursday": "10:00-20:00",
+        "friday": "10:00-23:00",
+        "saturday": "10:00-23:00",
+        "sunday": "10:00-20:00"
+      },
+      "telephone": "+31 (0)20 6206577",
+      "lat": 52.3673334161,
+      "lng": 4.9065086245,
+      "acd_rating": {
+        "value": 2.79,
+        "count": 14,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/p/Coffeeshop-Hortus-De-Overkant-100083322638097/",
+      "instagram": "https://www.instagram.com/coffeeshopdeoverkant/"
+    },
+    "cs-prijs.html": {
+      "shop": "De Prijs",
+      "acd_url": "https://www.coffeeshopdirect.com/prijs.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 6690620",
+      "lat": 52.3579436174,
+      "lng": 4.8540211468,
+      "acd_rating": {
+        "value": 3,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/De-Prijs/109934842456324",
+      "instagram": "https://www.instagram.com/coffeeshopdeprijs/"
+    },
+    "cs-supermarkt.html": {
+      "shop": "de Supermarkt",
+      "acd_url": "https://www.coffeeshopdirect.com/supermarkt.html",
+      "opening_hours": {
+        "monday": "11:00-23:00",
+        "tuesday": "11:00-23:00",
+        "wednesday": "11:00-23:00",
+        "thursday": "11:00-23:00",
+        "friday": "11:00-23:00",
+        "saturday": "11:00-23:00",
+        "sunday": "11:00-23:00"
+      },
+      "telephone": "+31 (0)20 4862497",
+      "lat": 52.3757907569,
+      "lng": 4.873765558,
+      "acd_rating": {
+        "value": 3,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.desupermarkt.nl/",
+      "facebook": "https://www.facebook.com/Coffeeshop-De-Supermarkt-273644339313405/",
+      "instagram": "https://www.instagram.com/coffeeshopdesupermarkt/"
+    },
+    "cs-delmondo.html": {
+      "shop": "Delmondo",
+      "acd_url": "https://www.coffeeshopdirect.com/delmondo.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-dna.html": {
+      "shop": "DNA",
+      "acd_url": "https://www.coffeeshopdirect.com/dna.html",
+      "opening_hours": {
+        "monday": "09:00-00:55",
+        "tuesday": "09:00-00:55",
+        "wednesday": "09:00-00:55",
+        "thursday": "09:00-00:55",
+        "friday": "09:00-00:55",
+        "saturday": "09:00-00:55",
+        "sunday": "09:00-00:55"
+      },
+      "telephone": "+31 (0)20 6648279",
+      "lat": 52.3450126415,
+      "lng": 4.8642289638,
+      "acd_rating": {
+        "value": 2,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://shopdna.weebly.com/",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/coffeeshop.dna/"
+    },
+    "cs-dolphins.html": {
+      "shop": "Dolphins",
+      "acd_url": "https://www.coffeeshopdirect.com/dolphins.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 7743336",
+      "lat": 52.3656202982,
+      "lng": 4.8852494359,
+      "acd_rating": {
+        "value": 2.83,
+        "count": 46,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://dolphins-coffeeshop.nl/",
+      "facebook": "https://www.facebook.com/coffeeshopthedolphins",
+      "instagram": "https://www.instagram.com/thedolphinsamsterdam/"
+    },
+    "cs-doors-palace.html": {
+      "shop": "Doors Palace",
+      "acd_url": "https://www.coffeeshopdirect.com/doorspalace.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-double-reggae.html": {
+      "shop": "Double Reggae",
+      "acd_url": "https://www.coffeeshopdirect.com/doublereggae.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-dutch-flowers.html": {
+      "shop": "Dutch Flowers",
+      "acd_url": "https://www.coffeeshopdirect.com/dutchflowers.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-eastwood.html": {
+      "shop": "Eastwood",
+      "acd_url": "https://www.coffeeshopdirect.com/eastwood.html",
+      "opening_hours": {
+        "monday": "10:00-22:00",
+        "tuesday": "10:00-22:00",
+        "wednesday": "10:00-22:00",
+        "thursday": "10:00-22:00",
+        "friday": "10:00-22:00",
+        "saturday": "10:00-22:00",
+        "sunday": "10:00-22:00"
+      },
+      "telephone": "+31 (0)20 6634236",
+      "lat": 52.3651535194,
+      "lng": 4.9279287457,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 4,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/Coffeeshop-Eastwood-1830963190524877/",
+      "instagram": "https://www.instagram.com/coffeeshopeastwood/"
+    },
+    "cs-easy-times.html": {
+      "shop": "Easy Times",
+      "acd_url": "https://www.coffeeshopdirect.com/easytimes.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6265709",
+      "lat": 52.3643493381,
+      "lng": 4.884988591,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 10,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://easytimes.amsterdam/",
+      "facebook": "https://www.facebook.com/EasyTimesAmsterdam/",
+      "instagram": "https://www.instagram.com/easytimesamsterdam"
+    },
+    "cs-easytimes2.html": {
+      "shop": "Easy Times 2",
+      "acd_url": "https://www.coffeeshopdirect.com/easytimes2.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6270333",
+      "lat": 52.366553841,
+      "lng": 4.8902329802,
+      "acd_rating": {
+        "value": 3,
+        "count": 11,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://easytimes.amsterdam/",
+      "facebook": "https://www.facebook.com/pages/Betty-Boop-Coffeeshop/190336874336982",
+      "instagram": "https://www.instagram.com/bettyboop_amsterdam/"
+    },
+    "cs-guapo.html": {
+      "shop": "El Guapo",
+      "acd_url": "https://www.coffeeshopdirect.com/guapo.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-marssa.html": {
+      "shop": "El Marssa",
+      "acd_url": "https://www.coffeeshopdirect.com/marssa.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6831261",
+      "lat": 52.369015,
+      "lng": 4.859311,
+      "acd_rating": null,
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/coffeeshopelmarssa/",
+      "facebook": "https://www.facebook.com/coffeeshopelmarssa/",
+      "instagram": "https://www.instagram.com/coffeeshop.elmarssa/"
+    },
+    "cs-extreme.html": {
+      "shop": "Extreme",
+      "acd_url": "https://www.coffeeshopdirect.com/extreme.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-family-first.html": {
+      "shop": "Family First",
+      "acd_url": "https://www.coffeeshopdirect.com/familyfirst.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6206162",
+      "lat": 52.3668797575,
+      "lng": 4.8953868448,
+      "acd_rating": {
+        "value": 2.75,
+        "count": 8,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.familyfirstamsterdam.com/",
+      "facebook": "https://www.facebook.com/profile.php?id=100057453069554",
+      "instagram": "https://www.instagram.com/coffeeshopfamilyfirst/"
+    },
+    "cs-feels-good.html": {
+      "shop": "Feels Good",
+      "acd_url": "https://www.coffeeshopdirect.com/feelsgood.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Feels-Good/227713367384509/",
+      "instagram": "https://www.instagram.com/coffeeshopfeelsgood/"
+    },
+    "cs-flower-power.html": {
+      "shop": "Flower Power",
+      "acd_url": "https://www.coffeeshopdirect.com/flowerpower.html",
+      "opening_hours": {
+        "monday": "13:00-23:30",
+        "tuesday": "13:00-23:30",
+        "wednesday": "13:00-23:30",
+        "thursday": "13:00-00:00",
+        "friday": "12:00-01:00",
+        "saturday": "12:00-01:00",
+        "sunday": "13:00-23:30"
+      },
+      "telephone": "+31 (0)20 6226198",
+      "lat": 52.3727065411,
+      "lng": 4.8786029219,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 4,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/coffeeshop.flowerpower",
+      "instagram": "https://www.instagram.com/flowerpower.coffeeshop/"
+    },
+    "cs-free-i.html": {
+      "shop": "Free I",
+      "acd_url": "https://www.coffeeshopdirect.com/freei.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-00:00"
+      },
+      "telephone": "+31 (0)20 6227727",
+      "lat": 52.3659699697,
+      "lng": 4.8934301733,
+      "acd_rating": {
+        "value": 2.64,
+        "count": 11,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Freei-CoffeeShop/255483551215654",
+      "instagram": "https://www.instagram.com/coffeeshopfreei/"
+    },
+    "cs-freedom.html": {
+      "shop": "Freedom",
+      "acd_url": "https://www.coffeeshopdirect.com/freedom.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6868683",
+      "lat": 52.3825659416,
+      "lng": 4.8711812496,
+      "acd_rating": {
+        "value": 2.67,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/Coffeeshop-Freedom-1264929516852836/",
+      "instagram": "https://www.instagram.com/coffeeshopfreedom/"
+    },
+    "cs-freeworld.html": {
+      "shop": "Freeworld",
+      "acd_url": "https://www.coffeeshopdirect.com/freeworld.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-funky-munkey.html": {
+      "shop": "Funky Munkey",
+      "acd_url": "https://www.coffeeshopdirect.com/funkymunkey.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-funnypeople2.html": {
+      "shop": "Funny People 2",
+      "acd_url": "https://www.coffeeshopdirect.com/funnypeople2.html",
+      "opening_hours": {
+        "monday": "10:00-22:00",
+        "tuesday": "10:00-22:00",
+        "wednesday": "10:00-22:00",
+        "thursday": "10:00-22:00",
+        "friday": "10:00-22:00",
+        "saturday": "10:00-22:00",
+        "sunday": "10:00-22:00"
+      },
+      "telephone": "+31 (0)20 3621377",
+      "lat": 52.401966,
+      "lng": 4.89852,
+      "acd_rating": null,
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/CoffeeshopFunnyPeople/",
+      "instagram": "https://www.instagram.com/explore/locations/718333259/coffeeshop-funny-people/"
+    },
+    "cs-get-down.html": {
+      "shop": "Get Down To It",
+      "acd_url": "https://www.coffeeshopdirect.com/getdowntoit.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 4201512",
+      "lat": 52.364013395,
+      "lng": 4.8837647972,
+      "acd_rating": {
+        "value": 2.83,
+        "count": 12,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/GetDownToIT/",
+      "instagram": "https://www.instagram.com/getdowntoitamsterdam/"
+    },
+    "cs-global-chillage.html": {
+      "shop": "Global Chillage",
+      "acd_url": "https://www.coffeeshopdirect.com/globalchillage.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-goa.html": {
+      "shop": "Goa",
+      "acd_url": "https://www.coffeeshopdirect.com/goa.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 3309722",
+      "lat": 52.3712196216,
+      "lng": 4.8985786736,
+      "acd_rating": {
+        "value": 2.77,
+        "count": 13,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/Goa-Coffeeshop-208205625892704/",
+      "instagram": "https://www.instagram.com/goacoffeeshop/"
+    },
+    "cs-green-place.html": {
+      "shop": "Green Place",
+      "acd_url": "https://www.coffeeshopdirect.com/greenplace.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 22096816",
+      "lat": 52.3721145888,
+      "lng": 4.8992957141,
+      "acd_rating": {
+        "value": 2.88,
+        "count": 17,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.greenplaceamsterdam.com/",
+      "facebook": "https://www.facebook.com/greenplace.amsterdam/",
+      "instagram": "https://www.instagram.com/greenplaceamsterdam/"
+    },
+    "cs-green-place-2.html": {
+      "shop": "Green Place 2",
+      "acd_url": "https://www.coffeeshopdirect.com/greenplace2.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 6388079",
+      "lat": 52.3794224375,
+      "lng": 4.8939988017,
+      "acd_rating": {
+        "value": 3,
+        "count": 23,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopamsterdamned.nl/",
+      "facebook": "https://www.facebook.com/coffeeshopamsterdamned/",
+      "instagram": "https://www.instagram.com/greenplace.haarlemmerstraat/"
+    },
+    "cs-greenhouse-centrum.html": {
+      "shop": "Greenhouse Centrum",
+      "acd_url": "https://www.coffeeshopdirect.com/greenhousecentrum.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6271739",
+      "lat": 52.3714488855,
+      "lng": 4.8957502841,
+      "acd_rating": {
+        "value": 2.86,
+        "count": 49,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://greenhousecoffeeshops.com/locations/green-house-centrum/",
+      "facebook": "https://www.facebook.com/pages/Greenhouse-Centrum/349130775208515",
+      "instagram": "https://www.instagram.com/explore/locations/4271049/greenhouse-coffeeshop/"
+    },
+    "cs-greenhouse-cookies.html": {
+      "shop": "Greenhouse Cookies",
+      "acd_url": "https://www.coffeeshopdirect.com/greenhousecookies.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6277329",
+      "lat": 52.3803049334,
+      "lng": 4.8921494185,
+      "acd_rating": {
+        "value": 2.83,
+        "count": 24,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://greenhousecoffeeshops.com/locations/cookies-lounge-amsterdam/",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/cookies.amsterdam"
+    },
+    "cs-greenhouse-effect-1.html": {
+      "shop": "Greenhouse Effect",
+      "acd_url": "https://www.coffeeshopdirect.com/greenhouseeffect-2.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-greenhouse-effect-0.html": {
+      "shop": "Greenhouse Effect (original)",
+      "acd_url": "https://www.coffeeshopdirect.com/greenhouseeffect.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-greenhouse-namaste.html": {
+      "shop": "Greenhouse Namaste",
+      "acd_url": "https://www.coffeeshopdirect.com/greenhousenamaste.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6225499",
+      "lat": 52.3666430998,
+      "lng": 4.9022130668,
+      "acd_rating": {
+        "value": 2.68,
+        "count": 25,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://greenhousecoffeeshops.com/locations/green-house-namaste-coffeeshop/",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/explore/locations/5826279/greenhouse-namaste/"
+    },
+    "cs-greenhouse-strain-hunters.html": {
+      "shop": "Greenhouse Strain Hunters",
+      "acd_url": "https://www.coffeeshopdirect.com/greenhousestrainhunters.html",
+      "opening_hours": {
+        "monday": "11:00-23:00",
+        "tuesday": "10:00-23:00",
+        "wednesday": "10:00-23:00",
+        "thursday": "10:00-23:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-23:00"
+      },
+      "telephone": "+31 (0)20 6247624",
+      "lat": 52.3687500455,
+      "lng": 4.8882266879,
+      "acd_rating": {
+        "value": 2.19,
+        "count": 36,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://greenhousecoffeeshops.com/locations/strain-hunters-coffeeshop/",
+      "facebook": "https://www.facebook.com/strainhunters.official",
+      "instagram": "https://www.instagram.com/strainhunterscoffeeshop/"
+    },
+    "cs-grey-area.html": {
+      "shop": "Grey Area",
+      "acd_url": "https://www.coffeeshopdirect.com/greyarea.html",
+      "opening_hours": {
+        "monday": "12:00-20:00",
+        "tuesday": "12:00-20:00",
+        "wednesday": "12:00-20:00",
+        "thursday": "12:00-20:00",
+        "friday": "12:00-20:00",
+        "saturday": "12:00-20:00",
+        "sunday": "12:00-20:00"
+      },
+      "telephone": "+31 (0)20 4204301",
+      "lat": 52.3746740123,
+      "lng": 4.8888516426,
+      "acd_rating": {
+        "value": 2.83,
+        "count": 113,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://www.greyarea.nl/",
+      "facebook": "https://www.facebook.com/greyarea420/",
+      "instagram": "https://www.instagram.com/greyarea420/"
+    },
+    "cs-happiness.html": {
+      "shop": "Happiness",
+      "acd_url": "https://www.coffeeshopdirect.com/happiness.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-happy-days-ams.html": {
+      "shop": "Happy Days",
+      "acd_url": "https://www.coffeeshopdirect.com/happydays.html",
+      "opening_hours": {
+        "monday": "09:30-00:30",
+        "tuesday": "09:30-00:30",
+        "wednesday": "09:30-00:30",
+        "thursday": "09:30-00:30",
+        "friday": "09:30-00:30",
+        "saturday": "09:30-00:30",
+        "sunday": "09:30-00:30"
+      },
+      "telephone": "+31 (0)20 6613986",
+      "lat": 52.3465749957,
+      "lng": 4.9112796038,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/coffeeshop.happydays.9",
+      "instagram": "https://www.instagram.com/happydaysamsterdam/"
+    },
+    "cs-happy-feelings.html": {
+      "shop": "Happy Feelings",
+      "acd_url": "https://www.coffeeshopdirect.com/happyfeelings.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "",
+      "lat": 52.3652304973,
+      "lng": 4.8858502507,
+      "acd_rating": {
+        "value": 2.58,
+        "count": 19,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.happyfeelingsamsterdam.com/",
+      "facebook": "https://www.facebook.com/CoffeeshopHappyFeelings/",
+      "instagram": "https://www.instagram.com/happyfeelingsamsterdam/"
+    },
+    "cs-happy-people.html": {
+      "shop": "Happy People",
+      "acd_url": "https://www.coffeeshopdirect.com/happypeople.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6931869",
+      "lat": 52.3651920084,
+      "lng": 4.9258299171,
+      "acd_rating": {
+        "value": 2.91,
+        "count": 11,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/HappyPeopleCoffeeshop/",
+      "instagram": "https://www.instagram.com/explore/locations/393118824/happy-people-coffeeshop/"
+    },
+    "cs-hashtag.html": {
+      "shop": "Hashtag",
+      "acd_url": "https://www.coffeeshopdirect.com/hashtag.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "",
+      "lat": 52.3639165318,
+      "lng": 4.8961901664,
+      "acd_rating": {
+        "value": 2.95,
+        "count": 19,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/coffeeshophashtag/"
+    },
+    "cs-ballonnetje.html": {
+      "shop": "Het Ballonnetje",
+      "acd_url": "https://www.coffeeshopdirect.com/ballonnetje.html",
+      "opening_hours": {
+        "monday": "09:00-00:00",
+        "tuesday": "09:00-00:00",
+        "wednesday": "09:00-00:00",
+        "thursday": "09:00-00:00",
+        "friday": "09:00-00:00",
+        "saturday": "09:00-00:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 2050414",
+      "lat": 52.3634624286,
+      "lng": 4.9104917049,
+      "acd_rating": {
+        "value": 3,
+        "count": 26,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshophetballonnetje.nl/",
+      "facebook": "https://www.facebook.com/coffeeshop.hetballonnetje/",
+      "instagram": "https://www.instagram.com/coffeeshophetballonnetje/"
+    },
+    "cs-gelderse.html": {
+      "shop": "Het Gelderse",
+      "acd_url": "https://www.coffeeshopdirect.com/gelderse.html",
+      "opening_hours": {
+        "monday": "10:00-00:00",
+        "tuesday": "10:00-00:00",
+        "wednesday": "10:00-00:00",
+        "thursday": "10:00-00:00",
+        "friday": "10:00-00:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 4207211",
+      "lat": 52.3749695758,
+      "lng": 4.9012944102,
+      "acd_rating": {
+        "value": 2.75,
+        "count": 8,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshophetgelderse.nl/",
+      "facebook": "https://www.facebook.com/HetGelderse",
+      "instagram": "https://www.instagram.com/hetgeldersecoffeeshop/"
+    },
+    "cs-high-time.html": {
+      "shop": "High Time",
+      "acd_url": "https://www.coffeeshopdirect.com/hightime.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-highway.html": {
+      "shop": "Highway",
+      "acd_url": "https://www.coffeeshopdirect.com/highway.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-hill-street-blues.html": {
+      "shop": "Hill Street Blues",
+      "acd_url": "https://www.coffeeshopdirect.com/hillstreetblues.html",
+      "opening_hours": {
+        "monday": "12:00-01:00",
+        "tuesday": "12:00-01:00",
+        "wednesday": "12:00-01:00",
+        "thursday": "12:00-01:00",
+        "friday": "12:00-03:00",
+        "saturday": "12:00-03:00",
+        "sunday": "12:00-01:00"
+      },
+      "telephone": "+31 (0)20 6387922",
+      "lat": 52.3754264262,
+      "lng": 4.8981548845,
+      "acd_rating": {
+        "value": 2.58,
+        "count": 33,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A smoker-friendly bar allowing pure cannabis consumption (no tobacco).",
+      "website": "https://hillstreetblues.com/",
+      "facebook": "https://www.facebook.com/HillStreetBluesAmsterdam/",
+      "instagram": "https://www.instagram.com/hillstreetbluesamsterdam/"
+    },
+    "cs-hill-street-blues-otm.html": {
+      "shop": "Hill Street Blues OTM",
+      "acd_url": "https://www.coffeeshopdirect.com/hillstreetatthemarket.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-homegrown-fantasy.html": {
+      "shop": "Homegrown Fantasy",
+      "acd_url": "https://www.coffeeshopdirect.com/homegrownfantasy.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "http://www.homegrownfantasy.com/",
+      "facebook": "https://www.facebook.com/Homegrown-Fantasy-141787699201981/",
+      "instagram": ""
+    },
+    "cs-hugo-de-groot.html": {
+      "shop": "Hugo de Groot",
+      "acd_url": "https://www.coffeeshopdirect.com/hugodegroot.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-hunters-bar.html": {
+      "shop": "Hunter's Bar",
+      "acd_url": "https://www.coffeeshopdirect.com/huntersbar.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-huntersdowntown.html": {
+      "shop": "Hunter's Downtown",
+      "acd_url": "https://www.coffeeshopdirect.com/huntersdowntown.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6244820",
+      "lat": 52.3654712571,
+      "lng": 4.8975279182,
+      "acd_rating": {
+        "value": 2.9,
+        "count": 10,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://hunters-coffeeshop.com/location/hunters-amsterdam-downtown/",
+      "facebook": "https://www.facebook.com/huntersrembrandtsquare/",
+      "instagram": "https://www.instagram.com/explore/locations/629013429/hunters-rembrandts-square/"
+    },
+    "cs-huntersnorthpapaverweg.html": {
+      "shop": "Hunter's North - Papaverweg",
+      "acd_url": "https://www.coffeeshopdirect.com/hunterspapaverweg.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6376172",
+      "lat": 52.3937579457,
+      "lng": 4.912815839,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://www.hunters-coffeeshop.com/",
+      "facebook": "https://www.facebook.com/Filiaal-Coffeeshop-601410253275837",
+      "instagram": "https://www.instagram.com/explore/locations/805169150/filiaal-coffeeshop/"
+    },
+    "cs-huntersnorthwaterlandplein.html": {
+      "shop": "Hunter's North - Waterlandplein",
+      "acd_url": "https://www.coffeeshopdirect.com/hunterswaterlandplein.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6370018",
+      "lat": 52.392286,
+      "lng": 4.956216,
+      "acd_rating": {
+        "value": 3,
+        "count": 1,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://hunters-coffeeshop.com/amsterdam-noord-waterlandplein/",
+      "facebook": "https://www.facebook.com/pages/Hunter's-Waterlandplein/1612808338759484/",
+      "instagram": ""
+    },
+    "cs-hunters-rembrandt.html": {
+      "shop": "Hunter's Rembrandtsquare",
+      "acd_url": "https://www.coffeeshopdirect.com/huntersrembrandtsquare.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-hunters-mercator.html": {
+      "shop": "Hunter's West",
+      "acd_url": "https://www.coffeeshopdirect.com/hunterswest.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 4893929",
+      "lat": 52.3699856696,
+      "lng": 4.849063754,
+      "acd_rating": {
+        "value": 2,
+        "count": 4,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://hunters-coffeeshop.com/location/hunters-amsterdam-west/",
+      "facebook": "https://www.facebook.com/Hunters-Coffeeshop-Amsterdam-Mercatorplein-352881454905510/",
+      "instagram": "https://www.instagram.com/explore/locations/743053985/hunters-coffeeshop-amsterdam-mercatorplein/"
+    },
+    "cs-ibiza.html": {
+      "shop": "Ibiza",
+      "acd_url": "https://www.coffeeshopdirect.com/ibiza.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 2232534",
+      "lat": 52.357441538,
+      "lng": 4.9020916968,
+      "acd_rating": {
+        "value": 2.67,
+        "count": 6,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopibiza.com/",
+      "facebook": "https://www.facebook.com/coffeeshopibiza",
+      "instagram": "https://www.instagram.com/amsterdamcannabis/"
+    },
+    "cs-johnny.html": {
+      "shop": "Johnny",
+      "acd_url": "https://www.coffeeshopdirect.com/johnny.html",
+      "opening_hours": {
+        "monday": "09:00-00:30",
+        "tuesday": "09:00-00:30",
+        "wednesday": "09:00-00:30",
+        "thursday": "09:00-00:30",
+        "friday": "09:00-00:30",
+        "saturday": "09:00-00:30",
+        "sunday": "09:00-00:30"
+      },
+      "telephone": "+31 (0)20 6383984",
+      "lat": 52.3699308083,
+      "lng": 4.8821099102,
+      "acd_rating": {
+        "value": 2.75,
+        "count": 8,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshopjohnny.nl/",
+      "facebook": "https://www.facebook.com/coffeeshopjohnny/",
+      "instagram": "https://www.instagram.com/coffeeshopjohnny/"
+    },
+    "cs-jolly-joker.html": {
+      "shop": "Jolly Joker",
+      "acd_url": "https://www.coffeeshopdirect.com/jollyjoker.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 2235565",
+      "lat": 52.3730577939,
+      "lng": 4.9001544713,
+      "acd_rating": {
+        "value": 2.59,
+        "count": 17,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.jolly-joker-amsterdam.nl/",
+      "facebook": "https://www.facebook.com/TheJollyJokerAmsterdam",
+      "instagram": "https://www.instagram.com/coffeeshopdejolly"
+    },
+    "cs-jollygood.html": {
+      "shop": "Jollygood",
+      "acd_url": "https://www.coffeeshopdirect.com/jollygood.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 3704862",
+      "lat": 52.3718451819,
+      "lng": 4.8789958655,
+      "acd_rating": {
+        "value": 2.55,
+        "count": 11,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/coffeeshopmrKandCo/",
+      "instagram": "https://www.instagram.com/jollygood.coffeeshop/"
+    },
+    "cs-watersnip.html": {
+      "shop": "Juice Bar de Watersnip",
+      "acd_url": "https://www.coffeeshopdirect.com/watersnip.html",
+      "opening_hours": {
+        "monday": "10:00-00:00",
+        "tuesday": "10:00-00:00",
+        "wednesday": "10:00-00:00",
+        "thursday": "10:00-00:00",
+        "friday": "10:00-00:00",
+        "saturday": "10:00-00:00",
+        "sunday": "10:00-00:00"
+      },
+      "telephone": "+31 (0)20 6147260",
+      "lat": 52.3770875861,
+      "lng": 4.8162576556,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/de-Watersnip/251996668841916/",
+      "instagram": "https://www.instagram.com/coffeeshopdewatersnip/"
+    },
+    "cs-kabouter.html": {
+      "shop": "Kabouter",
+      "acd_url": "https://www.coffeeshopdirect.com/kabouter.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-kadinsky.html": {
+      "shop": "Kadinsky",
+      "acd_url": "https://www.coffeeshopdirect.com/kadinsky.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6247023",
+      "lat": 52.3703336689,
+      "lng": 4.8893290758,
+      "acd_rating": {
+        "value": 2.67,
+        "count": 24,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.kadinsky.nl/locations#rosmarijnsteeg",
+      "facebook": "https://www.facebook.com/KadinskyCoffeeshopRosmarijnsteeg/",
+      "instagram": "https://www.instagram.com/coffeeshop.kadinsky/"
+    },
+    "cs-kadinsky2.html": {
+      "shop": "Kadinsky 2",
+      "acd_url": "https://www.coffeeshopdirect.com/kadinsky2.html",
+      "opening_hours": {
+        "monday": "09:00-12:00",
+        "tuesday": "09:00-12:00",
+        "wednesday": "09:00-12:00",
+        "thursday": "09:00-12:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-12:00"
+      },
+      "telephone": "+31 (0)20 6204715",
+      "lat": 52.3742171542,
+      "lng": 4.8935803771,
+      "acd_rating": {
+        "value": 2.64,
+        "count": 11,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.kadinsky.nl/locations#zoutsteeg",
+      "facebook": "https://www.facebook.com/pages/Kadinsky/161353073910186",
+      "instagram": ""
+    },
+    "cs-kadinsky3.html": {
+      "shop": "Kadinsky 3",
+      "acd_url": "https://www.coffeeshopdirect.com/kadinsky3.html",
+      "opening_hours": {
+        "monday": "10:00-00:00",
+        "tuesday": "10:00-00:00",
+        "wednesday": "10:00-00:00",
+        "thursday": "10:00-00:00",
+        "friday": "10:00-00:00",
+        "saturday": "10:00-00:00",
+        "sunday": "10:00-00:00"
+      },
+      "telephone": "+31 (0)20 4202132",
+      "lat": 52.3693166846,
+      "lng": 4.8929795622,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 8,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.kadinsky.nl/locations#langebrugsteeg",
+      "facebook": "https://www.facebook.com/KadinskyCoffeeshopLangerugsteeg/",
+      "instagram": "https://www.instagram.com/kadinskyamsterdam/"
+    },
+    "cs-kashmir-coffeeshop.html": {
+      "shop": "Kashmir Coffeeshop",
+      "acd_url": "https://www.coffeeshopdirect.com/kashmirloungecoffeeshop.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "11:00-01:00"
+      },
+      "telephone": "+31 (0)20 6180683",
+      "lat": 52.3640072149,
+      "lng": 4.8629498329,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 4,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-kashmir-lounge.html": {
+      "shop": "Kashmir Lounge (bar)",
+      "acd_url": "https://www.coffeeshopdirect.com/kashmirlounge.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-03:00",
+        "friday": "10:00-04:00",
+        "saturday": "10:00-04:00",
+        "sunday": "11:00-01:00"
+      },
+      "telephone": "+31 (0)20 6832268",
+      "lat": 52.3640332302,
+      "lng": 4.8633398115,
+      "acd_rating": {
+        "value": 2.92,
+        "count": 13,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A smoker-friendly bar allowing pure cannabis consumption (no tobacco).",
+      "website": "https://www.kashmirlounge.com/",
+      "facebook": "https://www.facebook.com/coffeeshop.lounge/",
+      "instagram": "https://www.instagram.com/kashmirlounge/"
+    },
+    "cs-katsu.html": {
+      "shop": "Katsu",
+      "acd_url": "https://www.coffeeshopdirect.com/katsu.html",
+      "opening_hours": {
+        "monday": "10:00-00:00",
+        "tuesday": "10:00-00:00",
+        "wednesday": "10:00-00:00",
+        "thursday": "10:00-00:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "11:00-00:00"
+      },
+      "telephone": "+31 (0)20 6752617",
+      "lat": 52.3548446401,
+      "lng": 4.8933014273,
+      "acd_rating": {
+        "value": 2.88,
+        "count": 33,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.katsu.nl/",
+      "facebook": "https://www.facebook.com/Katsu-Katsu-394644124080100",
+      "instagram": "https://www.instagram.com/katsucoffeeshop/"
+    },
+    "cs-kooi.html": {
+      "shop": "Kooi",
+      "acd_url": "https://www.coffeeshopdirect.com/kooi.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-canna.html": {
+      "shop": "La Canna",
+      "acd_url": "https://www.coffeeshopdirect.com/canna.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-tertulia.html": {
+      "shop": "La Tertulia",
+      "acd_url": "https://www.coffeeshopdirect.com/tertulia.html",
+      "opening_hours": {
+        "monday": null,
+        "tuesday": "11:00-19:00",
+        "wednesday": "11:00-19:00",
+        "thursday": "11:00-19:00",
+        "friday": "11:00-19:00",
+        "saturday": "11:00-19:00",
+        "sunday": null
+      },
+      "telephone": "+31 (0)20 6238503",
+      "lat": 52.3694886401,
+      "lng": 4.8822976648,
+      "acd_rating": {
+        "value": 2.71,
+        "count": 21,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://www.coffeeshoptertulia.com/",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-La-Tertulia/148253941869815",
+      "instagram": "https://www.instagram.com/latertulia312/"
+    },
+    "cs-little.html": {
+      "shop": "Little",
+      "acd_url": "https://www.coffeeshopdirect.com/little.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-loft.html": {
+      "shop": "Loft",
+      "acd_url": "https://www.coffeeshopdirect.com/loft.html",
+      "opening_hours": {
+        "monday": "10:00-22:00",
+        "tuesday": "10:00-22:00",
+        "wednesday": "10:00-22:00",
+        "thursday": "10:00-22:00",
+        "friday": "10:00-22:00",
+        "saturday": "10:00-23:00",
+        "sunday": "14:00-22:00"
+      },
+      "telephone": "+31 (0)20 6126953",
+      "lat": 52.3726363567,
+      "lng": 4.8494639267,
+      "acd_rating": {
+        "value": 2.4,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://thecoffeeshops.com/",
+      "facebook": "https://www.facebook.com/Coffeeshop-LoFt-169839256426594/",
+      "instagram": "https://www.instagram.com/coffeeshoploft/"
+    },
+    "cs-magic-ams.html": {
+      "shop": "Magic",
+      "acd_url": "https://www.coffeeshopdirect.com/magic.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-massawa.html": {
+      "shop": "Massawa",
+      "acd_url": "https://www.coffeeshopdirect.com/massawa.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6894377",
+      "lat": 52.3674488772,
+      "lng": 4.8619946837,
+      "acd_rating": {
+        "value": 3,
+        "count": 1,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/CoffeeshopMassawa/",
+      "instagram": "https://www.instagram.com/explore/locations/483031135396676/coffeeshop-massawa/"
+    },
+    "cs-mediterrane.html": {
+      "shop": "Mediterrane (Drewissharing)",
+      "acd_url": "https://www.coffeeshopdirect.com/mediterrane.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6200140",
+      "lat": 52.3755967204,
+      "lng": 4.8915579915,
+      "acd_rating": {
+        "value": 2.33,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/pages/Mediterrane-Coffeeshop/113619216041082",
+      "facebook": "https://www.facebook.com/pages/Mediterrane-Coffeeshop/113619216041082",
+      "instagram": "https://www.instagram.com/coffeeshopmediterrane/"
+    },
+    "cs-mellow-yellow.html": {
+      "shop": "Mellow Yellow",
+      "acd_url": "https://www.coffeeshopdirect.com/mellowyellow.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "https://www.facebook.com/p/Mellow-Yellow-100068561172158/",
+      "instagram": ""
+    },
+    "cs-millennium.html": {
+      "shop": "Millennium",
+      "acd_url": "https://www.coffeeshopdirect.com/millennium.html",
+      "opening_hours": {
+        "monday": "10:00-00:00",
+        "tuesday": "10:00-00:00",
+        "wednesday": "10:00-00:00",
+        "thursday": "10:00-00:00",
+        "friday": "10:00-00:00",
+        "saturday": "10:00-00:00",
+        "sunday": "10:00-00:00"
+      },
+      "telephone": "+31 (0)20 34059903",
+      "lat": 52.3674503214,
+      "lng": 4.8639358372,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/coffeeshopmillennium/",
+      "instagram": "https://www.instagram.com/explore/locations/625377277628899/coffeeshop-millennium/"
+    },
+    "cs-mr-k.html": {
+      "shop": "Mr. K's",
+      "acd_url": "https://www.coffeeshopdirect.com/kco.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-nachtegaal.html": {
+      "shop": "Nachtegaal",
+      "acd_url": "https://www.coffeeshopdirect.com/nachtegaal.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6635599",
+      "lat": 52.3540443667,
+      "lng": 4.9193523824,
+      "acd_rating": null,
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/coffeeshop.nachtegaal/"
+    },
+    "cs-nes-cafe.html": {
+      "shop": "Nes Cafe",
+      "acd_url": "https://www.coffeeshopdirect.com/nescafe.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-new-amsterdam.html": {
+      "shop": "New Amsterdam",
+      "acd_url": "https://www.coffeeshopdirect.com/newamsterdam.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6854995",
+      "lat": 52.3669583701,
+      "lng": 4.8528644442,
+      "acd_rating": {
+        "value": 3,
+        "count": 1,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshop-newamsterdam.com/",
+      "facebook": "https://www.facebook.com/coffeeshopnewamsterdam/",
+      "instagram": "https://www.instagram.com/coffeeshopnewamsterdam/"
+    },
+    "cs-new-times.html": {
+      "shop": "New Times",
+      "acd_url": "https://www.coffeeshopdirect.com/newtimes.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "",
+      "lat": 52.3705858642,
+      "lng": 4.8889294266,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://newtimes-amsterdam.com/",
+      "facebook": "https://www.facebook.com/pages/biz/Coffeeshop-New-Times-160906920664241/",
+      "instagram": "https://www.instagram.com/explore/locations/13411062/coffeeshop-new-times/"
+    },
+    "cs-newtimes2.html": {
+      "shop": "New Times 2",
+      "acd_url": "https://www.coffeeshopdirect.com/newtimes2.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6220422",
+      "lat": 52.3662582213,
+      "lng": 4.8994141817,
+      "acd_rating": {
+        "value": 2.81,
+        "count": 16,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/kooiamsterdam/",
+      "facebook": "https://www.facebook.com/kooiamsterdam/",
+      "instagram": "https://www.instagram.com/kooiamsterdam/"
+    },
+    "cs-nice-dreams.html": {
+      "shop": "Nice Dreams",
+      "acd_url": "https://www.coffeeshopdirect.com/nicedreams.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-nice-place.html": {
+      "shop": "Nice Place",
+      "acd_url": "https://www.coffeeshopdirect.com/niceplace.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 6757148",
+      "lat": 52.353336641,
+      "lng": 4.8997025191,
+      "acd_rating": {
+        "value": 3,
+        "count": 7,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-Nice-Place/295394340557957/",
+      "instagram": "https://www.instagram.com/explore/locations/15664306/coffeeshop-nice-place/"
+    },
+    "cs-noon.html": {
+      "shop": "Noon",
+      "acd_url": "https://www.coffeeshopdirect.com/noon.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-noord.html": {
+      "shop": "Noord",
+      "acd_url": "https://www.coffeeshopdirect.com/noord.html",
+      "opening_hours": {
+        "monday": "10:00-22:00",
+        "tuesday": "10:00-22:00",
+        "wednesday": "10:00-22:00",
+        "thursday": "10:00-22:00",
+        "friday": "10:00-22:00",
+        "saturday": "10:00-22:00",
+        "sunday": "10:00-22:00"
+      },
+      "telephone": "+31 (0)20 6372215",
+      "lat": 52.383611,
+      "lng": 4.912506,
+      "acd_rating": {
+        "value": 3,
+        "count": 6,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshopnoord.com/",
+      "facebook": "https://www.facebook.com/CoffeeshopNoord/",
+      "instagram": "https://www.instagram.com/coffeeshop_noord/"
+    },
+    "cs-ocean.html": {
+      "shop": "Ocean",
+      "acd_url": "https://www.coffeeshopdirect.com/ocean-ams.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "https://www.facebook.com/ocean.coffeeshop.amsterdam/",
+      "instagram": ""
+    },
+    "cs-old-amsterdam.html": {
+      "shop": "Old Amsterdam",
+      "acd_url": "https://www.coffeeshopdirect.com/oldamsterdam.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-old-church-1.html": {
+      "shop": "Old Church (original)",
+      "acd_url": "https://www.coffeeshopdirect.com/oldchurch.html",
+      "opening_hours": {
+        "monday": "14:00-22:00",
+        "tuesday": "14:00-22:00",
+        "wednesday": "14:00-22:00",
+        "thursday": null,
+        "friday": "12:00-02:00",
+        "saturday": "12:00-02:00",
+        "sunday": null
+      },
+      "telephone": "+31 (0)20 4201264",
+      "lat": 52.373969892,
+      "lng": 4.8974306881,
+      "acd_rating": {
+        "value": 2.87,
+        "count": 39,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A smoker-friendly bar allowing pure cannabis consumption (no tobacco).",
+      "website": "https://www.theoldchurch.amsterdam/welcome/",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/theoldchurchbaramsterdam/"
+    },
+    "cs-old-church-2.html": {
+      "shop": "Old Church 2",
+      "acd_url": "https://www.coffeeshopdirect.com/oldchurch2.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6200484",
+      "lat": 52.3669477247,
+      "lng": 4.8941248655,
+      "acd_rating": {
+        "value": 2.75,
+        "count": 24,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.theoldchurch.amsterdam/coffeeshop/",
+      "facebook": "https://www.facebook.com/TheOldChurchCoffeeshop/",
+      "instagram": "https://www.instagram.com/theoldchurchcoffeeshop/"
+    },
+    "cs-pacific.html": {
+      "shop": "Pacific",
+      "acd_url": "https://www.coffeeshopdirect.com/pacific.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6710318",
+      "lat": 52.353056,
+      "lng": 4.884673,
+      "acd_rating": {
+        "value": 2.8,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/Coffeeshop-pacific-347830505721003/",
+      "facebook": "https://www.facebook.com/Coffeeshop-pacific-347830505721003/",
+      "instagram": "https://www.instagram.com/explore/locations/709161188/coffeeshop-pacific/"
+    },
+    "cs-papillon-ams.html": {
+      "shop": "Papillon",
+      "acd_url": "https://www.coffeeshopdirect.com/papillon.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "",
+      "lat": 52.351601,
+      "lng": 4.894505,
+      "acd_rating": {
+        "value": 3,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshoppapillonamsterdam.nl/",
+      "facebook": "https://www.facebook.com/CoffeeshopPapillonAmsterdam/",
+      "instagram": "https://www.instagram.com/papillon.coffeeshop.amsterdam/"
+    },
+    "cs-paradox.html": {
+      "shop": "Paradox",
+      "acd_url": "https://www.coffeeshopdirect.com/paradox.html",
+      "opening_hours": {
+        "monday": "10:00-20:00",
+        "tuesday": "10:00-20:00",
+        "wednesday": "10:00-20:00",
+        "thursday": "10:00-20:00",
+        "friday": "10:00-20:00",
+        "saturday": "10:00-20:00",
+        "sunday": "10:00-20:00"
+      },
+      "telephone": "+31 (0)20 6235639",
+      "lat": 52.3745561139,
+      "lng": 4.8812153935,
+      "acd_rating": {
+        "value": 2.89,
+        "count": 28,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://paradoxcoffeeshop.com/",
+      "facebook": "https://www.facebook.com/paradoxcoffeeshop",
+      "instagram": "https://www.instagram.com/paradox.coffeeshop/"
+    },
+    "cs-picasso.html": {
+      "shop": "Picasso",
+      "acd_url": "https://www.coffeeshopdirect.com/picasso.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-pick-up-the-pieces.html": {
+      "shop": "Pick Up The Pieces",
+      "acd_url": "https://www.coffeeshopdirect.com/pickupthepieces.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-pink-floyd.html": {
+      "shop": "Pink Floyd",
+      "acd_url": "https://www.coffeeshopdirect.com/pinkfloyd.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-popeye.html": {
+      "shop": "Popeye",
+      "acd_url": "https://www.coffeeshopdirect.com/popeye.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6230829",
+      "lat": 52.3799512823,
+      "lng": 4.8928052186,
+      "acd_rating": {
+        "value": 2.63,
+        "count": 27,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://www.coffeeshop-popeye.nl",
+      "facebook": "https://www.facebook.com/popeyecoffeeshop/",
+      "instagram": "https://www.instagram.com/popeyecoffeeshop/"
+    },
+    "cs-prix-d-ami.html": {
+      "shop": "Prix d'Ami",
+      "acd_url": "https://www.coffeeshopdirect.com/prixdami.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6271019",
+      "lat": 52.376873,
+      "lng": 4.897165,
+      "acd_rating": {
+        "value": 2.86,
+        "count": 22,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.prixdami.nl/",
+      "facebook": "https://www.facebook.com/prixdami.nl/",
+      "instagram": "https://www.instagram.com/coffeeshopprixdami/"
+    },
+    "cs-program.html": {
+      "shop": "ProGram",
+      "acd_url": "https://www.coffeeshopdirect.com/program.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6732353",
+      "lat": 52.356095,
+      "lng": 4.891048,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 4,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshopdepijp.amsterdam/",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/programcoffeeshop.amsterdam"
+    },
+    "cs-rasta-baby.html": {
+      "shop": "Rasta Baby",
+      "acd_url": "https://www.coffeeshopdirect.com/rastababy.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-reefer.html": {
+      "shop": "Reefer",
+      "acd_url": "https://www.coffeeshopdirect.com/reefer.html",
+      "opening_hours": {
+        "monday": "10:00-19:00",
+        "tuesday": "10:00-19:00",
+        "wednesday": "10:00-19:00",
+        "thursday": "10:00-19:00",
+        "friday": "10:00-19:00",
+        "saturday": "10:00-19:00",
+        "sunday": "10:00-19:00"
+      },
+      "telephone": "+31 (0)20 6233615",
+      "lat": 52.3697793253,
+      "lng": 4.9010396003,
+      "acd_rating": {
+        "value": 3,
+        "count": 10,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/CoffeeshopReefer/",
+      "instagram": "https://www.instagram.com/coffeeshop.reefer.amsterdam/"
+    },
+    "cs-relax-ams.html": {
+      "shop": "Relax",
+      "acd_url": "https://www.coffeeshopdirect.com/relax-2.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 3311828",
+      "lat": 52.382195118,
+      "lng": 4.8871859908,
+      "acd_rating": {
+        "value": 3,
+        "count": 1,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshop-relax.nl/",
+      "facebook": "https://www.facebook.com/CoffeeshopRelax",
+      "instagram": "https://www.instagram.com/coffeeshoprelax/"
+    },
+    "cs-relaxzuid.html": {
+      "shop": "Relax Zuid",
+      "acd_url": "https://www.coffeeshopdirect.com/relaxzuid.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 2384177",
+      "lat": 52.3484596605,
+      "lng": 4.9056020379,
+      "acd_rating": {
+        "value": 3,
+        "count": 1,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshop-relax.nl/locations/coffeeshop-relax-south",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-republiek.html": {
+      "shop": "Republiek",
+      "acd_url": "https://www.coffeeshopdirect.com/republiek.html",
+      "opening_hours": {
+        "monday": "09:00-23:00",
+        "tuesday": "09:00-23:00",
+        "wednesday": "09:00-23:00",
+        "thursday": "09:00-23:00",
+        "friday": "09:00-00:00",
+        "saturday": "09:00-00:00",
+        "sunday": "10:00-23:00"
+      },
+      "telephone": "+31 (0)20 6828431",
+      "lat": 52.382159,
+      "lng": 4.878596,
+      "acd_rating": {
+        "value": 3,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://thecoffeeshops.com/",
+      "facebook": "https://www.facebook.com/Coffeeshop-De-Republiek-133184010111772/",
+      "instagram": "https://www.instagram.com/coffeeshopderepubliek/"
+    },
+    "cs-resin.html": {
+      "shop": "Resin",
+      "acd_url": "https://www.coffeeshopdirect.com/resin.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 4229838",
+      "lat": 52.3777752831,
+      "lng": 4.8953479528,
+      "acd_rating": {
+        "value": 2.92,
+        "count": 13,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Resin-Coffeeshop/204228536269624",
+      "instagram": "https://www.instagram.com/resincoffeeshop/"
+    },
+    "cs-ricks-cafe.html": {
+      "shop": "Ricks Coffeeshop",
+      "acd_url": "https://www.coffeeshopdirect.com/rickscoffeeshop.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6227915",
+      "lat": 52.3717223632,
+      "lng": 4.8952956497,
+      "acd_rating": {
+        "value": 2.33,
+        "count": 12,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/explore/locations/557522958034790/netherlands/amsterdam-netherlands/ricks-coffeeshop/"
+    },
+    "cs-risky-business.html": {
+      "shop": "Risky Business",
+      "acd_url": "https://www.coffeeshopdirect.com/riskybusiness.html",
+      "opening_hours": {
+        "monday": "09:00-00:00",
+        "tuesday": "09:00-00:00",
+        "wednesday": "09:00-00:00",
+        "thursday": "09:00-00:00",
+        "friday": "09:00-00:00",
+        "saturday": "09:00-00:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 6880715",
+      "lat": 52.3809785955,
+      "lng": 4.8553517322,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopriskybusiness.nl/",
+      "facebook": "https://www.facebook.com/Coffeeshop.Risky.Business/",
+      "instagram": "https://www.instagram.com/coffeeshop_risky_business/"
+    },
+    "cs-rock-it.html": {
+      "shop": "Rock-It",
+      "acd_url": "https://www.coffeeshopdirect.com/rockit.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6200617",
+      "lat": 52.3728514639,
+      "lng": 4.899867475,
+      "acd_rating": {
+        "value": 3,
+        "count": 6,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/RealRockItAmsterdam",
+      "instagram": "https://www.instagram.com/rockitamsterdam/"
+    },
+    "cs-rockland.html": {
+      "shop": "Rockland",
+      "acd_url": "https://www.coffeeshopdirect.com/rockland.html",
+      "opening_hours": {
+        "monday": "11:00-00:00",
+        "tuesday": "11:00-00:00",
+        "wednesday": "11:00-00:00",
+        "thursday": "11:00-00:00",
+        "friday": "11:00-01:00",
+        "saturday": "11:00-01:00",
+        "sunday": "11:00-00:00"
+      },
+      "telephone": "+31 (0)20 6248890",
+      "lat": 52.3734115003,
+      "lng": 4.8883795738,
+      "acd_rating": {
+        "value": 2.1,
+        "count": 10,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/pages/Coffeeshop-Rockland-Amsterdam/181156161952967",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-Rockland-Amsterdam/181156161952967",
+      "instagram": "https://www.instagram.com/explore/locations/238264999/coffeeshop-rockland-amsterdam/"
+    },
+    "cs-rokerij.html": {
+      "shop": "Rokerij",
+      "acd_url": "https://www.coffeeshopdirect.com/rokerij.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-rookies.html": {
+      "shop": "Rookies",
+      "acd_url": "https://www.coffeeshopdirect.com/rookies.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6390978",
+      "lat": 52.3629559077,
+      "lng": 4.8852594941,
+      "acd_rating": {
+        "value": 2.9,
+        "count": 39,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.rookies.amsterdam/",
+      "facebook": "https://www.facebook.com/CoffeeshopTheRookiesAmsterdam/",
+      "instagram": "https://www.instagram.com/coffeeshop_the_rookies/"
+    },
+    "cs-roots.html": {
+      "shop": "Roots",
+      "acd_url": "https://www.coffeeshopdirect.com/roots-ams.html",
+      "opening_hours": {
+        "monday": "09:00-00:00",
+        "tuesday": "09:00-00:00",
+        "wednesday": "09:00-00:00",
+        "thursday": "09:00-00:00",
+        "friday": "09:00-00:00",
+        "saturday": "09:00-00:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "",
+      "lat": 52.311558,
+      "lng": 4.948454,
+      "acd_rating": {
+        "value": 2.33,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://roots.amsterdam/",
+      "facebook": "https://www.facebook.com/Roots-246864652424797/",
+      "instagram": "https://www.instagram.com/roots_coffeeshop/"
+    },
+    "cs-route-66.html": {
+      "shop": "Route 66",
+      "acd_url": "https://www.coffeeshopdirect.com/route66.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6220695",
+      "lat": 52.3748967085,
+      "lng": 4.8976036906,
+      "acd_rating": {
+        "value": 2.87,
+        "count": 15,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A smoker-friendly bar allowing pure cannabis consumption (no tobacco).",
+      "website": "https://www.facebook.com/pages/Route-66-Coffee-Shop/110342612367404",
+      "facebook": "https://www.facebook.com/pages/Route-66-Coffee-Shop/110342612367404",
+      "instagram": "https://www.instagram.com/route66amsterdam/"
+    },
+    "cs-roxy.html": {
+      "shop": "Roxy",
+      "acd_url": "https://www.coffeeshopdirect.com/roxy-ams.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "",
+      "lat": 52.3564066468,
+      "lng": 4.8956014215,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshoproxy.nl/",
+      "facebook": "https://www.facebook.com/Coffeeshop-Roxy-223586631620871/",
+      "instagram": "https://www.instagram.com/coffeeshoproxy/"
+    },
+    "cs-rusland.html": {
+      "shop": "Rusland",
+      "acd_url": "https://www.coffeeshopdirect.com/rusland.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-ruthless.html": {
+      "shop": "Ruthless",
+      "acd_url": "https://www.coffeeshopdirect.com/ruthless.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "11:00-01:00"
+      },
+      "telephone": "+31 (0)20 4123057",
+      "lat": 52.365458414,
+      "lng": 4.8533872449,
+      "acd_rating": {
+        "value": 3,
+        "count": 1,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopruthless.com/",
+      "facebook": "https://www.facebook.com/CoffeeshopRuthlessAmsterdam/",
+      "instagram": "https://www.instagram.com/coffeeshopruthless/"
+    },
+    "cs-saint.html": {
+      "shop": "Saint",
+      "acd_url": "https://www.coffeeshopdirect.com/saint.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 3300074",
+      "lat": 52.3668685483,
+      "lng": 4.8949363532,
+      "acd_rating": {
+        "value": 2,
+        "count": 10,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/The-Saint-Coffeeshop/170131263044600",
+      "instagram": "https://www.instagram.com/thesaintamsterdam/"
+    },
+    "cs-sanementereng.html": {
+      "shop": "Sanementereng",
+      "acd_url": "https://www.coffeeshopdirect.com/sanementereng.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-sativa.html": {
+      "shop": "Sativa",
+      "acd_url": "https://www.coffeeshopdirect.com/sativa.html",
+      "opening_hours": {
+        "monday": "09:00-00:45",
+        "tuesday": "09:00-00:45",
+        "wednesday": "09:00-00:45",
+        "thursday": "09:00-00:45",
+        "friday": "09:00-00:45",
+        "saturday": "09:00-00:45",
+        "sunday": "09:00-00:45"
+      },
+      "telephone": "+31 (0)20 6229644",
+      "lat": 52.3745986884,
+      "lng": 4.8902879655,
+      "acd_rating": {
+        "value": 2.67,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://sativa-amsterdam.nl/",
+      "facebook": "https://www.facebook.com/sativa.amsterdam",
+      "instagram": "https://www.instagram.com/sativa_amsterdam/"
+    },
+    "cs-sensemillia1.html": {
+      "shop": "Sensemillia",
+      "acd_url": "https://www.coffeeshopdirect.com/sensemillia.html",
+      "opening_hours": {
+        "monday": "10:00-00:00",
+        "tuesday": "10:00-00:00",
+        "wednesday": "10:00-00:00",
+        "thursday": "10:00-00:00",
+        "friday": "10:00-00:00",
+        "saturday": "10:00-00:00",
+        "sunday": "10:00-00:00"
+      },
+      "telephone": "+31 (0)20 6865144",
+      "lat": 52.375118,
+      "lng": 4.87128,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://sensemillia.com/",
+      "facebook": "https://www.facebook.com/pages/Sensemillia/311418196353906/",
+      "instagram": "https://www.instagram.com/coffeeshopsensemillia/"
+    },
+    "cs-sensemillia-2.html": {
+      "shop": "Sensemillia 2",
+      "acd_url": "https://www.coffeeshopdirect.com/sensemillia2.html",
+      "opening_hours": {
+        "monday": "10:00-00:00",
+        "tuesday": "10:00-00:00",
+        "wednesday": "10:00-00:00",
+        "thursday": "10:00-00:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-00:00"
+      },
+      "telephone": "+31 (0)20 6198846",
+      "lat": 52.360245,
+      "lng": 4.807863,
+      "acd_rating": {
+        "value": 2.33,
+        "count": 6,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://sensemillia.com/",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-Sensemillia/318269282333666/",
+      "instagram": "https://www.instagram.com/coffeeshopsensemillia/"
+    },
+    "cs-sevilla.html": {
+      "shop": "Sevilla",
+      "acd_url": "https://www.coffeeshopdirect.com/sevilla.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-siberie.html": {
+      "shop": "Siberie",
+      "acd_url": "https://www.coffeeshopdirect.com/siberie.html",
+      "opening_hours": {
+        "monday": "09:00-00:00",
+        "tuesday": "09:00-00:00",
+        "wednesday": "09:00-00:00",
+        "thursday": "09:00-00:00",
+        "friday": "09:00-00:00",
+        "saturday": "09:00-00:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 6235909",
+      "lat": 52.3789107783,
+      "lng": 4.8929554224,
+      "acd_rating": {
+        "value": 2.86,
+        "count": 22,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://thecoffeeshops.com/",
+      "facebook": "https://www.facebook.com/TheCoffeeshopscom/",
+      "instagram": "https://www.instagram.com/coffeeshopsiberie/"
+    },
+    "cs-smoke-palace.html": {
+      "shop": "Smoke Palace",
+      "acd_url": "https://www.coffeeshopdirect.com/smokepalace.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "https://www.facebook.com/SmokePalaceCoffeeshop/",
+      "facebook": "https://www.facebook.com/SmokePalaceCoffeeshop/",
+      "instagram": ""
+    },
+    "cs-smokerdam.html": {
+      "shop": "Smokerdam",
+      "acd_url": "https://www.coffeeshopdirect.com/smokerdam.html",
+      "opening_hours": {
+        "monday": "08:00-00:00",
+        "tuesday": "08:00-00:00",
+        "wednesday": "08:00-00:00",
+        "thursday": "08:00-00:00",
+        "friday": "08:00-00:00",
+        "saturday": "08:00-00:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 6611514",
+      "lat": 52.3459781617,
+      "lng": 4.9064791202,
+      "acd_rating": {
+        "value": 3,
+        "count": 1,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.smokerdamcoffeeshop.com/",
+      "facebook": "https://www.facebook.com/Smokerdam-112334073859549",
+      "instagram": "https://www.instagram.com/smokerdamcoffeeshop/"
+    },
+    "cs-smokey-ams.html": {
+      "shop": "Smokey",
+      "acd_url": "https://www.coffeeshopdirect.com/smokey-3.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6237244",
+      "lat": 52.3656497788,
+      "lng": 4.8963846266,
+      "acd_rating": {
+        "value": 2.15,
+        "count": 39,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://smokey.nl/",
+      "facebook": "https://www.facebook.com/smokeycoffeeshop/",
+      "instagram": "https://www.instagram.com/coffeeshopsmokey/"
+    },
+    "cs-softland.html": {
+      "shop": "Softland",
+      "acd_url": "https://www.coffeeshopdirect.com/softland1.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-solo.html": {
+      "shop": "Solo",
+      "acd_url": "https://www.coffeeshopdirect.com/solo.html",
+      "opening_hours": {
+        "monday": "10:00-00:00",
+        "tuesday": "10:00-00:00",
+        "wednesday": "10:00-00:00",
+        "thursday": "10:00-00:00",
+        "friday": "10:00-00:00",
+        "saturday": "10:00-00:00",
+        "sunday": "10:00-00:00"
+      },
+      "telephone": "+31 (0)20 6240645",
+      "lat": 52.3718705644,
+      "lng": 4.9026569724,
+      "acd_rating": {
+        "value": 3,
+        "count": 12,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://coffeeshopsolo.nl/",
+      "facebook": "https://www.facebook.com/coffeeshopsolo/",
+      "instagram": "https://www.instagram.com/solo_amsterdam/"
+    },
+    "cs-speak-easy-ams.html": {
+      "shop": "Speakeasy",
+      "acd_url": "https://www.coffeeshopdirect.com/speakeasy.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-speak-easy-ams-2.html": {
+      "shop": "Speakeasy 2",
+      "acd_url": "https://www.coffeeshopdirect.com/speakeasy2.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-spirit.html": {
+      "shop": "Spirit",
+      "acd_url": "https://www.coffeeshopdirect.com/spirit.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6254650",
+      "lat": 52.3781690666,
+      "lng": 4.8829427361,
+      "acd_rating": {
+        "value": 2.71,
+        "count": 7,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/pages/Spirit-Coffee-Shop/580228645350277",
+      "facebook": "https://www.facebook.com/pages/Spirit-Coffee-Shop/580228645350277",
+      "instagram": "https://www.instagram.com/explore/locations/320182000/spirit-coffee-shop"
+    },
+    "cs-stix.html": {
+      "shop": "Stix",
+      "acd_url": "https://www.coffeeshopdirect.com/stix.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-stones.html": {
+      "shop": "Stones",
+      "acd_url": "https://www.coffeeshopdirect.com/stones.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "",
+      "lat": 52.3536946009,
+      "lng": 4.887176603,
+      "acd_rating": {
+        "value": 2,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopstones.nl/",
+      "facebook": "https://www.facebook.com/Coffeeshopstones",
+      "instagram": "https://www.instagram.com/coffeeshopstones/"
+    },
+    "cs-stones-corner.html": {
+      "shop": "Stones Corner",
+      "acd_url": "https://www.coffeeshopdirect.com/stonescorner.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-stud.html": {
+      "shop": "Stud",
+      "acd_url": "https://www.coffeeshopdirect.com/stud.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6940983",
+      "lat": 52.3587597913,
+      "lng": 4.9410367012,
+      "acd_rating": {
+        "value": 3,
+        "count": 8,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://thestud.nl/",
+      "facebook": "https://www.facebook.com/CoffeeshopTheStud",
+      "instagram": "https://www.instagram.com/the_stud_official/"
+    },
+    "cs-superflyams.html": {
+      "shop": "SuperFly",
+      "acd_url": "https://www.coffeeshopdirect.com/superfly.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6732972",
+      "lat": 52.3512346944,
+      "lng": 4.9035622179,
+      "acd_rating": {
+        "value": 3,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://superflyamsterdam.nl/",
+      "facebook": "https://www.facebook.com/pages/De-Keeper/276333132988327/",
+      "instagram": "https://www.instagram.com/coffeeshopsuperfly"
+    },
+    "cs-superskunk-2.html": {
+      "shop": "Superskunk",
+      "acd_url": "https://www.coffeeshopdirect.com/superskunk2.html",
+      "opening_hours": {
+        "monday": "08:00-20:00",
+        "tuesday": "08:00-20:00",
+        "wednesday": "08:00-20:00",
+        "thursday": "08:00-20:00",
+        "friday": "08:00-20:00",
+        "saturday": "08:00-20:00",
+        "sunday": "08:00-20:00"
+      },
+      "telephone": "+31 (0)20 6273436",
+      "lat": 52.3642649583,
+      "lng": 4.8851507355,
+      "acd_rating": {
+        "value": 2,
+        "count": 7,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopsuperskunk.com/",
+      "facebook": "https://www.facebook.com/superskunkcoffeeshop/",
+      "instagram": "https://www.instagram.com/superskunkcoffeeshop/"
+    },
+    "cs-superskunk1.html": {
+      "shop": "Superskunk 1",
+      "acd_url": "https://www.coffeeshopdirect.com/superskunk1.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-swedasnoopdoggstore.html": {
+      "shop": "SWED a Snoop Dogg Store",
+      "acd_url": "https://www.coffeeshopdirect.com/swed.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-tatanka.html": {
+      "shop": "Tatanka",
+      "acd_url": "https://www.coffeeshopdirect.com/tatanka1.html",
+      "opening_hours": {
+        "monday": "10:00-22:00",
+        "tuesday": "10:00-22:00",
+        "wednesday": "10:00-22:00",
+        "thursday": "10:00-22:00",
+        "friday": "10:00-22:00",
+        "saturday": "10:00-22:00",
+        "sunday": "10:00-22:00"
+      },
+      "telephone": "+31 (0)20 7703858",
+      "lat": 52.362913322,
+      "lng": 4.8853231966,
+      "acd_rating": {
+        "value": 2.14,
+        "count": 7,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A smartshop selling herbal highs.",
+      "website": "https://www.tatanka.nl/",
+      "facebook": "https://www.facebook.com/tatankasmartshop.amsterdam/",
+      "instagram": "https://www.instagram.com/tatanka_amsterdam/"
+    },
+    "cs-terminator.html": {
+      "shop": "Terminator",
+      "acd_url": "https://www.coffeeshopdirect.com/terminator.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-terps-army.html": {
+      "shop": "Terps Army",
+      "acd_url": "https://www.coffeeshopdirect.com/terpsarmy.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 4200542",
+      "lat": 52.3753617469,
+      "lng": 4.8935857415,
+      "acd_rating": {
+        "value": 2.82,
+        "count": 11,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/TerpsArmy-1664926076906260/",
+      "facebook": "https://www.facebook.com/TerpsArmy-1664926076906260/",
+      "instagram": "https://www.instagram.com/terpsarmycoffeeshop/"
+    },
+    "cs-terps-army-2.html": {
+      "shop": "Terps Army 2",
+      "acd_url": "https://www.coffeeshopdirect.com/terpsarmy2.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "07:00-01:00",
+        "sunday": "07:00-01:00"
+      },
+      "telephone": "+31 (0)20 6250720",
+      "lat": 52.3616627585,
+      "lng": 4.8862626403,
+      "acd_rating": {
+        "value": 2.76,
+        "count": 49,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/pages/Coffeeshop-Noon/289216137824331",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-Noon/289216137824331",
+      "instagram": "https://www.instagram.com/noonamsterdam/"
+    },
+    "cs-dogghouse.html": {
+      "shop": "Tha Dogg House",
+      "acd_url": "https://www.coffeeshopdirect.com/dogghouse.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6384014",
+      "lat": 52.3726918031,
+      "lng": 4.8761057853,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://thadogghouse.nl",
+      "facebook": "https://www.facebook.com/profile.php?id=61563530610204",
+      "instagram": "https://www.instagram.com/thadogghouse.ams/"
+    },
+    "cs-dogghouse2.html": {
+      "shop": "Tha Dogg House 2",
+      "acd_url": "https://www.coffeeshopdirect.com/dogghouse2.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 7723303",
+      "lat": 52.3759708743,
+      "lng": 4.8960064351,
+      "acd_rating": {
+        "value": 2.75,
+        "count": 12,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopdekroon.com/",
+      "facebook": "https://www.facebook.com/dekrooncoffeeshop/",
+      "instagram": "https://www.instagram.com/dekroon_amsterdam/"
+    },
+    "cs-border.html": {
+      "shop": "The Border",
+      "acd_url": "https://www.coffeeshopdirect.com/border.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 6420681",
+      "lat": 52.32201417,
+      "lng": 4.8570540547,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.theborder.nl/",
+      "facebook": "https://www.facebook.com/theborderamsterdam/",
+      "instagram": "https://www.instagram.com/theborderamsterdam/"
+    },
+    "cs-coin.html": {
+      "shop": "The Coin",
+      "acd_url": "https://www.coffeeshopdirect.com/coin.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-corner.html": {
+      "shop": "The Corner",
+      "acd_url": "https://www.coffeeshopdirect.com/corner.html",
+      "opening_hours": {
+        "monday": "08:00-01:00",
+        "tuesday": "08:00-01:00",
+        "wednesday": "08:00-01:00",
+        "thursday": "08:00-01:00",
+        "friday": "08:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 6813269",
+      "lat": 52.391768,
+      "lng": 4.877754,
+      "acd_rating": {
+        "value": 2.33,
+        "count": 3,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshopthecorner.nl/",
+      "facebook": "https://www.facebook.com/Coffeeshop-The-Corner-490190981517584",
+      "instagram": "https://www.instagram.com/coffeeshopthecorner/"
+    },
+    "cs-doors.html": {
+      "shop": "The Doors",
+      "acd_url": "https://www.coffeeshopdirect.com/doors.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-hit2.html": {
+      "shop": "The Hit",
+      "acd_url": "https://www.coffeeshopdirect.com/hit-ams.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6279468",
+      "lat": 52.3700192414,
+      "lng": 4.896313548,
+      "acd_rating": {
+        "value": 2.8,
+        "count": 30,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://thehit.nl/",
+      "facebook": "https://www.facebook.com/ShopRusland/",
+      "instagram": "https://www.instagram.com/coffeeshopthehit"
+    },
+    "cs-otherside.html": {
+      "shop": "The Otherside",
+      "acd_url": "https://www.coffeeshopdirect.com/otherside.html",
+      "opening_hours": {
+        "monday": "11:00-01:00",
+        "tuesday": "11:00-01:00",
+        "wednesday": "11:00-01:00",
+        "thursday": "11:00-01:00",
+        "friday": "11:00-01:00",
+        "saturday": "11:00-01:00",
+        "sunday": "11:00-01:00"
+      },
+      "telephone": "+31 (0)20 6255141",
+      "lat": 52.3667782159,
+      "lng": 4.8892405629,
+      "acd_rating": {
+        "value": 2.59,
+        "count": 17,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "http://www.theotherside.nl/",
+      "facebook": "https://www.facebook.com/CoffeeshopTheOtherside/",
+      "instagram": "https://www.instagram.com/coffeeshoptheotherside/"
+    },
+    "cs-plugstore.html": {
+      "shop": "The Plug Store",
+      "acd_url": "https://www.coffeeshopdirect.com/plugstore.html",
+      "opening_hours": {
+        "monday": "10:00-00:00",
+        "tuesday": "10:00-00:00",
+        "wednesday": "10:00-00:00",
+        "thursday": "10:00-00:00",
+        "friday": "10:00-00:00",
+        "saturday": "10:00-00:00",
+        "sunday": "10:00-00:00"
+      },
+      "telephone": "+31 (0)20 6263900",
+      "lat": 52.3790491316,
+      "lng": 4.8937949538,
+      "acd_rating": {
+        "value": 2.84,
+        "count": 32,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.thestoreamsterdam.com/",
+      "facebook": "https://www.facebook.com/thestoreamsterdam/",
+      "instagram": "https://www.instagram.com/coffeeshop_the_store/"
+    },
+    "cs-plug-utopia.html": {
+      "shop": "The Plug Utopia",
+      "acd_url": "https://www.coffeeshopdirect.com/plugutopia.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6261295",
+      "lat": 52.3751013915,
+      "lng": 4.8916009068,
+      "acd_rating": {
+        "value": 3,
+        "count": 16,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.instagram.com/theplugcoffeeshops/",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/theplugcoffeeshops/"
+    },
+    "cs-plug-west.html": {
+      "shop": "The Plug West",
+      "acd_url": "https://www.coffeeshopdirect.com/plugwest.html",
+      "opening_hours": {
+        "monday": "07:00-00:45",
+        "tuesday": "07:00-00:45",
+        "wednesday": "07:00-00:45",
+        "thursday": "07:00-00:45",
+        "friday": "07:00-00:45",
+        "saturday": "07:00-00:45",
+        "sunday": "07:00-00:45"
+      },
+      "telephone": "+31 (0)20 6817979",
+      "lat": 52.373973167,
+      "lng": 4.8725759983,
+      "acd_rating": {
+        "value": 2.6,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/CoffeeshopHugo/",
+      "facebook": "https://www.facebook.com/CoffeeshopHugo/",
+      "instagram": "https://www.instagram.com/the.plug.west/"
+    },
+    "cs-plugwesterdok.html": {
+      "shop": "The Plug Westerdok",
+      "acd_url": "https://www.coffeeshopdirect.com/plugwesterdok.html",
+      "opening_hours": {
+        "monday": "13:00-22:00",
+        "tuesday": "13:00-22:00",
+        "wednesday": "13:00-22:00",
+        "thursday": "13:00-22:00",
+        "friday": "10:00-00:00",
+        "saturday": "10:00-00:00",
+        "sunday": "13:00-22:00"
+      },
+      "telephone": "+31 (0)20 2336425",
+      "lat": 52.3891297405,
+      "lng": 4.8875722289,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://babashops.com/",
+      "facebook": "https://www.facebook.com/babacoffeeshop/",
+      "instagram": "https://www.instagram.com/the.plug.westerdok/"
+    },
+    "cs-plug-xxx.html": {
+      "shop": "The Plug XXX",
+      "acd_url": "https://www.coffeeshopdirect.com/plugxxx.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-point-ams.html": {
+      "shop": "The Point",
+      "acd_url": "https://www.coffeeshopdirect.com/point.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-store.html": {
+      "shop": "The Store",
+      "acd_url": "https://www.coffeeshopdirect.com/store.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-tops-ams.html": {
+      "shop": "Tops",
+      "acd_url": "https://www.coffeeshopdirect.com/tops.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-trefpunt-ams.html": {
+      "shop": "Trefpunt",
+      "acd_url": "https://www.coffeeshopdirect.com/trefpunt-2.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 6639327",
+      "lat": 52.3661419382,
+      "lng": 4.9298411607,
+      "acd_rating": {
+        "value": 2.86,
+        "count": 7,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/trefpuntamsterdam/"
+    },
+    "cs-trinity.html": {
+      "shop": "Trinity",
+      "acd_url": "https://www.coffeeshopdirect.com/trinity.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-tuintje.html": {
+      "shop": "Tuintje",
+      "acd_url": "https://www.coffeeshopdirect.com/tuintje.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-tweede-kamer.html": {
+      "shop": "Tweede Kamer",
+      "acd_url": "https://www.coffeeshopdirect.com/tweedekamer.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 4222236",
+      "lat": 52.3688360245,
+      "lng": 4.8883621394,
+      "acd_rating": {
+        "value": 2.91,
+        "count": 35,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://tweedekamercoffeeshop.nl/",
+      "facebook": "https://www.facebook.com/Coffeeshop-De-Tweede-Kamer-1595305274118588/",
+      "instagram": "https://www.instagram.com/explore/locations/8495836/coffeeshop-de-tweede-kamer/"
+    },
+    "cs-tweedy.html": {
+      "shop": "Tweedy",
+      "acd_url": "https://www.coffeeshopdirect.com/tweedy.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-twilight-zone.html": {
+      "shop": "Twilight Zone",
+      "acd_url": "https://www.coffeeshopdirect.com/twilightzone.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-two-twenty-two.html": {
+      "shop": "Two Twenty Two",
+      "acd_url": "https://www.coffeeshopdirect.com/twotwentytwo.html",
+      "opening_hours": null,
+      "telephone": "",
+      "lat": null,
+      "lng": null,
+      "acd_rating": null,
+      "description": "",
+      "website": "",
+      "facebook": "",
+      "instagram": ""
+    },
+    "cs-tyson.html": {
+      "shop": "Tyson 2.0",
+      "acd_url": "https://www.coffeeshopdirect.com/tyson20.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 4209799",
+      "lat": 52.3714963758,
+      "lng": 4.8891574144,
+      "acd_rating": {
+        "value": 2.8,
+        "count": 20,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://coffeeshoptyson.com/",
+      "facebook": "https://www.facebook.com/CoffeeshopTysonAmsterdam",
+      "instagram": "https://www.instagram.com/coffeeshoptyson/"
+    },
+    "cs-tyson20nieuwmarkt.html": {
+      "shop": "Tyson 2.0 Nieuwmarkt",
+      "acd_url": "https://www.coffeeshopdirect.com/tysonnieuwmarkt.html",
+      "opening_hours": {
+        "monday": "09:00-01:00",
+        "tuesday": "09:00-01:00",
+        "wednesday": "09:00-01:00",
+        "thursday": "09:00-01:00",
+        "friday": "09:00-01:00",
+        "saturday": "09:00-01:00",
+        "sunday": "09:00-01:00"
+      },
+      "telephone": "+31 (0)20 4277878",
+      "lat": 52.3728146192,
+      "lng": 4.8998500406,
+      "acd_rating": {
+        "value": 3,
+        "count": 7,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/coffeeshopgreenhouseeffect",
+      "facebook": "https://www.facebook.com/coffeeshopgreenhouseeffect",
+      "instagram": "https://www.instagram.com/thegreenhouseeffect_amsterdam/"
+    },
+    "cs-vondel.html": {
+      "shop": "Vondel",
+      "acd_url": "https://www.coffeeshopdirect.com/vondel.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6830002",
+      "lat": 52.3585902512,
+      "lng": 4.8592494428,
+      "acd_rating": {
+        "value": 2.83,
+        "count": 6,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/Coffeeshop-Vondel-763082370748962/",
+      "instagram": "https://www.instagram.com/coffeeshop.vondel/"
+    },
+    "cs-voyagers.html": {
+      "shop": "Voyagers",
+      "acd_url": "https://www.coffeeshopdirect.com/voyagers.html",
+      "opening_hours": {
+        "monday": "10:00-23:00",
+        "tuesday": "10:00-23:00",
+        "wednesday": "10:00-23:00",
+        "thursday": "10:00-23:00",
+        "friday": "10:00-23:00",
+        "saturday": "10:00-23:00",
+        "sunday": "10:00-23:00"
+      },
+      "telephone": "+31 (0)20 6246871",
+      "lat": 52.376372861,
+      "lng": 4.9020346999,
+      "acd_rating": {
+        "value": 3,
+        "count": 5,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.voyagersamsterdam.com/",
+      "facebook": "https://www.facebook.com/VoyagersHotelAmsterdam",
+      "instagram": "https://www.instagram.com/voyagerscoffeeshop/"
+    },
+    "cs-warda-1.html": {
+      "shop": "Warda 1",
+      "acd_url": "https://www.coffeeshopdirect.com/warda1.html",
+      "opening_hours": {
+        "monday": "10:00-01:00",
+        "tuesday": "10:00-01:00",
+        "wednesday": "10:00-01:00",
+        "thursday": "10:00-01:00",
+        "friday": "10:00-01:00",
+        "saturday": "10:00-01:00",
+        "sunday": "10:00-01:00"
+      },
+      "telephone": "+31 (0)20 6756778",
+      "lat": 52.352897,
+      "lng": 4.903,
+      "acd_rating": {
+        "value": 2.5,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-Warda/302395849860054/",
+      "instagram": "https://www.instagram.com/warda.coffeeshop/"
+    },
+    "cs-west.html": {
+      "shop": "West (Ban Tam)",
+      "acd_url": "https://www.coffeeshopdirect.com/west.html",
+      "opening_hours": {
+        "monday": "09:00-00:00",
+        "tuesday": "09:00-00:00",
+        "wednesday": "09:00-00:00",
+        "thursday": "09:00-00:00",
+        "friday": "09:00-00:00",
+        "saturday": "09:00-00:00",
+        "sunday": "09:00-00:00"
+      },
+      "telephone": "+31 (0)20 3030251",
+      "lat": 52.3688559146,
+      "lng": 4.8536753487,
+      "acd_rating": {
+        "value": 3,
+        "count": 2,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.coffeeshopwest.nl/",
+      "facebook": "https://www.facebook.com/pages/Coffeeshop-de-Bommel/288732194485564",
+      "instagram": "https://www.instagram.com/explore/locations/524232078/coffeeshop-de-bommel/"
+    },
+    "cs-yin-yang.html": {
+      "shop": "Yin Yang",
+      "acd_url": "https://www.coffeeshopdirect.com/yinyang.html",
+      "opening_hours": {
+        "monday": "07:00-01:00",
+        "tuesday": "07:00-01:00",
+        "wednesday": "07:00-01:00",
+        "thursday": "07:00-01:00",
+        "friday": "07:00-01:00",
+        "saturday": "08:00-01:00",
+        "sunday": "08:00-01:00"
+      },
+      "telephone": "+31 (0)20 4869735",
+      "lat": 52.3905407602,
+      "lng": 4.878051728,
+      "acd_rating": {
+        "value": 3,
+        "count": 1,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "",
+      "facebook": "",
+      "instagram": "https://www.instagram.com/coffeeshopyinyang/"
+    },
+    "cs-yo-yo.html": {
+      "shop": "Yo-Yo",
+      "acd_url": "https://www.coffeeshopdirect.com/yoyo.html",
+      "opening_hours": {
+        "monday": "12:00-19:00",
+        "tuesday": "12:00-19:00",
+        "wednesday": "12:00-19:00",
+        "thursday": "12:00-19:00",
+        "friday": "12:00-20:00",
+        "saturday": "12:00-20:00",
+        "sunday": "12:00-19:00"
+      },
+      "telephone": "+31 (0)20 2339800",
+      "lat": 52.3563243295,
+      "lng": 4.9030747264,
+      "acd_rating": {
+        "value": 2.9,
+        "count": 10,
+        "best": 3,
+        "worst": 1
+      },
+      "description": "A coffeeshop, like a dispensary, licensed to sell up to 5 grams of cannabis to adults in store.",
+      "website": "https://www.facebook.com/YoYoamsterdam",
+      "facebook": "https://www.facebook.com/YoYoamsterdam",
+      "instagram": "https://www.instagram.com/explore/locations/780976397/galerie-coffeeshop-yoyo/"
+    }
+  }
+}
