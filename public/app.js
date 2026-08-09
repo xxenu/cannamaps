@@ -112,6 +112,7 @@
     locate: document.getElementById('locate'),
     toast: document.getElementById('toast'),
     search: document.getElementById('search-input'),
+    searchBox: document.querySelector('.search'),
     searchClear: document.getElementById('search-clear'),
     searchResults: document.getElementById('search-results'),
     favToggle: document.getElementById('favorites-toggle'),
@@ -350,7 +351,7 @@
 
     if (shown === 0) {
       el.empty.textContent = state.favoritesOnly
-        ? 'No favorites yet in the selected categories. Tap ★ on a shop to save it.'
+        ? 'No favorites yet in the selected categories. Tap save on a shop to keep it.'
         : 'Nothing to show — turn on a category filter above.';
       el.empty.hidden = false;
     } else {
@@ -520,24 +521,60 @@
     railState.panel = '';
     el.panel.hidden = true;
     setRailPressed();
+    syncSearchChrome();
   }
 
   function togglePanel(which) {
     if (railState.panel === which) { closePanel(); return; }
     railState.panel = which;
+    if (!el.sheet.hidden) closeSheet();   // same drawer slot
     el.panel.hidden = false;
     renderPanel(which);
     setRailPressed();
+    syncSearchChrome();
+  }
+
+  /* With a panel open the omnibox rearranges: the magnifier moves to the
+   * leading edge and the ✕ moves to the trailing one, where it doubles as the
+   * panel's close button. That is why the panel's own header ✕ is gone — it
+   * sat underneath the floating search card. */
+  function syncSearchChrome() {
+    // The shop detail is the same drawer in wide layouts, so it drives the
+    // omnibox the same way a rail panel does.
+    var drawerOpen = !!railState.panel || !el.sheet.hidden;
+    if (el.searchBox) el.searchBox.classList.toggle('is-panel', drawerOpen);
+    el.searchClear.hidden = !drawerOpen && !el.search.value;
+    el.searchClear.setAttribute('aria-label', drawerOpen ? 'Close' : 'Clear search');
+  }
+
+  /* Row thumbnail: the shop's logo, else its first menu photo, else a tile in
+   * the type colour. A file that fails to load drops back to that same tile,
+   * so a row never shows a broken image. */
+  function shopThumb(shop) {
+    var wrap = document.createElement('span');
+    wrap.className = 'panel-row-thumb';
+    wrap.style.background = typeInfo(shop.shop_type).color;
+
+    var logo = shop.logo || '';
+    var src = logo || ((shop.menu_images || [])[0] || {}).file || '';
+    if (!src) return wrap;
+
+    var img = document.createElement('img');
+    // Logos are usually artwork on a flat ground, so they are fitted whole;
+    // menu photos are cropped to fill.
+    if (logo) img.className = 'is-logo';
+    img.alt = '';
+    img.loading = 'lazy';
+    img.addEventListener('error', function () { img.remove(); });
+    img.src = src;
+    wrap.appendChild(img);
+    return wrap;
   }
 
   function shopRow(shop, subtitle) {
     var row = document.createElement('button');
     row.type = 'button';
     row.className = 'panel-row';
-
-    var dot = document.createElement('span');
-    dot.className = 'dot';
-    dot.style.background = typeInfo(shop.shop_type).color;
 
     var text = document.createElement('div');
     text.className = 'panel-row-text';
@@ -550,7 +587,7 @@
     text.appendChild(name);
     text.appendChild(sub);
 
-    row.appendChild(dot);
+    row.appendChild(shopThumb(shop));
     row.appendChild(text);
     row.addEventListener('click', function () {
       map.setView([shop.lat, shop.lng], Math.max(map.getZoom(), 16), { animate: true });
@@ -712,10 +749,17 @@
     renderMenuImages(shop);
     renderMenu(shop);
 
+    // On wide screens both occupy the same drawer slot beside the rail.
+    if (railState.panel) closePanel();
+
     el.sheet.hidden = false;
     el.scrim.hidden = false;
     el.sheet.querySelector('.sheet-body').scrollTop = 0;
-    el.close.focus({ preventScroll: true });
+    syncSearchChrome();
+    // The ✕ is hidden in drawer mode; focus the pane itself so the dialog still
+    // takes focus and Escape still reaches it.
+    if (el.close.offsetParent) el.close.focus({ preventScroll: true });
+    else el.sheet.focus({ preventScroll: true });
 
     map.panTo([shop.lat, shop.lng], { animate: true });
   }
@@ -726,6 +770,7 @@
     state.selectedId = null;
     el.sheet.hidden = true;
     el.scrim.hidden = true;
+    syncSearchChrome();
     if (previous) refreshMarker(previous);
   }
 
@@ -1513,7 +1558,7 @@
     }
 
     el.search.addEventListener('input', function () {
-      el.searchClear.hidden = !el.search.value;
+      syncSearchChrome();
       renderSearchResults(el.search.value);
     });
     el.search.addEventListener('focus', function () {
@@ -1534,7 +1579,7 @@
       } else if (ev.key === 'Escape') {
         ev.stopPropagation();
         if (!el.searchResults.hidden) closeSearchResults();
-        else { el.search.value = ''; el.searchClear.hidden = true; el.search.blur(); }
+        else { el.search.value = ''; syncSearchChrome(); el.search.blur(); }
       }
     });
     var goBtn = document.getElementById('search-go');
@@ -1547,8 +1592,12 @@
     }
     el.searchClear.addEventListener('click', function () {
       el.search.value = '';
-      el.searchClear.hidden = true;
       closeSearchResults();
+      // While a drawer is open the ✕ is its close button; clearing the query
+      // alone would leave the drawer standing with nothing to dismiss it.
+      if (!el.sheet.hidden) { closeSheet(); return; }
+      if (railState.panel) { closePanel(); return; }
+      syncSearchChrome();
       el.search.focus();
     });
 

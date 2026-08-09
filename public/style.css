@@ -26,6 +26,7 @@
    * a red that reads as "shut/blocked" and the blue every map uses for "you". */
   --danger: #f87171;
   --me: #4a90ff;
+  --fav: #F2D44E;           /* saved: the pin turns this colour outright */
 
   --type-coffeeshop: #63A47E;
   --type-smartshop: #a78bfa;
@@ -159,6 +160,24 @@ html, body {
   transition: background 0.15s, color 0.15s;
 }
 .rail-icon svg { width: 22px; height: 22px; display: block; }
+/* Bitmap rail icons are painted through a mask so they take currentColor and
+ * follow the pressed state exactly like the inline SVG ones. */
+.rail-glyph {
+  width: 21px;
+  height: 21px;
+  display: block;
+  background: currentColor;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+.rail-glyph-save {
+  -webkit-mask-image: url(icons/save.png);
+  mask-image: url(icons/save.png);
+}
 .rail-label {
   font-size: 11px;
   font-weight: 600;
@@ -242,7 +261,10 @@ html, body {
   top: 0; bottom: 0;
   left: 72px;
   z-index: 690;
-  width: min(320px, calc(100vw - 72px));
+  /* Wide enough to finish past the search card's right edge (84 + 400 = 484),
+   * so the panel reads as sitting under the search rather than tucked behind
+   * one end of it. */
+  width: min(440px, calc(100vw - 72px));
   display: flex;
   flex-direction: column;
   background: var(--surface);
@@ -253,7 +275,10 @@ html, body {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: calc(var(--safe-top) + 14px) 14px 10px;
+  /* Starts below the floating search card (12px top + 46px tall), which now
+   * renders above the panel and would otherwise cover the title and the
+   * close button. */
+  padding: calc(var(--safe-top) + 86px) 14px 10px;
   border-bottom: 1px solid var(--line);
 }
 .panel-head h2 {
@@ -262,15 +287,10 @@ html, body {
   font-weight: 700;
   flex: 1;
 }
-.panel-close {
-  width: 28px; height: 28px;
-  border: none;
-  border-radius: 50%;
-  background: var(--surface-2);
-  color: var(--text);
-  font-size: 12px;
-  cursor: pointer;
-}
+/* Superseded by the ✕ in the search card — it sat under the floating search
+ * bar here. Kept in the markup so the close handler and its keyboard path
+ * stay wired up. */
+.panel-close { display: none; }
 .panel-body {
   flex: 1;
   overflow-y: auto;
@@ -299,7 +319,27 @@ html, body {
   cursor: pointer;
 }
 .panel-row:hover { background: var(--surface-2); }
-.panel-row .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+/* Thumbnail. The tile's own background is the type colour, which shows through
+ * as the placeholder when a shop has neither a logo nor a menu photo. */
+.panel-row-thumb {
+  flex: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+}
+.panel-row-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.panel-row-thumb img.is-logo {
+  object-fit: contain;
+  padding: 5px;
+  background: var(--surface-2);
+}
 .panel-row-text { min-width: 0; flex: 1; }
 .panel-row-name {
   font-size: 13.5px;
@@ -367,7 +407,10 @@ html, body {
 #topbar {
   position: absolute;
   top: 0; left: 0; right: 0;
-  z-index: 500;
+  /* Above the rail (700) and its flyout panel (690) — the search stays on top
+   * of whatever opens. Safe because the bar itself ignores pointer events and
+   * only the search card inside it takes clicks, so the rail stays reachable. */
+  z-index: 720;
   padding: calc(var(--safe-top) + 12px) 12px 0 84px;   /* clears the rail */
   display: flex;
   align-items: flex-start;
@@ -419,6 +462,18 @@ html, body {
   line-height: 1;
   cursor: pointer;
 }
+/* Panel open: the omnibox swaps to its leading-magnifier layout — glass on the
+ * left, ✕ on the right, no divider. The ✕ closes the panel, which is why the
+ * panel no longer carries its own close button. */
+.search.is-panel { padding-left: 0; }
+.search.is-panel .search-go { order: -1; border-radius: 9px 0 0 9px; }
+.search.is-panel .search-div { display: none; }
+.search.is-panel .search-clear {
+  order: 1;
+  margin-right: 14px;
+  margin-left: 8px;
+}
+
 /* Divider then the search button, the way a maps omnibox splits its actions. */
 .search-div {
   flex: none;
@@ -808,16 +863,18 @@ html, body {
   width: 15px;
   height: 15px;
 }
-.pin.is-fav::after {
-  content: "★";
-  position: absolute;
-  top: -8px;
-  right: -8px;
-  transform: rotate(45deg);
-  font-size: 13px;
-  color: var(--star);
-  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+/* Saved shops recolour the whole pin rather than carrying a corner badge — it
+ * reads at a glance across a dense map, where an 11px badge did not. */
+.pin.is-fav {
+  background: var(--fav);
+  /* Slightly bigger, and offset so the pin's point stays on the same spot:
+   * the tip sits 0.707 x its own width below centre once rotated, so growing
+   * 26px -> 32px has to come back up by ~7px and left by 3px. */
+  width: 32px;
+  height: 32px;
+  margin: -7px 0 0 -3px;
 }
+.pin.is-fav .pin-glyph { width: 18px; height: 18px; }
 /* The selected pin is already accent-green, so a green outline would vanish
  * into it — the near-white is what actually reads. */
 .pin.is-active {
@@ -852,18 +909,47 @@ html, body {
 }
 @keyframes slide-up { from { transform: translateY(100%); } to { transform: none; } }
 
+/* Wide screens: the shop detail is a full-height drawer against the rail, the
+ * way a maps place pane sits — not a card floating over the right of the map.
+ * Same 440px as the rail panel it replaces, so the two line up. Narrow screens
+ * keep the bottom sheet above. */
 @media (min-width: 720px) {
   .sheet {
-    left: auto;
-    right: 16px;
-    bottom: 16px;
-    width: 400px;
-    max-height: min(70vh, 720px);
-    border-radius: 18px;
-    border: 1px solid var(--line);
+    left: 72px;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    /* Under the search card (720) so the omnibox stays on top, level with the
+     * rail panel it stands in for. */
+    z-index: 690;
+    width: min(440px, calc(100vw - 72px));
+    max-height: none;
+    /* Clears the floating search card: 12px offset + 46px tall + a gap. */
+    padding: calc(var(--safe-top) + 86px) 18px calc(var(--safe-bottom) + 18px);
+    border: none;
+    border-right: 1px solid var(--line);
+    border-radius: 0;
+    box-shadow: 8px 0 28px rgba(0, 0, 0, 0.5);
+    animation: slide-in 0.24s cubic-bezier(0.22, 1, 0.36, 1);
   }
-  .sheet-scrim { background: rgba(0, 0, 0, 0.25); }
-  @keyframes slide-up { from { transform: translateY(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+  /* A side pane leaves the map usable, so nothing should dim it. */
+  .sheet-scrim { display: none; }
+  /* The grip is a drag affordance for a bottom sheet, and the ✕ moved into the
+   * search card — neither belongs on a drawer. */
+  .sheet-grip, .sheet-close { display: none; }
+  /* Save sits in the drawer's top-right corner rather than inline in the
+   * header, level with the search card beside it. The header keeps room so a
+   * long shop name never runs underneath it. */
+  .fav-btn {
+    position: absolute;
+    top: calc(var(--safe-top) + 86px);
+    right: 18px;
+  }
+  .sheet-head { padding-right: 60px; }
+}
+@keyframes slide-in {
+  from { transform: translateX(-16px); opacity: 0; }
+  to { transform: none; opacity: 1; }
 }
 
 .sheet-grip {
@@ -945,23 +1031,36 @@ html, body {
   padding: 6px 8px !important;
 }
 
+/* Bookmark rather than a star, outline until saved and solid once it is —
+ * the artwork carries the state, so the button keeps a neutral chrome. */
+/* No chrome around it — the bookmark alone carries the state, and a ring here
+ * competed with the drawer's own edges. The 42px box stays for the hit area. */
 .fav-btn {
   flex: none;
-  width: 42px; height: 42px;
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  background: var(--surface-2);
+  width: 48px; height: 48px;
+  display: grid;
+  place-items: center;
+  border: none;
+  background: none;
   color: var(--text-dim);
-  font-size: 20px;
   line-height: 1;
   cursor: pointer;
-  transition: transform 0.15s, color 0.15s, background 0.15s;
+  transition: transform 0.15s, color 0.15s;
+}
+.fav-btn:hover { color: var(--text); }
+.fav-btn::before {
+  content: "";
+  width: 23px;
+  height: 23px;
+  background: currentColor;
+  -webkit-mask: url(icons/save.png) center / contain no-repeat;
+  mask: url(icons/save.png) center / contain no-repeat;
 }
 .fav-btn:active { transform: scale(0.9); }
-.fav-btn[aria-pressed="true"] {
-  color: var(--star);
-  border-color: var(--star);
-  background: rgba(248, 248, 248, 0.12);
+.fav-btn[aria-pressed="true"] { color: var(--fav); }
+.fav-btn[aria-pressed="true"]::before {
+  -webkit-mask-image: url(icons/save-filled.png);
+  mask-image: url(icons/save-filled.png);
 }
 
 .sheet-actions { margin: 14px 0 4px; }
