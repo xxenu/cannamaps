@@ -1,7 +1,7 @@
 /* CannaMap service worker — offline shell, shop data and map tiles.
  * Bump CACHE_VERSION whenever the shell files change. */
 
-var CACHE_VERSION = 'v8';
+var CACHE_VERSION = 'v9';
 var SHELL_CACHE = 'cannamap-shell-' + CACHE_VERSION;
 var DATA_CACHE = 'cannamap-data-' + CACHE_VERSION;
 var TILE_CACHE = 'cannamap-tiles-' + CACHE_VERSION;
@@ -23,6 +23,7 @@ var SHELL_ASSETS = [
   './manifest.json',
   './icons/icon.svg',
   './icons/leaf.png',
+  './icons/gps.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',

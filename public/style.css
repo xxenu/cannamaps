@@ -688,59 +688,37 @@ html, body {
 }
 .locate:hover { background: var(--surface-2); }
 
-/* Crosshair, drawn rather than an emoji so it can recolour with state. */
+/* The GPS crosshair artwork. Painted through a mask rather than dropped in as
+ * an <img>, so the one black PNG can be tinted per state — neutral at rest,
+ * blue when located, red when permission is denied. */
 .locate-ring {
-  position: relative;
-  width: 15px;
-  height: 15px;
-  border: 2px solid var(--text-dim);
-  border-radius: 50%;
-  transition: border-color 0.15s;
-}
-.locate-ring::before {
-  content: '';
-  position: absolute;
-  inset: 4px;
-  border-radius: 50%;
+  width: 20px;
+  height: 20px;
   background: var(--text-dim);
+  -webkit-mask: url(icons/gps.png) center / contain no-repeat;
+  mask: url(icons/gps.png) center / contain no-repeat;
   transition: background 0.15s;
 }
-/* The four crosshair ticks. */
-.locate-ring::after {
+/* Located, and while following: only the crosshair turns blue — the card stays
+ * neutral so it keeps matching the zoom control beneath it. */
+.locate[data-state="on"] .locate-ring,
+.locate[aria-pressed="true"] .locate-ring { background: var(--me); }
+.locate[data-state="denied"] .locate-ring { background: var(--danger); }
+
+/* Locating: swap the crosshair for a spinner in the same spot. */
+.locate[data-state="locating"] .locate-ring { background: transparent; }
+.locate[data-state="locating"]::after {
   content: '';
   position: absolute;
-  inset: -6px;
-  background:
-    linear-gradient(var(--text-dim), var(--text-dim)) 50% 0 / 2px 4px no-repeat,
-    linear-gradient(var(--text-dim), var(--text-dim)) 50% 100% / 2px 4px no-repeat,
-    linear-gradient(var(--text-dim), var(--text-dim)) 0 50% / 4px 2px no-repeat,
-    linear-gradient(var(--text-dim), var(--text-dim)) 100% 50% / 4px 2px no-repeat;
-  transition: background 0.15s;
-}
-/* Located but not following: dot is live, button stays neutral. */
-.locate[data-state="on"] .locate-ring,
-.locate[aria-pressed="true"] .locate-ring { border-color: var(--me); }
-.locate[data-state="on"] .locate-ring::before,
-.locate[aria-pressed="true"] .locate-ring::before { background: var(--me); }
-.locate[data-state="on"] .locate-ring::after,
-.locate[aria-pressed="true"] .locate-ring::after {
-  background:
-    linear-gradient(var(--me), var(--me)) 50% 0 / 2px 4px no-repeat,
-    linear-gradient(var(--me), var(--me)) 50% 100% / 2px 4px no-repeat,
-    linear-gradient(var(--me), var(--me)) 0 50% / 4px 2px no-repeat,
-    linear-gradient(var(--me), var(--me)) 100% 50% / 4px 2px no-repeat;
-}
-/* Following: only the crosshair turns blue — the card itself stays neutral so
- * it keeps matching the zoom control beneath it. */
-.locate[data-state="locating"] .locate-ring {
-  border-color: var(--me);
+  inset: 0;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--me);
   border-right-color: transparent;
+  border-radius: 50%;
   animation: locate-spin 0.8s linear infinite;
 }
-.locate[data-state="locating"] .locate-ring::before,
-.locate[data-state="locating"] .locate-ring::after { opacity: 0; }
-.locate[data-state="denied"] .locate-ring { border-color: var(--danger); }
-.locate[data-state="denied"] .locate-ring::before { background: var(--danger); }
 
 @keyframes locate-spin { to { transform: rotate(360deg); } }
 
