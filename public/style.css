@@ -41,6 +41,31 @@
 
 * { box-sizing: border-box; }
 
+/* Scrollbars in the drawers and dropdowns: a hairline in the same grey as the
+ * frame borders, so a scrolling pane doesn't grow a heavy bar down its middle.
+ * Firefox gets the standard properties, WebKit the pseudo-elements. */
+.sheet-body,
+.panel-body,
+.search-results {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+.sheet-body::-webkit-scrollbar,
+.panel-body::-webkit-scrollbar,
+.search-results::-webkit-scrollbar { width: 6px; }
+.sheet-body::-webkit-scrollbar-track,
+.panel-body::-webkit-scrollbar-track,
+.search-results::-webkit-scrollbar-track { background: transparent; }
+.sheet-body::-webkit-scrollbar-thumb,
+.panel-body::-webkit-scrollbar-thumb,
+.search-results::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 3px;
+}
+.sheet-body::-webkit-scrollbar-thumb:hover,
+.panel-body::-webkit-scrollbar-thumb:hover,
+.search-results::-webkit-scrollbar-thumb:hover { background: var(--surface-2); }
+
 /* Several elements below set an explicit `display`, which would otherwise
  * beat the UA rule for the `hidden` attribute. */
 [hidden] { display: none !important; }
@@ -1107,6 +1132,11 @@ html, body {
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
   margin-top: 8px;
+  /* The scroller reaches the drawer's own edge so the bar rides the border
+   * instead of floating 18px inside it; the padding puts the content back
+   * where it was. */
+  margin-right: -18px;
+  padding-right: 18px;
 }
 
 .section-title {
