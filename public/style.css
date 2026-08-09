@@ -43,28 +43,41 @@
 
 /* Scrollbars in the drawers and dropdowns: a hairline in the same grey as the
  * frame borders, so a scrolling pane doesn't grow a heavy bar down its middle.
- * Firefox gets the standard properties, WebKit the pseudo-elements. */
-.sheet-body,
-.panel-body,
-.search-results {
-  scrollbar-width: thin;
-  scrollbar-color: var(--line) transparent;
+ *
+ * The two mechanisms have to be kept apart. Chrome 121+ ignores the
+ * ::-webkit-scrollbar pseudo-elements outright whenever scrollbar-width is
+ * also set, and on macOS scrollbar-width alone still leaves an overlay bar
+ * that fades out — i.e. an invisible scrollbar. So the pseudo-elements go to
+ * the engines that support them, where they force a persistent bar, and the
+ * standard properties are left to Firefox. */
+@supports not selector(::-webkit-scrollbar) {
+  .sheet-body,
+  .panel-body,
+  .search-results {
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
+  }
 }
-.sheet-body::-webkit-scrollbar,
-.panel-body::-webkit-scrollbar,
-.search-results::-webkit-scrollbar { width: 6px; }
-.sheet-body::-webkit-scrollbar-track,
-.panel-body::-webkit-scrollbar-track,
-.search-results::-webkit-scrollbar-track { background: transparent; }
-.sheet-body::-webkit-scrollbar-thumb,
-.panel-body::-webkit-scrollbar-thumb,
-.search-results::-webkit-scrollbar-thumb {
-  background: var(--line);
-  border-radius: 3px;
+@supports selector(::-webkit-scrollbar) {
+  .sheet-body::-webkit-scrollbar,
+  .panel-body::-webkit-scrollbar,
+  .search-results::-webkit-scrollbar {
+    -webkit-appearance: none;    /* opts out of the overlay bar on macOS */
+    width: 7px;
+  }
+  .sheet-body::-webkit-scrollbar-track,
+  .panel-body::-webkit-scrollbar-track,
+  .search-results::-webkit-scrollbar-track { background: transparent; }
+  .sheet-body::-webkit-scrollbar-thumb,
+  .panel-body::-webkit-scrollbar-thumb,
+  .search-results::-webkit-scrollbar-thumb {
+    background: var(--line);
+    border-radius: 4px;
+  }
+  .sheet-body::-webkit-scrollbar-thumb:hover,
+  .panel-body::-webkit-scrollbar-thumb:hover,
+  .search-results::-webkit-scrollbar-thumb:hover { background: var(--surface-2); }
 }
-.sheet-body::-webkit-scrollbar-thumb:hover,
-.panel-body::-webkit-scrollbar-thumb:hover,
-.search-results::-webkit-scrollbar-thumb:hover { background: var(--surface-2); }
 
 /* Several elements below set an explicit `display`, which would otherwise
  * beat the UA rule for the `hidden` attribute. */
