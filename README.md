@@ -36,10 +36,10 @@ The two coordinate sources disagreed by more than 150 m on exactly two shops,
 both PDOK street mismatches (Yo-Yo is on *2e* Jan van der Heijdenstraat; PDOK
 matched *Eerste*). ACD wins those.
 
-Menu photos and logos are third-party assets. They are **gitignored** — fine as
-local working material, but they should not be redistributed. Filling in
-`opening_hours`/`rating` and transcribing prices into the `menu` array (facts,
-which nobody owns) is the path to a shippable dataset.
+Menu photos and logos come from coffeeshopmenus.org, which permits reuse, so
+they are committed and served with the site. The raw scrape working directory
+(`coffeeshopmenus/`) stays out of version control — it is a local cache, and
+everything the app serves has already been copied into `public/data/`.
 
 ## Running it
 
@@ -64,12 +64,12 @@ public/
   sw.js               service worker: shell + shops.json + tile caching
   manifest.json       PWA manifest
   data/shops.json     644 shops (generated — see tools/scrape)
-  data/menus/         menu photos, gitignored
+  data/menus/         menu photos (598)
   data/products.json  OCR-derived product search index
   data/zones.json     Amsterdam blowverbod polygons
-  data/logos/         shop logos, gitignored
+  data/logos/         shop logos (446)
   icons/              app icons (SVG source + 192/512 PNG)
-coffeeshopmenus/      raw scrape output, gitignored
+coffeeshopmenus/      raw scrape working dir, gitignored
 coffeeshopdata/       addresses as CSV + JSON (committed — facts only)
 tools/serve.js        dev-only static server (not part of the app)
 tools/scrape/         the data pipeline, run in numbered order
@@ -187,5 +187,4 @@ name/city/street match in the results list.
 - **Verification outside Amsterdam** — 399 open shops have never been checked
   by hand.
 - **Ratings** — the field exists and is always `null`; no source supplies one.
-- **Menu photo licensing** before any public deploy (see above).
 - **Marker clustering** — the Randstad gets dense at low zoom.

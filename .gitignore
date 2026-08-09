@@ -1,10 +1,11 @@
-# Scraped third-party assets — menu photos and shop logos from
-# coffeeshopmenus.org. Fine as local working/reference material; deliberately
-# kept out of version control so they can't be redistributed by accident.
-# Regenerate locally with the scripts in tools/.
+# Raw scrape output — the crawler's working directory, one folder per town.
+# Everything the app actually serves has already been copied into
+# public/data/, so this is just a large local cache. Regenerate with the
+# scripts in tools/.
 coffeeshopmenus/
-public/data/menus/
-public/data/logos/
+
+# public/data/menus/ and public/data/logos/ are committed: coffeeshopmenus.org
+# permits reuse of the images, so the deployed site can serve them.
 
 .DS_Store
 node_modules/
