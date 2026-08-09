@@ -316,7 +316,7 @@ html, body {
   /* Starts below the floating search card (12px top + 46px tall), which now
    * renders above the panel and would otherwise cover the title and the
    * close button. */
-  padding: calc(var(--safe-top) + 86px) 14px 10px;
+  padding: calc(var(--safe-top) + 94px) 14px 10px;
   border-bottom: 1px solid var(--line);
 }
 .panel-head h2 {
@@ -449,7 +449,9 @@ html, body {
    * of whatever opens. Safe because the bar itself ignores pointer events and
    * only the search card inside it takes clicks, so the rail stays reachable. */
   z-index: 720;
-  padding: calc(var(--safe-top) + 12px) 12px 0 84px;   /* clears the rail */
+  /* Left offset centres the 400px card over the 440px drawer beside the
+   * rail: 72 + (440 - 400) / 2 = 92. */
+  padding: calc(var(--safe-top) + 20px) 12px 0 92px;
   display: flex;
   align-items: flex-start;
   pointer-events: none;
@@ -466,10 +468,10 @@ html, body {
   display: flex;
   align-items: center;
   height: 46px;
-  padding-left: 14px;
-  border-radius: 10px;
+  padding-left: 18px;      /* a pill needs more inset than a rounded box */
+  border-radius: 999px;
   background: var(--surface);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
   border: 1px solid var(--line);
 }
 .search:focus-within { border-color: var(--accent); }
@@ -504,7 +506,7 @@ html, body {
  * left, ✕ on the right, no divider. The ✕ closes the panel, which is why the
  * panel no longer carries its own close button. */
 .search.is-panel { padding-left: 0; }
-.search.is-panel .search-go { order: -1; border-radius: 9px 0 0 9px; }
+.search.is-panel .search-go { order: -1; border-radius: 999px 0 0 999px; }
 .search.is-panel .search-div { display: none; }
 .search.is-panel .search-clear {
   order: 1;
@@ -526,7 +528,7 @@ html, body {
   display: grid;
   place-items: center;
   border: none;
-  border-radius: 0 9px 9px 0;
+  border-radius: 0 999px 999px 0;
   background: none;
   color: var(--accent);
   cursor: pointer;
@@ -679,7 +681,9 @@ html, body {
 
 /* Narrow screens: brand on its own line, filters scroll full-width below it. */
 @media (max-width: 560px) {
-  #topbar { flex-wrap: wrap; row-gap: 8px; }
+  /* The card stretches to fill the row here, so there is nothing to centre —
+   * just clear the narrower rail. */
+  #topbar { flex-wrap: wrap; row-gap: 8px; padding-left: 68px; }
   .search { flex: 1 1 auto; }
   .filters {
     flex-basis: 100%;
@@ -963,7 +967,7 @@ html, body {
     width: min(440px, calc(100vw - 72px));
     max-height: none;
     /* Clears the floating search card: 12px offset + 46px tall + a gap. */
-    padding: calc(var(--safe-top) + 86px) 18px calc(var(--safe-bottom) + 18px);
+    padding: calc(var(--safe-top) + 94px) 18px calc(var(--safe-bottom) + 18px);
     border: none;
     border-right: 1px solid var(--line);
     border-radius: 0;
@@ -980,7 +984,7 @@ html, body {
    * long shop name never runs underneath it. */
   .fav-btn {
     position: absolute;
-    top: calc(var(--safe-top) + 86px);
+    top: calc(var(--safe-top) + 94px);
     right: 18px;
   }
   .sheet-head { padding-right: 60px; }
