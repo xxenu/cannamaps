@@ -1330,7 +1330,8 @@
     halo: null,
     latlng: null,
     following: false,
-    recentring: false      // guards our own setView against the pan-cancels-follow rule
+    recentring: false,     // guards our own setView against the pan-cancels-follow rule
+    silent: false          // true while the automatic on-load request is in flight
   };
 
   var meIcon = L.divIcon({
@@ -1361,12 +1362,12 @@
 
   function startLocating() {
     if (!navigator.geolocation) {
-      toast('This browser can’t share a location.');
+      if (!me.silent) toast('This browser can’t share a location.');
       return;
     }
     if (!window.isSecureContext) {
       // file:// and plain http on a LAN address silently fail in most browsers.
-      toast('Location needs https (or localhost).', 6000);
+      if (!me.silent) toast('Location needs https (or localhost).', 6000);
       return;
     }
 
@@ -1432,14 +1433,18 @@
     }
 
     setLocateState('on');
+    me.silent = false;             // a fix landed; later problems are worth saying
     try { localStorage.setItem(GEO_KEY, '1'); } catch (err) { /* private mode */ }
   }
 
   function onPositionError(err) {
+    var silent = me.silent;
+    me.silent = false;
     me.following = false;
     if (err.code === 1) {           // PERMISSION_DENIED
       setLocateState('denied');
-      toast('Location is blocked. Allow it in your browser’s site settings.', 6000);
+      // Nothing to complain about when the ask was ours, not the user's.
+      if (!silent) toast('Location is blocked. Allow it in your browser’s site settings.', 6000);
       if (me.watchId !== null) { navigator.geolocation.clearWatch(me.watchId); me.watchId = null; }
       try { localStorage.removeItem(GEO_KEY); } catch (e) { /* private mode */ }
       return;
@@ -1447,7 +1452,9 @@
     // Timeout and position-unavailable are transient: keep watching, the next
     // fix may well succeed.
     setLocateState(me.latlng ? 'on' : 'off');
-    toast(err.code === 3 ? 'Still looking for your location…' : 'Could not get your location.');
+    if (!silent) {
+      toast(err.code === 3 ? 'Still looking for your location…' : 'Could not get your location.');
+    }
   }
 
   function toggleLocate() {
@@ -1469,20 +1476,32 @@
     setLocateState(me.latlng ? 'on' : 'off');
   }
 
+  /* Ask on load rather than waiting for the button to be pressed. Nothing here
+   * reports failure: the request was ours, not the user's, so an ignored or
+   * dismissed prompt should pass without a toast. The button still works, and
+   * pressing it later does surface errors. */
+  function autoLocate() {
+    me.silent = true;
+    startLocating();
+  }
+
   function initLocation() {
     setLocateState('off');
     el.locate.addEventListener('click', toggleLocate);
     map.on('dragstart', releaseFollow);
 
-    // Resume silently only when the browser says permission is already granted.
-    var wanted = false;
-    try { wanted = localStorage.getItem(GEO_KEY) === '1'; } catch (err) { /* private mode */ }
-    if (!wanted || !navigator.permissions || !navigator.permissions.query) return;
+    // 'granted' resumes with no dialog, 'prompt' raises the browser's own.
+    // 'denied' is left alone — the browser will not ask again regardless, and
+    // calling in would only strand the button in its blocked state.
+    if (!navigator.permissions || !navigator.permissions.query) { autoLocate(); return; }
 
     navigator.permissions.query({ name: 'geolocation' }).then(function (status) {
-      if (status.state === 'granted') startLocating();
-      else if (status.state === 'denied') localStorage.removeItem(GEO_KEY);
-    }).catch(function () { /* Permissions API unsupported for geolocation */ });
+      if (status.state === 'denied') {
+        try { localStorage.removeItem(GEO_KEY); } catch (err) { /* private mode */ }
+        return;
+      }
+      autoLocate();
+    }).catch(function () { autoLocate(); });   // Permissions API not available here
   }
 
   // ---------------------------------------------------------------- viewer
