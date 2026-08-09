@@ -1,7 +1,7 @@
 {
-  "name": "CannaMap — Amsterdam",
+  "name": "CannaMap — Netherlands",
   "short_name": "CannaMap",
-  "description": "Find coffeeshops, smartshops and alcohol stores in Amsterdam.",
+  "description": "Find coffeeshops across the Netherlands: hours, menus and directions.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
