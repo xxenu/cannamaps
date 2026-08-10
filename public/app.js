@@ -170,7 +170,7 @@
   var ALWAYS_ON_TYPES = ['coffeeshop'];
 
   // Flip to true to also map shops the source marks as permanently closed.
-  var SHOW_CLOSED = prefs.closed === true;   // reassigned by the menu; see setShowClosed()
+  var SHOW_CLOSED = false;
 
   // Amenity keys kept in the data but not rendered. `tourists_allowed` is true
   // for 604 of 697 shops, so the chip is noise on almost every card — but the
@@ -412,14 +412,6 @@
     savePrefs();
     if (!zonesLayer) return;                 // not loaded yet; renderZones honours the pref
     if (on) zonesLayer.addTo(map); else map.removeLayer(zonesLayer);
-  }
-
-  function setShowClosed(on) {
-    SHOW_CLOSED = !!on;
-    prefs.closed = SHOW_CLOSED;
-    savePrefs();
-    // Markers exist for every shop already; isVisible() is what filters them.
-    renderMarkers();
   }
 
   function makeIcon(shop) {
@@ -816,7 +808,6 @@
     var layers = menuGroup();
     menuHeading(layers, 'menu.layers');
     menuSwitch(layers, t('menu.zones'), zonesVisible(), setZonesVisible);
-    menuSwitch(layers, t('menu.closedShops'), SHOW_CLOSED, setShowClosed);
 
     var help = menuGroup();
     menuHeading(help, 'menu.help');
