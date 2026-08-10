@@ -49,7 +49,24 @@
     }
   };
   var BASEMAP = 'dark';
+  var BASEMAP_LABELS = { dark: 'Dark', voyager: 'Voyager', light: 'Light', osm: 'OpenStreetMap' };
   var FAVORITES_KEY = 'cannamap.favorites.v1';
+  var PREFS_KEY = 'cannamap.prefs.v1';
+
+  /* Menu choices, remembered between visits. Unknown keys are ignored, so an
+   * older stored object never breaks a newer build. */
+  var prefs = (function () {
+    try { return JSON.parse(localStorage.getItem(PREFS_KEY)) || {}; }
+    catch (err) { return {}; }
+  })();
+
+  function savePrefs() {
+    try { localStorage.setItem(PREFS_KEY, JSON.stringify(prefs)); }
+    catch (err) { /* private mode */ }
+  }
+
+  var baseLayer = null;    // the live tile layer, swapped by the menu
+  var zonesLayer = null;   // the blowverbod polygons, toggled by the menu
 
   /* The supplied white leaf artwork, used instead of the 🌿 emoji so the pin
    * looks the same on every platform. Types without an `icon` fall back to
@@ -71,7 +88,7 @@
   var ALWAYS_ON_TYPES = ['coffeeshop'];
 
   // Flip to true to also map shops the source marks as permanently closed.
-  var SHOW_CLOSED = false;
+  var SHOW_CLOSED = prefs.closed === true;   // reassigned by the menu; see setShowClosed()
 
   // Amenity keys kept in the data but not rendered. `tourists_allowed` is true
   // for 604 of 697 shops, so the chip is noise on almost every card — but the
@@ -274,13 +291,7 @@
       preferCanvas: false
     });
 
-    var base = BASEMAPS[BASEMAP] || BASEMAPS.osm;
-    L.tileLayer(base.url, {
-      subdomains: base.subdomains,
-      maxZoom: base.maxZoom,
-      attribution: base.attribution,
-      r: L.Browser.retina ? '@2x' : ''
-    }).addTo(map);
+    setBasemap(prefs.basemap || BASEMAP);
 
     // Bottom right, stacked under the locate button (see .leaflet-bottom.leaflet-right).
     L.control.zoom({ position: 'bottomright' }).addTo(map);
@@ -291,6 +302,38 @@
     map.on('moveend zoomend', function () {
       if (state.shops.length) renderMarkers();
     });
+  }
+
+  /* Swaps the tile layer in place. The attribution belongs to the basemap, so
+   * it goes with it — OSM's tiles and CARTO's carry different credits. */
+  function setBasemap(key) {
+    var base = BASEMAPS[key] || BASEMAPS[BASEMAP] || BASEMAPS.osm;
+    if (baseLayer) map.removeLayer(baseLayer);
+    baseLayer = L.tileLayer(base.url, {
+      subdomains: base.subdomains,
+      maxZoom: base.maxZoom,
+      attribution: base.attribution,
+      r: L.Browser.retina ? '@2x' : ''
+    }).addTo(map);
+    prefs.basemap = BASEMAPS[key] ? key : BASEMAP;
+    savePrefs();
+  }
+
+  function zonesVisible() { return prefs.zones !== false; }   // on unless turned off
+
+  function setZonesVisible(on) {
+    prefs.zones = !!on;
+    savePrefs();
+    if (!zonesLayer) return;                 // not loaded yet; renderZones honours the pref
+    if (on) zonesLayer.addTo(map); else map.removeLayer(zonesLayer);
+  }
+
+  function setShowClosed(on) {
+    SHOW_CLOSED = !!on;
+    prefs.closed = SHOW_CLOSED;
+    savePrefs();
+    // Markers exist for every shop already; isVisible() is what filters them.
+    renderMarkers();
   }
 
   function makeIcon(shop) {
@@ -511,10 +554,6 @@
       var mine = btn.dataset.panel || '';
       btn.setAttribute('aria-pressed', String(mine === railState.panel));
     });
-    if (el.railAll) {
-      // "Map" is the resting state: pressed only when no panel is open.
-      el.railAll.setAttribute('aria-pressed', String(!railState.panel));
-    }
   }
 
   function closePanel() {
@@ -597,9 +636,91 @@
     return row;
   }
 
+  // ---- menu ---------------------------------------------------------------
+
+  function menuGroup() {
+    var g = document.createElement('div');
+    g.className = 'menu-group';
+    el.panelBody.appendChild(g);
+    return g;
+  }
+
+  function menuItem(group, label, onClick) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'menu-item';
+    b.setAttribute('role', 'menuitem');
+    b.textContent = label;
+    b.addEventListener('click', onClick);
+    group.appendChild(b);
+    return b;
+  }
+
+  function menuSwitch(group, label, on, onChange) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'menu-item menu-switch';
+    b.setAttribute('role', 'switch');
+    b.setAttribute('aria-checked', String(on));
+    b.innerHTML = '<span class="menu-label"></span><span class="switch" aria-hidden="true"></span>';
+    b.querySelector('.menu-label').textContent = label;
+    b.addEventListener('click', function () {
+      var next = b.getAttribute('aria-checked') !== 'true';
+      b.setAttribute('aria-checked', String(next));
+      onChange(next);
+    });
+    group.appendChild(b);
+    return b;
+  }
+
+  function renderRailMenu() {
+    var nav = menuGroup();
+    menuItem(nav, 'Saved', function () { togglePanel('saved'); });
+    menuItem(nav, 'Recent', function () { togglePanel('recent'); });
+    menuItem(nav, 'Reset the view', function () {
+      closePanel();
+      if (state.favoritesOnly) { state.favoritesOnly = false; renderMarkers(); }
+      map.setView(NETHERLANDS, DEFAULT_ZOOM, { animate: true });
+    });
+
+    var style = menuGroup();
+    var heading = document.createElement('h3');
+    heading.className = 'menu-heading';
+    heading.textContent = 'Map style';
+    style.appendChild(heading);
+    Object.keys(BASEMAPS).forEach(function (key) {
+      var b = menuItem(style, BASEMAP_LABELS[key] || titleCase(key), function () {
+        setBasemap(key);
+        // Repaint the ticks rather than the whole panel, so the menu does not
+        // jump back to the top under the pointer.
+        style.querySelectorAll('.menu-item').forEach(function (other) {
+          other.setAttribute('aria-checked', String(other === b));
+        });
+      });
+      b.classList.add('menu-choice');
+      b.setAttribute('role', 'menuitemradio');
+      b.setAttribute('aria-checked', String((prefs.basemap || BASEMAP) === key));
+    });
+
+    var layers = menuGroup();
+    menuSwitch(layers, 'Smoking-ban zones', zonesVisible(), setZonesVisible);
+    menuSwitch(layers, 'Permanently closed shops', SHOW_CLOSED, setShowClosed);
+
+    var about = menuGroup();
+    var p = document.createElement('p');
+    p.className = 'menu-about';
+    p.innerHTML = 'Shop data from coffeeshopmenus.org and greenmeister.com. ' +
+      'Zones from the City of Amsterdam. Map by OpenStreetMap contributors. ' +
+      '<a href="https://github.com/xxenu/cannamaps" target="_blank" rel="noopener noreferrer">Source</a>.';
+    about.appendChild(p);
+  }
+
   function renderPanel(which) {
     el.panelBody.innerHTML = '';
-    el.panelTitle.textContent = which === 'saved' ? 'Saved' : 'Recent';
+    el.panelTitle.textContent =
+      which === 'saved' ? 'Saved' : which === 'recent' ? 'Recent' : 'Menu';
+
+    if (which === 'menu') { renderRailMenu(); return; }
 
     var ids = which === 'saved' ? Array.from(state.favorites) : loadRecent();
     var shops = ids.map(getShop).filter(Boolean);
@@ -635,11 +756,7 @@
 
   function initRail() {
     if (!el.rail) return;
-    el.railAll.addEventListener('click', function () {
-      closePanel();
-      if (state.favoritesOnly) { state.favoritesOnly = false; renderMarkers(); }
-      map.setView(NETHERLANDS, DEFAULT_ZOOM, { animate: true });
-    });
+    el.railAll.addEventListener('click', function () { togglePanel('menu'); });
     el.railSaved.addEventListener('click', function () { togglePanel('saved'); });
     el.railRecent.addEventListener('click', function () { togglePanel('recent'); });
     el.panelClose.addEventListener('click', closePanel);
@@ -1283,7 +1400,7 @@
     var features = (collection && collection.features) || [];
     if (!features.length) return;
 
-    L.geoJSON(collection, {
+    zonesLayer = L.geoJSON(collection, {
       pane: 'zones',
       style: function (feature) {
         var color = (feature.properties && feature.properties.color) || '#fb7185';
@@ -1303,7 +1420,8 @@
         // underneath the popup we just opened.
         layer.on('click', function (ev) { L.DomEvent.stopPropagation(ev); });
       }
-    }).addTo(map);
+    });
+    if (zonesVisible()) zonesLayer.addTo(map);
   }
 
   function loadZones() {

@@ -424,6 +424,91 @@ html, body {
   border-color: var(--accent);
 }
 
+/* ---------- Rail menu ---------- */
+
+/* The hamburger is icon-only, so its pill takes the space the label used. */
+.rail-btn.is-iconly { padding-bottom: 8px; }
+
+.menu-group {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--line);
+}
+.menu-group:last-child { border-bottom: none; }
+
+.menu-heading {
+  margin: 6px 0 2px;
+  padding: 0 14px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.menu-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: none;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 13.5px;
+  text-align: left;
+  cursor: pointer;
+}
+.menu-item:hover { background: var(--surface-2); }
+.menu-label { flex: 1; }
+
+/* Chosen basemap gets a tick rather than a filled row — several of these sit
+ * together and a highlighted row would read as a hover state. */
+.menu-choice::after {
+  content: "✓";
+  margin-left: auto;
+  color: var(--accent);
+  opacity: 0;
+}
+.menu-choice[aria-checked="true"]::after { opacity: 1; }
+
+.menu-switch .switch {
+  flex: none;
+  width: 34px;
+  height: 20px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  position: relative;
+  transition: background 0.15s, border-color 0.15s;
+}
+.menu-switch .switch::after {
+  content: "";
+  position: absolute;
+  top: 2px; left: 2px;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--text-dim);
+  transition: transform 0.15s, background 0.15s;
+}
+.menu-switch[aria-checked="true"] .switch {
+  background: var(--accent-deep);
+  border-color: var(--accent);
+}
+.menu-switch[aria-checked="true"] .switch::after {
+  transform: translateX(14px);
+  background: var(--accent);
+}
+
+.menu-about {
+  margin: 0;
+  padding: 12px 14px 16px;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+.menu-about a { color: var(--accent); }
+
 /* The map's own overlays start to the right of the rail. */
 .empty-state { margin-left: 36px; }
 
