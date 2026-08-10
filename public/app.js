@@ -298,7 +298,13 @@
     // Attribution defaults to the same corner and would push the zoom card up
     // into the locate button; it belongs out of the way anyway.
     map.attributionControl.setPosition('bottomleft');
-    map.on('click', closeSheet);
+    // A click on the map itself dismisses whatever is open. Markers and zone
+    // polygons stop propagation, so this only fires on bare map.
+    map.on('click', function () {
+      closeSheet();
+      closePanel();
+      closeSearchResults();
+    });
     map.on('moveend zoomend', function () {
       if (state.shops.length) renderMarkers();
     });
