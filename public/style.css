@@ -587,17 +587,10 @@ html, body {
   line-height: 1;
   cursor: pointer;
 }
-/* Panel open: the omnibox swaps to its leading-magnifier layout — glass on the
- * left, ✕ on the right, no divider. The ✕ closes the panel, which is why the
- * panel no longer carries its own close button. */
-.search.is-panel { padding-left: 0; }
-.search.is-panel .search-go { order: -1; border-radius: 999px 0 0 999px; }
-.search.is-panel .search-div { display: none; }
-.search.is-panel .search-clear {
-  order: 1;
-  margin-right: 14px;
-  margin-left: 8px;
-}
+/* `is-panel` marks that a drawer is open; the ✕ is shown from script and closes
+ * it. The layout itself does not change — the magnifier keeps its place at the
+ * trailing edge rather than swapping sides, so nothing moves under the pointer
+ * as panels open and close. */
 
 /* Divider then the search button, the way a maps omnibox splits its actions. */
 .search-div {
