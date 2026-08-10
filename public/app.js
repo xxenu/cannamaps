@@ -1476,13 +1476,34 @@
     setLocateState(me.latlng ? 'on' : 'off');
   }
 
-  /* Ask on load rather than waiting for the button to be pressed. Nothing here
-   * reports failure: the request was ours, not the user's, so an ignored or
-   * dismissed prompt should pass without a toast. The button still works, and
-   * pressing it later does surface errors. */
+  /* Requested by us rather than by the user, so it reports nothing on failure:
+   * a prompt they ignored or dismissed is not an error worth a toast. Pressing
+   * the button still surfaces errors normally. */
   function autoLocate() {
     me.silent = true;
     startLocating();
+  }
+
+  /* Browsers treat a gesture-backed permission request as a normal prompt,
+   * while one fired on load can be shown quietly or suppressed outright once
+   * dismissed — so the ask waits for the first tap, click or keypress. */
+  function askOnFirstGesture() {
+    function cleanup() {
+      document.removeEventListener('pointerdown', fire, true);
+      document.removeEventListener('keydown', fire, true);
+    }
+    function fire(ev) {
+      cleanup();
+      // If that first gesture was the locate button, let its own handler make
+      // the request — routing it through here would swallow the errors the
+      // user is entitled to see, and the pointerdown/click pair would toggle
+      // the watch straight back off.
+      var t = ev && ev.target;
+      if (t && t.closest && t.closest('#locate')) return;
+      if (me.watchId === null && !me.following) autoLocate();
+    }
+    document.addEventListener('pointerdown', fire, true);
+    document.addEventListener('keydown', fire, true);
   }
 
   function initLocation() {
@@ -1490,18 +1511,22 @@
     el.locate.addEventListener('click', toggleLocate);
     map.on('dragstart', releaseFollow);
 
-    // 'granted' resumes with no dialog, 'prompt' raises the browser's own.
-    // 'denied' is left alone — the browser will not ask again regardless, and
-    // calling in would only strand the button in its blocked state.
-    if (!navigator.permissions || !navigator.permissions.query) { autoLocate(); return; }
+    if (!navigator.permissions || !navigator.permissions.query) {
+      askOnFirstGesture();
+      return;
+    }
 
     navigator.permissions.query({ name: 'geolocation' }).then(function (status) {
+      // Already granted: there is no dialog to raise, so resume right away.
+      if (status.state === 'granted') { autoLocate(); return; }
+      // Denied: the browser will not ask again regardless, and calling in would
+      // only strand the button in its blocked state.
       if (status.state === 'denied') {
         try { localStorage.removeItem(GEO_KEY); } catch (err) { /* private mode */ }
         return;
       }
-      autoLocate();
-    }).catch(function () { autoLocate(); });   // Permissions API not available here
+      askOnFirstGesture();
+    }).catch(function () { askOnFirstGesture(); });   // Permissions API not available here
   }
 
   // ---------------------------------------------------------------- viewer
