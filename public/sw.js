@@ -1,7 +1,7 @@
 /* CannaMap service worker — offline shell, shop data and map tiles.
  * Bump CACHE_VERSION whenever the shell files change. */
 
-var CACHE_VERSION = 'v19';
+var CACHE_VERSION = 'v20';
 var SHELL_CACHE = 'cannamap-shell-' + CACHE_VERSION;
 var DATA_CACHE = 'cannamap-data-' + CACHE_VERSION;
 var TILE_CACHE = 'cannamap-tiles-' + CACHE_VERSION;
@@ -18,10 +18,15 @@ var DEV = self.location.hostname === 'localhost' || self.location.hostname === '
 var SHELL_ASSETS = [
   './',
   './index.html',
+  './contact.html',
   './app.js',
+  './i18n.js',
   './style.css',
   './manifest.json',
   './icons/icon.svg',
+  './icons/logo.png',
+  './icons/favicon-32.png',
+  './icons/apple-touch-icon.png',
   './icons/leaf.png',
   './icons/gps.png',
   './icons/save.png',

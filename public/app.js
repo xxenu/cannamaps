@@ -68,6 +68,88 @@
   var baseLayer = null;    // the live tile layer, swapped by the menu
   var zonesLayer = null;   // the blowverbod polygons, toggled by the menu
 
+  /* Where the three "something's wrong" menu items point. A page of our own
+   * rather than a mailto:, so the address can change without touching the app. */
+  var CONTACT_URL = 'contact.html';
+
+  // ---------------------------------------------------------------- i18n
+
+  var I18N = window.CANNAMAP_I18N || { langs: [{ code: 'en', label: 'English' }], en: {} };
+
+  /* Stored choice, else the closest match for the browser's language, else
+   * English. Only the primary subtag is compared, so en-GB finds en. */
+  function initialLang() {
+    var have = I18N.langs.map(function (l) { return l.code; });
+    if (have.indexOf(prefs.lang) !== -1) return prefs.lang;
+    var wanted = (navigator.languages || [navigator.language || 'en']);
+    for (var i = 0; i < wanted.length; i++) {
+      var primary = String(wanted[i]).toLowerCase().split('-')[0];
+      if (have.indexOf(primary) !== -1) return primary;
+    }
+    return 'en';
+  }
+
+  var lang = initialLang();
+
+  /* English is the fallback for a missing key, and the key itself is the
+   * fallback for that — a typo shows up as text rather than as a blank. */
+  function t(key, vars) {
+    var s = (I18N[lang] && I18N[lang][key]);
+    if (s === undefined) s = (I18N.en && I18N.en[key]);
+    if (s === undefined) return key;
+    if (!vars) return s;
+    return s.replace(/\{(\w+)\}/g, function (whole, name) {
+      return Object.prototype.hasOwnProperty.call(vars, name) ? vars[name] : whole;
+    });
+  }
+
+  /* Markup carries data-i18n="key" for text and data-i18n-attr="attr:key,..."
+   * for attributes, so static strings live next to the elements they label. */
+  function applyI18n() {
+    document.documentElement.lang = lang;
+
+    document.querySelectorAll('[data-i18n]').forEach(function (node) {
+      node.textContent = t(node.getAttribute('data-i18n'));
+    });
+    document.querySelectorAll('[data-i18n-attr]').forEach(function (node) {
+      node.getAttribute('data-i18n-attr').split(',').forEach(function (pair) {
+        var bits = pair.split(':');
+        if (bits.length === 2) node.setAttribute(bits[0].trim(), t(bits[1].trim()));
+      });
+    });
+  }
+
+  function setLang(code) {
+    if (!I18N[code]) return;
+    lang = code;
+    prefs.lang = code;
+    savePrefs();
+    applyI18n();
+    // Anything rendered from script has to be rebuilt in the new language.
+    if (railState.panel) renderPanel(railState.panel);
+    if (!el.sheet.hidden && state.selectedId) openSheet(state.selectedId);
+    setLocateState(el.locate.dataset.state || 'off');
+    if (el.search.value) renderSearchResults(el.search.value);
+  }
+
+  // ---------------------------------------------------------------- theme
+
+  function theme() { return prefs.theme === 'light' ? 'light' : 'dark'; }
+
+  /* One switch drives both: the palette via data-theme, and the basemap, since
+   * dark chrome over light tiles (or the reverse) reads as a bug. */
+  function setTheme(name) {
+    prefs.theme = name === 'light' ? 'light' : 'dark';
+    savePrefs();
+    document.documentElement.setAttribute('data-theme', prefs.theme);
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) {
+      meta.setAttribute('content',
+        getComputedStyle(document.documentElement).getPropertyValue('--bg').trim());
+    }
+    setBasemap(prefs.theme === 'light' ? 'light' : 'dark');
+  }
+
   /* The supplied white leaf artwork, used instead of the 🌿 emoji so the pin
    * looks the same on every platform. Types without an `icon` fall back to
    * their emoji. */
@@ -231,7 +313,7 @@
 
   function formatRange(range) {
     var parsed = parseRange(range);
-    return parsed ? range.replace('-', ' – ') : 'Closed';
+    return parsed ? range.replace('-', ' – ') : t('day.closed');
   }
 
   function hasHours(shop) {
@@ -291,7 +373,7 @@
       preferCanvas: false
     });
 
-    setBasemap(prefs.basemap || BASEMAP);
+    setTheme(theme());   // also installs the matching tile layer
 
     // Bottom right, stacked under the locate button (see .leaflet-bottom.leaflet-right).
     L.control.zoom({ position: 'bottomright' }).addTo(map);
@@ -321,8 +403,6 @@
       attribution: base.attribution,
       r: L.Browser.retina ? '@2x' : ''
     }).addTo(map);
-    prefs.basemap = BASEMAPS[key] ? key : BASEMAP;
-    savePrefs();
   }
 
   function zonesVisible() { return prefs.zones !== false; }   // on unless turned off
@@ -679,52 +759,87 @@
     return b;
   }
 
-  function renderRailMenu() {
-    var nav = menuGroup();
-    menuItem(nav, 'Saved', function () { togglePanel('saved'); });
-    menuItem(nav, 'Recent', function () { togglePanel('recent'); });
-    menuItem(nav, 'Reset the view', function () {
-      closePanel();
-      if (state.favoritesOnly) { state.favoritesOnly = false; renderMarkers(); }
-      map.setView(NETHERLANDS, DEFAULT_ZOOM, { animate: true });
-    });
+  function menuHeading(group, key) {
+    var h = document.createElement('h3');
+    h.className = 'menu-heading';
+    h.textContent = t(key);
+    group.appendChild(h);
+  }
 
-    var style = menuGroup();
-    var heading = document.createElement('h3');
-    heading.className = 'menu-heading';
-    heading.textContent = 'Map style';
-    style.appendChild(heading);
-    Object.keys(BASEMAPS).forEach(function (key) {
-      var b = menuItem(style, BASEMAP_LABELS[key] || titleCase(key), function () {
-        setBasemap(key);
-        // Repaint the ticks rather than the whole panel, so the menu does not
-        // jump back to the top under the pointer.
-        style.querySelectorAll('.menu-item').forEach(function (other) {
-          other.setAttribute('aria-checked', String(other === b));
-        });
+  /* Opens our own contact page rather than a mailto:, so the address can
+   * change without shipping a new build. The topic rides in the query string
+   * and picks the heading over there. */
+  function menuContact(group, key, topic) {
+    var a = document.createElement('a');
+    a.className = 'menu-item';
+    a.setAttribute('role', 'menuitem');
+    a.href = CONTACT_URL + '?topic=' + encodeURIComponent(topic) + '&lang=' + encodeURIComponent(lang);
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = t(key);
+    group.appendChild(a);
+    return a;
+  }
+
+  function renderRailMenu() {
+    // Appearance: one switch, since the palette and the basemap move together.
+    var look = menuGroup();
+    menuHeading(look, 'menu.appearance');
+    menuSwitch(look, t(theme() === 'light' ? 'menu.light' : 'menu.dark'),
+      theme() === 'light', function (on) {
+        setTheme(on ? 'light' : 'dark');
+        renderPanel('menu');   // the switch relabels itself dark <-> light
+      });
+
+    var langs = menuGroup();
+    menuHeading(langs, 'menu.language');
+    I18N.langs.forEach(function (entry) {
+      var b = menuItem(langs, entry.label, function () {
+        setLang(entry.code);
+        renderPanel('menu');
       });
       b.classList.add('menu-choice');
       b.setAttribute('role', 'menuitemradio');
-      b.setAttribute('aria-checked', String((prefs.basemap || BASEMAP) === key));
+      b.setAttribute('aria-checked', String(entry.code === lang));
+      b.lang = entry.code;
+    });
+
+    var loc = menuGroup();
+    menuItem(loc, t('menu.shareLocation'), function () {
+      closePanel();
+      // Asked for explicitly, so problems are worth reporting: no silent flag.
+      me.silent = false;
+      if (me.following) { map.setView(me.latlng || NETHERLANDS, FOLLOW_ZOOM); return; }
+      startLocating();
     });
 
     var layers = menuGroup();
-    menuSwitch(layers, 'Smoking-ban zones', zonesVisible(), setZonesVisible);
-    menuSwitch(layers, 'Permanently closed shops', SHOW_CLOSED, setShowClosed);
+    menuHeading(layers, 'menu.layers');
+    menuSwitch(layers, t('menu.zones'), zonesVisible(), setZonesVisible);
+    menuSwitch(layers, t('menu.closedShops'), SHOW_CLOSED, setShowClosed);
+
+    var help = menuGroup();
+    menuHeading(help, 'menu.help');
+    menuContact(help, 'menu.updateMenu', 'outdated-menu');
+    menuContact(help, 'menu.addPlace', 'missing-place');
+    menuContact(help, 'menu.addCompany', 'add-company');
 
     var about = menuGroup();
     var p = document.createElement('p');
     p.className = 'menu-about';
-    p.innerHTML = 'Shop data from coffeeshopmenus.org and greenmeister.com. ' +
-      'Zones from the City of Amsterdam. Map by OpenStreetMap contributors. ' +
-      '<a href="https://github.com/xxenu/cannamaps" target="_blank" rel="noopener noreferrer">Source</a>.';
+    p.textContent = t('menu.credits') + ' ';
+    var src = document.createElement('a');
+    src.href = 'https://github.com/xxenu/cannamaps';
+    src.target = '_blank';
+    src.rel = 'noopener noreferrer';
+    src.textContent = t('menu.source');
+    p.appendChild(src);
     about.appendChild(p);
   }
 
   function renderPanel(which) {
     el.panelBody.innerHTML = '';
-    el.panelTitle.textContent =
-      which === 'saved' ? 'Saved' : which === 'recent' ? 'Recent' : 'Menu';
+    el.panelTitle.textContent = t('panel.' + (which || 'menu'));
 
     if (which === 'menu') { renderRailMenu(); return; }
 
@@ -738,7 +853,8 @@
       toggle.type = 'button';
       toggle.className = 'panel-toggle';
       toggle.setAttribute('aria-pressed', String(state.favoritesOnly));
-      toggle.innerHTML = '<span class="tick"></span>Show only saved shops on the map';
+      toggle.innerHTML = '<span class="tick"></span>';
+      toggle.appendChild(document.createTextNode(t('panel.onlySaved')));
       toggle.addEventListener('click', function () {
         state.favoritesOnly = !state.favoritesOnly;
         toggle.setAttribute('aria-pressed', String(state.favoritesOnly));
@@ -751,8 +867,8 @@
       var empty = document.createElement('p');
       empty.className = 'panel-empty';
       empty.textContent = which === 'saved'
-        ? 'No saved shops yet. Open a shop and tap the star to save it.'
-        : 'Shops you open will show up here.';
+        ? t('panel.savedEmpty')
+        : t('panel.recentEmpty');
       el.panelBody.appendChild(empty);
       return;
     }
@@ -852,13 +968,13 @@
 
     // Only claim a shop is open or closed when hours are actually known.
     if (shop.status === 'closed') {
-      el.status.textContent = 'Permanently closed';
+      el.status.textContent = t('sheet.permClosed');
       el.status.className = 'status closed';
     } else if (!hasHours(shop)) {
-      el.status.textContent = 'Hours not listed';
+      el.status.textContent = t('sheet.hoursUnknown');
       el.status.className = 'status unknown';
     } else {
-      el.status.textContent = open ? 'Open now' : 'Closed now';
+      el.status.textContent = t(open ? 'sheet.openNow' : 'sheet.closedNow');
       el.status.className = 'status ' + (open ? 'open' : 'closed');
     }
 
@@ -957,7 +1073,7 @@
     if (!hasHours(shop)) {
       var unknown = document.createElement('li');
       unknown.className = 'hours-unknown';
-      unknown.textContent = 'Opening hours not listed for this shop yet.';
+      unknown.textContent = t('sheet.noHours');
       el.hours.appendChild(unknown);
       return;
     }
@@ -970,7 +1086,7 @@
       }
       var name = document.createElement('span');
       name.className = 'day';
-      name.textContent = day;
+      name.textContent = t('day.' + day);
       var value = document.createElement('span');
       value.textContent = formatRange(hours[day]);
       li.appendChild(name);
@@ -1029,7 +1145,7 @@
       if (hasImages) { el.menu.hidden = true; return; }
       var empty = document.createElement('li');
       empty.className = 'menu-empty';
-      empty.textContent = 'No menu listed yet.';
+      empty.textContent = t('sheet.noMenu');
       el.menu.appendChild(empty);
       return;
     }
@@ -1037,7 +1153,7 @@
     if (hasImages) {
       var note = document.createElement('li');
       note.className = 'menu-note';
-      note.textContent = 'Also listed as text:';
+      note.textContent = t('sheet.alsoText');
       el.menu.appendChild(note);
     }
 
@@ -1250,7 +1366,7 @@
     if (!results.length) {
       var empty = document.createElement('li');
       empty.className = 'search-empty';
-      empty.textContent = 'Nothing matches “' + query + '”';
+      empty.textContent = t('search.noMatch', { q: query });
       el.searchResults.appendChild(empty);
     } else {
       results.forEach(function (shop, i) {
@@ -1284,7 +1400,7 @@
           why.className = 'search-result-why';
           var tag = document.createElement('span');
           tag.className = 'why-tag';
-          tag.textContent = 'menu';
+          tag.textContent = t('search.menuTag');
           why.appendChild(tag);
           why.appendChild(highlight(displayProduct(shop._hitProduct), query));
           if (shop._hitDist != null) {
@@ -1477,21 +1593,21 @@
   function setLocateState(name) {
     el.locate.dataset.state = name;
     el.locate.setAttribute('aria-pressed', String(me.following));
-    el.locate.title =
-      name === 'locating' ? 'Finding your location…' :
-      me.following ? 'Following your location — tap to stop' :
-      name === 'on' ? 'Recentre on your location' :
-      'Show my location';
+    el.locate.title = t(
+      name === 'locating' ? 'locate.finding' :
+      me.following ? 'locate.following' :
+      name === 'on' ? 'locate.recentre' :
+      'locate.show');
   }
 
   function startLocating() {
     if (!navigator.geolocation) {
-      if (!me.silent) toast('This browser can’t share a location.');
+      if (!me.silent) toast(t('toast.noGeo'));
       return;
     }
     if (!window.isSecureContext) {
       // file:// and plain http on a LAN address silently fail in most browsers.
-      if (!me.silent) toast('Location needs https (or localhost).', 6000);
+      if (!me.silent) toast(t('toast.needsHttps'), 6000);
       return;
     }
 
@@ -1568,7 +1684,7 @@
     if (err.code === 1) {           // PERMISSION_DENIED
       setLocateState('denied');
       // Nothing to complain about when the ask was ours, not the user's.
-      if (!silent) toast('Location is blocked. Allow it in your browser’s site settings.', 6000);
+      if (!silent) toast(t('toast.blocked'), 6000);
       if (me.watchId !== null) { navigator.geolocation.clearWatch(me.watchId); me.watchId = null; }
       try { localStorage.removeItem(GEO_KEY); } catch (e) { /* private mode */ }
       return;
@@ -1577,7 +1693,7 @@
     // fix may well succeed.
     setLocateState(me.latlng ? 'on' : 'off');
     if (!silent) {
-      toast(err.code === 3 ? 'Still looking for your location…' : 'Could not get your location.');
+      toast(t(err.code === 3 ? 'toast.stillLooking' : 'toast.failed'));
     }
   }
 
@@ -1704,7 +1820,7 @@
     viewer.zoomed = on;
     el.lightbox.classList.toggle('is-zoomed', on);
     el.lbZoom.setAttribute('aria-pressed', String(on));
-    el.lbZoom.textContent = on ? 'Fit to screen' : 'Zoom in';
+    el.lbZoom.textContent = t(on ? 'viewer.zoomOut' : 'viewer.zoomIn');
   }
 
   // ---------------------------------------------------------------- events
@@ -1845,6 +1961,7 @@
   }
 
   function init() {
+    applyI18n();      // before anything renders, so nothing shows English first
     initMap();
     initZonesPane();
     bindEvents();

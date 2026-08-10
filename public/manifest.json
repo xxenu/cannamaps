@@ -8,7 +8,11 @@
   "orientation": "portrait-primary",
   "background_color": "#0E130F",
   "theme_color": "#0E130F",
-  "categories": ["travel", "navigation", "food"],
+  "categories": [
+    "travel",
+    "navigation",
+    "food"
+  ],
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -27,12 +31,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    },
-    {
-      "src": "icons/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
     }
   ]
 }

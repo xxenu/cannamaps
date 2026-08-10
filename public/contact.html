@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Contact — CannaMap</title>
+  <meta name="theme-color" content="#0E130F">
+  <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* This page shares the palette but not the map chrome, so it lays itself
+       out rather than reusing the app's absolutely-positioned shell. */
+    html, body { overflow: auto; }
+    .page {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+    }
+    .page-logo { width: 64px; height: 64px; border-radius: 14px; display: block; }
+    .page h1 { margin: 20px 0 6px; font-size: 24px; }
+    .page .lede { margin: 0 0 28px; color: var(--text-dim); line-height: 1.5; }
+    .card {
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--surface);
+    }
+    .card h2 { margin: 0 0 8px; font-size: 15px; }
+    .card p { margin: 0 0 14px; color: var(--text-dim); line-height: 1.55; font-size: 14px; }
+    .mail {
+      display: inline-block;
+      padding: 11px 18px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--accent-ink);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .note {
+      margin: 22px 0 0;
+      font-size: 12.5px;
+      line-height: 1.55;
+      color: var(--text-dim);
+    }
+    .back { display: inline-block; margin-top: 28px; color: var(--accent); font-size: 14px; }
+    .checklist { margin: 0 0 14px; padding-left: 18px; color: var(--text-dim); font-size: 14px; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <img class="page-logo" src="icons/icon-192.png" alt="">
+    <h1 id="heading">Get in touch</h1>
+    <p class="lede" id="lede">Tell us what needs fixing and we’ll sort it out.</p>
+
+    <div class="card">
+      <h2 id="card-title">Send an email</h2>
+      <p id="card-body">Include as much of the following as you can — it saves a round trip:</p>
+      <ul class="checklist" id="checklist"></ul>
+      <a class="mail" id="mail" href="#">hello@cannamap.nl</a>
+      <p class="note" id="note"></p>
+    </div>
+
+    <a class="back" href="./">← Back to the map</a>
+  </main>
+
+  <script>
+  (function () {
+    'use strict';
+
+    /* The address does not exist yet — point this at a real inbox before
+     * sending anyone here. Everything below reads from it. */
+    var EMAIL = 'hello@cannamap.nl';
+
+    var TOPICS = {
+      'outdated-menu': {
+        heading: 'Update an outdated menu',
+        lede: 'Prices and strains change faster than photos of menu boards do.',
+        subject: 'Outdated menu',
+        checklist: ['The shop’s name and address',
+                    'A photo of the current menu board, if you have one',
+                    'Roughly when you took it']
+      },
+      'missing-place': {
+        heading: 'Add a missing place',
+        lede: 'A coffeeshop we don’t list yet, or one that has moved.',
+        subject: 'Missing place',
+        checklist: ['The name and full address',
+                    'Opening hours, if you know them',
+                    'Anything that confirms it exists — a website or socials']
+      },
+      'add-company': {
+        heading: 'Add your company',
+        lede: 'Run a coffeeshop? Send us your details and we’ll list you.',
+        subject: 'Add my company',
+        checklist: ['Your shop’s name and full address',
+                    'Opening hours',
+                    'A logo and a photo of your menu board',
+                    'A website or Instagram we can link to']
+      }
+    };
+
+    var params = new URLSearchParams(location.search);
+    var topic = TOPICS[params.get('topic')] || {
+      heading: 'Get in touch',
+      lede: 'Corrections, additions and anything else about the map.',
+      subject: 'CannaMap',
+      checklist: ['What the page shows now', 'What it should say instead']
+    };
+
+    document.title = topic.heading + ' — CannaMap';
+    document.getElementById('heading').textContent = topic.heading;
+    document.getElementById('lede').textContent = topic.lede;
+
+    var list = document.getElementById('checklist');
+    topic.checklist.forEach(function (line) {
+      var li = document.createElement('li');
+      li.textContent = line;
+      list.appendChild(li);
+    });
+
+    var mail = document.getElementById('mail');
+    mail.textContent = EMAIL;
+    mail.href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent('[CannaMap] ' + topic.subject);
+
+    document.getElementById('note').textContent =
+      'This inbox is not live yet, so a message sent today will bounce. ' +
+      'The address will be working shortly.';
+
+    // Inherit whichever theme the map was in.
+    try {
+      var prefs = JSON.parse(localStorage.getItem('cannamap.prefs.v1')) || {};
+      if (prefs.theme === 'light') document.documentElement.setAttribute('data-theme', 'light');
+    } catch (err) { /* private mode */ }
+  }());
+  </script>
+</body>
+</html>

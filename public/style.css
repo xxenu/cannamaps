@@ -39,6 +39,37 @@
   color-scheme: dark;
 }
 
+/* Light mode. PROVISIONAL — derived from the dark palette by inverting the
+ * greys and darkening the greens enough to hold contrast on white; swap these
+ * for the real light palette when it lands. Only the surface and text tokens
+ * change: the accent greens keep their hue so the app still reads as itself,
+ * and the functional colours (danger, location blue, saved yellow) are
+ * untouched because their meaning does not depend on the theme. */
+:root[data-theme="light"] {
+  --bg: #F4F6F4;
+  --surface: #FFFFFF;
+  --surface-2: #ECEFEC;     /* derived: --surface stepped toward the text */
+  --line: #DADEDA;          /* derived: the same step again, for hairlines */
+  --text: #14201A;
+  --text-dim: #5C6660;
+  --accent: #2F7A54;        /* #63A47E is too pale on white to read as a link */
+  --accent-deep: #1E5638;
+  --accent-ink: #FFFFFF;    /* text on an accent fill */
+  --star: #14201A;
+
+  --type-coffeeshop: #2F7A54;
+
+  color-scheme: light;
+}
+/* The tiles are already light; the dark-mode knock-down would wash them out. */
+:root[data-theme="light"] .leaflet-tile-pane { filter: none; }
+:root[data-theme="light"] .leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.82) !important;
+}
+/* The pin's leaf is white artwork, so on a light pin body it needs the dark
+ * ink instead — the pin colour itself stays the accent green. */
+:root[data-theme="light"] .pin { border-color: rgba(20, 32, 26, 0.25); }
+
 * { box-sizing: border-box; }
 
 /* Scrollbars in the drawers and dropdowns: a hairline in the same grey as the
