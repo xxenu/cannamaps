@@ -1074,6 +1074,16 @@ html, body {
  * Same 440px as the rail panel it replaces, so the two line up. Narrow screens
  * keep the bottom sheet above. */
 @media (min-width: 720px) {
+  /* Explore only exists as a tab-bar affordance. The desktop rail has no
+     "back to the map" tab — clicking the map or the panel's ✕ does that — so
+     it keeps the order it always had: menu, saved, recent, then cities. */
+  #rail-explore { display: none; }
+  #rail-all { order: 1; }
+  #rail-saved { order: 2; }
+  #rail-recent { order: 3; }
+  .rail-sep { order: 4; }
+  .rail-cities { order: 5; }
+
   .sheet {
     left: 72px;
     right: auto;
