@@ -1,26 +1,24 @@
 /* CannaMap — Phase 1 UI. Vanilla CSS, no build step. */
 
 /* Palette
- *   #0E130F near-black   #1B211D dark gray
- *   #2B5A3E dark green   #63A47E base green
+ *   #0E130F near-black    #1B211D dark gray
+ *   #2B5A3E dark green    #63A47E base green
+ *   #CDE4D7 light tint    #F5F9F6 near-white
  * The two surface greys are derived from #1B211D by lifting it toward the
  * text, so hovers and borders read as elevation rather than as new hues.
- * The palette has no light tone, so the near-white below is the one addition —
- * body text on #1B211D needs it. */
+ * Light mode is further down, under [data-theme="light"]. */
 :root {
   --bg: #0E130F;
   --surface: #1B211D;
   --surface-2: #272D29;     /* derived: #1B211D lifted ~5% toward --text */
   --line: #333834;          /* derived: the same lift again, for hairlines */
-  --text: #F8F8F8;
-  --text-dim: #A0A2A0;      /* derived: --text at ~60% over --surface */
+  --text: #F5F9F6;
+  --text-dim: #9EA39F;      /* derived: --text at ~60% over --surface */
   --accent: #63A47E;
   --accent-deep: #2B5A3E;   /* pressed/secondary green */
   --accent-ink: #0E130F;    /* text on an accent fill */
 
-  /* Favourites use the near-white rather than a sixth hue: on a green pin a
-   * white star reads instantly, a second green would not. */
-  --star: #F8F8F8;
+  --star: #F5F9F6;
 
   /* Functional colours outside the palette, kept for meaning, not decoration:
    * a red that reads as "shut/blocked" and the blue every map uses for "you". */
@@ -39,28 +37,46 @@
   color-scheme: dark;
 }
 
-/* Light mode. PROVISIONAL — derived from the dark palette by inverting the
- * greys and darkening the greens enough to hold contrast on white; swap these
- * for the real light palette when it lands. Only the surface and text tokens
- * change: the accent greens keep their hue so the app still reads as itself,
- * and the functional colours (danger, location blue, saved yellow) are
- * untouched because their meaning does not depend on the theme. */
+/* Light mode. The palette's two light tones carry it:
+ *   #F5F9F6 near-white   #CDE4D7 light tint
+ * The dark green sits out entirely: base green is the accent, and the light
+ * tint takes over every place the dark green filled behind an icon — a dark
+ * green block on a light panel reads as a hole punched in it. Text on an
+ * accent fill therefore flips to ink, since near-white on base green does not
+ * hold up.
+ *
+ * The functional colours (danger, location blue, saved yellow) are untouched:
+ * their meaning does not depend on the theme. */
 :root[data-theme="light"] {
-  --bg: #F4F6F4;
+  --bg: #F5F9F6;
   --surface: #FFFFFF;
-  --surface-2: #ECEFEC;     /* derived: --surface stepped toward the text */
-  --line: #DADEDA;          /* derived: the same step again, for hairlines */
-  --text: #14201A;
-  --text-dim: #5C6660;
-  --accent: #2F7A54;        /* #63A47E is too pale on white to read as a link */
-  --accent-deep: #1E5638;
-  --accent-ink: #FFFFFF;    /* text on an accent fill */
-  --star: #14201A;
+  --surface-2: #E7F1EB;     /* derived: --bg stepped toward the light tint */
+  --line: #CDE4D7;          /* the light tint, doing the work --line does */
+  --text: #0E130F;
+  --text-dim: #5A6560;      /* derived: --text at ~60% over --surface */
+  --accent: #63A47E;
+  --accent-deep: #CDE4D7;   /* the fill behind a pressed icon, not a dark slab */
+  --accent-ink: #0E130F;    /* text on an accent fill */
+  --star: #0E130F;
 
-  --type-coffeeshop: #2F7A54;
+  --type-coffeeshop: #63A47E;
 
   color-scheme: light;
 }
+/* On the light tint, the pressed icon has to be ink rather than near-white. */
+:root[data-theme="light"] .rail-btn[aria-pressed="true"] .rail-icon { color: var(--text); }
+:root[data-theme="light"] .menu-switch[aria-checked="true"] .switch::after {
+  background: var(--accent);
+}
+/* The dark-mode shadows are tuned against near-black and read as smudges on
+ * white; these are the same shapes at a fraction of the weight. */
+:root[data-theme="light"] .search { box-shadow: 0 2px 10px rgba(14, 19, 15, 0.10); }
+:root[data-theme="light"] .rail-panel,
+:root[data-theme="light"] .sheet { box-shadow: 6px 0 24px rgba(14, 19, 15, 0.08); }
+:root[data-theme="light"] .locate,
+:root[data-theme="light"] .leaflet-control-zoom { box-shadow: 0 2px 10px rgba(14, 19, 15, 0.14); }
+:root[data-theme="light"] .pin { box-shadow: 0 2px 6px rgba(14, 19, 15, 0.28); }
+
 /* The tiles are already light; the dark-mode knock-down would wash them out. */
 :root[data-theme="light"] .leaflet-tile-pane { filter: none; }
 :root[data-theme="light"] .leaflet-control-attribution {
