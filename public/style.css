@@ -151,8 +151,17 @@ html, body {
   background: var(--bg);
 }
 
-/* Leaflet tiles are bright; take the edge off so the dark chrome reads. */
-.leaflet-tile-pane { filter: brightness(0.86) saturate(0.85) contrast(1.03); }
+/* There used to be a `filter: brightness(0.86) saturate(0.85) contrast(1.03)`
+ * here to take the edge off the tiles. It cost a full-screen filter pass on
+ * every frame of a zoom: panning only translates the tile pane, so its raster
+ * stays valid and the compositor moves it for free, but zooming scales it,
+ * which invalidates the raster and re-runs the filter over the whole viewport
+ * — at 3x device pixels that is millions of pixels per frame on a phone.
+ * That asymmetry is exactly the "pan is fine, pinch is not" symptom.
+ *
+ * Both basemaps are CARTO's light_all / dark_all, which are already muted
+ * cartography, so the filter was a small nudge on top of tiles that did not
+ * need it. Dropping it is the whole fix; nothing replaces it. */
 .leaflet-control-attribution {
   background: rgba(14, 19, 15, 0.82) !important;   /* --bg, translucent */
   color: var(--text-dim) !important;
@@ -1023,6 +1032,15 @@ html, body {
   width: 15px;
   height: 15px;
 }
+/* Same reasoning as the tile pane, one level down: a pinch scales the marker
+ * pane, so every pin in view re-rasterises per frame, and a blurred shadow is
+ * the most expensive thing about a pin. Dropping the shadows for the duration
+ * of the gesture is close to invisible — they are back before the fingers
+ * leave the glass — and takes the blur off up to a couple of hundred pins.
+ * Leaflet only sets its own class for animated zooms, not pinch, so the app
+ * sets this one on zoomstart/zoomend. */
+.leaflet-container.is-zooming .pin { box-shadow: none; }
+
 /* Saved shops recolour the whole pin rather than carrying a corner badge — it
  * reads at a glance across a dense map, where an 11px badge did not. */
 .pin.is-fav {

@@ -391,6 +391,15 @@
     map.on('moveend zoomend', function () {
       if (state.shops.length) renderMarkers();
     });
+
+    // Marks the whole zoom gesture, pinch included — Leaflet's own
+    // leaflet-zoom-anim class only covers animated zooms. See .is-zooming.
+    map.on('zoomstart', function () {
+      L.DomUtil.addClass(map.getContainer(), 'is-zooming');
+    });
+    map.on('zoomend', function () {
+      L.DomUtil.removeClass(map.getContainer(), 'is-zooming');
+    });
   }
 
   /* Swaps the tile layer in place. The attribution belongs to the basemap, so
