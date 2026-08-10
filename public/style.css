@@ -588,9 +588,16 @@ html, body {
   cursor: pointer;
 }
 /* `is-panel` marks that a drawer is open; the ✕ is shown from script and closes
- * it. The layout itself does not change — the magnifier keeps its place at the
- * trailing edge rather than swapping sides, so nothing moves under the pointer
- * as panels open and close. */
+ * it. It takes the outermost slot, so from the right edge the order reads ✕
+ * then magnifier. The magnifier stays on the right-hand side either way — it
+ * never crosses to the leading edge. */
+.search.is-panel .search-clear {
+  order: 1;                /* after the divider and glass, which stay at 0 */
+  margin-right: 16px;      /* clears the pill's curve */
+  margin-left: 2px;
+}
+/* No longer the trailing element, so it loses the rounded outer edge. */
+.search.is-panel .search-go { border-radius: 0; }
 
 /* Divider then the search button, the way a maps omnibox splits its actions. */
 .search-div {
