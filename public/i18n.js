@@ -30,6 +30,7 @@ window.CANNAMAP_I18N = {
     'search.noMatch': 'Nothing matches “{q}”',
     'search.menuTag': 'menu',
 
+    'rail.explore': 'Explore',
     'rail.menu': 'Menu',
     'rail.saved': 'Saved',
     'rail.recent': 'Recent',
@@ -110,6 +111,7 @@ window.CANNAMAP_I18N = {
     'search.noMatch': 'Niets komt overeen met “{q}”',
     'search.menuTag': 'menu',
 
+    'rail.explore': 'Ontdek',
     'rail.menu': 'Menu',
     'rail.saved': 'Opgeslagen',
     'rail.recent': 'Recent',
@@ -190,6 +192,7 @@ window.CANNAMAP_I18N = {
     'search.noMatch': 'Nichts passt zu „{q}“',
     'search.menuTag': 'Menü',
 
+    'rail.explore': 'Entdecken',
     'rail.menu': 'Menü',
     'rail.saved': 'Gespeichert',
     'rail.recent': 'Zuletzt',
@@ -270,6 +273,7 @@ window.CANNAMAP_I18N = {
     'search.noMatch': 'Aucun résultat pour « {q} »',
     'search.menuTag': 'menu',
 
+    'rail.explore': 'Explorer',
     'rail.menu': 'Menu',
     'rail.saved': 'Enregistrés',
     'rail.recent': 'Récents',
@@ -350,6 +354,7 @@ window.CANNAMAP_I18N = {
     'search.noMatch': 'No hay resultados para «{q}»',
     'search.menuTag': 'menú',
 
+    'rail.explore': 'Explorar',
     'rail.menu': 'Menú',
     'rail.saved': 'Guardados',
     'rail.recent': 'Recientes',
@@ -430,6 +435,7 @@ window.CANNAMAP_I18N = {
     'search.noMatch': 'Nessun risultato per “{q}”',
     'search.menuTag': 'menu',
 
+    'rail.explore': 'Esplora',
     'rail.menu': 'Menu',
     'rail.saved': 'Salvati',
     'rail.recent': 'Recenti',
@@ -510,6 +516,7 @@ window.CANNAMAP_I18N = {
     'search.noMatch': 'Brak wyników dla „{q}”',
     'search.menuTag': 'menu',
 
+    'rail.explore': 'Odkrywaj',
     'rail.menu': 'Menu',
     'rail.saved': 'Zapisane',
     'rail.recent': 'Ostatnie',
@@ -590,6 +597,7 @@ window.CANNAMAP_I18N = {
     'search.noMatch': '「{q}」に一致するものはありません',
     'search.menuTag': 'メニュー',
 
+    'rail.explore': '探索',
     'rail.menu': 'メニュー',
     'rail.saved': '保存済み',
     'rail.recent': '最近',

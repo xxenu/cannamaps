@@ -34,6 +34,10 @@
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
 
+  /* Height of the phone tab bar, excluding the home-indicator inset. Every
+   * bottom-anchored control measures itself off this. */
+  --tabbar-h: 56px;
+
   color-scheme: dark;
 }
 
@@ -154,7 +158,6 @@ html, body {
   color: var(--text-dim) !important;
 }
 .leaflet-bottom.leaflet-left { left: 72px; }
-@media (max-width: 560px) { .leaflet-bottom.leaflet-left { left: 56px; } }
 .leaflet-control-attribution a { color: var(--accent) !important; }
 
 /* Zoom control: a single narrow card of two square buttons split by a hairline,
@@ -473,8 +476,11 @@ html, body {
 
 /* ---------- Rail menu ---------- */
 
-/* The hamburger is icon-only, so its pill takes the space the label used. */
+/* The hamburger is icon-only, so its pill takes the space the label used.
+ * On phones the rail becomes a tab bar, where an unlabelled tab beside two
+ * labelled ones looks broken — the mobile block below shows the label back. */
 .rail-btn.is-iconly { padding-bottom: 8px; }
+.rail-btn.is-iconly .rail-label { display: none; }
 
 .menu-group {
   padding: 6px 0;
@@ -558,17 +564,6 @@ html, body {
 
 /* The map's own overlays start to the right of the rail. */
 .empty-state { margin-left: 36px; }
-
-@media (max-width: 560px) {
-  .rail { width: 56px; }
-  .rail-btn, .rail-city { width: 52px; }
-  .rail-icon { width: 40px; height: 28px; }
-  .rail-label { font-size: 9.5px; }
-  /* Names must not spill past the narrower rail. */
-  .rail-city .city-name { font-size: 9.5px; max-width: 50px; }
-  .rail-city .city-mark { width: 30px; height: 30px; font-size: 12px; }
-  .rail-panel { left: 56px; width: calc(100vw - 56px); }
-}
 
 /* ---------- Top bar ---------- */
 
@@ -811,19 +806,6 @@ html, body {
 .chip[data-locked="true"] { cursor: default; opacity: 0.95; }
 .chip .count { color: var(--text-dim); font-weight: 500; }
 
-/* Narrow screens: brand on its own line, filters scroll full-width below it. */
-@media (max-width: 560px) {
-  /* The card stretches to fill the row here, so there is nothing to centre —
-   * just clear the narrower rail. */
-  #topbar { flex-wrap: wrap; row-gap: 8px; padding-left: 68px; }
-  .search { flex: 1 1 auto; }
-  .filters {
-    flex-basis: 100%;
-    margin-left: 0;
-    scroll-padding: 2px;
-  }
-}
-
 /* ---------- Favorites FAB ---------- */
 
 .fab {
@@ -987,8 +969,12 @@ html, body {
   padding: 10px 15px;
   border: 1px solid var(--line);
   border-radius: 999px;
+  /* A toast is dark in both themes — that is the convention, and it keeps the
+   * pill readable over a bright basemap. So the text colour has to be pinned
+   * too: `--text` flips to near-black in light mode, which left near-black
+   * text on this near-black pill. */
   background: rgba(27, 33, 29, 0.96);
-  color: var(--text);
+  color: #F5F9F6;
   font-size: 13px;
   text-align: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
@@ -1491,6 +1477,251 @@ html, body {
   font-size: 13px;
 }
 .menu-empty { color: var(--text-dim); font-size: 14px; }
+
+/* ==================================================================
+   Phones and small tablets
+   ==================================================================
+   A vertical navigation rail is a desktop shape: on a 375px screen it
+   costs 15% of the width permanently and truncates every city name.
+   Below 720px the whole chrome is rebuilt around the thumb instead —
+   the rail lies down as a bottom tab bar, the city shortcuts become a
+   scrolling strip under the search, and the flyout panel comes up from
+   the bottom as a sheet rather than across from the left.
+
+   720px is the same boundary the desktop shop-drawer block uses, so a
+   viewport is always in exactly one of the two layouts. */
+@media (max-width: 719px) {
+
+  /* ---- Rail -> bottom tab bar ---- */
+
+  .rail {
+    top: auto;
+    left: 0; right: 0; bottom: 0;
+    width: auto;
+    height: var(--tabbar-h);
+    padding: 0 4px var(--safe-bottom);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 0;
+    overflow: visible;
+    border-right: none;
+    border-top: 1px solid var(--line);
+    /* Above the sheets, which now share the bottom edge with it. */
+    z-index: 1100;
+  }
+
+  .rail-btn {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+    /* 48px of tappable height inside the 56px bar. */
+    padding: 7px 2px 5px;
+    border-radius: 0;
+    justify-content: center;
+    gap: 2px;
+  }
+  .rail-btn.is-iconly { padding-bottom: 5px; }
+  .rail-btn.is-iconly .rail-label { display: block; }
+  .rail-label { font-size: 10.5px; }
+  .rail-icon { width: 46px; height: 26px; }
+  .rail-badge { top: 2px; right: calc(50% - 22px); }
+
+  /* Nothing to separate once the cities have moved out of the bar. */
+  .rail-sep { display: none; }
+
+  /* ---- City shortcuts -> scrolling strip under the search ---- */
+
+  /* Lifted out of the tab bar and laid horizontally beneath the search
+     pill, where they can show full names instead of "Amsterd…". */
+  .rail-cities {
+    /* Fixed, not absolute: the strip has to escape the tab bar it is nested
+       inside, which is itself positioned and now sits at the bottom. */
+    position: fixed;
+    top: calc(var(--safe-top) + 76px);
+    left: 0; right: 0;
+    width: auto;
+    z-index: 710;              /* under the search card (720) */
+    display: flex;
+    gap: 6px;
+    padding: 2px 12px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .rail-cities::-webkit-scrollbar { display: none; }
+
+  .rail-city {
+    flex: none;
+    width: auto;
+    margin: 0;
+    padding: 5px 12px 5px 5px;
+    flex-direction: row;
+    gap: 7px;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--text);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
+  }
+  .rail-city .city-mark {
+    width: 26px; height: 26px;
+    font-size: 11px;
+    border: none;
+  }
+  .rail-city .city-name { font-size: 12.5px; max-width: none; }
+
+  /* A drawer is open, so the strip would be floating over its header. */
+  body.has-drawer .rail-cities { display: none; }
+
+  /* ---- Flyout panel -> bottom sheet ---- */
+
+  .rail-panel {
+    top: auto;
+    left: 0; right: 0;
+    bottom: 0;
+    width: auto;
+    height: 74vh;
+    height: 74dvh;
+    padding-bottom: var(--tabbar-h);
+    border-right: none;
+    border-top: 1px solid var(--line);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    animation: slide-up 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  /* No floating search card overhead any more, so the header goes back to
+     its natural padding — and it needs its own ✕, since the one in the
+     search pill is now a screen away at the top. */
+  .panel-head { padding: 14px 14px 10px; }
+  .panel-close {
+    display: block;
+    flex: none;
+    width: 34px; height: 34px;
+    border: none;
+    border-radius: 50%;
+    background: var(--surface-2);
+    color: var(--text-dim);
+    font-size: 13px;
+    cursor: pointer;
+  }
+  /* The grip reads as "this pulls down", matching the shop sheet. */
+  .rail-panel::before {
+    content: "";
+    position: absolute;
+    top: 8px; left: 50%;
+    transform: translateX(-50%);
+    width: 40px; height: 4px;
+    border-radius: 2px;
+    background: var(--line);
+  }
+
+  /* ---- Shop sheet ---- */
+
+  /* dvh, so the sheet is not sized against a viewport that includes the
+     browser's own collapsing toolbar. */
+  .sheet {
+    max-height: 76vh;
+    max-height: 76dvh;
+    padding-bottom: calc(var(--safe-bottom) + var(--tabbar-h));
+    z-index: 1000;
+  }
+  /* Both the grip and the ✕ are live here: the grip is draggable and the
+     ✕ is the tap target for anyone who does not think to drag. */
+  .sheet-close { width: 34px; height: 34px; top: 14px; right: 14px; }
+  .sheet-head { padding-right: 44px; }
+
+  /* ---- Map controls, clear of the tab bar ---- */
+
+  /* Same stack as on desktop — locate sitting 8px above the 80px zoom card —
+     just lifted clear of the tab bar. */
+  .leaflet-bottom.leaflet-right {
+    bottom: calc(var(--safe-bottom) + var(--tabbar-h) + 8px);
+  }
+  .locate { bottom: calc(var(--safe-bottom) + var(--tabbar-h) + 96px); }
+  .toast { bottom: calc(var(--safe-bottom) + var(--tabbar-h) + 18px); }
+  /* Attribution sits on the map's own bottom edge, which the tab bar now
+     covers; slide it up and back to the left, since nothing is there. */
+  .leaflet-bottom.leaflet-left {
+    left: 0;
+    bottom: calc(var(--safe-bottom) + var(--tabbar-h));
+  }
+  .leaflet-control-attribution { font-size: 10px; }
+
+  /* ---- Search ---- */
+
+  /* Full width — there is no rail on the left to clear, and nothing
+     underneath to centre the card over. */
+  /* Above the tab bar's stacking context (1100). The city strip is a child of
+     the rail, so it inherits that context and would otherwise float over the
+     search results dropdown; the two never overlap spatially, so lifting the
+     whole top bar costs nothing. */
+  #topbar {
+    z-index: 1200;
+    padding: calc(var(--safe-top) + 12px) 12px 0;
+  }
+  .search { flex: 1 1 auto; }
+  /* Under 16px, iOS Safari zooms the page in on focus and never zooms
+     back out. */
+  #search-input { font-size: 16px; }
+
+  /* The omnibox does not rearrange here. Its ✕ exists to close a drawer that
+     sits beside it on desktop; on a phone the drawer is at the other end of
+     the screen with its own ✕, so a second one in the search bar just reads
+     as "clear". Shown only when there is actually something to clear. */
+  .search.is-panel .search-clear { order: 0; margin: 0 6px 0 0; }
+  .search.is-panel .search-go { border-radius: 0 999px 999px 0; }
+  .search.is-panel:has(#search-input:placeholder-shown) .search-clear {
+    display: none;
+  }
+  .search-results { max-height: min(58vh, 420px); max-height: min(58dvh, 420px); }
+
+  .empty-state { margin-left: 0; }
+  .filters { flex-basis: 100%; margin-left: 0; scroll-padding: 2px; }
+
+  /* ---- Touch targets ---- */
+
+  /* 22px is a mouse-sized target. The button keeps its 22px look and grows
+     its hit area outwards instead, so the pill's layout is unchanged. */
+  .search-clear { position: relative; }
+  .search-clear::after {
+    content: "";
+    position: absolute;
+    inset: -11px;
+  }
+  .contact-link, .btn { padding-top: 12px; padding-bottom: 12px; }
+}
+
+/* Touch devices keep the last tapped element in :hover until something else is
+ * tapped, so a hover style there is really a "you touched this once" style —
+ * two rail tabs end up looking selected at the same time. Suppress the ones
+ * that read as state; the subtler ones (borders, link colours) do no harm. */
+@media (hover: none) {
+  .rail-btn:hover { color: var(--text-dim); }
+  .rail-btn:hover .rail-icon { background: none; }
+  .rail-btn[aria-pressed="true"]:hover { color: var(--text); }
+  .rail-btn[aria-pressed="true"]:hover .rail-icon { background: var(--accent-deep); }
+  .rail-city:hover { color: var(--text); }
+  .panel-row:hover,
+  .menu-item:hover,
+  .search-go:hover,
+  .search-result:hover,
+  .chip:hover { background: none; }
+  /* These two have a card background of their own to fall back to, not
+     transparency. */
+  .locate:hover { background: var(--surface); }
+  .leaflet-control-zoom a:hover { background: var(--surface) !important; }
+  .chip[aria-pressed="true"]:hover { background: var(--surface-2); }
+  .search-result.active { background: var(--surface-2); }
+}
+
+/* Very narrow phones: the tab labels are the first thing that has to give. */
+@media (max-width: 359px) {
+  .rail-label { font-size: 9.5px; }
+  .rail-icon { width: 40px; }
+}
 
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }

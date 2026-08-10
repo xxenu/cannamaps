@@ -200,6 +200,7 @@
     filters: document.getElementById('filters'),
     rail: document.getElementById('rail'),
     railAll: document.getElementById('rail-all'),
+    railExplore: document.getElementById('rail-explore'),
     railSaved: document.getElementById('rail-saved'),
     railSavedCount: document.getElementById('rail-saved-count'),
     railRecent: document.getElementById('rail-recent'),
@@ -627,7 +628,9 @@
   }
 
   function setRailPressed() {
-    [el.railAll, el.railSaved, el.railRecent].forEach(function (btn) {
+    // Explore carries data-panel="", so it lights up exactly when nothing else
+    // does — no special case needed.
+    [el.railExplore, el.railAll, el.railSaved, el.railRecent].forEach(function (btn) {
       if (!btn) return;
       var mine = btn.dataset.panel || '';
       btn.setAttribute('aria-pressed', String(mine === railState.panel));
@@ -660,6 +663,9 @@
     // omnibox the same way a rail panel does.
     var drawerOpen = !!railState.panel || !el.sheet.hidden;
     if (el.searchBox) el.searchBox.classList.toggle('is-panel', drawerOpen);
+    // Phone layout hangs the city strip under the search bar; it has to get
+    // out of the way when something opens over the map.
+    document.body.classList.toggle('has-drawer', drawerOpen);
     el.searchClear.hidden = !drawerOpen && !el.search.value;
     el.searchClear.setAttribute('aria-label', drawerOpen ? 'Close' : 'Clear search');
   }
@@ -869,6 +875,13 @@
 
   function initRail() {
     if (!el.rail) return;
+    // Explore is the empty state rather than a panel of its own: it puts the
+    // map back by dismissing whatever is covering it.
+    el.railExplore.addEventListener('click', function () {
+      closePanel();
+      closeSheet();
+      closeSearchResults();
+    });
     el.railAll.addEventListener('click', function () { togglePanel('menu'); });
     el.railSaved.addEventListener('click', function () { togglePanel('saved'); });
     el.railRecent.addEventListener('click', function () { togglePanel('recent'); });
@@ -982,6 +995,11 @@
     // On wide screens both occupy the same drawer slot beside the rail.
     if (railState.panel) closePanel();
 
+    // Clear anything a previous drag left behind before it re-animates in.
+    el.sheet.style.transition = '';
+    el.sheet.style.transform = '';
+    el.sheet.style.animation = '';
+    el.scrim.style.opacity = '';
     el.sheet.hidden = false;
     el.scrim.hidden = false;
     el.sheet.querySelector('.sheet-body').scrollTop = 0;
@@ -1002,6 +1020,56 @@
     el.scrim.hidden = true;
     syncSearchChrome();
     if (previous) refreshMarker(previous);
+  }
+
+  /* Drag the sheet's grip down to dismiss it — the gesture the grip has been
+   * advertising all along. Only wired for touch, and only while the sheet is
+   * the bottom sheet: in the wide layout it is a side drawer and the grip is
+   * hidden, so there is nothing to grab. */
+  function initSheetDrag() {
+    var grip = el.sheet.querySelector('.sheet-grip');
+    if (!grip || !window.matchMedia) return;
+
+    var startY = 0;
+    var dy = 0;
+    var dragging = false;
+
+    grip.addEventListener('touchstart', function (ev) {
+      if (!grip.offsetParent) return;          // hidden: wide layout
+      dragging = true;
+      startY = ev.touches[0].clientY;
+      dy = 0;
+      // The sheet animates in on open; a transform here would fight it.
+      el.sheet.style.animation = 'none';
+      el.sheet.style.transition = 'none';
+    }, { passive: true });
+
+    grip.addEventListener('touchmove', function (ev) {
+      if (!dragging) return;
+      dy = Math.max(0, ev.touches[0].clientY - startY);
+      el.sheet.style.transform = 'translateY(' + dy + 'px)';
+      // Fade the scrim out with the drag, so a half-pull reads as reversible.
+      el.scrim.style.opacity = String(Math.max(0, 1 - dy / 260));
+      ev.preventDefault();                     // don't scroll the page with it
+    }, { passive: false });
+
+    function end() {
+      if (!dragging) return;
+      dragging = false;
+      var far = dy > 110;
+      el.sheet.style.transition = 'transform 0.2s ease';
+      el.sheet.style.transform = far ? 'translateY(110%)' : '';
+      el.scrim.style.opacity = '';
+      if (!far) return;
+      window.setTimeout(function () {
+        closeSheet();
+        el.sheet.style.transition = '';
+        el.sheet.style.transform = '';
+        el.sheet.style.animation = '';
+      }, 200);
+    }
+    grip.addEventListener('touchend', end);
+    grip.addEventListener('touchcancel', end);
   }
 
   /* Amenity keys come straight from the data, so a new one added upstream
@@ -1958,6 +2026,7 @@
     bindEvents();
     initLocation();
     initRail();
+    initSheetDrag();
     renderFavoritesUi();
 
     // Independent of the shop data: a zone failure must not blank the map.
